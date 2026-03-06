@@ -652,12 +652,10 @@
               </svg>
             </div>
             <p class="form-success-title">¡Bienvenido!</p>
-            <p class="form-success-body">Thank you for joining Casa de España en Indiana.<br>You'll hear from us soon.</p>
+            <p class="form-success-body">Your email client has opened with a pre-filled message — please click <strong>Send</strong> to complete your registration. We'll be in touch soon!</p>
           </div>
 
-          <form id="join-form" novalidate
-                action="https://formspree.io/f/mlgpebqj"
-                method="POST">
+          <form id="join-form" novalidate>
 
             <!-- Contact info -->
             <p class="form-section-head">Your Information</p>
@@ -858,43 +856,43 @@
     drawer.setAttribute('aria-hidden', 'true');
   }));
 
-  // Form submit — intercept for AJAX + success state
-  const form       = document.getElementById('join-form');
-  const successEl  = document.getElementById('form-success');
-  const submitBtn  = document.getElementById('submit-btn');
+  // Form submit — collect values and open mailto
+  const form      = document.getElementById('join-form');
+  const successEl = document.getElementById('form-success');
+  const submitBtn = document.getElementById('submit-btn');
 
-  form.addEventListener('submit', async (e) => {
+  form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // Basic validation
-    const email = form.querySelector('#email');
-    const firstName = form.querySelector('#first-name');
-    if (!firstName.value.trim() || !email.value.trim()) {
+    const firstName    = form.querySelector('#first-name');
+    const lastName     = form.querySelector('#last-name');
+    const emailInput   = form.querySelector('#email');
+    const city         = form.querySelector('#city');
+    const memberType   = form.querySelector('input[name="membership_type"]:checked');
+    const interests    = [...form.querySelectorAll('input[name="interests"]:checked')].map(cb => cb.value);
+    const message      = form.querySelector('#message');
+
+    if (!firstName.value.trim() || !emailInput.value.trim()) {
       firstName.focus();
       return;
     }
 
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Submitting…';
+    const subject = `Casa de España Membership — ${firstName.value.trim()} ${lastName.value.trim()}`;
+    const body = [
+      `First Name: ${firstName.value.trim()}`,
+      `Last Name: ${lastName.value.trim()}`,
+      `Email: ${emailInput.value.trim()}`,
+      city.value.trim() ? `City / State: ${city.value.trim()}` : null,
+      `Membership Type: ${memberType ? memberType.value : 'Newsletter'}`,
+      interests.length ? `Interests: ${interests.join(', ')}` : null,
+      message.value.trim() ? `\nMessage:\n${message.value.trim()}` : null,
+    ].filter(Boolean).join('\n');
 
-    try {
-      const resp = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' },
-      });
+    const mailto = `mailto:info@casadeespanaindiana.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
 
-      if (resp.ok) {
-        form.style.display = 'none';
-        successEl.classList.add('visible');
-      } else {
-        throw new Error('Server error');
-      }
-    } catch {
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Join Casa de España';
-      alert('Something went wrong. Please try again or email us directly at info@casadeespanaindiana.org');
-    }
+    form.style.display = 'none';
+    successEl.classList.add('visible');
   });
 </script>
 
