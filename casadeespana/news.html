@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News — Casa de España en Indiana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind = { config: {
+      theme: {
+        extend: {
+          colors: {
+            terra: '#C13B2B',
+            'terra-deep': '#8C2318',
+            'terra-muted': '#D4604F',
+            parchment: '#FAF4ED',
+            'parch-2': '#F2E9DF',
+            'parch-3': '#E8DBCF',
+            ink: '#1C1410',
+            'ink-mid': '#3D2E26',
+            'ink-light': '#7A6658',
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Source Sans 3"', '"Source Sans Pro"', 'sans-serif'],
+          },
+        }
+      }
+    }};
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* ─── TOKENS ─────────────────────────────────────────── */
+    :root {
+      --terra:        #C13B2B;
+      --terra-deep:   #8C2318;
+      --terra-muted:  #D4604F;
+      --parchment:    #FAF4ED;
+      --parch-2:      #F2E9DF;
+      --parch-3:      #E8DBCF;
+      --ink:          #1C1410;
+      --ink-mid:      #3D2E26;
+      --ink-light:    #7A6658;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--parchment);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      padding-top: 120px;
+    }
+
+    /* ─── UTILITY ────────────────────────────────────────── */
+    .section-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+    @media (max-width: 640px) { .section-container { padding: 0 20px; } }
+
+    /* ─── NAV ───────────────────────────────────────────── */
+    #site-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 120px;
+      z-index: 100;
+      display: flex;
+      transition: box-shadow 0.3s ease;
+    }
+    #site-nav.scrolled {
+      box-shadow:
+        0 2px 20px rgba(28,20,16,0.35),
+        0 1px 0 rgba(0,0,0,0.15);
+    }
+
+    .nav-logo-zone {
+      width: 240px;
+      flex-shrink: 0;
+      background: var(--parchment);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      border-right: 1px solid rgba(28,20,16,0.1);
+    }
+    .nav-logo-zone a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .nav-logo-zone img { height: 112px; width: auto; display: block; }
+
+    .nav-links-zone {
+      flex: 1;
+      background: var(--ink);
+      display: flex;
+      align-items: center;
+      padding: 0 32px;
+      gap: 2px;
+      justify-content: flex-end;
+    }
+
+    .nav-link {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-bottom: 2px solid transparent;
+      border-radius: 2px 2px 0 0;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+    .nav-link:hover { background: rgba(193,59,43,0.14); }
+    .nav-link.active { border-bottom-color: var(--terra); }
+    .nav-link:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 10px;
+      background: none;
+      border: none;
+      margin-left: 8px;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--parchment);
+      transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), opacity 0.3s ease;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: 120px; left: 0; right: 0;
+      z-index: 99;
+      background: var(--ink);
+      border-top: 1px solid rgba(193,59,43,0.2);
+      display: flex;
+      flex-direction: column;
+      padding: 12px 20px 20px;
+      gap: 2px;
+      transform: translateY(-110%);
+      transition: transform 0.35s cubic-bezier(0.22,1,0.36,1);
+      pointer-events: none;
+    }
+    .mobile-drawer.open {
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+    .mobile-drawer .nav-link { padding: 12px 16px; }
+
+    @media (max-width: 768px) {
+      .nav-logo-zone { width: auto; min-width: 160px; }
+      .nav-links-zone .nav-link { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    /* ─── PAGE HEADER ─────────────────────────────────────── */
+    .page-header {
+      background: var(--ink);
+      position: relative;
+      overflow: hidden;
+      padding: 72px 0 64px;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 55% 90% at 15% 60%, rgba(193,59,43,0.11) 0%, transparent 65%),
+        radial-gradient(ellipse 35% 50% at 85% 20%, rgba(140,35,24,0.09) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .page-header-eyebrow {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--terra-muted);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .page-header-eyebrow::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--terra-muted);
+    }
+    .page-header h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(40px, 6vw, 68px);
+      font-weight: 300;
+      letter-spacing: -0.03em;
+      color: var(--parchment);
+      line-height: 1.08;
+    }
+    .page-header h1 em {
+      font-style: italic;
+      color: var(--terra-muted);
+    }
+    .page-header-desc {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: rgba(250,244,237,0.55);
+      margin-top: 16px;
+      line-height: 1.65;
+      max-width: 520px;
+    }
+
+    /* ─── NEWS MAIN ──────────────────────────────────────── */
+    .news-main {
+      background: var(--parchment);
+      padding: 80px 0 110px;
+    }
+
+    /* Source bar */
+    .news-source-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 48px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--parch-3);
+    }
+    .news-source-label {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .news-source-badge {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      background: var(--terra);
+      padding: 4px 10px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .news-source-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .news-source-url {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--ink-light);
+      letter-spacing: 0.03em;
+    }
+    .news-source-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .news-updated {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--ink-light);
+      display: none;
+    }
+    .news-updated.visible { display: block; }
+    .news-refresh-btn {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--terra);
+      background: none;
+      border: 1px solid rgba(193,59,43,0.3);
+      padding: 7px 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+    .news-refresh-btn:hover {
+      background: rgba(193,59,43,0.08);
+      border-color: var(--terra);
+    }
+    .news-refresh-btn:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .news-refresh-btn:disabled {
+      opacity: 0.45;
+      pointer-events: none;
+    }
+
+    /* Grid */
+    .news-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    @media (max-width: 820px) {
+      .news-grid { grid-template-columns: 1fr; }
+    }
+
+    /* News card */
+    .news-card {
+      background: var(--parch-2);
+      border: 1px solid var(--parch-3);
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.22s cubic-bezier(0.22,1,0.36,1), box-shadow 0.22s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-3px);
+      box-shadow:
+        0 8px 28px rgba(28,20,16,0.10),
+        0 2px 6px rgba(193,59,43,0.06);
+    }
+
+    /* Image wrap */
+    .news-card-img-wrap {
+      position: relative;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: var(--parch-3);
+    }
+    .news-card-img-wrap::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(28,20,16,0.5) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .news-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s cubic-bezier(0.22,1,0.36,1);
+    }
+    .news-card:hover .news-card-img { transform: scale(1.03); }
+
+    /* No-image placeholder */
+    .news-card-no-img {
+      aspect-ratio: 16/9;
+      flex-shrink: 0;
+      background:
+        radial-gradient(ellipse 65% 80% at 20% 40%, rgba(193,59,43,0.15) 0%, transparent 60%),
+        radial-gradient(ellipse 45% 60% at 80% 70%, rgba(140,35,24,0.09) 0%, transparent 60%),
+        var(--parch-3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .news-card-no-img svg {
+      width: 36px;
+      height: 36px;
+      opacity: 0.22;
+      color: var(--ink);
+    }
+
+    /* Card body */
+    .news-card-body {
+      padding: 22px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .news-card-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .news-card-date {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--terra);
+    }
+    .news-card-sep {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--parch-3);
+      flex-shrink: 0;
+    }
+    .news-card-source {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: var(--ink-light);
+    }
+    .news-card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.22;
+      color: var(--ink);
+      margin-bottom: 10px;
+    }
+    .news-card-desc {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.65;
+      color: var(--ink-mid);
+      margin-bottom: 18px;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .news-card-link {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--terra);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-bottom: 1px solid rgba(193,59,43,0.3);
+      padding-bottom: 1px;
+      width: fit-content;
+      transition: color 0.2s ease, border-color 0.2s ease, gap 0.2s ease;
+      margin-top: auto;
+    }
+    .news-card-link:hover {
+      color: var(--terra-deep);
+      border-color: var(--terra-deep);
+      gap: 10px;
+    }
+    .news-card-link:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+
+    /* ── State: loading skeleton ─────────────────────────── */
+    .news-skeleton {
+      background: var(--parch-2);
+      border: 1px solid var(--parch-3);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .skel-img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: var(--parch-3);
+      animation: skel-pulse 1.5s ease-in-out infinite;
+    }
+    .skel-body { padding: 22px 24px 24px; }
+    .skel-line {
+      height: 11px;
+      border-radius: 2px;
+      background: var(--parch-3);
+      margin-bottom: 11px;
+      animation: skel-pulse 1.5s ease-in-out infinite;
+    }
+    .skel-line.w-30 { width: 30%; }
+    .skel-line.w-55 { width: 55%; }
+    .skel-line.w-80 { width: 80%; }
+    .skel-line.w-90 { width: 90%; }
+    .skel-line.h-tall { height: 18px; }
+    @keyframes skel-pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.45; }
+    }
+
+    /* ── State: error ────────────────────────────────────── */
+    .news-error {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .news-error-icon {
+      width: 44px;
+      height: 44px;
+      margin: 0 auto 18px;
+      color: var(--ink-light);
+      opacity: 0.4;
+    }
+    .news-error-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .news-error-body {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      color: var(--ink-light);
+      line-height: 1.7;
+    }
+    .news-error-body a {
+      color: var(--terra);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(193,59,43,0.3);
+    }
+    .news-error-body a:hover { color: var(--terra-deep); }
+
+    /* ─── FOOTER ─────────────────────────────────────────── */
+    #site-footer {
+      background: var(--parchment);
+      padding: 72px 0 0;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr 1.1fr;
+      gap: 56px;
+      margin-bottom: 56px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; gap: 40px; } }
+
+    .footer-logo-frame {
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+    .footer-logo-frame img { height: 112px; width: auto; display: block; }
+
+    .footer-tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.65;
+      color: rgba(28,20,16,0.5);
+      max-width: 230px;
+    }
+
+    .footer-col-head {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(28,20,16,0.4);
+      margin-bottom: 20px;
+      display: block;
+    }
+    .footer-nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-nav-links a {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba(28,20,16,0.6);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .footer-nav-links a:hover { color: var(--terra); }
+    .footer-nav-links a:focus-visible { outline: 1px solid var(--terra); outline-offset: 2px; }
+
+    .contact-line {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: rgba(28,20,16,0.55);
+      margin-bottom: 8px;
+    }
+    .contact-line a {
+      color: rgba(28,20,16,0.55);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .contact-line a:hover { color: var(--terra-muted); }
+    .contact-line a:focus-visible { outline: 1px solid var(--terra); }
+
+    .social-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .social-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 4px;
+      background: rgba(28,20,16,0.06);
+      border: 1px solid rgba(28,20,16,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.22s ease, border-color 0.22s ease;
+    }
+    .social-btn:hover {
+      background: rgba(193,59,43,0.22);
+      border-color: rgba(193,59,43,0.32);
+    }
+    .social-btn:focus-visible { outline: 2px solid var(--terra); outline-offset: 2px; }
+    .social-btn svg { width: 14px; height: 14px; fill: rgba(28,20,16,0.55); display: block; }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(28,20,16,0.12);
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .footer-copy {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: rgba(28,20,16,0.35);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── STICKY NAV ─────────────────────────────────────── -->
+<nav id="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-logo-zone">
+    <a href="index.html" aria-label="Casa de España en Indiana — home" style="display:flex;align-items:center;">
+      <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
+    </a>
+  </div>
+  <div class="nav-links-zone">
+    <a href="index.html#mission"      class="nav-link">About</a>
+    <a href="index.html#programs"     class="nav-link">Programs</a>
+    <a href="index.html#events"       class="nav-link">Events</a>
+    <a href="index.html#board"        class="nav-link">Board</a>
+    <a href="index.html#get-involved" class="nav-link">Get Involved</a>
+    <a href="resources.html"          class="nav-link">Resources</a>
+    <a href="news.html"               class="nav-link active">News</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+  <a href="index.html#mission"      class="nav-link">About</a>
+  <a href="index.html#programs"     class="nav-link">Programs</a>
+  <a href="index.html#events"       class="nav-link">Events</a>
+  <a href="index.html#board"        class="nav-link">Board</a>
+  <a href="index.html#get-involved" class="nav-link">Get Involved</a>
+  <a href="resources.html"          class="nav-link">Resources</a>
+  <a href="news.html"               class="nav-link active">News</a>
+</div>
+
+<!-- ─── PAGE HEADER ───────────────────────────────────── -->
+<header class="page-header">
+  <div class="section-container">
+    <p class="page-header-eyebrow">Current Affairs &amp; Press</p>
+    <h1>Spain in the <em>News</em></h1>
+    <p class="page-header-desc">Latest headlines from Spain — curated from El País, Spain's leading national newspaper.</p>
+  </div>
+</header>
+
+<!-- ─── NEWS MAIN ─────────────────────────────────────── -->
+<main class="news-main" id="main">
+  <div class="section-container">
+
+    <div class="news-source-bar">
+      <div class="news-source-label">
+        <span class="news-source-badge">Live Feed</span>
+        <div>
+          <div class="news-source-name">El País · España</div>
+          <div class="news-source-url">elpais.com/espana</div>
+        </div>
+      </div>
+      <div class="news-source-right">
+        <span class="news-updated" id="news-updated"></span>
+        <button class="news-refresh-btn" id="refresh-btn" aria-label="Refresh news feed">
+          ↻ Refresh
+        </button>
+      </div>
+    </div>
+
+    <div class="news-grid" id="news-grid">
+      <!-- Skeleton loaders shown while fetching -->
+      <div class="news-skeleton"><div class="skel-img"></div><div class="skel-body"><div class="skel-line w-30"></div><div class="skel-line w-90 h-tall"></div><div class="skel-line w-55 h-tall" style="margin-bottom:18px"></div><div class="skel-line w-80"></div><div class="skel-line w-80"></div><div class="skel-line w-55" style="margin-top:6px"></div></div></div>
+      <div class="news-skeleton"><div class="skel-img"></div><div class="skel-body"><div class="skel-line w-30"></div><div class="skel-line w-90 h-tall"></div><div class="skel-line w-55 h-tall" style="margin-bottom:18px"></div><div class="skel-line w-80"></div><div class="skel-line w-80"></div><div class="skel-line w-55" style="margin-top:6px"></div></div></div>
+      <div class="news-skeleton"><div class="skel-img"></div><div class="skel-body"><div class="skel-line w-30"></div><div class="skel-line w-90 h-tall"></div><div class="skel-line w-55 h-tall" style="margin-bottom:18px"></div><div class="skel-line w-80"></div><div class="skel-line w-80"></div><div class="skel-line w-55" style="margin-top:6px"></div></div></div>
+      <div class="news-skeleton"><div class="skel-img"></div><div class="skel-body"><div class="skel-line w-30"></div><div class="skel-line w-90 h-tall"></div><div class="skel-line w-55 h-tall" style="margin-bottom:18px"></div><div class="skel-line w-80"></div><div class="skel-line w-80"></div><div class="skel-line w-55" style="margin-top:6px"></div></div></div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ─── FOOTER ─────────────────────────────────────────── -->
+<footer id="site-footer" role="contentinfo">
+  <div class="section-container">
+    <div class="footer-grid">
+
+      <!-- Col 1: logo + tagline -->
+      <div>
+        <div class="footer-logo-frame">
+          <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
+        </div>
+        <p class="footer-tagline">
+          Preserving the soul of Spain in the heart of Indiana since 2004.
+        </p>
+      </div>
+
+      <!-- Col 2: site navigation -->
+      <div>
+        <span class="footer-col-head">Navigation</span>
+        <ul class="footer-nav-links">
+          <li><a href="index.html#mission">About Us</a></li>
+          <li><a href="index.html#programs">Programs</a></li>
+          <li><a href="index.html#events">Events</a></li>
+          <li><a href="index.html#board">Board of Directors</a></li>
+          <li><a href="index.html#get-involved">Get Involved</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: contact + social -->
+      <div>
+        <span class="footer-col-head">Contact</span>
+        <p class="contact-line">Indianapolis, Indiana</p>
+        <p class="contact-line">
+          <a href="mailto:info@casadeespanaindiana.org">info@casadeespanaindiana.org</a>
+        </p>
+        <p class="contact-line">
+          <a href="https://casadeespanaindiana.org" target="_blank" rel="noopener">casadeespanaindiana.org</a>
+        </p>
+
+        <div class="social-row" aria-label="Social media">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="rgba(28,20,16,0.55)" stroke-width="2"/>
+              <circle cx="12" cy="12" r="4" fill="none" stroke="rgba(28,20,16,0.55)" stroke-width="2"/>
+              <circle cx="17.5" cy="6.5" r="1.5" fill="rgba(28,20,16,0.55)"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/>
+              <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="rgba(28,20,16,0.9)"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ─── INLINE JS ──────────────────────────────────────── -->
+<script>
+  // Nav scroll shadow
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  // Mobile hamburger
+  const hamburger   = document.getElementById('hamburger');
+  const drawer      = document.getElementById('mobile-drawer');
+  hamburger.addEventListener('click', () => {
+    const isOpen = drawer.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+    drawer.setAttribute('aria-hidden', String(!isOpen));
+  });
+  drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    drawer.classList.remove('open');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    drawer.setAttribute('aria-hidden', 'true');
+  }));
+
+  // ─── RSS Feed ─────────────────────────────────────────
+  const PROXY      = 'https://api.allorigins.win/get?url=';
+  const FEED_URL   = 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada';
+  const grid       = document.getElementById('news-grid');
+  const refreshBtn = document.getElementById('refresh-btn');
+  const updatedEl  = document.getElementById('news-updated');
+
+  const SKELETON_HTML = Array(4).fill(`
+    <div class="news-skeleton">
+      <div class="skel-img"></div>
+      <div class="skel-body">
+        <div class="skel-line w-30"></div>
+        <div class="skel-line w-90 h-tall"></div>
+        <div class="skel-line w-55 h-tall" style="margin-bottom:18px"></div>
+        <div class="skel-line w-80"></div>
+        <div class="skel-line w-80"></div>
+        <div class="skel-line w-55" style="margin-top:6px"></div>
+      </div>
+    </div>`).join('');
+
+  function stripHtml(html) {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    return (tmp.textContent || tmp.innerText || '').trim();
+  }
+
+  function formatDate(pubDateStr) {
+    if (!pubDateStr) return '';
+    try {
+      return new Date(pubDateStr).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+      });
+    } catch { return pubDateStr; }
+  }
+
+  function getImage(item) {
+    const mc = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'content')[0];
+    if (mc?.getAttribute('url')) return mc.getAttribute('url');
+    const mt = item.getElementsByTagNameNS('http://search.yahoo.com/mrss/', 'thumbnail')[0];
+    if (mt?.getAttribute('url')) return mt.getAttribute('url');
+    const enc = item.querySelector('enclosure');
+    const eu  = enc?.getAttribute('url') || '';
+    if (eu && /\.(jpe?g|png|webp|gif)/i.test(eu)) return eu;
+    return null;
+  }
+
+  function getLink(item) {
+    const linkEl = item.querySelector('link');
+    if (linkEl) {
+      const text = linkEl.textContent.trim();
+      if (text) return text;
+      const sib = linkEl.nextSibling;
+      if (sib?.nodeValue?.trim()) return sib.nodeValue.trim();
+    }
+    const guid = item.querySelector('guid');
+    if (guid?.textContent) return guid.textContent.trim();
+    return '#';
+  }
+
+  const NO_IMG_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+    <rect x="3" y="3" width="18" height="18" rx="2"/>
+    <path d="M3 17l5-5 4 4 3-3 6 6"/>
+    <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none"/>
+  </svg>`;
+
+  // Accepts a plain data object {title, link, desc, date, imgUrl}
+  function renderCard(data) {
+    const { title, link, desc, date, imgUrl } = data;
+    const excerpt       = desc.length > 200 ? desc.slice(0, 200).replace(/\s\S*$/, '…') : desc;
+    const formattedDate = formatDate(date);
+    const escapedTitle  = title.replace(/"/g, '&quot;');
+
+    const imgSection = imgUrl
+      ? `<div class="news-card-img-wrap">
+           <img class="news-card-img" src="${imgUrl}" alt="" loading="lazy"
+                onerror="this.closest('.news-card-img-wrap').outerHTML='<div class=&quot;news-card-no-img&quot;>${NO_IMG_SVG.replace(/"/g,"&quot;")}</div>'">
+         </div>`
+      : `<div class="news-card-no-img">${NO_IMG_SVG}</div>`;
+
+    return `<article class="news-card">
+      ${imgSection}
+      <div class="news-card-body">
+        <div class="news-card-meta">
+          ${formattedDate ? `<span class="news-card-date">${formattedDate}</span><span class="news-card-sep" aria-hidden="true"></span>` : ''}
+          <span class="news-card-source">El País</span>
+        </div>
+        <h2 class="news-card-title">${title}</h2>
+        ${excerpt ? `<p class="news-card-desc">${excerpt}</p>` : ''}
+        <a class="news-card-link" href="${link}" target="_blank" rel="noopener" aria-label="Read full article: ${escapedTitle}">
+          Read article
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+    </article>`;
+  }
+
+  // Converts XML item elements into plain data objects (same shape as cache)
+  function parseXmlItems(xmlItems) {
+    return xmlItems.map(item => ({
+      title:  (item.querySelector('title')?.textContent || 'Sin título').trim(),
+      link:   getLink(item),
+      desc:   stripHtml(item.querySelector('description')?.textContent || ''),
+      date:   item.querySelector('pubDate')?.textContent || '',
+      imgUrl: getImage(item),
+    }));
+  }
+
+  function showUpdated(timestamp) {
+    const t = new Date(timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    updatedEl.textContent = `Updated ${t}`;
+    updatedEl.classList.add('visible');
+  }
+
+  function renderError() {
+    grid.innerHTML = `<div class="news-error">
+      <svg class="news-error-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 8v4M12 16h.01" stroke-linecap="round"/>
+      </svg>
+      <p class="news-error-title">Feed unavailable</p>
+      <p class="news-error-body">The El País feed could not be loaded right now.<br>
+        Visit <a href="https://elpais.com/espana" target="_blank" rel="noopener">elpais.com/espana</a> to read the latest directly.
+      </p>
+    </div>`;
+  }
+
+  // Fetch fresh data via CORS proxy (fallback / manual refresh)
+  async function fetchLive() {
+    const resp = await fetch(PROXY + encodeURIComponent(FEED_URL), { cache: 'no-store' });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, 'text/xml');
+    if (xml.querySelector('parsererror')) throw new Error('XML parse error');
+    const xmlItems = [...xml.querySelectorAll('item')];
+    if (xmlItems.length === 0) throw new Error('Empty feed');
+    return parseXmlItems(xmlItems);
+  }
+
+  async function loadFeed(forceRefresh = false) {
+    // ── Path A: load from server-side cache (instant) ──────────
+    if (!forceRefresh) {
+      try {
+        const resp = await fetch('news-cache.json');
+        if (resp.ok) {
+          const cache = await resp.json();
+          if (cache.items?.length > 0) {
+            grid.innerHTML = cache.items.map(renderCard).join('');
+            showUpdated(cache.fetchedAt);
+            return; // done — server keeps the cache fresh via GitHub Actions
+          }
+        }
+      } catch (e) { /* fall through to live fetch */ }
+    }
+
+    // ── Path B: no cache / manual refresh — fetch live ─────────
+    refreshBtn.disabled = true;
+    refreshBtn.textContent = '↻ Loading…';
+    updatedEl.classList.remove('visible');
+    grid.innerHTML = SKELETON_HTML;
+
+    try {
+      const items = await fetchLive();
+      grid.innerHTML = items.map(renderCard).join('');
+      showUpdated(Date.now());
+    } catch (err) {
+      console.error('[news] RSS load error:', err);
+      renderError();
+    } finally {
+      refreshBtn.disabled = false;
+      refreshBtn.textContent = '↻ Refresh';
+    }
+  }
+
+  refreshBtn.addEventListener('click', () => loadFeed(true));
+  loadFeed();
+</script>
+
+</body>
+</html>
