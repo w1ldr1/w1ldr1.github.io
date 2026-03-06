@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/XJ64CR2W5RELTNPIB7AX53QAQU.jpg?auth=f410301315bd313e5f5094cdfe68dbd32d63ac02442073b351ee481732a8b980"
     },
     {
+      "title": "Zapatero reaparece para impulsar la campaña del PSOE en Castilla y León",
+      "link": "https://elpais.com/espana/2026-03-06/zapatero-reaparece-para-impulsar-la-campana-del-psoe-en-castilla-y-leon.html",
+      "desc": "El expresidente regresa a la primera línea tras limitar su presencia en las elecciones extremeñas a la precampaña y desaparecer en las de Aragón",
+      "date": "Fri, 06 Mar 2026 19:15:10 GMT",
+      "imgUrl": "https://www.youtube.com/watch?v=O5Rdh3NTNdw"
+    },
+    {
       "title": "El Supremo rechaza aplazar el juicio del ‘caso mascarillas’ como pedía Ábalos",
       "link": "https://elpais.com/espana/2026-03-06/el-supremo-rechaza-aplazar-el-juicio-del-caso-mascarillas-como-pedia-abalos.html",
       "desc": "El tribunal fija un calendario de 14 días, repartidos entre el 7 y el 30 de abril, en sesiones de mañana y tarde",
@@ -125,14 +132,7 @@
       "desc": "El tribunal respalda a la instructora de Catarroja y descarta la citación “con claros tintes prospectivos” que pedía Hazte Oír",
       "date": "Fri, 06 Mar 2026 09:37:14 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/KACMZ57FTVKIJML2PNVSKLP444.jpg?auth=5dea690e10d95f27f0d045759f93656e1817adb3818fde4c63c7dfcdea4c12d1"
-    },
-    {
-      "title": "El Rey hace equilibrismo sobre la guerra de Oriente Próximo ante la falta de consenso",
-      "link": "https://elpais.com/espana/2026-03-06/el-rey-hace-equilibrismo-sobre-la-guerra-de-oriente-proximo-ante-la-falta-de-consenso.html",
-      "desc": "Felipe VI llama a la contención en el uso de la fuerza y pide una salida diplomática, pero evita señalar la ilegalidad del ataque a Irán",
-      "date": "Fri, 06 Mar 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IYAKVTZ7RRNYBCSVJQVPFLOUF4.jpg?auth=50604b299aa9aecd8138704764881e3529a14576da878dc44a8c9f76163dece0"
     }
   ],
-  "fetchedAt": 1772825071222
+  "fetchedAt": 1772827347821
 }
