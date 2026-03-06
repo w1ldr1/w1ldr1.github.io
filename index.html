@@ -1526,7 +1526,7 @@
 
       const today = new Date(); today.setHours(0,0,0,0);
       const upcoming = events
-        .filter(e => new Date(e.date + 'T00:00:00') >= today)
+        .filter(e => new Date((e.dateEnd || e.date) + 'T00:00:00') >= today)
         .sort((a, b) => a.date.localeCompare(b.date))
         .slice(0, 3);
 
