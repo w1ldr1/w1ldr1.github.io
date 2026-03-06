@@ -692,6 +692,40 @@
       transform: translateX(4px);
     }
 
+    /* ─── EVENTS SKELETON ───────────────────────────────── */
+    .event-skel {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      padding: 30px 0;
+      border-bottom: 1px solid rgba(250,244,237,0.07);
+    }
+    .event-skel:first-child { border-top: 1px solid rgba(250,244,237,0.07); }
+    .event-skel-date {
+      flex-shrink: 0;
+      width: 68px;
+      height: 74px;
+      border-radius: 3px;
+      background: rgba(250,244,237,0.07);
+      animation: skel-dark 1.5s ease-in-out infinite;
+    }
+    .event-skel-info { flex: 1; }
+    .skel-d {
+      height: 11px;
+      border-radius: 2px;
+      background: rgba(250,244,237,0.07);
+      margin-bottom: 10px;
+      animation: skel-dark 1.5s ease-in-out infinite;
+    }
+    .skel-d.w-20 { width: 20%; }
+    .skel-d.w-55 { width: 55%; }
+    .skel-d.w-70 { width: 70%; }
+    .skel-d.h-lg { height: 20px; }
+    @keyframes skel-dark {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+
     /* ─── GET INVOLVED ──────────────────────────────────── */
     #get-involved {
       background: var(--terra);
@@ -1240,59 +1274,11 @@
       <h2 class="section-heading">What's Happening<br>This Season</h2>
     </div>
 
-    <div role="list">
-
-      <a href="#" class="event-row scroll-reveal" data-delay="1" role="listitem">
-        <div class="event-date" aria-label="March 14">
-          <span class="event-month">Mar</span>
-          <span class="event-day">14</span>
-        </div>
-        <div class="event-info">
-          <span class="event-type">Film Screening</span>
-          <h3 class="event-title">Spanish Cinema Night: Todo sobre mi madre</h3>
-          <p class="event-location">Indianapolis Public Library · Clowes Memorial Hall · 7:00 PM</p>
-        </div>
-        <svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M4 10H16M11 5L16 10L11 15"
-                stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-
-      <a href="#" class="event-row scroll-reveal" data-delay="2" role="listitem">
-        <div class="event-date" aria-label="April 5">
-          <span class="event-month">Apr</span>
-          <span class="event-day">5</span>
-        </div>
-        <div class="event-info">
-          <span class="event-type">Cultural Celebration</span>
-          <h3 class="event-title">Feria de Abril — Spring Celebration</h3>
-          <p class="event-location">Athenaeum Foundation · 401 E Michigan St, Indianapolis · 6:00 PM</p>
-        </div>
-        <svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M4 10H16M11 5L16 10L11 15"
-                stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-
-      <a href="#" class="event-row scroll-reveal" data-delay="3" role="listitem">
-        <div class="event-date" aria-label="May 2">
-          <span class="event-month">May</span>
-          <span class="event-day">2</span>
-        </div>
-        <div class="event-info">
-          <span class="event-type">Lecture Series</span>
-          <h3 class="event-title">The Golden Age: Cervantes, Lope de Vega &amp; the Spanish Stage</h3>
-          <p class="event-location">Indiana University — IUPUI Campus · Lecture Hall 102 · 5:30 PM</p>
-        </div>
-        <svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M4 10H16M11 5L16 10L11 15"
-                stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-
+    <div id="events-list" role="list">
+      <!-- Skeleton loaders shown while events.json is fetched -->
+      <div class="event-skel"><div class="event-skel-date"></div><div class="event-skel-info"><div class="skel-d w-20"></div><div class="skel-d w-70 h-lg"></div><div class="skel-d w-55"></div></div></div>
+      <div class="event-skel"><div class="event-skel-date"></div><div class="event-skel-info"><div class="skel-d w-20"></div><div class="skel-d w-70 h-lg"></div><div class="skel-d w-55"></div></div></div>
+      <div class="event-skel"><div class="event-skel-date"></div><div class="event-skel-info"><div class="skel-d w-20"></div><div class="skel-d w-70 h-lg"></div><div class="skel-d w-55"></div></div></div>
     </div>
   </div>
 </section>
@@ -1504,7 +1490,57 @@
 
   document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
 
-  // 4. Mobile hamburger toggle
+  // 4. Events — load from events.json, filter upcoming, show top 3
+  (async function() {
+    const list = document.getElementById('events-list');
+    const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const ARROW = `<svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10H16M11 5L16 10L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+    function renderEvent(ev, i) {
+      const d = new Date(ev.date + 'T00:00:00');
+      const month = MONTHS[d.getMonth()];
+      const day   = d.getDate();
+      const loc   = ev.time ? `${ev.location} · ${ev.time}` : ev.location;
+      const isExternal = ev.url && ev.url !== '#';
+      return `<a href="${ev.url || '#'}" class="event-row scroll-reveal" data-delay="${i + 1}" role="listitem"${isExternal ? ' target="_blank" rel="noopener"' : ''}>
+        <div class="event-date" aria-label="${month} ${day}">
+          <span class="event-month">${month}</span>
+          <span class="event-day">${day}</span>
+        </div>
+        <div class="event-info">
+          <span class="event-type">${ev.type}</span>
+          <h3 class="event-title">${ev.title}</h3>
+          <p class="event-location">${loc}</p>
+        </div>
+        ${ARROW}
+      </a>`;
+    }
+
+    try {
+      const resp = await fetch('/events.json');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const { events } = await resp.json();
+
+      const today = new Date(); today.setHours(0,0,0,0);
+      const upcoming = events
+        .filter(e => new Date(e.date + 'T00:00:00') >= today)
+        .sort((a, b) => a.date.localeCompare(b.date))
+        .slice(0, 3);
+
+      if (upcoming.length === 0) {
+        list.innerHTML = `<p style="color:rgba(250,244,237,0.38);font-family:'Source Sans 3',sans-serif;font-weight:300;padding:40px 0;border-top:1px solid rgba(250,244,237,0.07);">No upcoming events scheduled. Check back soon.</p>`;
+        return;
+      }
+
+      list.innerHTML = upcoming.map((ev, i) => renderEvent(ev, i)).join('');
+      list.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+    } catch (err) {
+      console.error('[events] load error:', err);
+      list.innerHTML = '';
+    }
+  })();
+
+  // 6. Mobile hamburger toggle
   const hamburger = document.getElementById('hamburger');
   const drawer    = document.getElementById('mobile-drawer');
 

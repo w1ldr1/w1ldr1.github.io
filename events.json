@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "date": "2026-03-14",
+      "time": "7:00 PM",
+      "type": "Film Screening",
+      "title": "Spanish Cinema Night: Todo sobre mi madre",
+      "location": "Indianapolis Public Library · Clowes Memorial Hall",
+      "url": "#"
+    },
+    {
+      "date": "2026-04-05",
+      "time": "6:00 PM",
+      "type": "Cultural Celebration",
+      "title": "Feria de Abril — Spring Celebration",
+      "location": "Athenaeum Foundation · 401 E Michigan St, Indianapolis",
+      "url": "#"
+    },
+    {
+      "date": "2026-05-02",
+      "time": "5:30 PM",
+      "type": "Lecture Series",
+      "title": "The Golden Age: Cervantes, Lope de Vega & the Spanish Stage",
+      "location": "Indiana University — IUPUI Campus · Lecture Hall 102",
+      "url": "#"
+    }
+  ]
+}
