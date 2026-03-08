@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/HBIFAA2ZGRL2TKOZAVTAMOWE5Y.jpg?auth=a71606056bd116bcfd9aeddee1313e008749c2c7db9038a8ee93ae9cb7d0488b"
     },
     {
+      "title": "La jueza que investiga el colapso de la pasarela de Santander cita como investigada a la agente que desatendió el aviso del 112",
+      "link": "https://elpais.com/espana/2026-03-08/la-jueza-que-investiga-el-colapso-de-la-pasarela-de-santander-cita-como-investigada-a-la-agente-que-desatendio-el-aviso-del-112.html",
+      "desc": "La instructora también reclama toda la documentación de la senda costera a Costas y al Ayuntamiento de la ciudad",
+      "date": "Sun, 08 Mar 2026 14:00:31 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/GOONCIELURIWXCLGWKJA45RVYQ.jpg?auth=cfd58fb54f37bad396dfa0e998b8e3f9b6dd9b0554be5926928fcddd072d65b7"
+    },
+    {
       "title": "La ‘cultura del pelotazo’ resucita en Alicante en plena crisis de la vivienda con el escándalo de la VPO",
       "link": "https://elpais.com/espana/2026-03-08/la-cultura-del-pelotazo-resucita-en-alicante-en-plena-crisis-de-la-vivienda-con-el-escandalo-de-la-vpo.html",
       "desc": "El reparto de pisos entre cargos vinculados al PP pone en cuestión el modelo de ‘privatización’ de la vivienda pública. Un funcionario expuso “dudas” sobre las adjudicaciones",
@@ -125,14 +132,7 @@
       "desc": "El candidato del partido provincialista abulense, “ni conservador ni progresista”, se presenta como opción política transversal",
       "date": "Sat, 07 Mar 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DQEMUYBBIZHOFEKU76KKVUB4LE.jpg?auth=e81eb27a08d755833443420ba3f0c35d4d7a9da36093b68ff4dce0949701f167"
-    },
-    {
-      "title": "Detenidos en Madrid dos presuntos yihadistas expertos en artes marciales",
-      "link": "https://elpais.com/espana/2026-03-07/detenidos-en-madrid-dos-presuntos-yihadistas-expertos-en-artes-marciales.html",
-      "desc": "Las fuerzas de seguridad han arrestado en España a 19 islamistas radicales en lo que va de año",
-      "date": "Sat, 07 Mar 2026 11:23:51 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FJW3AVKHVFBQPBLXSWRFIVF7YU.jpg?auth=5d2d763feedd32e34699304dc6c487a284243feb8e13a1de1a1615f939b0e3e0"
     }
   ],
-  "fetchedAt": 1772977921042
+  "fetchedAt": 1772981604860
 }
