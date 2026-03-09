@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "title": "Vox roza el 20% en Castilla y León mientras el PP de Mañueco se estanca",
+      "title": "Vox supera el 20% en Castilla y León mientras el PP de Mañueco se estanca",
       "link": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-09/manueco-roza-el-peor-resultado-historico-del-pp-en-castilla-y-leon-con-vox-por-encima-ya-del-20.html",
       "desc": "Los ultras suben más de tres puntos en intención de voto, según un barómetro de 40dB. El PSOE, con una leve caída de 1,6 puntos, mejora con respecto a Aragón y Extremadura",
       "date": "Mon, 09 Mar 2026 04:30:01 GMT",
@@ -61,7 +61,7 @@
       "link": "https://elpais.com/espana/2026-03-09/el-pp-decidido-a-menoscabar-la-popularidad-de-sanchez.html",
       "desc": "El apoyo a la posición del presidente del Gobierno en la guerra en Irán no se traduce por ahora en una mejora electoral para el PSOE",
       "date": "Mon, 09 Mar 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZHXKJMPMGNAIBLRJL6SFB3V3EU.jpg?auth=61dc06ef0d1613d06ae986c0fe2e22b04e72c0dd2f0917ecf46ad4686ef12649"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260307/1145741_123037_video_1800.mp4"
     },
     {
       "title": "Nadie se hace responsable de la pasarela colapsada en Santander",
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/JFO777L6UZJSFJYMH3AQMNKE3U.jpg?auth=bfba7b749caaea68f7d7f52b567aa09937246288e28fb9af5df9f290b186352c"
     }
   ],
-  "fetchedAt": 1773033196379
+  "fetchedAt": 1773043037926
 }
