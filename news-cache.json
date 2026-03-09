@@ -64,9 +64,9 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260307/1145741_123037_video_1800.mp4"
     },
     {
-      "title": "Nadie se hace responsable de la pasarela colapsada en Santander",
+      "title": "Nadie se hace responsable de la pasarela de Santander cuyo desplome causó seis muertos",
       "link": "https://elpais.com/espana/2026-03-09/nadie-se-hace-responsable-de-la-pasarela-colapsada-en-santander.html",
-      "desc": "El Ayuntamiento dice que Costas tiene la competencia de la senda litoral a la que pertenece y el Gobierno pide esperar a la investigación judicial",
+      "desc": "El Ayuntamiento dice que Costas tiene la competencia de la senda litoral a la que pertenece, pero el Gobierno central pide esperar a la investigación judicial",
       "date": "Mon, 09 Mar 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/YDTJWWU35NEXPDTICCF375QMZA.jpg?auth=09090646d2cde67d2286986a6d04097931833c03da16a669889f18ee97f8f09a"
     },
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/JFO777L6UZJSFJYMH3AQMNKE3U.jpg?auth=bfba7b749caaea68f7d7f52b567aa09937246288e28fb9af5df9f290b186352c"
     }
   ],
-  "fetchedAt": 1773052260904
+  "fetchedAt": 1773057631897
 }
