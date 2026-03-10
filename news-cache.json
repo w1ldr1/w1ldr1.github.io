@@ -10,9 +10,9 @@
     {
       "title": "Madrid se niega a hacer el registro de objetores pese a la decisión de la justicia: “Es un empeño personal de la presidenta”",
       "link": "https://elpais.com/espana/madrid/2026-03-10/madrid-se-niega-a-hacer-el-registro-de-objetores-pese-a-la-decision-de-la-justicia-es-un-empeno-personal-de-la-presidenta.html",
-      "desc": "El pulso entre Ayuso y el Gobierno profundiza batalla política en torno a la sanidad pública",
+      "desc": "El pulso entre Ayuso y el Gobierno profundiza la batalla política en torno a la sanidad pública",
       "date": "Tue, 10 Mar 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HGBM5GOJMFJBFL3B7MCPA2DEXA.jpg?auth=27b22202679e6de562c2479f9a5200b81fdf5273d6358ed84710f4f12ddcaff0"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/VTZHBQ6GGBGUTKY2NVIXPW5CFE.jpg?auth=f7c151fc90d94e3748eccfd0f997f4e660c96b80d946a0b84b54d9d6f0ce3d71"
     },
     {
       "title": "Ortega Smith abre la caja de los truenos en Vox y acusa a Abascal de cesarlo por denunciar irregularidades económicas",
@@ -71,6 +71,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/RGR3WYHDB5BA7HLR7M2XC5NIBU.jpg?auth=a3303dfd94e4c0dfff072168f98b4d76e891dfe845b22a1b39064a6820e2ec5c"
     },
     {
+      "title": "El Supremo condena por homicidio imprudente a un policía que mató de un disparo a un preso que se había fugado",
+      "link": "https://elpais.com/espana/2026-03-10/el-supremo-condena-por-homicidio-imprudente-a-un-policia-que-mato-de-un-disparo-a-un-preso-que-se-habia-fugado.html",
+      "desc": "La Sala Penal revoca la absolución que dictó el TSJ extremeño, al considerar que el agente, que se resbaló, no actuó correctamente al correr con el arma desbloqueada",
+      "date": "Tue, 10 Mar 2026 06:00:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IHWAV5D335I67CUKHD546SSTK4.jpg?auth=e43084966515c4cf9771fcac3b3ad1880f26c3aa6ee9d3825c81b0b4cf3cc681"
+    },
+    {
       "title": "Sanabria se une para gestionar el monte contra el fuego: “El bosque nos come”",
       "link": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-10/sanabria-se-une-para-gestionar-el-monte-contra-el-fuego-el-bosque-nos-come.html",
       "desc": "El riesgo de que el crecimiento de árboles y arbustos cerca de las casas las ponga en peligro de incendio impulsa un proyecto comunal de ayuntamientos y vecinos de Zamora",
@@ -125,14 +132,7 @@
       "desc": "Una investigación de la fundación de Navalny desveló que este empresario puso cinco propiedades en la isla a nombre de familiares, incluidos sus hijos de corta edad",
       "date": "Mon, 09 Mar 2026 18:37:41 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/7WNH4YRVYZGH5BQNYTNPCMIWZQ.jpg?auth=3c7714ed75aa04a0be1f200cc826954265f644707764f8523d19c4e3e9c0bd15"
-    },
-    {
-      "title": "La jueza del siniestro de Adamuz quiere tener en tres días los nombres y el presupuesto de los peritos independientes",
-      "link": "https://elpais.com/espana/2026-03-09/la-jueza-del-siniestro-de-adamuz-quiere-tener-en-tres-dias-los-nombres-y-el-presupuesto-de-los-peritos-independientes.html",
-      "desc": "El juzgado de Montoro recibe una lista de candidatos del Colegio de Ingenieros de Caminos de Andalucía, de la que saldrán tres expertos en sistemas ferroviarios",
-      "date": "Mon, 09 Mar 2026 16:04:21 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XBF6JUW2OVCXHGWZWT6GEJUZRI.jpg?auth=3f1aebfdff3d7d2f216269eb2848ac631a12c1a9ad447ab8caf6fcf8bb898f90"
     }
   ],
-  "fetchedAt": 1773118827298
+  "fetchedAt": 1773129205911
 }
