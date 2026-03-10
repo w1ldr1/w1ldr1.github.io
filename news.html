@@ -386,11 +386,11 @@
       align-items: center;
       justify-content: center;
     }
-    .news-card-no-img svg {
-      width: 36px;
-      height: 36px;
-      opacity: 0.22;
-      color: var(--ink);
+    .news-card-no-img img {
+      height: 72px;
+      width: auto;
+      opacity: 0.35;
+      display: block;
     }
 
     /* Card body */
@@ -882,11 +882,7 @@
     return '#';
   }
 
-  const NO_IMG_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-    <rect x="3" y="3" width="18" height="18" rx="2"/>
-    <path d="M3 17l5-5 4 4 3-3 6 6"/>
-    <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none"/>
-  </svg>`;
+  const LOGO_FALLBACK = `<div class="news-card-no-img"><img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana"></div>`;
 
   // Accepts a plain data object {title, link, desc, date, imgUrl}
   function renderCard(data) {
@@ -898,9 +894,9 @@
     const imgSection = imgUrl
       ? `<div class="news-card-img-wrap">
            <img class="news-card-img" src="${imgUrl}" alt="" loading="lazy"
-                onerror="this.closest('.news-card-img-wrap').outerHTML='<div class=&quot;news-card-no-img&quot;>${NO_IMG_SVG.replace(/"/g,"&quot;")}</div>'">
+                onerror="this.closest('.news-card-img-wrap').outerHTML='${LOGO_FALLBACK.replace(/'/g, '&apos;').replace(/"/g, '&quot;')}'">
          </div>`
-      : `<div class="news-card-no-img">${NO_IMG_SVG}</div>`;
+      : LOGO_FALLBACK;
 
     return `<article class="news-card">
       ${imgSection}
