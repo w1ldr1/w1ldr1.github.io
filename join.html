@@ -920,8 +920,8 @@
     const mailto = `mailto:info@casaespanaindiana.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
 
-    form.style.display = 'none';
-    successEl.classList.add('visible');
+    // Give mailto a moment to trigger, then redirect to welcome page
+    setTimeout(() => { window.location.href = 'email-welcome.html'; }, 500);
   });
 </script>
 
