@@ -649,6 +649,40 @@
       font-weight: 300;
       color: rgba(28,20,16,0.35);
     }
+
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
   </style>
 </head>
 <body>
@@ -661,14 +695,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="index.html#mission"      class="nav-link">About</a>
-    <a href="index.html#programs"     class="nav-link">Programs</a>
-    <a href="index.html#events"       class="nav-link">Events</a>
-    <a href="index.html#board"        class="nav-link">Board</a>
-    <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-    <a href="resources.html"          class="nav-link">Resources</a>
-    <a href="news.html"               class="nav-link active">News</a>
-    <a href="past-events.html"        class="nav-link">Past Events</a>
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link active" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -676,22 +715,27 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="index.html#mission"      class="nav-link">About</a>
-  <a href="index.html#programs"     class="nav-link">Programs</a>
-  <a href="index.html#events"       class="nav-link">Events</a>
-  <a href="index.html#board"        class="nav-link">Board</a>
-  <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-  <a href="resources.html"          class="nav-link">Resources</a>
-  <a href="news.html"               class="nav-link active">News</a>
-  <a href="past-events.html"        class="nav-link">Past Events</a>
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link active" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── PAGE HEADER ───────────────────────────────────── -->
 <header class="page-header">
   <div class="section-container">
-    <p class="page-header-eyebrow">Current Affairs &amp; Press</p>
-    <h1>Spain in the <em>News</em></h1>
-    <p class="page-header-desc">Latest headlines from Spain — curated from El País, Spain's leading national newspaper.</p>
+    <p class="page-header-eyebrow" data-en="Current Affairs &amp; Press" data-es="Actualidad y Prensa">Current Affairs &amp; Press</p>
+    <h1><span data-en="Spain in the" data-es="España en las">Spain in the</span> <em data-en="News" data-es="Noticias">News</em></h1>
+    <p class="page-header-desc" data-en="Latest headlines from Spain — curated from El País, Spain's leading national newspaper." data-es="Últimas noticias de España — seleccionadas de El País, el principal diario nacional español.">Latest headlines from Spain — curated from El País, Spain's leading national newspaper.</p>
   </div>
 </header>
 
@@ -701,7 +745,7 @@
 
     <div class="news-source-bar">
       <div class="news-source-label">
-        <span class="news-source-badge">Live Feed</span>
+        <span class="news-source-badge" data-en="Live Feed" data-es="En Vivo">Live Feed</span>
         <div>
           <div class="news-source-name">El País · España</div>
           <div class="news-source-url">elpais.com/espana</div>
@@ -709,7 +753,7 @@
       </div>
       <div class="news-source-right">
         <span class="news-updated" id="news-updated"></span>
-        <button class="news-refresh-btn" id="refresh-btn" aria-label="Refresh news feed">
+        <button class="news-refresh-btn" id="refresh-btn" aria-label="Refresh news feed" data-en="↻ Refresh" data-es="↻ Actualizar">
           ↻ Refresh
         </button>
       </div>
@@ -736,29 +780,29 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">
           Preserving the soul of Spain in the heart of Indiana since 2004.
         </p>
       </div>
 
       <!-- Col 2: site navigation -->
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="index.html#mission">About Us</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#events">Events</a></li>
-          <li><a href="index.html#board">Board of Directors</a></li>
-          <li><a href="index.html#get-involved">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="index.html#mission" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="index.html#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
 
       <!-- Col 3: contact + social -->
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line">
           <a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a>
@@ -793,7 +837,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -801,6 +845,67 @@
 
 <!-- ─── INLINE JS ──────────────────────────────────────── -->
 <script>
+  // ─── STRINGS (for dynamic content) ──────────────────────────
+  const STRINGS = {
+    en: {
+      readArticle:    'Read article',
+      feedUnavailable:'Feed unavailable',
+      feedError:      'The El País feed could not be loaded right now.',
+      refresh:        '↻ Refresh',
+      loading:        '↻ Loading…',
+      updated:        'Updated',
+    },
+    es: {
+      readArticle:    'Leer artículo',
+      feedUnavailable:'Feed no disponible',
+      feedError:      'El feed de El País no se pudo cargar en este momento.',
+      refresh:        '↻ Actualizar',
+      loading:        '↻ Cargando…',
+      updated:        'Actualizado',
+    }
+  };
+  function t(key) { return (STRINGS[getLang()] || STRINGS.en)[key] || key; }
+  let _cachedItems = null;
+
+  // ─── LANGUAGE TOGGLE ────────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
+  function onLangChange(lang) {
+    document.title = lang === 'es'
+      ? 'Noticias — Casa de España en Indiana'
+      : 'News — Casa de España en Indiana | Casa de Espana en Indiana';
+    if (_cachedItems && _cachedItems.length > 0) {
+      const grid = document.getElementById('news-grid');
+      grid.innerHTML = _cachedItems.map(renderCard).join('');
+    }
+  }
+
   // Nav scroll shadow
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {
@@ -908,7 +1013,7 @@
         <h2 class="news-card-title">${title}</h2>
         ${excerpt ? `<p class="news-card-desc">${excerpt}</p>` : ''}
         <a class="news-card-link" href="${link}" target="_blank" rel="noopener" aria-label="Read full article: ${escapedTitle}">
-          Read article
+          ${t('readArticle')}
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
         </a>
       </div>
@@ -927,8 +1032,9 @@
   }
 
   function showUpdated(timestamp) {
-    const t = new Date(timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-    updatedEl.textContent = `Updated ${t}`;
+    const locale = getLang() === 'es' ? 'es-ES' : 'en-US';
+    const timeStr = new Date(timestamp).toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit' });
+    updatedEl.textContent = `${t('updated')} ${timeStr}`;
     updatedEl.classList.add('visible');
   }
 
@@ -938,8 +1044,8 @@
         <circle cx="12" cy="12" r="10"/>
         <path d="M12 8v4M12 16h.01" stroke-linecap="round"/>
       </svg>
-      <p class="news-error-title">Feed unavailable</p>
-      <p class="news-error-body">The El País feed could not be loaded right now.<br>
+      <p class="news-error-title">${t('feedUnavailable')}</p>
+      <p class="news-error-body">${t('feedError')}<br>
         Visit <a href="https://elpais.com/espana" target="_blank" rel="noopener">elpais.com/espana</a> to read the latest directly.
       </p>
     </div>`;
@@ -966,6 +1072,7 @@
         if (resp.ok) {
           const cache = await resp.json();
           if (cache.items?.length > 0) {
+            _cachedItems = cache.items;
             grid.innerHTML = cache.items.map(renderCard).join('');
             showUpdated(cache.fetchedAt);
             return; // done — server keeps the cache fresh via GitHub Actions
@@ -976,12 +1083,13 @@
 
     // ── Path B: no cache / manual refresh — fetch live ─────────
     refreshBtn.disabled = true;
-    refreshBtn.textContent = '↻ Loading…';
+    refreshBtn.textContent = t('loading');
     updatedEl.classList.remove('visible');
     grid.innerHTML = SKELETON_HTML;
 
     try {
       const items = await fetchLive();
+      _cachedItems = items;
       grid.innerHTML = items.map(renderCard).join('');
       showUpdated(Date.now());
     } catch (err) {
@@ -989,7 +1097,7 @@
       renderError();
     } finally {
       refreshBtn.disabled = false;
-      refreshBtn.textContent = '↻ Refresh';
+      refreshBtn.textContent = t('refresh');
     }
   }
 

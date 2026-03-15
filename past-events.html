@@ -629,6 +629,40 @@
     .lb-thumb.active { opacity: 1; border-color: var(--terra); }
     .lb-thumb:hover { opacity: 0.85; }
 
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
+
     /* ─── SCROLL REVEAL ─────────────────────────────────── */
     .scroll-reveal {
       opacity: 0;
@@ -756,14 +790,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="index.html#mission"      class="nav-link">About</a>
-    <a href="index.html#programs"     class="nav-link">Programs</a>
-    <a href="index.html#events"       class="nav-link">Events</a>
-    <a href="index.html#board"        class="nav-link">Board</a>
-    <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-    <a href="resources.html"          class="nav-link">Resources</a>
-    <a href="news.html"               class="nav-link">News</a>
-    <a href="past-events.html"        class="nav-link active">Past Events</a>
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link active" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -771,23 +810,28 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="index.html#mission"      class="nav-link">About</a>
-  <a href="index.html#programs"     class="nav-link">Programs</a>
-  <a href="index.html#events"       class="nav-link">Events</a>
-  <a href="index.html#board"        class="nav-link">Board</a>
-  <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-  <a href="resources.html"          class="nav-link">Resources</a>
-  <a href="news.html"               class="nav-link">News</a>
-  <a href="past-events.html"        class="nav-link">Past Events</a>
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link active" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── PAGE HEADER ──────────────────────────────────────── -->
 <header class="page-header">
   <div class="header-grain" aria-hidden="true"></div>
   <div class="section-container page-header-inner">
-    <span class="page-eyebrow">Archive · Memory · Community</span>
-    <h1 class="page-title">A Record of<br><em>Gatherings Past</em></h1>
-    <p class="page-desc">Photographs and recaps from our cultural events, celebrations, and community gatherings — a living archive of Spanish heritage in Indiana.</p>
+    <span class="page-eyebrow" data-en="Archive · Memory · Community" data-es="Archivo · Memoria · Comunidad">Archive · Memory · Community</span>
+    <h1 class="page-title" data-en="A Record of<br><em>Gatherings Past</em>" data-es="Un Registro de<br><em>Encuentros Pasados</em>" data-html="true">A Record of<br><em>Gatherings Past</em></h1>
+    <p class="page-desc" data-en="Photographs and recaps from our cultural events, celebrations, and community gatherings — a living archive of Spanish heritage in Indiana." data-es="Fotografías y resúmenes de nuestros eventos culturales, celebraciones y reuniones comunitarias — un archivo vivo del patrimonio español en Indiana.">Photographs and recaps from our cultural events, celebrations, and community gatherings — a living archive of Spanish heritage in Indiana.</p>
   </div>
 </header>
 
@@ -820,27 +864,27 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">
           Preserving the soul of Spain in the heart of Indiana since 2004.
         </p>
       </div>
 
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="index.html#mission">About Us</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#events">Events</a></li>
-          <li><a href="index.html#board">Board of Directors</a></li>
-          <li><a href="index.html#get-involved">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="index.html#mission" data-en="About Us" data-es="Quiénes Somos">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="index.html#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
 
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line">
           <a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a>
@@ -871,7 +915,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -911,13 +955,51 @@
 
 <!-- ─── INLINE JS ────────────────────────────────────────── -->
 <script>
-  // ── Nav scroll shadow ──────────────────────────────────────
+  // ─── LANGUAGE TOGGLE ─────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
+  const STRINGS = {
+    allYears:   { en: 'All Years',   es: 'Todos los Años' },
+    viewPhotos: { en: 'View Photos', es: 'Ver Fotos' },
+    photos:     { en: 'photos',      es: 'fotos' },
+    noEvents:   { en: 'No events found for this period.', es: 'No se encontraron eventos para este período.' },
+    loadError:  { en: 'Unable to load past events. Please try again later.', es: 'No se pudieron cargar los eventos pasados. Por favor, inténtalo de nuevo más tarde.' },
+    ofLabel:    { en: 'of', es: 'de' },
+  };
+  function t(key) { return STRINGS[key][getLang()]; }
+
+  // ─── NAV ─────────────────────────────────────────────────
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 40);
   }, { passive: true });
 
-  // ── Hamburger ──────────────────────────────────────────────
   const hamburger = document.getElementById('hamburger');
   const drawer    = document.getElementById('mobile-drawer');
   hamburger.addEventListener('click', () => {
@@ -926,7 +1008,7 @@
     drawer.setAttribute('aria-hidden', !open);
   });
 
-  // ── Scroll reveals ─────────────────────────────────────────
+  // ─── SCROLL REVEALS ──────────────────────────────────────
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -940,27 +1022,28 @@
     root.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
   }
 
-  // ── Helpers ────────────────────────────────────────────────
-  const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  const MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  // ─── HELPERS ─────────────────────────────────────────────
+  const MONTHS_SHORT    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const MONTHS_SHORT_ES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
 
   function formatDate(dateStr, dateEndStr) {
+    const months = getLang() === 'es' ? MONTHS_SHORT_ES : MONTHS_SHORT;
     const d = new Date(dateStr + 'T00:00:00');
-    const mon = MONTHS_SHORT[d.getMonth()];
+    const mon = months[d.getMonth()];
     const day = d.getDate();
     if (!dateEndStr) return `${mon} ${day}, ${d.getFullYear()}`;
     const e = new Date(dateEndStr + 'T00:00:00');
     if (d.getMonth() === e.getMonth()) {
       return `${mon} ${day}–${e.getDate()}, ${d.getFullYear()}`;
     }
-    return `${mon} ${day} – ${MONTHS_SHORT[e.getMonth()]} ${e.getDate()}, ${d.getFullYear()}`;
+    return `${mon} ${day} – ${months[e.getMonth()]} ${e.getDate()}, ${d.getFullYear()}`;
   }
 
-  const PIN_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.5A4 4 0 018 9.5M8 9.5V14M5 9.5H11"/><circle cx="8" cy="5" r="2"/></svg>`;
-  const ARROW_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>`;
+  const PIN_SVG    = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1.5A4 4 0 018 9.5M8 9.5V14M5 9.5H11"/><circle cx="8" cy="5" r="2"/></svg>`;
+  const ARROW_SVG  = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>`;
   const CAMERA_SVG = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="14" height="10" rx="1.5"/><circle cx="8" cy="9" r="2.5"/><path d="M5 4l1-2h4l1 2"/></svg>`;
 
-  // ── Render ─────────────────────────────────────────────────
+  // ─── RENDER ──────────────────────────────────────────────
   function renderCard(ev, delayIdx) {
     const hl = ev.highlight ? 'highlight' : '';
     const thumbs = ev.photos.slice(1, 4).map(p =>
@@ -976,7 +1059,7 @@
     <span class="type-badge">${ev.type}</span>
     ${ev.photos.length > 1 ? `<button class="photo-badge" data-event-id="${ev.id}" data-photo-idx="0" aria-label="View all ${ev.photos.length} photos">
       ${CAMERA_SVG}
-      <span>${ev.photos.length} photos</span>
+      <span>${ev.photos.length} ${t('photos')}</span>
     </button>` : ''}
   </div>
   <div class="card-body">
@@ -986,7 +1069,7 @@
     <p class="card-desc">${ev.description}</p>
     <div class="card-footer">
       <button class="btn-gallery" data-event-id="${ev.id}" data-photo-idx="0">
-        View Photos ${ARROW_SVG}
+        ${t('viewPhotos')} ${ARROW_SVG}
       </button>
       <div class="card-photo-thumbs">${thumbs}</div>
     </div>
@@ -1003,18 +1086,17 @@
 </div>`;
   }
 
-  // ── Filter state ───────────────────────────────────────────
+  // ─── FILTER STATE ────────────────────────────────────────
   let allEvents = [];
   let activeYear = 'all';
 
   function getYears() {
-    const yrs = [...new Set(allEvents.map(e => e.year))].sort((a, b) => b - a);
-    return yrs;
+    return [...new Set(allEvents.map(e => e.year))].sort((a, b) => b - a);
   }
 
   function renderFilterBar(years) {
     const filterInner = document.getElementById('filter-inner');
-    const allBtn = `<button class="filter-btn ${activeYear === 'all' ? 'active' : ''}" data-year="all">All Years</button>`;
+    const allBtn = `<button class="filter-btn ${activeYear === 'all' ? 'active' : ''}" data-year="all">${t('allYears')}</button>`;
     const yearBtns = years.map(y =>
       `<button class="filter-btn ${activeYear === y ? 'active' : ''}" data-year="${y}">${y}</button>`
     ).join('');
@@ -1035,11 +1117,10 @@
       : allEvents.filter(e => e.year === activeYear);
 
     if (!filtered.length) {
-      root.innerHTML = `<div class="empty-state">No events found for this period.</div>`;
+      root.innerHTML = `<div class="empty-state">${t('noEvents')}</div>`;
       return;
     }
 
-    // Group by year
     const byYear = {};
     filtered.forEach(ev => {
       if (!byYear[ev.year]) byYear[ev.year] = [];
@@ -1049,7 +1130,6 @@
     const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
     root.innerHTML = years.map(y => renderYear(y, byYear[y])).join('');
 
-    // Bind gallery triggers
     root.querySelectorAll('[data-event-id]').forEach(el => {
       el.addEventListener('click', () => {
         const ev = allEvents.find(e => e.id === el.dataset.eventId);
@@ -1060,23 +1140,29 @@
     observeReveals(root);
   }
 
-  // ── Load data ──────────────────────────────────────────────
+  function onLangChange() {
+    if (allEvents.length) {
+      renderFilterBar(getYears());
+      renderArchive();
+    }
+  }
+
+  // ─── LOAD DATA ───────────────────────────────────────────
   (async function() {
     try {
       const resp = await fetch('/past-events.json');
       const data = await resp.json();
       allEvents = data.events;
-      const years = getYears();
-      renderFilterBar(years);
+      renderFilterBar(getYears());
       renderArchive();
     } catch (err) {
       document.getElementById('archive-root').innerHTML =
-        `<div class="empty-state">Unable to load past events. Please try again later.</div>`;
+        `<div class="empty-state">${t('loadError')}</div>`;
       console.error('[past-events] load error:', err);
     }
   })();
 
-  // ── Lightbox ───────────────────────────────────────────────
+  // ─── LIGHTBOX ────────────────────────────────────────────
   let lb = { event: null, idx: 0 };
   const lightbox = document.getElementById('lightbox');
   const lbImg    = document.getElementById('lb-img');
@@ -1110,7 +1196,7 @@
     }, 150);
 
     lbTitle.textContent = event.title;
-    lbCounter.textContent = `${idx + 1} of ${photos.length}`;
+    lbCounter.textContent = `${idx + 1} ${t('ofLabel')} ${photos.length}`;
 
     lbThumbs.innerHTML = photos.map((p, i) =>
       `<img class="lb-thumb ${i === idx ? 'active' : ''}" src="${p}" alt="Photo ${i+1}" data-lb-idx="${i}">`
@@ -1122,7 +1208,6 @@
       });
     });
 
-    // Show/hide nav arrows
     document.getElementById('lb-prev').style.opacity = photos.length > 1 ? '1' : '0';
     document.getElementById('lb-next').style.opacity = photos.length > 1 ? '1' : '0';
   }
