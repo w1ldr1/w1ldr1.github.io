@@ -1085,6 +1085,40 @@
     /* scroll-margin so anchors clear nav */
     #mission, #programs, #events, #get-involved, #board { scroll-margin-top: 120px; }
 
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
+
     /* ─── KEYFRAMES ─────────────────────────────────────── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(18px); }
@@ -1114,14 +1148,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="#mission"      class="nav-link" data-section="mission">About</a>
-    <a href="#programs"     class="nav-link" data-section="programs">Programs</a>
-    <a href="#events"       class="nav-link" data-section="events">Events</a>
-    <a href="#board"        class="nav-link" data-section="board">Board</a>
-    <a href="#get-involved" class="nav-link" data-section="get-involved">Get Involved</a>
-    <a href="resources.html"  class="nav-link">Resources</a>
-    <a href="news.html"       class="nav-link">News</a>
-    <a href="past-events.html" class="nav-link">Past Events</a>
+    <a href="#mission"      class="nav-link" data-section="mission" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="#programs"     class="nav-link" data-section="programs" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="#events"       class="nav-link" data-section="events" data-en="Events" data-es="Eventos">Events</a>
+    <a href="#board"        class="nav-link" data-section="board" data-en="Board" data-es="Junta">Board</a>
+    <a href="#get-involved" class="nav-link" data-section="get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"  class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"       class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html" class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -1129,14 +1168,19 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="#mission"      class="nav-link">About</a>
-  <a href="#programs"     class="nav-link">Programs</a>
-  <a href="#events"       class="nav-link">Events</a>
-  <a href="#board"        class="nav-link">Board</a>
-  <a href="#get-involved" class="nav-link">Get Involved</a>
-  <a href="resources.html"   class="nav-link">Resources</a>
-  <a href="news.html"        class="nav-link">News</a>
-  <a href="past-events.html" class="nav-link">Past Events</a>
+  <a href="#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"   class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"        class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html" class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── HERO ──────────────────────────────────────────── -->
@@ -1153,7 +1197,7 @@
       <strong>en Indiana</strong>
     </h1>
 
-    <p class="hero-connecting">Connecting Spain to Indiana</p>
+    <p class="hero-connecting" data-en="Connecting Spain to Indiana" data-es="Conectando España con Indiana">Connecting Spain to Indiana</p>
 
     <div class="hero-rule-wrap" aria-hidden="true">
       <svg width="200" height="2" viewBox="0 0 200 2" fill="none">
@@ -1164,13 +1208,13 @@
       </svg>
     </div>
 
-    <p class="hero-sub">
+    <p class="hero-sub" data-en="A nonprofit cultural organization dedicated to preserving, sharing, and celebrating the heritage, language, and spirit of Spain within the heart of Indiana." data-es="Una organización cultural sin fines de lucro dedicada a preservar, compartir y celebrar el patrimonio, el idioma y el espíritu de España en el corazón de Indiana.">
       A nonprofit cultural organization dedicated to preserving, sharing, and celebrating the heritage, language, and spirit of Spain within the heart of Indiana.
     </p>
 
     <div class="hero-ctas">
-      <a href="#get-involved" class="btn-primary">Support Our Mission</a>
-      <a href="#programs"     class="btn-ghost">Explore Programs</a>
+      <a href="#get-involved" class="btn-primary" data-en="Support Our Mission" data-es="Apoya Nuestra Misión">Support Our Mission</a>
+      <a href="#programs"     class="btn-ghost" data-en="Explore Programs" data-es="Explorar Programas">Explore Programs</a>
     </div>
   </div>
 
@@ -1192,10 +1236,10 @@
 
       <!-- 40% pull-quote column -->
       <div class="pull-quote scroll-reveal">
-        <blockquote>
+        <blockquote data-en='"Where Spanish roots meet Indiana soil — culture is not a memory. It is a living inheritance."' data-es='"Donde las raíces españolas encuentran el suelo de Indiana — la cultura no es un recuerdo. Es una herencia viva."'>
           "Where Spanish roots meet Indiana soil — culture is not a memory. It is a living inheritance."
         </blockquote>
-        <cite>— Casa de España Charter, 2004</cite>
+        <cite data-en="— Casa de España Charter, 2004" data-es="— Estatutos de Casa de España, 2004">— Casa de España Charter, 2004</cite>
 
         <div class="pull-image-wrap">
           <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:2px;">
@@ -1213,15 +1257,15 @@
 
       <!-- 60% content column -->
       <div class="mission-content scroll-reveal" data-delay="2">
-        <span class="overline">Who We Are</span>
-        <h2 class="section-heading">A Cultural Home<br>Far From Home</h2>
-        <p class="body-text" style="margin-top:20px;">
+        <span class="overline" data-en="Who We Are" data-es="Quiénes Somos">Who We Are</span>
+        <h2 class="section-heading" data-en="A Cultural Home<br>Far From Home" data-es="Un Hogar Cultural<br>Lejos de Casa" data-html="true">A Cultural Home<br>Far From Home</h2>
+        <p class="body-text" style="margin-top:20px;" data-en="Casa de España en Indiana is a 501(c)(3) nonprofit organization founded to preserve, share, and celebrate Spanish culture across Indiana. We are a bridge — between generations, between languages, between continents — built by and for those who carry Spain in their hearts, wherever they live." data-es="Casa de España en Indiana es una organización sin fines de lucro 501(c)(3) fundada para preservar, compartir y celebrar la cultura española en Indiana. Somos un puente — entre generaciones, entre idiomas, entre continentes — construido por y para quienes llevan España en el corazón, dondequiera que vivan.">
           Casa de España en Indiana is a 501(c)(3) nonprofit organization founded to preserve, share, and celebrate Spanish culture across Indiana. We are a bridge — between generations, between languages, between continents — built by and for those who carry Spain in their hearts, wherever they live.
         </p>
 
         <div class="mission-what">
-          <h4>What We Do</h4>
-          <p class="body-text">
+          <h4 data-en="What We Do" data-es="Qué Hacemos">What We Do</h4>
+          <p class="body-text" data-en="We bring the arts, traditions, and intellectual life of Spain to the Midwest through cultural events, educational programs, community gatherings, and support networks for Spanish-speaking families. From flamenco evenings to literary symposia, from language exchanges to festivals of tradition, our programs honor the full depth of Spanish heritage." data-es="Llevamos el arte, las tradiciones y la vida intelectual de España al Midwest a través de eventos culturales, programas educativos, encuentros comunitarios y redes de apoyo para familias hispanohablantes. Desde veladas de flamenco hasta simposios literarios, desde intercambios de idiomas hasta festivales de tradición, nuestros programas honran la plena profundidad del patrimonio español.">
             We bring the arts, traditions, and intellectual life of Spain to the Midwest through cultural events, educational programs, community gatherings, and support networks for Spanish-speaking families. From flamenco evenings to literary symposia, from language exchanges to festivals of tradition, our programs honor the full depth of Spanish heritage.
           </p>
         </div>
@@ -1236,8 +1280,8 @@
   <div class="section-container">
 
     <div class="programs-header scroll-reveal">
-      <span class="overline" style="text-align:center;display:block;">Our Programs</span>
-      <h2 class="section-heading" style="text-align:center;">Three Pillars of<br>Cultural Life</h2>
+      <span class="overline" style="text-align:center;display:block;" data-en="Our Programs" data-es="Nuestros Programas">Our Programs</span>
+      <h2 class="section-heading" style="text-align:center;" data-en="Three Pillars of<br>Cultural Life" data-es="Tres Pilares de<br>la Vida Cultural" data-html="true">Three Pillars of<br>Cultural Life</h2>
     </div>
 
     <div class="programs-grid">
@@ -1254,9 +1298,9 @@
           <span class="ghost-num"       aria-hidden="true">01</span>
         </div>
         <div class="card-body">
-          <span class="card-label">Program</span>
-          <h3 class="card-title"><a href="#events" style="color:inherit;text-decoration:none;">Cultural Events</a></h3>
-          <p class="card-desc">Flamenco performances, film screenings, gastronomy nights, and seasonal celebrations that bring the full vibrancy of Spain to Indianapolis.</p>
+          <span class="card-label" data-en="Program" data-es="Programa">Program</span>
+          <h3 class="card-title"><a href="#events" style="color:inherit;text-decoration:none;" data-en="Cultural Events" data-es="Eventos Culturales">Cultural Events</a></h3>
+          <p class="card-desc" data-en="Flamenco performances, film screenings, gastronomy nights, and seasonal celebrations that bring the full vibrancy of Spain to Indianapolis." data-es="Actuaciones de flamenco, proyecciones de cine, noches de gastronomía y celebraciones de temporada que traen toda la vibración de España a Indianapolis.">Flamenco performances, film screenings, gastronomy nights, and seasonal celebrations that bring the full vibrancy of Spain to Indianapolis.</p>
         </div>
       </article>
 
@@ -1272,9 +1316,9 @@
           <span class="ghost-num"       aria-hidden="true">02</span>
         </div>
         <div class="card-body">
-          <span class="card-label">Directory</span>
-          <h3 class="card-title"><a href="resources.html" style="color:inherit;text-decoration:none;">Resources</a></h3>
-          <p class="card-desc">Links to government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States.</p>
+          <span class="card-label" data-en="Directory" data-es="Directorio">Directory</span>
+          <h3 class="card-title"><a href="resources.html" style="color:inherit;text-decoration:none;" data-en="Resources" data-es="Recursos">Resources</a></h3>
+          <p class="card-desc" data-en="Links to government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States." data-es="Vínculos a organismos gubernamentales, instituciones culturales, programas de becas y portales de información para la comunidad española en los Estados Unidos.">Links to government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States.</p>
         </div>
       </article>
 
@@ -1290,9 +1334,9 @@
           <span class="ghost-num"       aria-hidden="true">03</span>
         </div>
         <div class="card-body">
-          <span class="card-label">Program</span>
-          <h3 class="card-title"><a href="join.html" style="color:inherit;text-decoration:none;">Community Support</a></h3>
-          <p class="card-desc">Resources, networks, and assistance for Spanish-speaking families navigating life in Indiana — language help, social integration, and cultural connection.</p>
+          <span class="card-label" data-en="Program" data-es="Programa">Program</span>
+          <h3 class="card-title"><a href="join.html" style="color:inherit;text-decoration:none;" data-en="Community Support" data-es="Apoyo Comunitario">Community Support</a></h3>
+          <p class="card-desc" data-en="Resources, networks, and assistance for Spanish-speaking families navigating life in Indiana — language help, social integration, and cultural connection." data-es="Recursos, redes y asistencia para familias hispanohablantes que se adaptan a la vida en Indiana — ayuda con el idioma, integración social y conexión cultural.">Resources, networks, and assistance for Spanish-speaking families navigating life in Indiana — language help, social integration, and cultural connection.</p>
         </div>
       </article>
 
@@ -1306,8 +1350,8 @@
   <div class="events-inner section-container">
 
     <div class="events-header scroll-reveal">
-      <span class="overline">Upcoming Events</span>
-      <h2 class="section-heading">What's Happening<br>This Season</h2>
+      <span class="overline" data-en="Upcoming Events" data-es="Próximos Eventos">Upcoming Events</span>
+      <h2 class="section-heading" data-en="What's Happening<br>This Season" data-es="Qué Ocurre<br>Esta Temporada" data-html="true">What's Happening<br>This Season</h2>
     </div>
 
     <div id="events-list" role="list">
@@ -1328,27 +1372,27 @@
       <div class="stats-row scroll-reveal">
         <div class="stat-item">
           <span class="stat-value">501(c)(3)</span>
-          <span class="stat-label">Tax-Exempt Status</span>
+          <span class="stat-label" data-en="Tax-Exempt Status" data-es="Estatus Fiscal">Tax-Exempt Status</span>
         </div>
         <div class="stat-item">
           <span class="stat-value">20+</span>
-          <span class="stat-label">Years of Service</span>
+          <span class="stat-label" data-en="Years of Service" data-es="Años de Servicio">Years of Service</span>
         </div>
         <div class="stat-item">
           <span class="stat-value">Indianapolis</span>
-          <span class="stat-label">Our Home City</span>
+          <span class="stat-label" data-en="Our Home City" data-es="Nuestra Ciudad">Our Home City</span>
         </div>
       </div>
 
-      <h2 class="cta-heading scroll-reveal">
+      <h2 class="cta-heading scroll-reveal" data-en="Be Part of Something<br>That Belongs to Both Worlds" data-es="Forma Parte de Algo<br>Que Pertenece a Ambos Mundos" data-html="true">
         Be Part of Something<br>That Belongs to Both Worlds
       </h2>
-      <p class="cta-sub scroll-reveal" data-delay="1">
+      <p class="cta-sub scroll-reveal" data-delay="1" data-en="Your membership and support sustain Spanish culture in Indiana — for those who left Spain, and for those who have never been." data-es="Tu membresía y apoyo sostienen la cultura española en Indiana — para quienes dejaron España y para quienes nunca han estado.">
         Your membership and support sustain Spanish culture in Indiana — for those who left Spain, and for those who have never been.
       </p>
       <div class="cta-buttons scroll-reveal" data-delay="2">
-        <a href="join.html" class="btn-inv-primary">Become a Member</a>
-        <a href="https://www.paypal.com/ncp/payment/73J4J5MCZBZDG" target="_blank" rel="noopener" class="btn-inv-ghost">Make a Donation</a>
+        <a href="join.html" class="btn-inv-primary" data-en="Become a Member" data-es="Únete como Miembro">Become a Member</a>
+        <a href="https://www.paypal.com/ncp/payment/73J4J5MCZBZDG" target="_blank" rel="noopener" class="btn-inv-ghost" data-en="Make a Donation" data-es="Hacer una Donación">Make a Donation</a>
       </div>
 
     </div>
@@ -1360,8 +1404,8 @@
   <div class="section-container">
 
     <div class="board-header scroll-reveal">
-      <span class="overline">Leadership</span>
-      <h2 class="section-heading">Board of Directors</h2>
+      <span class="overline" data-en="Leadership" data-es="Liderazgo">Leadership</span>
+      <h2 class="section-heading" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</h2>
     </div>
 
     <div class="board-grid">
@@ -1371,9 +1415,9 @@
           <img src="https://placehold.co/144x144/C8B4A0/5A4A3E?text=MW" alt="Maria Wildridge" loading="lazy">
         </div>
         <div>
-          <span class="board-role">President</span>
+          <span class="board-role" data-en="President" data-es="Presidenta">President</span>
           <h3 class="board-name">Maria Wildridge</h3>
-          <p class="board-bio">Latino Services Director at the Marion County Prosecutor's Office. She immigrated to the United States from Spain 20 years ago, and lived in Washington State for five years, where she learned English and earned her paralegal degree. She moved to Indiana and began to assist the Latino community over 15 years ago, when she became a domestic violence volunteer at the prosecutor's office, while raising her twin daughters and her son. In 2011, Maria was awarded the United States Attorney's Carol S. Morris Award for Outstanding Contributions to the Rights of Victims for her work with and commitment to the Latino community in Indiana. In 2014, Wildridge received the Latino Advocacy Award by the Latino Coalition Against Domestic and Sexual Violence, Inc.</p>
+          <p class="board-bio" data-en="Latino Services Director at the Marion County Prosecutor's Office. She immigrated to the United States from Spain 20 years ago, and lived in Washington State for five years, where she learned English and earned her paralegal degree. She moved to Indiana and began to assist the Latino community over 15 years ago, when she became a domestic violence volunteer at the prosecutor's office, while raising her twin daughters and her son. In 2011, Maria was awarded the United States Attorney's Carol S. Morris Award for Outstanding Contributions to the Rights of Victims for her work with and commitment to the Latino community in Indiana. In 2014, Wildridge received the Latino Advocacy Award by the Latino Coalition Against Domestic and Sexual Violence, Inc." data-es="Directora de Servicios Latinos en la Fiscalía del Condado de Marion. Emigró a los Estados Unidos desde España hace 20 años y vivió en el estado de Washington durante cinco años, donde aprendió inglés y obtuvo su título de paralegal. Se mudó a Indiana y comenzó a ayudar a la comunidad latina hace más de 15 años, cuando se convirtió en voluntaria contra la violencia doméstica en la fiscalía, mientras criaba a sus hijas gemelas y su hijo. En 2011, María recibió el Premio Carol S. Morris del Fiscal Federal por Contribuciones Sobresalientes a los Derechos de las Víctimas. En 2014, Wildridge recibió el Premio de Defensa Latina de la Coalición Latina contra la Violencia Doméstica y Sexual.">Latino Services Director at the Marion County Prosecutor's Office. She immigrated to the United States from Spain 20 years ago, and lived in Washington State for five years, where she learned English and earned her paralegal degree. She moved to Indiana and began to assist the Latino community over 15 years ago, when she became a domestic violence volunteer at the prosecutor's office, while raising her twin daughters and her son. In 2011, Maria was awarded the United States Attorney's Carol S. Morris Award for Outstanding Contributions to the Rights of Victims for her work with and commitment to the Latino community in Indiana. In 2014, Wildridge received the Latino Advocacy Award by the Latino Coalition Against Domestic and Sexual Violence, Inc.</p>
         </div>
       </div>
 
@@ -1382,9 +1426,9 @@
           <img src="https://placehold.co/144x144/C8B4A0/5A4A3E?text=JR" alt="Jorge Ruiz" loading="lazy">
         </div>
         <div>
-          <span class="board-role">Vice President</span>
+          <span class="board-role" data-en="Vice President" data-es="Vicepresidente">Vice President</span>
           <h3 class="board-name">Jorge Ruiz</h3>
-          <p class="board-bio">A Madrid-born architect and urban designer, Jorge brings deep organizational experience and a passion for Spanish architectural heritage to his leadership role.</p>
+          <p class="board-bio" data-en="A Madrid-born architect and urban designer, Jorge brings deep organizational experience and a passion for Spanish architectural heritage to his leadership role." data-es="Arquitecto y diseñador urbano nacido en Madrid, Jorge aporta amplia experiencia organizativa y pasión por el patrimonio arquitectónico español a su rol de liderazgo.">A Madrid-born architect and urban designer, Jorge brings deep organizational experience and a passion for Spanish architectural heritage to his leadership role.</p>
         </div>
       </div>
 
@@ -1393,9 +1437,9 @@
           <img src="https://placehold.co/144x144/D4C4B4/7A6658?text=CG" alt="Carmen García" loading="lazy">
         </div>
         <div>
-          <span class="board-role">Secretary</span>
+          <span class="board-role" data-en="Secretary" data-es="Secretaria">Secretary</span>
           <h3 class="board-name">Carmen García</h3>
-          <p class="board-bio">A bilingual educator and community advocate from Valencia, Carmen manages communications and ensures every member of the community feels welcomed and included.</p>
+          <p class="board-bio" data-en="A bilingual educator and community advocate from Valencia, Carmen manages communications and ensures every member of the community feels welcomed and included." data-es="Educadora bilingüe y defensora comunitaria de Valencia, Carmen gestiona las comunicaciones y garantiza que cada miembro de la comunidad se sienta bienvenido e incluido.">A bilingual educator and community advocate from Valencia, Carmen manages communications and ensures every member of the community feels welcomed and included.</p>
         </div>
       </div>
 
@@ -1404,9 +1448,9 @@
           <img src="https://placehold.co/144x144/C8B4A0/5A4A3E?text=AF" alt="Andrés Fernández" loading="lazy">
         </div>
         <div>
-          <span class="board-role">Treasurer</span>
+          <span class="board-role" data-en="Treasurer" data-es="Tesorero">Treasurer</span>
           <h3 class="board-name">Andrés Fernández</h3>
-          <p class="board-bio">A CPA with roots in Seville, Andrés oversees financial stewardship of the organization, ensuring every dollar funds meaningful cultural programming.</p>
+          <p class="board-bio" data-en="A CPA with roots in Seville, Andrés oversees financial stewardship of the organization, ensuring every dollar funds meaningful cultural programming." data-es="Contador público con raíces en Sevilla, Andrés supervisa la gestión financiera de la organización, garantizando que cada dólar financie programas culturales significativos.">A CPA with roots in Seville, Andrés oversees financial stewardship of the organization, ensuring every dollar funds meaningful cultural programming.</p>
         </div>
       </div>
 
@@ -1424,29 +1468,29 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">
           Preserving the soul of Spain in the heart of Indiana since 2004.
         </p>
       </div>
 
       <!-- Col 2: site navigation -->
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="#mission">About Us</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#board">Board of Directors</a></li>
-          <li><a href="#get-involved">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="#mission" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
 
       <!-- Col 3: contact + social -->
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line">
           <a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a>
@@ -1477,7 +1521,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -1485,6 +1529,82 @@
 
 <!-- ─── INLINE JS ──────────────────────────────────────── -->
 <script>
+  // ─── LANGUAGE TOGGLE ────────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
+  // ─── STRINGS (for dynamic content) ──────────────────────────
+  const STRINGS = {
+    en: { noEvents: 'No upcoming events scheduled. Check back soon.' },
+    es: { noEvents: 'No hay eventos próximos programados. Vuelve pronto.' }
+  };
+  function t(key) { return (STRINGS[getLang()] || STRINGS.en)[key] || key; }
+  const MONTHS    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const MONTHS_ES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  let _cachedEvents = null;
+
+  const ARROW = `<svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10H16M11 5L16 10L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+  function renderEvent(ev, i) {
+    const d        = new Date(ev.date + 'T00:00:00');
+    const months   = getLang() === 'es' ? MONTHS_ES : MONTHS;
+    const month    = months[d.getMonth()];
+    const dayStart = d.getDate();
+    const dayEnd   = ev.dateEnd ? new Date(ev.dateEnd + 'T00:00:00').getDate() : null;
+    const dayLabel = dayEnd ? `${dayStart}–${dayEnd}` : String(dayStart);
+    const ariaLabel = dayEnd ? `${month} ${dayStart}–${dayEnd}` : `${month} ${dayStart}`;
+    const loc      = ev.time ? `${ev.location} · ${ev.time}` : ev.location;
+    const isExternal = ev.url && ev.url !== '#';
+    return `<a href="${ev.url || '#'}" class="event-row scroll-reveal" data-delay="${i + 1}" role="listitem"${isExternal ? ' target="_blank" rel="noopener"' : ''}>
+      <div class="event-date" aria-label="${ariaLabel}">
+        <span class="event-month">${month}</span>
+        <span class="event-day" style="${dayEnd ? 'font-size:clamp(22px,2vw,28px);letter-spacing:-0.03em;' : ''}">${dayLabel}</span>
+      </div>
+      <div class="event-info">
+        <span class="event-type">${ev.type}</span>
+        <h3 class="event-title">${ev.title}</h3>
+        <p class="event-location">${loc}</p>
+      </div>
+      ${ARROW}
+    </a>`;
+  }
+
+  function onLangChange(lang) {
+    document.title = lang === 'es'
+      ? 'Casa de España en Indiana'
+      : 'Casa de España en Indiana | Casa de Espana en Indiana';
+    if (_cachedEvents && _cachedEvents.length > 0) {
+      const list = document.getElementById('events-list');
+      list.innerHTML = _cachedEvents.map((ev, i) => renderEvent(ev, i)).join('');
+      list.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+    }
+  }
+
   // 1. Nav shadow on scroll
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {
@@ -1519,35 +1639,9 @@
 
   document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
 
-  // 4. Events — load from events.json, filter upcoming, show top 3
+  // 4. Events — load from events.json, filter upcoming, show top 4
   (async function() {
     const list = document.getElementById('events-list');
-    const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const ARROW = `<svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10H16M11 5L16 10L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-
-    function renderEvent(ev, i) {
-      const d        = new Date(ev.date + 'T00:00:00');
-      const month    = MONTHS[d.getMonth()];
-      const dayStart = d.getDate();
-      const dayEnd   = ev.dateEnd ? new Date(ev.dateEnd + 'T00:00:00').getDate() : null;
-      const dayLabel = dayEnd ? `${dayStart}–${dayEnd}` : String(dayStart);
-      const ariaLabel = dayEnd ? `${month} ${dayStart}–${dayEnd}` : `${month} ${dayStart}`;
-      const loc      = ev.time ? `${ev.location} · ${ev.time}` : ev.location;
-      const isExternal = ev.url && ev.url !== '#';
-      return `<a href="${ev.url || '#'}" class="event-row scroll-reveal" data-delay="${i + 1}" role="listitem"${isExternal ? ' target="_blank" rel="noopener"' : ''}>
-        <div class="event-date" aria-label="${ariaLabel}">
-          <span class="event-month">${month}</span>
-          <span class="event-day" style="${dayEnd ? 'font-size:clamp(22px,2vw,28px);letter-spacing:-0.03em;' : ''}">${dayLabel}</span>
-        </div>
-        <div class="event-info">
-          <span class="event-type">${ev.type}</span>
-          <h3 class="event-title">${ev.title}</h3>
-          <p class="event-location">${loc}</p>
-        </div>
-        ${ARROW}
-      </a>`;
-    }
-
     try {
       const resp = await fetch('/events.json');
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
@@ -1560,10 +1654,11 @@
         .slice(0, 4);
 
       if (upcoming.length === 0) {
-        list.innerHTML = `<p style="color:rgba(250,244,237,0.38);font-family:'Source Sans 3',sans-serif;font-weight:300;padding:40px 0;border-top:1px solid rgba(250,244,237,0.07);">No upcoming events scheduled. Check back soon.</p>`;
+        list.innerHTML = `<p style="color:rgba(250,244,237,0.38);font-family:'Source Sans 3',sans-serif;font-weight:300;padding:40px 0;border-top:1px solid rgba(250,244,237,0.07);">${t('noEvents')}</p>`;
         return;
       }
 
+      _cachedEvents = upcoming;
       list.innerHTML = upcoming.map((ev, i) => renderEvent(ev, i)).join('');
       list.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
     } catch (err) {

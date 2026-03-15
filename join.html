@@ -599,6 +599,40 @@
       font-weight: 300;
       color: rgba(28,20,16,0.35);
     }
+
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
   </style>
 </head>
 <body>
@@ -611,14 +645,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="index.html#mission"      class="nav-link">About</a>
-    <a href="index.html#programs"     class="nav-link">Programs</a>
-    <a href="index.html#events"       class="nav-link">Events</a>
-    <a href="index.html#board"        class="nav-link">Board</a>
-    <a href="index.html#get-involved" class="nav-link active">Get Involved</a>
-    <a href="resources.html"          class="nav-link">Resources</a>
-    <a href="news.html"               class="nav-link">News</a>
-    <a href="past-events.html"        class="nav-link">Past Events</a>
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="index.html#get-involved" class="nav-link active" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -626,22 +665,27 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="index.html#mission"      class="nav-link">About</a>
-  <a href="index.html#programs"     class="nav-link">Programs</a>
-  <a href="index.html#events"       class="nav-link">Events</a>
-  <a href="index.html#board"        class="nav-link">Board</a>
-  <a href="index.html#get-involved" class="nav-link active">Get Involved</a>
-  <a href="resources.html"          class="nav-link">Resources</a>
-  <a href="news.html"               class="nav-link">News</a>
-  <a href="past-events.html"        class="nav-link">Past Events</a>
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="index.html#get-involved" class="nav-link active" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── PAGE HEADER ───────────────────────────────────── -->
 <header class="page-header">
   <div class="section-container">
-    <p class="page-header-eyebrow">Community &amp; Membership</p>
-    <h1>Join Casa de <em>España</em></h1>
-    <p class="page-header-desc">Stay connected with our community, receive updates on upcoming events, and help sustain Spanish culture in Indiana.</p>
+    <p class="page-header-eyebrow" data-en="Community &amp; Membership" data-es="Comunidad y Membresía">Community &amp; Membership</p>
+    <h1><span data-en="Join Casa de" data-es="Únete a Casa de">Join Casa de</span> <em>España</em></h1>
+    <p class="page-header-desc" data-en="Stay connected with our community, receive updates on upcoming events, and help sustain Spanish culture in Indiana." data-es="Mantente conectado con nuestra comunidad, recibe actualizaciones sobre eventos próximos y ayuda a sostener la cultura española en Indiana.">Stay connected with our community, receive updates on upcoming events, and help sustain Spanish culture in Indiana.</p>
   </div>
 </header>
 
@@ -662,52 +706,52 @@
               </svg>
             </div>
             <p class="form-success-title">¡Bienvenido!</p>
-            <p class="form-success-body">Your email client has opened with a pre-filled message — please click <strong>Send</strong> to complete your registration. We'll be in touch soon!</p>
+            <p class="form-success-body" data-en="Your email client has opened with a pre-filled message — please click Send to complete your registration. We'll be in touch soon!" data-es="Tu cliente de correo se ha abierto con un mensaje pre-llenado — por favor haz clic en Enviar para completar tu registro. ¡Nos pondremos en contacto pronto!">Your email client has opened with a pre-filled message — please click <strong>Send</strong> to complete your registration. We'll be in touch soon!</p>
           </div>
 
           <form id="join-form" novalidate>
 
             <!-- Contact info -->
-            <p class="form-section-head">Your Information</p>
+            <p class="form-section-head" data-en="Your Information" data-es="Tu Información">Your Information</p>
 
             <div class="form-row">
               <div class="form-group">
-                <label class="form-label" for="first-name">First Name <span class="req">*</span></label>
-                <input class="form-input" id="first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="María">
+                <label class="form-label" for="first-name" data-en="First Name *" data-es="Nombre *">First Name <span class="req">*</span></label>
+                <input class="form-input" id="first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="María" data-placeholder-en="María" data-placeholder-es="María">
               </div>
               <div class="form-group">
-                <label class="form-label" for="last-name">Last Name <span class="req">*</span></label>
-                <input class="form-input" id="last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="García">
+                <label class="form-label" for="last-name" data-en="Last Name *" data-es="Apellido *">Last Name <span class="req">*</span></label>
+                <input class="form-input" id="last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="García" data-placeholder-en="García" data-placeholder-es="García">
               </div>
             </div>
 
             <div class="form-group">
-              <label class="form-label" for="email">Email Address <span class="req">*</span></label>
-              <input class="form-input" id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+              <label class="form-label" for="email" data-en="Email Address *" data-es="Correo Electrónico *">Email Address <span class="req">*</span></label>
+              <input class="form-input" id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" data-placeholder-en="you@example.com" data-placeholder-es="tu@ejemplo.com">
             </div>
 
             <div class="form-group" style="margin-bottom:28px;">
-              <label class="form-label" for="city">City / State</label>
-              <input class="form-input" id="city" name="city" type="text" autocomplete="address-level2" placeholder="Indianapolis, IN">
+              <label class="form-label" for="city" data-en="City / State" data-es="Ciudad / Estado">City / State</label>
+              <input class="form-input" id="city" name="city" type="text" autocomplete="address-level2" placeholder="Indianapolis, IN" data-placeholder-en="Indianapolis, IN" data-placeholder-es="Indianapolis, IN">
             </div>
 
             <hr class="form-divider">
 
             <!-- Membership type -->
-            <p class="form-section-head">Membership Type</p>
+            <p class="form-section-head" data-en="Membership Type" data-es="Tipo de Membresía">Membership Type</p>
             <div class="membership-grid">
               <div class="membership-card">
                 <input type="radio" name="membership_type" id="type-newsletter" value="Newsletter" checked>
                 <label for="type-newsletter">
-                  <span class="membership-card-title">Newsletter</span>
-                  <span class="membership-card-desc">Event updates and news, no commitment required</span>
+                  <span class="membership-card-title" data-en="Newsletter" data-es="Boletín">Newsletter</span>
+                  <span class="membership-card-desc" data-en="Event updates and news, no commitment required" data-es="Actualizaciones de eventos y noticias, sin compromiso">Event updates and news, no commitment required</span>
                 </label>
               </div>
               <div class="membership-card">
                 <input type="radio" name="membership_type" id="type-member" value="Full Member">
                 <label for="type-member">
-                  <span class="membership-card-title">Full Member</span>
-                  <span class="membership-card-desc">Active member of the Casa de España community</span>
+                  <span class="membership-card-title" data-en="Full Member" data-es="Miembro Pleno">Full Member</span>
+                  <span class="membership-card-desc" data-en="Active member of the Casa de España community" data-es="Miembro activo de la comunidad Casa de España">Active member of the Casa de España community</span>
                 </label>
               </div>
             </div>
@@ -715,23 +759,23 @@
             <hr class="form-divider">
 
             <!-- Interests -->
-            <p class="form-section-head">Areas of Interest</p>
+            <p class="form-section-head" data-en="Areas of Interest" data-es="Áreas de Interés">Areas of Interest</p>
             <div class="interest-grid" style="margin-bottom:28px;">
               <div class="interest-item">
                 <input type="checkbox" id="int-events" name="interests" value="Cultural Events">
-                <label for="int-events">Cultural Events</label>
+                <label for="int-events" data-en="Cultural Events" data-es="Eventos Culturales">Cultural Events</label>
               </div>
               <div class="interest-item">
                 <input type="checkbox" id="int-education" name="interests" value="Educational Programs">
-                <label for="int-education">Educational Programs</label>
+                <label for="int-education" data-en="Educational Programs" data-es="Programas Educativos">Educational Programs</label>
               </div>
               <div class="interest-item">
                 <input type="checkbox" id="int-community" name="interests" value="Community Support">
-                <label for="int-community">Community Support</label>
+                <label for="int-community" data-en="Community Support" data-es="Apoyo Comunitario">Community Support</label>
               </div>
               <div class="interest-item">
                 <input type="checkbox" id="int-volunteer" name="interests" value="Volunteering">
-                <label for="int-volunteer">Volunteering</label>
+                <label for="int-volunteer" data-en="Volunteering" data-es="Voluntariado">Volunteering</label>
               </div>
             </div>
 
@@ -739,14 +783,14 @@
 
             <!-- Message -->
             <div class="form-group" style="margin-bottom:32px;">
-              <label class="form-label" for="message">Message <span style="font-weight:300;text-transform:none;letter-spacing:0;color:var(--ink-light);">(optional)</span></label>
-              <textarea class="form-textarea" id="message" name="message" placeholder="Tell us a bit about yourself or how you heard about us…"></textarea>
+              <label class="form-label" for="message" data-en="Message (optional)" data-es="Mensaje (opcional)">Message <span style="font-weight:300;text-transform:none;letter-spacing:0;color:var(--ink-light);">(optional)</span></label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Tell us a bit about yourself or how you heard about us…" data-placeholder-en="Tell us a bit about yourself or how you heard about us…" data-placeholder-es="Cuéntanos un poco sobre ti o cómo nos conociste…"></textarea>
             </div>
 
-            <button class="form-submit-btn" type="submit" id="submit-btn">
+            <button class="form-submit-btn" type="submit" id="submit-btn" data-en="Join Casa de España" data-es="Únete a Casa de España">
               Join Casa de España
             </button>
-            <p class="form-note">We respect your privacy. No spam, ever. Unsubscribe at any time.</p>
+            <p class="form-note" data-en="We respect your privacy. No spam, ever. Unsubscribe at any time." data-es="Respetamos tu privacidad. Sin spam. Cancela cuando quieras.">We respect your privacy. No spam, ever. Unsubscribe at any time.</p>
 
           </form>
         </div>
@@ -756,14 +800,14 @@
       <aside class="join-sidebar">
 
         <div class="sidebar-card">
-          <span class="sidebar-card-label">Why Join</span>
-          <p class="sidebar-card-title">Be Part of the Community</p>
-          <p>Casa de España connects Spanish heritage and culture with the Indiana community through events, education, and mutual support.</p>
+          <span class="sidebar-card-label" data-en="Why Join" data-es="Por Qué Unirte">Why Join</span>
+          <p class="sidebar-card-title" data-en="Be Part of the Community" data-es="Forma Parte de la Comunidad">Be Part of the Community</p>
+          <p data-en="Casa de España connects Spanish heritage and culture with the Indiana community through events, education, and mutual support." data-es="Casa de España conecta el patrimonio y la cultura española con la comunidad de Indiana a través de eventos, educación y apoyo mutuo.">Casa de España connects Spanish heritage and culture with the Indiana community through events, education, and mutual support.</p>
           <ul class="benefit-list">
-            <li>Invitations to exclusive cultural events and celebrations</li>
-            <li>Early access to programs and lecture series</li>
-            <li>Monthly newsletter with Spain news and community updates</li>
-            <li>A network of Spanish speakers and enthusiasts in Indiana</li>
+            <li data-en="Invitations to exclusive cultural events and celebrations" data-es="Invitaciones a eventos culturales exclusivos y celebraciones">Invitations to exclusive cultural events and celebrations</li>
+            <li data-en="Early access to programs and lecture series" data-es="Acceso anticipado a programas y ciclos de conferencias">Early access to programs and lecture series</li>
+            <li data-en="Monthly newsletter with Spain news and community updates" data-es="Boletín mensual con noticias de España y novedades de la comunidad">Monthly newsletter with Spain news and community updates</li>
+            <li data-en="A network of Spanish speakers and enthusiasts in Indiana" data-es="Una red de hispanohablantes y entusiastas de España en Indiana">A network of Spanish speakers and enthusiasts in Indiana</li>
           </ul>
         </div>
 
@@ -772,7 +816,7 @@
         </blockquote>
 
         <div class="sidebar-card">
-          <span class="sidebar-card-label">Questions?</span>
+          <span class="sidebar-card-label" data-en="Questions?" data-es="¿Preguntas?">Questions?</span>
           <p style="font-size:14px;font-weight:300;color:var(--ink-mid);line-height:1.7;">
             Reach us at
             <a href="mailto:info@casaespanaindiana.org" style="color:var(--terra);text-decoration:none;border-bottom:1px solid rgba(193,59,43,0.3);">info@casaespanaindiana.org</a>
@@ -793,23 +837,23 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">Preserving the soul of Spain in the heart of Indiana since 2004.</p>
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">Preserving the soul of Spain in the heart of Indiana since 2004.</p>
       </div>
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="index.html#mission">About Us</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#events">Events</a></li>
-          <li><a href="index.html#board">Board of Directors</a></li>
-          <li><a href="index.html#get-involved">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="index.html#mission" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="index.html#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line"><a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a></p>
         <p class="contact-line"><a href="https://casaespanaindiana.org" target="_blank" rel="noopener">casaespanaindiana.org</a></p>
@@ -837,7 +881,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -845,6 +889,35 @@
 
 <!-- ─── INLINE JS ──────────────────────────────────────── -->
 <script>
+  // ─── LANGUAGE TOGGLE ────────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
   // Nav scroll shadow
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {

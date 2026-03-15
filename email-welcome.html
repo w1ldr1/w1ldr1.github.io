@@ -478,6 +478,40 @@
       font-family: 'Source Sans 3', sans-serif; font-size: 12px;
       font-weight: 300; color: rgba(28,20,16,0.35);
     }
+
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
   </style>
 </head>
 <body>
@@ -490,14 +524,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="index.html#mission"      class="nav-link">About</a>
-    <a href="index.html#programs"     class="nav-link">Programs</a>
-    <a href="index.html#events"       class="nav-link">Events</a>
-    <a href="index.html#board"        class="nav-link">Board</a>
-    <a href="join.html"               class="nav-link active">Get Involved</a>
-    <a href="resources.html"          class="nav-link">Resources</a>
-    <a href="news.html"               class="nav-link">News</a>
-    <a href="past-events.html"        class="nav-link">Past Events</a>
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="join.html"               class="nav-link active" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -505,14 +544,19 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="index.html#mission"      class="nav-link">About</a>
-  <a href="index.html#programs"     class="nav-link">Programs</a>
-  <a href="index.html#events"       class="nav-link">Events</a>
-  <a href="index.html#board"        class="nav-link">Board</a>
-  <a href="join.html"               class="nav-link active">Get Involved</a>
-  <a href="resources.html"          class="nav-link">Resources</a>
-  <a href="news.html"               class="nav-link">News</a>
-  <a href="past-events.html"        class="nav-link">Past Events</a>
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="join.html"               class="nav-link active" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── WELCOME HERO ──────────────────────────────────── -->
@@ -529,12 +573,12 @@
       </div>
     </div>
 
-    <p class="welcome-eyebrow">Membership Confirmed</p>
+    <p class="welcome-eyebrow" data-en="Membership Confirmed" data-es="Membresía Confirmada">Membership Confirmed</p>
     <h1>¡<em>Bienvenido</em>!</h1>
-    <p class="welcome-tagline">Welcome to the Casa de España family</p>
+    <p class="welcome-tagline" data-en="Welcome to the Casa de España family" data-es="Bienvenido a la familia de Casa de España">Welcome to the Casa de España family</p>
 
     <div class="welcome-message-box">
-      <p>
+      <p data-en="Your information has been received. <strong>Check your email client</strong> — a pre-filled message should have opened. Click <strong>Send</strong> to complete your registration and we'll be in touch soon." data-es="Tu información ha sido recibida. <strong>Revisa tu cliente de correo</strong> — debería haberse abierto un mensaje prellenado. Haz clic en <strong>Enviar</strong> para completar tu registro y nos pondremos en contacto pronto." data-html="true">
         Your information has been received. <strong>Check your email client</strong> — a pre-filled message should have opened. Click <strong>Send</strong> to complete your registration and we'll be in touch soon.
       </p>
     </div>
@@ -548,18 +592,18 @@
     <div class="next-steps-grid">
       <div class="next-step-item">
         <span class="next-step-num">01</span>
-        <span class="next-step-title">Send Your Email</span>
-        <p class="next-step-desc">Your email client opened with a pre-filled registration message — click Send to complete the process.</p>
+        <span class="next-step-title" data-en="Send Your Email" data-es="Envía Tu Correo">Send Your Email</span>
+        <p class="next-step-desc" data-en="Your email client opened with a pre-filled registration message — click Send to complete the process." data-es="Tu cliente de correo se abrió con un mensaje de registro prellenado — haz clic en Enviar para completar el proceso.">Your email client opened with a pre-filled registration message — click Send to complete the process.</p>
       </div>
       <div class="next-step-item">
         <span class="next-step-num">02</span>
-        <span class="next-step-title">Watch for a Welcome</span>
-        <p class="next-step-desc">You'll hear from us shortly at the email address you provided with next steps and community info.</p>
+        <span class="next-step-title" data-en="Watch for a Welcome" data-es="Espera Nuestro Mensaje">Watch for a Welcome</span>
+        <p class="next-step-desc" data-en="You'll hear from us shortly at the email address you provided with next steps and community info." data-es="Te contactaremos pronto al correo electrónico que proporcionaste con los próximos pasos e información de la comunidad.">You'll hear from us shortly at the email address you provided with next steps and community info.</p>
       </div>
       <div class="next-step-item">
         <span class="next-step-num">03</span>
-        <span class="next-step-title">Join an Event</span>
-        <p class="next-step-desc">The best way to get started is to attend an event. See what's coming up below and mark your calendar.</p>
+        <span class="next-step-title" data-en="Join an Event" data-es="Únete a un Evento">Join an Event</span>
+        <p class="next-step-desc" data-en="The best way to get started is to attend an event. See what's coming up below and mark your calendar." data-es="La mejor manera de comenzar es asistir a un evento. Mira lo que viene a continuación y marca tu calendario.">The best way to get started is to attend an event. See what's coming up below and mark your calendar.</p>
       </div>
     </div>
   </div>
@@ -570,9 +614,9 @@
   <div class="section-container">
 
     <div class="events-section-head">
-      <p class="section-eyebrow">What's Coming Up</p>
-      <h2>Upcoming <em>Events</em></h2>
-      <p class="events-section-desc">Your first event is the best way to meet the community. Here's what's on the calendar.</p>
+      <p class="section-eyebrow" data-en="What's Coming Up" data-es="Próximamente">What's Coming Up</p>
+      <h2 data-en="Upcoming <em>Events</em>" data-es="Próximos <em>Eventos</em>" data-html="true">Upcoming <em>Events</em></h2>
+      <p class="events-section-desc" data-en="Your first event is the best way to meet the community. Here's what's on the calendar." data-es="Tu primer evento es la mejor manera de conocer a la comunidad. Aquí está lo que hay en el calendario.">Your first event is the best way to meet the community. Here's what's on the calendar.</p>
     </div>
 
     <div class="event-list" id="event-list">
@@ -582,8 +626,8 @@
     </div>
 
     <div class="events-cta">
-      <a href="index.html#events" class="btn-terra">See All Events</a>
-      <a href="index.html" class="btn-ghost">Back to Home</a>
+      <a href="index.html#events" class="btn-terra" data-en="See All Events" data-es="Ver Todos los Eventos">See All Events</a>
+      <a href="index.html" class="btn-ghost" data-en="Back to Home" data-es="Volver al Inicio">Back to Home</a>
     </div>
 
   </div>
@@ -597,23 +641,23 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">Preserving the soul of Spain in the heart of Indiana since 2004.</p>
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">Preserving the soul of Spain in the heart of Indiana since 2004.</p>
       </div>
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="index.html#mission">About Us</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#events">Events</a></li>
-          <li><a href="index.html#board">Board of Directors</a></li>
-          <li><a href="join.html">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="index.html#mission" data-en="About Us" data-es="Quiénes Somos">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="join.html" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line"><a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a></p>
         <p class="contact-line"><a href="https://casaespanaindiana.org" target="_blank" rel="noopener">casaespanaindiana.org</a></p>
@@ -635,7 +679,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -643,13 +687,57 @@
 
 <!-- ─── INLINE JS ──────────────────────────────────────── -->
 <script>
-  // Nav scroll shadow
+  // ─── LANGUAGE TOGGLE ─────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
+  const STRINGS = {
+    noEvents: {
+      en: 'No upcoming events at the moment — check back soon or follow us on social media for announcements.',
+      es: 'No hay próximos eventos en este momento — vuelve pronto o síguenos en redes sociales para anuncios.'
+    },
+    eventsError: {
+      en: 'Events could not be loaded.',
+      es: 'No se pudieron cargar los eventos.'
+    },
+    viewEvents: {
+      en: 'View events on the home page.',
+      es: 'Ver eventos en la página de inicio.'
+    }
+  };
+  function t(key) { return STRINGS[key][getLang()]; }
+
+  // ─── NAV ─────────────────────────────────────────────────
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 40);
   }, { passive: true });
 
-  // Mobile hamburger
   const hamburger = document.getElementById('hamburger');
   const drawer    = document.getElementById('mobile-drawer');
   hamburger.addEventListener('click', () => {
@@ -665,8 +753,11 @@
     drawer.setAttribute('aria-hidden', 'true');
   }));
 
-  // ─── Load upcoming events from events.json ───────────────
-  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  // ─── EVENTS ──────────────────────────────────────────────
+  const MONTHS    = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const MONTHS_ES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+
+  let _cachedEvents = null;
 
   function parseLocalDate(str) {
     const [y, m, d] = str.split('-').map(Number);
@@ -674,15 +765,16 @@
   }
 
   function formatDateLabel(dateStr, dateEndStr) {
+    const months = getLang() === 'es' ? MONTHS_ES : MONTHS;
     const d = parseLocalDate(dateStr);
     if (!dateEndStr) {
-      return { month: MONTHS[d.getMonth()], day: String(d.getDate()), range: null };
+      return { month: months[d.getMonth()], day: String(d.getDate()), range: null };
     }
     const dEnd = parseLocalDate(dateEndStr);
     return {
-      month: MONTHS[d.getMonth()],
+      month: months[d.getMonth()],
       day: null,
-      range: `${MONTHS[d.getMonth()]} ${d.getDate()}–${dEnd.getDate()}`
+      range: `${months[d.getMonth()]} ${d.getDate()}–${dEnd.getDate()}`
     };
   }
 
@@ -715,28 +807,37 @@
       </a>`;
   }
 
+  function renderEvents(upcoming) {
+    const list = document.getElementById('event-list');
+    if (upcoming.length === 0) {
+      list.innerHTML = `<div class="events-empty"><p>${t('noEvents')}</p></div>`;
+    } else {
+      list.innerHTML = upcoming.map(buildEventCard).join('');
+    }
+  }
+
+  function onLangChange() {
+    if (_cachedEvents) renderEvents(_cachedEvents);
+  }
+
   fetch('events.json')
     .then(r => r.json())
     .then(data => {
       const today = new Date();
       today.setHours(0, 0, 0, 0);
 
-      const upcoming = (data.events || [])
+      _cachedEvents = (data.events || [])
         .filter(ev => {
           const endDate = parseLocalDate(ev.dateEnd || ev.date);
           return endDate >= today;
         })
         .sort((a, b) => parseLocalDate(a.date) - parseLocalDate(b.date));
 
-      const list = document.getElementById('event-list');
-      if (upcoming.length === 0) {
-        list.innerHTML = `<div class="events-empty"><p>No upcoming events at the moment — check back soon or follow us on social media for announcements.</p></div>`;
-      } else {
-        list.innerHTML = upcoming.map(buildEventCard).join('');
-      }
+      renderEvents(_cachedEvents);
     })
     .catch(() => {
-      document.getElementById('event-list').innerHTML = `<div class="events-empty"><p>Events could not be loaded. <a href="index.html#events" style="color:var(--terra);">View events on the home page.</a></p></div>`;
+      document.getElementById('event-list').innerHTML =
+        `<div class="events-empty"><p>${t('eventsError')} <a href="index.html#events" style="color:var(--terra);">${t('viewEvents')}</a></p></div>`;
     });
 </script>
 

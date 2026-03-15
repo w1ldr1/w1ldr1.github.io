@@ -417,6 +417,40 @@
       font-weight: 300;
       color: rgba(28,20,16,0.35);
     }
+
+    /* ─── LANGUAGE TOGGLE ────────────────────────────────── */
+    .nav-lang-toggle {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      background: none;
+      border: none;
+      border-left: 1px solid rgba(250,244,237,0.18);
+      color: rgba(250,244,237,0.55);
+      cursor: pointer;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.2s ease;
+      margin-left: 4px;
+    }
+    .nav-lang-toggle:hover { color: var(--parchment); }
+    .nav-lang-toggle:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .nav-lang-toggle .lang-opt { transition: color 0.2s ease, opacity 0.2s ease; }
+    .nav-lang-toggle .lang-opt.active { color: var(--terra-muted); opacity: 1; }
+    .nav-lang-toggle .lang-opt:not(.active) { opacity: 0.45; }
+    .nav-lang-toggle .lang-sep { opacity: 0.3; }
+    .nav-lang-toggle.mobile {
+      border-left: none;
+      border-top: 1px solid rgba(250,244,237,0.1);
+      padding: 12px 16px;
+      width: 100%;
+      justify-content: flex-start;
+      margin-left: 0;
+      margin-top: 8px;
+    }
   </style>
 </head>
 <body>
@@ -429,14 +463,19 @@
     </a>
   </div>
   <div class="nav-links-zone">
-    <a href="index.html#mission"      class="nav-link">About</a>
-    <a href="index.html#programs"     class="nav-link">Programs</a>
-    <a href="index.html#events"       class="nav-link">Events</a>
-    <a href="index.html#board"        class="nav-link">Board</a>
-    <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-    <a href="resources.html"          class="nav-link active">Resources</a>
-    <a href="news.html"               class="nav-link">News</a>
-    <a href="past-events.html"        class="nav-link">Past Events</a>
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link active" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="nav-lang-toggle" aria-label="Cambiar a español">
+      <span class="lang-opt" data-lang="en">EN</span>
+      <span class="lang-sep" aria-hidden="true">/</span>
+      <span class="lang-opt" data-lang="es">ES</span>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -444,22 +483,27 @@
 </nav>
 
 <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-  <a href="index.html#mission"      class="nav-link">About</a>
-  <a href="index.html#programs"     class="nav-link">Programs</a>
-  <a href="index.html#events"       class="nav-link">Events</a>
-  <a href="index.html#board"        class="nav-link">Board</a>
-  <a href="index.html#get-involved" class="nav-link">Get Involved</a>
-  <a href="resources.html"          class="nav-link active">Resources</a>
-  <a href="news.html"               class="nav-link">News</a>
-  <a href="past-events.html"        class="nav-link">Past Events</a>
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link active" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+  <button class="nav-lang-toggle mobile" aria-label="Cambiar a español">
+    <span class="lang-opt" data-lang="en">EN</span>
+    <span class="lang-sep" aria-hidden="true">/</span>
+    <span class="lang-opt" data-lang="es">ES</span>
+  </button>
 </div>
 
 <!-- ─── PAGE HEADER ───────────────────────────────────── -->
 <header class="page-header">
   <div class="section-container">
-    <p class="page-header-eyebrow">External Links &amp; Directories</p>
-    <h1><em>Resources</em></h1>
-    <p class="page-header-desc">Government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States.</p>
+    <p class="page-header-eyebrow" data-en="External Links &amp; Directories" data-es="Enlaces Externos y Directorios">External Links &amp; Directories</p>
+    <h1><em data-en="Resources" data-es="Recursos">Resources</em></h1>
+    <p class="page-header-desc" data-en="Government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States." data-es="Organismos gubernamentales, instituciones culturales, programas de becas y portales de información para la comunidad española en los Estados Unidos.">Government agencies, cultural institutions, scholarship programs, and information portals for the Spanish community in the United States.</p>
   </div>
 </header>
 
@@ -470,7 +514,7 @@
 
       <!-- ── Government Agencies ───────────────────────── -->
       <div class="res-section">
-        <h2 class="res-section-head">Government Agencies</h2>
+        <h2 class="res-section-head" data-en="Government Agencies" data-es="Organismos Gubernamentales">Government Agencies</h2>
         <ul class="res-list">
           <li>
             <a class="res-link" href="https://www.exteriores.gob.es/Consulados/chicago/en/Pages/inicio.aspx" target="_blank" rel="noopener">
@@ -549,7 +593,7 @@
 
       <!-- ── Information and Resources ─────────────────── -->
       <div class="res-section">
-        <h2 class="res-section-head">Information &amp; Resources</h2>
+        <h2 class="res-section-head" data-en="Information &amp; Resources" data-es="Información y Recursos">Information &amp; Resources</h2>
         <ul class="res-list">
           <li>
             <a class="res-link" href="https://spainabroad.com/" target="_blank" rel="noopener">
@@ -640,7 +684,7 @@
 
       <!-- ── Scholarships ───────────────────────────────── -->
       <div class="res-section">
-        <h2 class="res-section-head">Scholarships</h2>
+        <h2 class="res-section-head" data-en="Scholarships" data-es="Becas">Scholarships</h2>
         <ul class="res-list">
           <li>
             <a class="res-link" href="https://uniscopio.com/en/scholarships/mec-scholarships/" target="_blank" rel="noopener">
@@ -665,29 +709,29 @@
         <div class="footer-logo-frame">
           <img src="brand_assests/Heart_Logo-removebg-preview.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
         </div>
-        <p class="footer-tagline">
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">
           Preserving the soul of Spain in the heart of Indiana since 2004.
         </p>
       </div>
 
       <!-- Col 2: site navigation -->
       <div>
-        <span class="footer-col-head">Navigation</span>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
         <ul class="footer-nav-links">
-          <li><a href="index.html#mission">About Us</a></li>
-          <li><a href="index.html#programs">Programs</a></li>
-          <li><a href="index.html#events">Events</a></li>
-          <li><a href="index.html#board">Board of Directors</a></li>
-          <li><a href="index.html#get-involved">Get Involved</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="index.html#mission" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="index.html#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
         </ul>
       </div>
 
       <!-- Col 3: contact + social -->
       <div>
-        <span class="footer-col-head">Contact</span>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
         <p class="contact-line">Indianapolis, Indiana</p>
         <p class="contact-line">
           <a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a>
@@ -726,7 +770,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span class="footer-copy">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
       <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
     </div>
   </div>
@@ -734,6 +778,35 @@
 
 <!-- ─── INLINE JS ──────────────────────────────────────── -->
 <script>
+  // ─── LANGUAGE TOGGLE ────────────────────────────────────────
+  const LANG_KEY = 'lang';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'en'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+      el.placeholder = lang === 'es' ? el.dataset.placeholderEs : el.dataset.placeholderEn;
+    });
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.querySelectorAll('.lang-opt').forEach(opt => {
+        opt.classList.toggle('active', opt.dataset.lang === lang);
+      });
+      btn.setAttribute('aria-label', lang === 'es' ? 'Switch to English' : 'Cambiar a español');
+    });
+    document.documentElement.lang = lang;
+    if (typeof onLangChange === 'function') onLangChange(lang);
+  }
+  (function initLang() {
+    setLang(getLang());
+    document.querySelectorAll('.nav-lang-toggle').forEach(btn => {
+      btn.addEventListener('click', () => setLang(getLang() === 'en' ? 'es' : 'en'));
+    });
+  })();
+
   // Nav shadow on scroll
   const nav = document.getElementById('site-nav');
   window.addEventListener('scroll', () => {
