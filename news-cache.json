@@ -64,6 +64,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FUEEFC4CZ5PSFAXXQACNF25HX4.jpg?auth=7493ccb4f60c291664c5402bc77ce9276fbb9c6ad1c9324d9c03dd05fa06cfec"
     },
     {
+      "title": "Pedro Sánchez defiende su “no a la guerra” en una carta a la militancia: “Hay quienes dudan cuando hay que ser firmes”",
+      "link": "https://elpais.com/espana/2026-03-29/pedro-sanchez-defiende-su-no-a-la-guerra-en-una-carta-a-la-militancia-hay-quienes-dudan-cuando-hay-que-ser-firmes.html",
+      "desc": "El presidente argumenta la respuesta del Gobierno en el conflicto en Oriente Próximo  y asegura estar “en el lado correcto”",
+      "date": "Sun, 29 Mar 2026 09:51:48 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/Y5HI2S36HBIJBG5JR4MDC3M524.jpg?auth=3da3ec03cc40333db89117037ad007f525114d09eb58d768dae7ab2bfac5af6f"
+    },
+    {
       "title": "¿Cómo investigar a un presunto narcotraficante sin vulnerar sus derechos?",
       "link": "https://elpais.com/espana/2026-03-29/como-investigar-a-un-presunto-narcotraficante-sin-vulnerar-sus-derechos.html",
       "desc": "Una sentencia reciente del Constitucional eleva las garantías del derecho de defensa, pero provoca que fiscales y policías adviertan de la dificultad para desarrollar investigaciones complejas en secreto",
@@ -125,14 +132,7 @@
       "desc": "Los populares ponen en marcha en la Cámara alta los interrogatorios parlamentarios de la tragedia ferroviaria",
       "date": "Fri, 27 Mar 2026 10:42:32 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/QJRI67J2BVB4XIY4IGRS7PSLMU.jpg?auth=11800b096d6defd94bb2b01789a8c32efea134210036aa247bcf791ca4d1eae3"
-    },
-    {
-      "title": "El Supremo rebaja a la mitad las costas que fijó al ex fiscal general por los gastos de defensa de la pareja de Ayuso",
-      "link": "https://elpais.com/espana/2026-03-27/el-supremo-propone-ahora-rebajar-a-la-mitad-las-costas-que-fijo-al-ex-fiscal-general-por-los-gastos-de-defensa-de-la-pareja-de-ayuso.html",
-      "desc": "La sala las fija en 39.000 euros tras estimar parcialmente el recurso de García Ortiz y acepta dejar al  margen de la tasación al colegio de abogados de Madrid",
-      "date": "Fri, 27 Mar 2026 10:20:04 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/BFRDYCNWFRPSVPBWVHO3VZSI7Q.jpg?auth=ced3139b86d4c17d980d6b64c398408b9a0ea7f26b41446b57545d5ec41a9200"
     }
   ],
-  "fetchedAt": 1774775148559
+  "fetchedAt": 1774778505262
 }
