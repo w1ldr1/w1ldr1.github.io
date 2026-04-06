@@ -1,25 +1,32 @@
 {
   "items": [
     {
-      "title": "La crónica | La corrupción del PSOE y PP, en el banquillo",
-      "link": "https://elpais.com/espana/2026-04-05/la-cronica-la-corrupcion-del-psoe-y-pp-en-el-banquillo.html",
-      "desc": "Los juicios a Ábalos y la Kitchen se cuelan en la rampa de salida de las elecciones autonómicas más relevantes",
-      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/64RGHBUPTNF3HMLKPE27ZLFKFI.jpg?auth=6d1353ad97410718289d66b7215df46a9f5b51ae676dbf47d1a4362ec3151573"
+      "title": "Los españoles ven a Trump como la mayor amenaza por delante de Putin",
+      "link": "https://elpais.com/espana/2026-04-06/los-espanoles-ven-a-trump-como-la-mayor-amenaza-por-delante-de-putin.html",
+      "desc": "Una encuesta de 40dB. revela un profundo pesimismo sobre el futuro del planeta y una fuerte división por el gasto militar",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CRXHMVLCDVD47K3CHTTSDKYMP4.jpg?auth=cff8dbec099b5fdd838577be9db8d20799f05bef0c79a0eecc12e02789b27ceb"
     },
     {
-      "title": "La trama de las mascarillas se sienta en el banquillo: Ábalos ante su primer juicio",
-      "link": "https://elpais.com/espana/2026-04-05/la-trama-de-las-mascarillas-se-sienta-en-el-banquillo-abalos-ante-su-primer-juicio.html",
-      "desc": "El Supremo acoge la primera vista oral por el ‘caso Koldo’, en la que el exministro y su antiguo asesor afrontan una petición de pena de hasta 30 años de cárcel",
-      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZTDUAVTZYBC6BET5SW7IXWJ4WY.jpg?auth=76f44274981534a382d5c3bc814f323ecf79b8685909aaf558a89bc4447cd946"
+      "title": "PP y PSOE se recuperan mientras Vox se estanca",
+      "link": "https://elpais.com/espana/2026-04-06/pp-y-psoe-se-recuperan-mientras-vox-se-estanca.html",
+      "desc": "La extrema derecha se frena por primera vez en medio año y los socialistas reciben apoyos desde la izquierda",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": null
     },
     {
-      "title": "Antonio Maíllo: “El pacto con Podemos supone un punto de inflexión que no se va a quedar solo en Andalucía”",
-      "link": "https://elpais.com/espana/elecciones-andalucia/2026-04-05/antonio-maillo-el-pacto-con-podemos-supone-un-punto-de-inflexion-que-no-se-va-a-quedar-solo-en-andalucia.html",
-      "desc": "El coordinador federal de IU y candidato de Por Andalucía a la Junta sostiene en entrevista con EL PAÍS que el acuerdo entre las izquierdas permitirá una mayor movilización el 17 de mayo",
-      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/GJ53WII4YVBKXE3FQWRL2F5BYU.jpg?auth=c20c0dabe624d355f4e44a2793cd80bac0a41042376f8620659133d385fd7db4"
+      "title": "Meses de espera en solicitudes de traslado a España para pedir asilo alimentan la angustia de familias gazatíes en Egipto",
+      "link": "https://elpais.com/espana/2026-04-06/meses-de-espera-en-solicitudes-de-traslado-a-espana-para-pedir-asilo-alimentan-la-angustia-de-familias-gazaties-en-egipto.html",
+      "desc": "Más de un centenar de palestinos huidos de la guerra han iniciado la solicitud, pero la falta de comunicación en medio de un futuro incierto en Gaza aumenta su inquietud y vulnerabilidad",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HHR24J2DGBMJJPFJTJQYXC7RGQ.jpg?auth=292258b94a7f52f75572affb422d29fc2eb46424f895123a703fbfaab6704c49"
+    },
+    {
+      "title": "Los riesgos de la improvisación regulatoria en materia de vivienda",
+      "link": "https://elpais.com/opinion/2026-04-06/los-riesgos-de-la-improvisacion-regulatoria-en-materia-de-vivienda.html",
+      "desc": "La decisión del Consejo de Ministros de prorrogar los alquileres sin tener los apoyos para consolidarla es problemática desde el punto de vista jurídico y político",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/43WHBLD3V5BPHP3DP4QWX6S4QM.jpg?auth=16a3f80d31a3f10302488428ca3b6c3ae92ee1df42ca17ab461acd5fc6d3e9b5"
     },
     {
       "title": "La corrupción, el esperpento de nuestra política",
@@ -50,11 +57,53 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DPVRTY3PHFBLRHQH5SEC2NRFEA.jpg?auth=7bc1ef375adb03e62605a8a7f62eb6b736f2cbe8c8c131300fd137a4d565b5a9"
     },
     {
-      "title": "Política de la presencia, política de la gestión",
-      "link": "https://elpais.com/opinion/2026-03-29/politica-de-la-presencia-politica-de-la-gestion.html",
-      "desc": "Será interesante ver cómo se redistribuyen las funciones entre un Gobierno más tecnocrático y un Sánchez decidido a potenciar su imagen internacional",
-      "date": "Sun, 29 Mar 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/MD7J5DR55NK2FLLZANK5Y3SMTY.jpg?auth=c1253be218165cbb8312cfa9ae7e48e0fcd722512cda42d4d1ce8f1ad388b4d6"
+      "title": "Los candidatos andaluces viven su particular semana preelectoral de Pasión",
+      "link": "https://elpais.com/espana/elecciones-andalucia/2026-04-06/los-candidatos-andaluces-viven-su-particular-semana-preelectoral-de-pasion.html",
+      "desc": "Moreno y Montero aprovechan el acontecimiento popular que es la Semana Santa de Sevilla para multiplicar sus visitas a hermandades. “La elección de cofradías no es casual”",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/TT4SCYOE6NJO3MBJHPV6FIBTFQ.jpg?auth=166dbd4d71d9bc0ca842115f4da7719d533bdee060401958b8308cc6c87dbc4d"
+    },
+    {
+      "title": "Las defensas buscarán anular pruebas clave en el arranque del juicio sobre Kitchen",
+      "link": "https://elpais.com/espana/2026-04-06/las-defensas-buscaran-anular-pruebas-clave-en-el-arranque-del-juicio-sobre-kitchen.html",
+      "desc": "La Audiencia Nacional prevé que la vista sobre el espionaje a Bárcenas, que sienta en el banquillo a la cúpula de Interior de Rajoy, comience este lunes y se prolongue hasta finales de junio",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2ZJPQLJTKNEMDGIAUE3SGFPREA.jpg?auth=33e1885635f268fbb1b14737cce3deb8cacd498011795c08f7f93277c7501916"
+    },
+    {
+      "title": "El reto de gestionar cuatro millones de multas al año",
+      "link": "https://elpais.com/espana/2026-04-06/el-reto-de-gestionar-cuatro-millones-de-multas-al-ano.html",
+      "desc": "EL PAÍS entra en el centro de gestión de sanciones de la DGT, que tramita más de 6,5 millones de denuncias al año procedentes de los radares fijos y móviles, las cámaras de control de carril y las de cinturón de seguridad",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EP4FZFOJTFCNJMOO2ZPXYKRCBA.jpg?auth=ba24ab658a541cf2ec641bc70fa234ae04fb05e521182550221be832a946a450"
+    },
+    {
+      "title": "Los guardias que analizan la mente y la conducta para componer el rompecabezas criminal",
+      "link": "https://elpais.com/espana/2026-04-06/los-guardias-que-analizan-la-mente-y-la-conducta-para-componer-el-rompecabezas-criminal.html",
+      "desc": "La Sección de Análisis del Comportamiento Delictivo de la Guardia Civil estudia escenarios en investigaciones de gran relevancia y busca pruebas en los testimonios de personas especialmente vulnerables",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/MEPIDE7JJNHUPIMMSQB7LO6KOA.jpg?auth=6a14e3e8e9221c34f62920d1d0961a660a5e1a6ef6fa7caab459dfbf006070f6"
+    },
+    {
+      "title": "La crónica | La corrupción del PSOE y PP, en el banquillo",
+      "link": "https://elpais.com/espana/2026-04-05/la-cronica-la-corrupcion-del-psoe-y-pp-en-el-banquillo.html",
+      "desc": "Los juicios a Ábalos y la Kitchen se cuelan en la rampa de salida de las elecciones autonómicas más relevantes",
+      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/64RGHBUPTNF3HMLKPE27ZLFKFI.jpg?auth=6d1353ad97410718289d66b7215df46a9f5b51ae676dbf47d1a4362ec3151573"
+    },
+    {
+      "title": "La trama de las mascarillas se sienta en el banquillo: Ábalos ante su primer juicio",
+      "link": "https://elpais.com/espana/2026-04-05/la-trama-de-las-mascarillas-se-sienta-en-el-banquillo-abalos-ante-su-primer-juicio.html",
+      "desc": "El Supremo acoge la primera vista oral por el ‘caso Koldo’, en la que el exministro y su antiguo asesor afrontan una petición de pena de hasta 30 años de cárcel",
+      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZTDUAVTZYBC6BET5SW7IXWJ4WY.jpg?auth=76f44274981534a382d5c3bc814f323ecf79b8685909aaf558a89bc4447cd946"
+    },
+    {
+      "title": "Antonio Maíllo: “El pacto con Podemos supone un punto de inflexión que no se va a quedar solo en Andalucía”",
+      "link": "https://elpais.com/espana/elecciones-andalucia/2026-04-05/antonio-maillo-el-pacto-con-podemos-supone-un-punto-de-inflexion-que-no-se-va-a-quedar-solo-en-andalucia.html",
+      "desc": "El coordinador federal de IU y candidato de Por Andalucía a la Junta sostiene en entrevista con EL PAÍS que el acuerdo entre las izquierdas permitirá una mayor movilización el 17 de mayo",
+      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/GJ53WII4YVBKXE3FQWRL2F5BYU.jpg?auth=c20c0dabe624d355f4e44a2793cd80bac0a41042376f8620659133d385fd7db4"
     },
     {
       "title": "Feijóo habló con Abascal tras las elecciones de Castilla y León para encarrilar las negociaciones de los gobiernos",
@@ -83,56 +132,7 @@
       "desc": "El catolicismo “identitario” de Abascal dispara el protagonismo de la religión en la pugna derechista. Feijóo lidera las encuestas en un electorado que destaca por su alejamiento de la izquierda",
       "date": "Sat, 04 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/IIZEZOIPKZLEDHFUTQFTPY667E.jpg?auth=a80977f32e5e25fb9c0008c53fff1aa0c492e3a33468f10a4d77ba58c810cdde"
-    },
-    {
-      "title": "¿Y después de la regularización, qué?",
-      "link": "https://elpais.com/espana/2026-04-04/y-despues-de-la-regularizacion-que.html",
-      "desc": "El modelo español de extranjería corre el riesgo de taponamiento si no planifica la llegada de extranjeros y no se agiliza la gestión",
-      "date": "Sat, 04 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/M6GZQNTPJZDPFDAMQWUM24QY7E.jpg?auth=b4b90d261a701989cf3e230985c89f564d47964ab83307c36cf0c14aaae39b86"
-    },
-    {
-      "title": "ERC recrudece la pelea entre independentistas y arrebata dos alcaldías a Junts con moción de censura",
-      "link": "https://elpais.com/espana/catalunya/2026-04-04/erc-recrudece-la-pelea-entre-independentistas-y-arrebata-dos-alcaldias-a-junts-con-mocion-de-censura.html",
-      "desc": "Los movimientos de los republicanos dinamitan el compromiso expresado por Junqueras y Puigdemont de fortalecer lazos, mientras Aliança Catalana sigue al acecho",
-      "date": "Sat, 04 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EACZ2FSE55HSRKMBFKWT4OHDWA.jpg?auth=d85eb85b6f080928ec49c5a75e66cf34679311069057f2d3d8b43632a897b32f"
-    },
-    {
-      "title": "El Supremo perdona a un jubilado que se “sobreendeudó” para ayudar a su familia",
-      "link": "https://elpais.com/espana/2026-04-04/el-supremo-perdona-a-un-jubilado-que-se-sobreendeudo-para-ayudar-a-su-familia.html",
-      "desc": "El hombre se beneficiará de la Ley de Segunda Oportunidad tras endeudarse a través de varios préstamos por un importe total de 20.242 euros",
-      "date": "Sat, 04 Apr 2026 05:00:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/POUBRIIDEJI37NMCTXFHBVPRHE.jpg?auth=c41d72ad697c1cbe9a7ccbc7d044c9d12741361aa707021394252b1fcd835362"
-    },
-    {
-      "title": "La izquierda dará la batalla por el decreto de vivienda con movilizaciones en la calle",
-      "link": "https://elpais.com/espana/2026-04-03/la-izquierda-dara-la-batalla-por-el-decreto-de-vivienda-con-movilizaciones-en-la-calle.html",
-      "desc": "Sumar aún cree posible vencer la resistencia de Junts tras su último acercamiento al Gobierno",
-      "date": "Fri, 03 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/RDYPRAG4EZJ55HNZX76OSGESJM.jpg?auth=86354fa66db58e3b75d0cbb1c5e94da1e78c3fa7027059f6b1407f8dacabcd72"
-    },
-    {
-      "title": "Pradales y Chivite alertan a Illa del “riesgo unilateral” de la financiación singular",
-      "link": "https://elpais.com/espana/2026-04-03/pradales-y-chivite-alertan-a-illa-del-riesgo-unilateral-de-la-financiacion-singular.html",
-      "desc": "Los presidentes del País Vasco y Navarra transmitieron sus consejos bilateralmente y los de Castilla-La Mancha y Asturias se oponen en público",
-      "date": "Fri, 03 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XT5WRBI2GFD7QJIGEDSLHLYZOM.jpg?auth=9c1d19150902a0cdd3fa28cd834c8dfa1e8f855d265c559a8188732c47076772"
-    },
-    {
-      "title": "Carlos Cuerpo, de apenas recibir preguntas del PP al duelo semanal con Ester Muñoz en el Congreso",
-      "link": "https://elpais.com/espana/2026-04-03/carlos-cuerpo-de-apenas-recibir-preguntas-del-pp-al-duelo-semanal-con-ester-munoz-en-el-congreso.html",
-      "desc": "Los populares han interpelado al titular de Economía y ahora vicepresidente primero solo tres veces en las sesiones de control en la Cámara baja. La portavoz parlamentaria confrontará ahora con él tras la marcha de Montero",
-      "date": "Fri, 03 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/QJPFJLPX4VFCTC7OG33WPE5NL4.jpg?auth=8e2fd875ee8bdd94fab652b90437bd8976fa44f309be9420b38f193bbf38e279"
-    },
-    {
-      "title": "El juez rechaza levantar la orden de alejamiento al policía acusado de acoso en la embajada de La India a su subordinada",
-      "link": "https://elpais.com/espana/2026-04-03/el-juez-rechaza-levantar-la-orden-de-alejamiento-al-policia-acusado-de-acoso-en-la-embajada-de-la-india-de-su-subordinada.html",
-      "desc": "El comisario Emilio de la Calle había solicitado que se eliminaran las medidas cautelares porque las había respetado durante un año y la fiscal recuerda que cumplir “no es un mérito, sino una obligación”",
-      "date": "Fri, 03 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260226/1142421_170134_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1775443649745
+  "fetchedAt": 1775453273621
 }
