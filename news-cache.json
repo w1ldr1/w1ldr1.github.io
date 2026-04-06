@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "title": "Los españoles ven a Trump como la mayor amenaza por delante de Putin",
-      "link": "https://elpais.com/espana/2026-04-06/los-espanoles-ven-a-trump-como-la-mayor-amenaza-por-delante-de-putin.html",
-      "desc": "Una encuesta de 40dB. revela un profundo pesimismo sobre el futuro del planeta y una fuerte división por el gasto militar",
-      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CRXHMVLCDVD47K3CHTTSDKYMP4.jpg?auth=cff8dbec099b5fdd838577be9db8d20799f05bef0c79a0eecc12e02789b27ceb"
-    },
-    {
       "title": "PP y PSOE se recuperan mientras Vox se estanca",
       "link": "https://elpais.com/espana/2026-04-06/pp-y-psoe-se-recuperan-mientras-vox-se-estanca.html",
       "desc": "La extrema derecha se frena por primera vez en medio año y los socialistas reciben apoyos desde la izquierda",
       "date": "Mon, 06 Apr 2026 03:30:01 GMT",
       "imgUrl": null
+    },
+    {
+      "title": "Los españoles ven a Trump como la mayor amenaza por delante de Putin",
+      "link": "https://elpais.com/espana/2026-04-06/los-espanoles-ven-a-trump-como-la-mayor-amenaza-por-delante-de-putin.html",
+      "desc": "Una encuesta de 40dB. revela un profundo pesimismo sobre el futuro del planeta y una fuerte división por el gasto militar",
+      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CRXHMVLCDVD47K3CHTTSDKYMP4.jpg?auth=cff8dbec099b5fdd838577be9db8d20799f05bef0c79a0eecc12e02789b27ceb"
     },
     {
       "title": "Meses de espera en solicitudes de traslado a España para pedir asilo alimentan la angustia de familias gazatíes en Egipto",
@@ -57,11 +57,25 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DPVRTY3PHFBLRHQH5SEC2NRFEA.jpg?auth=7bc1ef375adb03e62605a8a7f62eb6b736f2cbe8c8c131300fd137a4d565b5a9"
     },
     {
-      "title": "El juicio del ‘caso Kitchen’, en directo | La Audiencia Nacional acoge desde este lunes la vista contra el exministro Jorge Fernández Díaz",
+      "title": "La esposa de Santos Cerdán no irá este lunes a la comisión del ‘caso Koldo’ del Senado alegando motivos de salud",
+      "link": "https://elpais.com/espana/2026-04-06/la-esposa-de-santos-cerdan-no-ira-este-lunes-a-la-comision-del-caso-koldo-del-senado-alegando-motivos-de-salud.html",
+      "desc": "Francisca Muñoz ha presentado un informe médico que indica que su estado “impide” su asistencia a la Cámara alta",
+      "date": "Mon, 06 Apr 2026 11:03:26 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/A3MZVN6M4VDZTLLQWJ7MP4NNUM.jpg?auth=472afffa4aeff18472b7bb67a75e59bdcf0a4008b8f6bbb15b1dde1a38833f5b"
+    },
+    {
+      "title": "El juicio del ‘caso Kitchen’, en directo | El exministro Jorge Fernández Díaz acapara los focos en el arranque de la vista",
       "link": "https://elpais.com/espana/2026-04-06/el-juicio-del-caso-kitchen-en-directo-la-audiencia-nacional-acoge-desde-este-lunes-la-vista-contra-el-exministro-jorge-fernandez-diaz.html",
       "desc": "Una decena de personas se sientan en el banquillo acusadas de iniciar una operación policial para espiar al extesorero del PP Luis Bárcenas",
       "date": "Mon, 06 Apr 2026 08:15:55 GMT",
       "imgUrl": "https://www.youtube.com/watch?v=xab9gc1rulI"
+    },
+    {
+      "title": "Juristas gallegos piden la suspensión del traslado forzoso de dos magistrados del TSJ que paralizaron proyectos eólicos",
+      "link": "https://elpais.com/espana/2026-04-06/juristas-gallegos-piden-la-suspension-del-traslado-forzoso-de-dos-magistrados-del-tsj-que-paralizaron-proyectos-eolicos.html",
+      "desc": "Los jueces, entre los que está el exlíder de En Marea Luís Villares fueron criticados por el PP y la patronal tras paralizar varios parques",
+      "date": "Mon, 06 Apr 2026 09:45:37 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/USZREXEQZHJCUFSMA6B5L26HVU.jpg?auth=8f94d852e9d0d5b9fecbdefa662b294c181b7ca588793831fd43764e93001c46"
     },
     {
       "title": "Angustia global y desacuerdos internos",
@@ -118,21 +132,7 @@
       "desc": "El coordinador federal de IU y candidato de Por Andalucía a la Junta sostiene en entrevista con EL PAÍS que el acuerdo entre las izquierdas permitirá una mayor movilización el 17 de mayo",
       "date": "Sun, 05 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/GJ53WII4YVBKXE3FQWRL2F5BYU.jpg?auth=c20c0dabe624d355f4e44a2793cd80bac0a41042376f8620659133d385fd7db4"
-    },
-    {
-      "title": "Feijóo habló con Abascal tras las elecciones de Castilla y León para encarrilar las negociaciones de los gobiernos",
-      "link": "https://elpais.com/espana/2026-04-04/feijoo-hablo-con-abascal-tras-las-elecciones-de-castilla-y-leon.html",
-      "desc": "El líder del PP revela el contacto en una entrevista, realizada antes de la carta de Vox a su militancia con el duro ataque a Génova",
-      "date": "Sat, 04 Apr 2026 09:31:48 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ISSQRDBLW5BXDO4RTGYE3Q77VI.jpg?auth=3f4af1538dd9eb85c8766e5e32deab5a7a2fc681ef4ba52995dac24da9b8eb49"
-    },
-    {
-      "title": "La gran pregunta que marca el juicio de Kitchen e impacta en el PP: ¿quién ordenó espiar a Bárcenas?",
-      "link": "https://elpais.com/espana/2026-04-05/la-gran-pregunta-que-marca-el-juicio-de-kitchen-e-impacta-en-el-pp-quien-ordeno-espiar-a-barcenas.html",
-      "desc": "La Audiencia Nacional se prepara para acoger la esperada vista contra las cúpulas de Interior y la Policía de Rajoy por intentar boicotear la investigación del ‘caso Gürtel’, que acorraló al partido",
-      "date": "Sun, 05 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HCBTZVM53REILKQSRMPYW2OYXA.jpg?auth=9a7d40933b38cda51371af9239d488f43b6520a223acf3e5f4dde3914eff1953"
     }
   ],
-  "fetchedAt": 1775470338643
+  "fetchedAt": 1775474862312
 }
