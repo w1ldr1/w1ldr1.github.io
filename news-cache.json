@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DPVRTY3PHFBLRHQH5SEC2NRFEA.jpg?auth=7bc1ef375adb03e62605a8a7f62eb6b736f2cbe8c8c131300fd137a4d565b5a9"
     },
     {
+      "title": "Polémica en la Asamblea Nacional francesa por un premio concedido al rey Juan Carlos",
+      "link": "https://elpais.com/espana/2026-04-07/polemica-en-la-asamblea-nacional-francesa-por-un-premio-concedido-al-rey-juan-carlos.html",
+      "desc": "La presencia del monarca, galardonado por su libro de memorias, genera estupefacción entre los finalistas y desconcierto en la Presidencia de la Cámara",
+      "date": "Tue, 07 Apr 2026 07:41:36 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SMRVYMJBEZIFPDO63N5BYYGA7E.jpg?auth=cc5f5cd16aa9ae9bbea015a0831a734f0d7f691d416cde3ea74ec71583e3c344"
+    },
+    {
       "title": "Las propuestas para agravar penas y crear nuevos delitos se agolpan en el Congreso",
       "link": "https://elpais.com/espana/2026-04-07/las-propuestas-para-agravar-penas-y-crear-nuevos-delitos-se-agolpan-en-el-congreso.html",
       "desc": "Los partidos presentan 40 iniciativas con reformas penales, pero solo la que castiga la multirreincidencia de hurtos y pequeñas estafas es ya ley",
@@ -125,14 +132,7 @@
       "desc": "Los españoles perciben que nos dirigimos hacia un mundo más oscuro e impredecible, con consecuencias económicas negativas",
       "date": "Mon, 06 Apr 2026 09:18:24 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/5J3QOGL6ZJMRNOLLOPZQGVJRVI.jpg?auth=2d2165f455f0bf8cdcdba91e3e31b90d20b84e99282a01de14ba48dda5066109"
-    },
-    {
-      "title": "Meses de espera en solicitudes de traslado a España para pedir asilo alimentan la angustia de familias gazatíes en Egipto",
-      "link": "https://elpais.com/espana/2026-04-06/meses-de-espera-en-solicitudes-de-traslado-a-espana-para-pedir-asilo-alimentan-la-angustia-de-familias-gazaties-en-egipto.html",
-      "desc": "Más de un centenar de palestinos huidos de la guerra han iniciado la solicitud, pero la falta de comunicación en medio de un futuro incierto en Gaza aumenta su inquietud y vulnerabilidad",
-      "date": "Mon, 06 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HHR24J2DGBMJJPFJTJQYXC7RGQ.jpg?auth=292258b94a7f52f75572affb422d29fc2eb46424f895123a703fbfaab6704c49"
     }
   ],
-  "fetchedAt": 1775544769430
+  "fetchedAt": 1775549664950
 }
