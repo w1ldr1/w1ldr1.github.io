@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "El hijo modelo y el hermano de los mil “favores”: los familiares blindan a Ábalos y Koldo García",
+      "link": "https://elpais.com/espana/2026-04-07/el-hijo-modelo-y-el-hermano-de-los-mil-favores-los-familiares-blindan-a-abalos-y-koldo-garcia.html",
+      "desc": "Los investigadores creen que eran sus testaferros. Ellos lo niegan y aseguran que se limitaron a ayudar a los suyos",
+      "date": "Tue, 07 Apr 2026 19:56:00 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260407/1156542_121511_video_1800.mp4"
+    },
+    {
       "title": "80 testigos y hasta 30 años de cárcel: el Supremo juzga a Ábalos, Koldo y Aldama por la trama de las mascarillas",
       "link": "https://elpais.com/espana/2026-04-07/80-testigos-y-hasta-30-anos-de-carcel-el-supremo-juzga-a-abalos-koldo-y-aldama-por-la-trama-de-las-mascarillas.html",
       "desc": "Los interrogatorios al hijo y la expareja del exministro de Transportes abren la vista oral para la que el alto tribunal ha previsto 13 sesiones",
@@ -13,13 +20,6 @@
       "desc": "El tribunal, en línea con la Fiscalía Anticorrupción, desecha anular la causa y las pruebas clave",
       "date": "Tue, 07 Apr 2026 14:10:23 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/E64FBE5GZZBM7FRH4OS4EBRXVA.jpg?auth=fffc05b9107474490b78b9ea74cc031d50497c408f872f302ac438537b2e0738"
-    },
-    {
-      "title": "Polémica en la Asamblea Nacional francesa por un premio concedido al rey Juan Carlos",
-      "link": "https://elpais.com/espana/2026-04-07/polemica-en-la-asamblea-nacional-francesa-por-un-premio-concedido-al-rey-juan-carlos.html",
-      "desc": "La presencia del monarca, galardonado por su libro de memorias, genera estupefacción entre los finalistas y desconcierto en la presidencia de la Cámara",
-      "date": "Tue, 07 Apr 2026 09:47:47 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SMRVYMJBEZIFPDO63N5BYYGA7E.jpg?auth=cc5f5cd16aa9ae9bbea015a0831a734f0d7f691d416cde3ea74ec71583e3c344"
     },
     {
       "title": "Los riesgos de la improvisación regulatoria en materia de vivienda",
@@ -55,6 +55,13 @@
       "desc": "En la polémica sobre la petición de perdón por la conquista, tanto el nacionalismo español como el mexicano se dirigen a un público doméstico: aspiran a la hegemonía cultural frente a sus adversarios internos",
       "date": "Mon, 30 Mar 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DPVRTY3PHFBLRHQH5SEC2NRFEA.jpg?auth=7bc1ef375adb03e62605a8a7f62eb6b736f2cbe8c8c131300fd137a4d565b5a9"
+    },
+    {
+      "title": "Polémica en la Asamblea Nacional francesa por un premio concedido al rey Juan Carlos",
+      "link": "https://elpais.com/espana/2026-04-07/polemica-en-la-asamblea-nacional-francesa-por-un-premio-concedido-al-rey-juan-carlos.html",
+      "desc": "La presencia del monarca, galardonado por su libro de memorias, genera estupefacción entre los finalistas y desconcierto en la presidencia de la Cámara",
+      "date": "Tue, 07 Apr 2026 09:47:47 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SMRVYMJBEZIFPDO63N5BYYGA7E.jpg?auth=cc5f5cd16aa9ae9bbea015a0831a734f0d7f691d416cde3ea74ec71583e3c344"
     },
     {
       "title": "El desenfrenado verano del 73 de Ábalos y Jessica: “Lo que vivimos solo lo sabemos nosotros”",
@@ -125,14 +132,7 @@
       "desc": "Carlos Preciado, que se ha desmarcado en varias ocasiones del bloque progresista del CGPJ, presenta su candidatura para asumir la vacante que dejará en marzo de 2027 la jueza María Elósegui",
       "date": "Tue, 07 Apr 2026 08:37:39 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/MMW77HSLAWQFBRULX6WFBP3TV4.jpg?auth=540e623ec13b958cce76937b9f0722753edcb23add4ec71479d3377348f571ff"
-    },
-    {
-      "title": "El Estado maniobra para no pagar posibles indemnizaciones por el ‘caso Kitchen’",
-      "link": "https://elpais.com/espana/2026-04-07/el-estado-maniobra-para-no-pagar-posibles-indemnizaciones-por-el-caso-kitchen.html",
-      "desc": "La Abogacía reclama al tribunal que tumbe la petición de la Fiscalía de que la Administración responda por el espionaje a Bárcenas",
-      "date": "Tue, 07 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EGXNY63WFJGFNDJAI4ZYSQW2FU.jpg?auth=70a725339545b8b9f580286878899be77a13418073f968f9d453c6e6ec722b7a"
     }
   ],
-  "fetchedAt": 1775591954057
+  "fetchedAt": 1775595396563
 }
