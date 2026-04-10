@@ -1,25 +1,25 @@
 {
   "items": [
     {
+      "title": "El PP se atasca con la guerra de Irán: “Nos hemos quedado en tierra de nadie”",
+      "link": "https://elpais.com/espana/2026-04-10/el-pp-se-atasca-con-la-guerra-de-iran-nos-hemos-quedado-en-tierra-de-nadie.html",
+      "desc": "Feijóo acentúa ahora su distancia de Trump tras una primera justificación de la ofensiva. Críticas internas a la ausencia de un portavoz de Exteriores",
+      "date": "Fri, 10 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/VGBAH2GEEJMD3MGFWYNLWRZ2OM.jpg?auth=477385b39ed5634a384f707ddde17ad19390e23ceb686b609cffe16dd5a9307b"
+    },
+    {
+      "title": "El Congreso y el Senado alertan por quinto año de la vulneración de la norma para poner límites a los ‘lobbies’",
+      "link": "https://elpais.com/espana/2026-04-10/el-congreso-y-el-senado-alertan-por-quinto-ano-de-la-vulneracion-de-la-norma-para-poner-limites-a-los-lobbies.html",
+      "desc": "La oficina que vela por la ética en las Cortes afirma que es “altamente improbable” que las agendas de los parlamentarios ofrezcan la imagen real de sus relaciones con los “grupos de interés”",
+      "date": "Fri, 10 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YXRPWNQJGFCALA2F25NLA3LRFI.jpg?auth=f254a1c0089474f89fafb629069692bd77555f0e6ec152d002387f07814f6136"
+    },
+    {
       "title": "El Gobierno, sobre el proceso a Ábalos: “Es imposible hablar de nada positivo esta semana, el juicio es desolador”",
       "link": "https://elpais.com/espana/2026-04-09/el-gobierno-sobre-el-proceso-a-abalos-es-imposible-hablar-de-nada-positivo-esta-semana-el-juicio-es-desolador.html",
       "desc": "El Ejecutivo admite que la causa que juzga al exministro tapa la agenda pero confía en que el efecto esté ya descontado porque no han aparecido datos nuevos",
       "date": "Thu, 09 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260407/1156592_144337_video_1800.mp4"
-    },
-    {
-      "title": "Julio Martínez, investigado por Plus Ultra, en el Senado: “Con la obligación de comparecer se está vulnerando mi integridad”",
-      "link": "https://elpais.com/espana/2026-04-09/julio-martinez-investigado-por-plus-ultra-acude-a-la-comision-del-caso-koldo-en-el-senado.html",
-      "desc": "El empresario ha acudido a la comisión de investigación de la Cámara alta a la que había enviado informes médicos con la intención de posponer la cita",
-      "date": "Thu, 09 Apr 2026 08:18:53 GMT",
-      "imgUrl": "https://www.youtube.com/watch?v=r9zzCpq94Iw"
-    },
-    {
-      "title": "Josu Ternera niega haber sido jefe de ETA en el juicio en París que condiciona su entrega a España",
-      "link": "https://elpais.com/espana/2026-04-09/josu-ternera-afronta-en-paris-el-ultimo-juicio-que-condiciona-su-entrega-a-espana.html",
-      "desc": "El proceso lleva aplazándose desde 2021 y debe dirimir su pertenencia y responsabilidad en ETA entre los años 2002 y 2005",
-      "date": "Thu, 09 Apr 2026 18:44:53 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YIXUPOJTANPXLNUUEB45R75VKM.jpg?auth=e919bd88e290af1fa0f8a5fd1b6bd39c31b6ca83334432df3530282af59b5e11"
     },
     {
       "title": "En defensa del odio",
@@ -55,6 +55,20 @@
       "desc": "Si todas las solicitudes de asilo y los permisos de residencia viniesen redactados con la convicción poética de Álvaro Cunqueiro, no habría leyes migratorias ni muros ni deportaciones ni garitas fronterizas",
       "date": "Wed, 01 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/Z54W4ANHVFNZXFYJB3UW7M25QA.jpg?auth=3a60086e4363521bf367ac1a90ac51674a6bf754a69ea755356f2348e36654b1"
+    },
+    {
+      "title": "Julio Martínez, investigado por Plus Ultra, en el Senado: “Con la obligación de comparecer se está vulnerando mi integridad”",
+      "link": "https://elpais.com/espana/2026-04-09/julio-martinez-investigado-por-plus-ultra-acude-a-la-comision-del-caso-koldo-en-el-senado.html",
+      "desc": "El empresario ha acudido a la comisión de investigación de la Cámara alta a la que había enviado informes médicos con la intención de posponer la cita",
+      "date": "Thu, 09 Apr 2026 08:18:53 GMT",
+      "imgUrl": "https://www.youtube.com/watch?v=r9zzCpq94Iw"
+    },
+    {
+      "title": "Josu Ternera niega haber sido jefe de ETA en el juicio en París que condiciona su entrega a España",
+      "link": "https://elpais.com/espana/2026-04-09/josu-ternera-afronta-en-paris-el-ultimo-juicio-que-condiciona-su-entrega-a-espana.html",
+      "desc": "El proceso lleva aplazándose desde 2021 y debe dirimir su pertenencia y responsabilidad en ETA entre los años 2002 y 2005",
+      "date": "Thu, 09 Apr 2026 18:44:53 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YIXUPOJTANPXLNUUEB45R75VKM.jpg?auth=e919bd88e290af1fa0f8a5fd1b6bd39c31b6ca83334432df3530282af59b5e11"
     },
     {
       "title": "La candidez de la (presunta) testaferro inunda el juicio por el ‘caso Koldo’",
@@ -118,21 +132,7 @@
       "desc": "La eurodiputada da pasos en su candidatura a las generales en una charla con el portavoz de ERC cuando su partido, muy debilitado, acaba de pactar con IU y Sumar en Andalucía",
       "date": "Thu, 09 Apr 2026 17:02:44 GMT",
       "imgUrl": "https://www.youtube.com/watch?v=TxkSe2U2v9c"
-    },
-    {
-      "title": "El frenazo de Vox en España se agudiza en Andalucía",
-      "link": "https://elpais.com/espana/elecciones-andalucia/2026-04-09/el-frenazo-de-vox-en-espana-se-agudiza-en-andalucia.html",
-      "desc": "Pese al empeño del partido en negar su pérdida de empuje, ya detectada por las encuestas en España, los resultados de más de 6.000 entrevistas del CIS en Andalucía lo ratifican y lo muestran aún más grave",
-      "date": "Thu, 09 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/G2G76N3W6FEEFG6LWWA6BCI6PA.jpg?auth=e8805528f2c401a4b933489c6501313368e7afb478f971c026e16a3ac4b589a9"
-    },
-    {
-      "title": "Anticorrupción recurre el archivo de la causa contra el dueño de la marca de gafas Hawkers",
-      "link": "https://elpais.com/espana/2026-04-09/anticorrupcion-recurre-el-archivo-de-la-causa-contra-el-dueno-de-la-marca-de-gafas-hawkers.html",
-      "desc": "El juez de la Audiencia Nacional archivó la investigación al empresario venezolano Alejandro Betancourt por una supuesta red de lavado de fondos mediante inversiones en España",
-      "date": "Thu, 09 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/7Q6DJTXBMBKSDP2U7NOQ2T42BM.jpg?auth=381243e545fb97dc8db7a21fef6d40cd0f9a984034f4f62e8ced42d6c5348f8e"
     }
   ],
-  "fetchedAt": 1775791802318
+  "fetchedAt": 1775799482729
 }
