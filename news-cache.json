@@ -1,11 +1,18 @@
 {
   "items": [
     {
+      "title": "Sánchez reclama a China que “haga más” para que cesen las guerras y que “se abra para que Europa no tenga que cerrarse”",
+      "link": "https://elpais.com/espana/2026-04-13/sanchez-reclama-a-china-que-haga-mas-para-que-cesen-las-guerras-y-que-se-abra-para-que-europa-no-tenga-que-cerrarse.html",
+      "desc": "El presidente tilda de “insostenible” el déficit comercial y hace un alegato en favor del multilateralismo en la Universidad de Tsinghua, uno de esos símbolos de la transformación del gigante asiático",
+      "date": "Mon, 13 Apr 2026 04:17:53 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260413/1158667_073829_video_1800.mp4"
+    },
+    {
       "title": "Choque en la Iglesia por la visita del Papa: “¿Qué es eso de la Puerta de Alcalá? El Santo Padre entrará por Carabanchel”",
       "link": "https://elpais.com/espana/2026-04-13/choque-en-la-iglesia-por-la-visita-del-papa-que-es-eso-de-la-puerta-de-alcala-el-santo-padre-entrara-por-carabanchel.html",
       "desc": "El sector conservador y el aperturista se enfrentan por el control del viaje de León XIV en un momento crítico para la jerarquía eclesiástica española",
       "date": "Mon, 13 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EXOOYC46LFLI3BDDVK7JCRO56Q.jpg?auth=d6b3624d926d94342cda82e860007b784a2f42b6eb1b12352e4eb66f62922df6"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/GEISNLNCLFAI7EPVUD5GVU3NGI.jpg?auth=87ae282b68c06add063bf6fb364b820e29ed05aebbaf3a1ec360755f9bebe5db"
     },
     {
       "title": "El juicio a Ábalos se adentra en los contratos de las mascarillas",
@@ -13,13 +20,6 @@
       "desc": "La vista contra el exministro, su antiguo asesor y Aldama se reanuda este lunes con el testimonio de varios socios del empresario y de la exmujer de Koldo García",
       "date": "Mon, 13 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/62NVF36FQ5BO7LF5WR5JWOUXZM.jpg?auth=8edc484de4b361d99002aa72c8b46797eb6da5557467d888e21b390572bc3006"
-    },
-    {
-      "title": "La ‘matrioshka’ de Kitchen: la Policía investiga a la Policía por boicotear a la Policía",
-      "link": "https://elpais.com/espana/2026-04-13/la-matrioshka-de-kitchen-la-policia-investiga-a-la-policia-por-boicotear-a-la-policia.html",
-      "desc": "Los testigos comienzan a desfilar esta semana por el juicio sobre el espionaje a Bárcenas. El primer citado es el agente que lideró las pesquisas sobre la trama urdida dentro del propio cuerpo policial",
-      "date": "Mon, 13 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/B2LE37VY27O7BHWW3JAVXBYFII.jpg?auth=98bd6cee6ddbd4f4c554989af441e652cc12946e7badc5480e8e6f93c3fc114a"
     },
     {
       "title": "Rufián, TikTok y las bibliotecas",
@@ -57,6 +57,20 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZD2UNRF3QFFJLCDR4P35ZMFMHQ.jpg?auth=adef9be762be5dda40c7aaabbb427d069a637aeb3df28ee3b0e2e4efa01a3495"
     },
     {
+      "title": "El zulo encontrado en la casa del acusado del crimen de Esther López en Traspinedo abre una nueva vía para los investigadores",
+      "link": "https://elpais.com/espana/2026-04-13/el-zulo-encontrado-en-la-casa-del-acusado-del-crimen-de-esther-lopez-en-traspinedo-abre-una-nueva-via-para-los-investigadores.html",
+      "desc": "Los estudios biológicos permitirían revelar si presuntamente el sospechoso guardó el cuerpo en ese espacio oculto, según fuentes policiales",
+      "date": "Mon, 13 Apr 2026 06:49:34 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/7AMFXUV34VBDRPFWYOIYHMOCAY.jpg?auth=34dad72ad81488129d732770826005b5c0801417cd316a42cfd70b524debebfe"
+    },
+    {
+      "title": "La ‘matrioshka’ de Kitchen: la Policía investiga a la Policía por boicotear a la Policía",
+      "link": "https://elpais.com/espana/2026-04-13/la-matrioshka-de-kitchen-la-policia-investiga-a-la-policia-por-boicotear-a-la-policia.html",
+      "desc": "Los testigos comienzan a desfilar esta semana por el juicio sobre el espionaje a Bárcenas. El primer citado es el agente que lideró las pesquisas sobre la trama urdida dentro del propio cuerpo policial",
+      "date": "Mon, 13 Apr 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/JF4Z2SUYINEVRLJLE76DJ6PAZQ.jpg?auth=c984090665486c262e35422a374cdcb8b649d2e4f72d06c06d556bf1a66e5be7"
+    },
+    {
       "title": "Sánchez consolida su relación con Xi Jinping y apuesta por China como potencia estabilizadora frente a Trump",
       "link": "https://elpais.com/espana/2026-04-12/sanchez-consolida-su-relacion-con-xi-jinping-y-apuesta-por-china-como-potencia-estabilizadora-frente-a-trump.html",
       "desc": "La guerra marca la cuarta visita del presidente, que pretende que su fluida interlocución allane las inversiones chinas en España y la negociación comercial de la UE",
@@ -71,9 +85,9 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/MAX2CP2LDRK5PNS6ROU6MVXEAY.jpg?auth=84000da1e6c20e582f20a0009f4b39a1c0374ebc62c94e21548c210164e87470"
     },
     {
-      "title": "El dueño de los narcotúneles de Ceuta: “Yo tenía un agujero por el que metía la merca”",
+      "title": "Mustapha Chairi, el hombre gris dueño de los narcotúneles de Ceuta: “Yo tenía un agujero por el que metía la merca”",
       "link": "https://elpais.com/espana/2026-04-13/el-dueno-de-los-narcotuneles-de-ceuta-yo-tenia-un-agujero-por-el-que-metia-la-merca.html",
-      "desc": "El juzgado de Ceuta envía la causa a la Audiencia Nacional. Las conversaciones del empresario hotelero Mustapha Chairi evidencian que poseía pasajes bajo tierra: “El túnel es mío”",
+      "desc": "El juzgado de Ceuta envía la causa a la Audiencia Nacional. Las conversaciones intervenidas evidencian que poseía pasajes bajo tierra: “El túnel es mío”",
       "date": "Mon, 13 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/D2DZUI7UUNB3DOMJHGQP6UNYXI.jpg?auth=8c776ed81580efae6668ccfd6c8c18ddd206bf316929df6f143ddec6db878d13"
     },
@@ -82,7 +96,7 @@
       "link": "https://elpais.com/espana/2026-04-13/una-jueza-sevillana-procesa-a-vito-quiles-por-injurias-y-calumnias-contra-el-secretario-general-de-facua-ruben-sanchez.html",
       "desc": "“El conjunto de mensajes y videos es intolerable al deber ético y profesional del periodismo”, señala el auto sobre las publicaciones del agitador ultra en sus redes y en EDATV",
       "date": "Mon, 13 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EYBKIHLAIZAYLDCDSF5BEFKJGA.jpg?auth=97d9ea90e68defd6f938788d72091c069d806d3f675e60d3ffa587fd18239017"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/5VF2PFUN6VGQPMYNTTZFZUQWT4.jpg?auth=efa9357320518628b97bf4ab4d4f9260dbd2763510b7420838fa5ce25509c290"
     },
     {
       "title": "Khadija Amin, refugiada afgana: “No tengo un solo documento que acredite que mis hijos son mis hijos”",
@@ -118,21 +132,7 @@
       "desc": "El exministro tiene en este juicio una particular forma de expresar disgusto, enfado y desacuerdo: se ríe",
       "date": "Sun, 12 Apr 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/42PWOESNEJKODFKCNJQDG7QAR4.jpg?auth=015a82cc398c33235cdbae1461909e408ad36a05a458ad50eb5ebba54708d2f1"
-    },
-    {
-      "title": "Los límites impuestos al juicio de Kitchen",
-      "link": "https://elpais.com/espana/2026-04-12/los-limites-impuestos-al-juicio-de-kitchen.html",
-      "desc": "La primera semana de sesiones reabre la polémica sobre el cierre de la instrucción, que descartó ahondar en la “conexión política” de la trama que apuntaba al PP",
-      "date": "Sun, 12 Apr 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KFHLBDYCJ5CJHJGUBVHGBT3LDI.jpg?auth=a3a94d4f8fbc5feaf73f04d120ff8ff73379211da64b6148427d44d92e5816dd"
-    },
-    {
-      "title": "Alcalde de pueblo, hábil en redes, padre desde hace 15 días: así es el nuevo líder del PSOE extremeño",
-      "link": "https://elpais.com/espana/2026-04-12/alcalde-de-pueblo-habil-en-redes-padre-desde-hace-15-dias-asi-es-el-nuevo-lider-del-psoe-extremeno.html",
-      "desc": "Álvaro Sánchez Cotrina, de 39 años, quiere dar “poder real” a los jóvenes para revitalizar al partido",
-      "date": "Sun, 12 Apr 2026 11:00:17 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/WUHTWX7C2VE2NIWM2TQZSHSBC4.jpeg?auth=79828742d8e021a5c503c38fe6ae8d5597fb52c68911f7e5ad8f9a7ca509f729"
     }
   ],
-  "fetchedAt": 1776059207323
+  "fetchedAt": 1776067741567
 }
