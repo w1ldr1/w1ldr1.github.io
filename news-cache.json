@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "El Gobierno aprueba la regularización extraordinaria de inmigrantes, siga en directo la rueda de prensa del Consejo de Ministros",
+      "title": "El Gobierno aprueba la regularización extraordinaria de inmigrantes: “Es uno de los grandes hitos de esta legislatura”",
       "link": "https://elpais.com/espana/2026-04-14/el-gobierno-aprueba-la-regularizacion-extraordinaria-de-inmigrantes-siga-en-directo-la-rueda-de-prensa-del-consejo-de-ministros.html",
-      "desc": "El Ejecutivo ha dado luz verde al real decreto, que contempla un endurecimiento de los requisitos para acceder al proceso",
-      "date": "Tue, 14 Apr 2026 10:30:47 GMT",
+      "desc": "El Ejecutivo asegura que el real decreto tiene todas las garantías legales y cuenta con el aval de importantes organismos y estudios",
+      "date": "Tue, 14 Apr 2026 11:01:52 GMT",
       "imgUrl": "https://www.youtube.com/watch?v=SDyL0AlXCyg"
     },
     {
@@ -81,8 +81,8 @@
       "title": "Sumar votará contra la ley de Junts para prohibir el burka en plena negociación sobre alquileres",
       "link": "https://elpais.com/espana/2026-04-14/sumar-sopesa-abstenerse-en-la-ley-de-junts-para-prohibir-el-burka-en-plena-negociacion-sobre-alquileres.html",
       "desc": "El Congreso debe convalidar el decreto para la prórroga de los contratos antes de que termine el mes",
-      "date": "Tue, 14 Apr 2026 10:42:30 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/5IHIHWVZYZP63KIRNFVMKHVHSI.jpg?auth=af0c9f91cd5fbe002eaecad2eb0c9b81cd805204d31afbafe32d611536563065"
+      "date": "Tue, 14 Apr 2026 10:52:18 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/QKCUBGRPLBCORGRAPIFUQW62UQ.jpg?auth=d1aad55566be8a4fbb690e49b9e92fe17c57c72fb1fabd656097049516742e42"
     },
     {
       "title": "La crisis de Vox en Murcia provoca que el PP ya no les necesite para gobernar",
@@ -101,15 +101,15 @@
     {
       "title": "Anticorrupción investiga a la alcaldesa de Valencia y a la presidenta del Puerto por la creación de puestos de trabajo a dedo",
       "link": "https://elpais.com/espana/comunidad-valenciana/2026-04-14/anticorrupcion-investiga-a-la-alcaldesa-de-valencia-y-a-la-presidenta-del-puerto-por-la-creacion-de-puestos-de-trabajo-a-dedo.html",
-      "desc": "Las pesquisas indagan la supuesta “subrogación encubierta” de empleados en un consorcio público",
+      "desc": "Las pesquisas indagan la supuesta “subrogación encubierta” de empleados en un consorcio público denunciada por Compromís",
       "date": "Tue, 14 Apr 2026 09:53:57 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/DOFCXXH23FLAJBHHBHFEVOZRKU.jpg?auth=e02e8119dc3cd445b31076feb97ca51ad756229f990e665edfab447bfb671e89"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3455W7VTWJD5DF3NVFT5TLSCVM.jpg?auth=2c0e78b7fdcfdf8c54da00187f16ea7b204da8a1fccea3545b7ef710e4147b0c"
     },
     {
       "title": "Sánchez, sobre el procesamiento de Begoña Gómez: “Lo que le pido a la justicia es que haga justicia”",
       "link": "https://elpais.com/espana/2026-04-14/sanchez-comparece-en-pekin-tras-su-reunion-con-xi-jinping.html",
       "desc": "En rueda de prensa tras la reunión con Xi Jinping, el presidente no se ha salido del guion habitual a pesar de la “indignación” en La Moncloa con el juez Peinado",
-      "date": "Tue, 14 Apr 2026 05:38:57 GMT",
+      "date": "Tue, 14 Apr 2026 11:53:51 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260414/1159113_073448_video_1800.mp4"
     },
     {
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/HV6II7GFPFCMFIDSLNYYEZG5WY.jpg?auth=b81493628b8fa247f7f87629ef4a433f52355f873f13a077e963563070ffaaab"
     }
   ],
-  "fetchedAt": 1776163579618
+  "fetchedAt": 1776167902767
 }
