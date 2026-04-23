@@ -1,6 +1,14 @@
 node_modules/
 temporary screenshots/
 .claude/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+*.log
+
 casadeespanaindiana.org_quienes-somos_.png
-package-lock.json
 element.style.txt

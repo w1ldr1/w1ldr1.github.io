@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="brand_assests/favicon.png">
+  <link rel="apple-touch-icon" href="brand_assests/favicon.png">
+  <title>Privacy Policy — Casa de España en Indiana</title>
+  <meta name="description" content="Privacy policy for Casa de España en Indiana. Learn how we collect, use, and protect your personal information.">
+  <link rel="canonical" href="https://casaespanaindiana.org/privacy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://casaespanaindiana.org/privacy.html">
+  <meta property="og:title" content="Privacy Policy — Casa de España en Indiana">
+  <meta property="og:description" content="Privacy policy for Casa de España en Indiana — how we collect, use, and protect your information.">
+  <meta property="og:image" content="https://casaespanaindiana.org/brand_assests/OGlogo.png">
+  <meta property="og:site_name" content="Casa de España en Indiana">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy Policy — Casa de España en Indiana">
+  <meta name="twitter:description" content="How Casa de España en Indiana collects, uses, and protects your personal information.">
+  <meta name="twitter:image" content="https://casaespanaindiana.org/brand_assests/OGlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind = { config: {
+      theme: {
+        extend: {
+          colors: {
+            terra: '#C13B2B',
+            'terra-deep': '#8C2318',
+            'terra-muted': '#D4604F',
+            parchment: '#FAF4ED',
+            'parch-2': '#F2E9DF',
+            'parch-3': '#E8DBCF',
+            ink: '#1C1410',
+            'ink-mid': '#3D2E26',
+            'ink-light': '#7A6658',
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Source Sans 3"', '"Source Sans Pro"', 'sans-serif'],
+          },
+        }
+      }
+    }};
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* ─── TOKENS ─────────────────────────────────────────── */
+    :root {
+      --terra:        #C13B2B;
+      --terra-deep:   #8C2318;
+      --terra-muted:  #D4604F;
+      --parchment:    #FAF4ED;
+      --parch-2:      #F2E9DF;
+      --parch-3:      #E8DBCF;
+      --ink:          #1C1410;
+      --ink-mid:      #3D2E26;
+      --ink-light:    #7A6658;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background: var(--parchment);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      padding-top: 120px;
+    }
+
+    /* ─── UTILITY ────────────────────────────────────────── */
+    .section-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+    @media (max-width: 640px) { .section-container { padding: 0 20px; } }
+
+    /* ─── NAV ───────────────────────────────────────────── */
+    #site-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 120px;
+      z-index: 100;
+      display: flex;
+      transition: box-shadow 0.3s ease;
+    }
+    #site-nav.scrolled {
+      box-shadow:
+        0 2px 20px rgba(28,20,16,0.35),
+        0 1px 0 rgba(0,0,0,0.15);
+    }
+
+    .nav-logo-zone {
+      width: 240px;
+      flex-shrink: 0;
+      background: var(--parchment);
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      border-right: 1px solid rgba(28,20,16,0.1);
+    }
+    .nav-logo-zone a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .nav-logo-zone img { height: 112px; width: auto; display: block; }
+
+    .nav-links-zone {
+      flex: 1;
+      background: var(--ink);
+      display: flex;
+      align-items: center;
+      padding: 0 32px;
+      gap: 2px;
+      justify-content: flex-end;
+    }
+
+    .nav-link {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--parchment);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-bottom: 2px solid transparent;
+      border-radius: 2px 2px 0 0;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+    .nav-link:hover { background: rgba(193,59,43,0.14); }
+    .nav-link.active { border-bottom-color: var(--terra); }
+    .nav-link:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 10px;
+      background: none;
+      border: none;
+      margin-left: 8px;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--parchment);
+      transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), opacity 0.3s ease;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile drawer */
+    .mobile-drawer {
+      position: fixed;
+      top: 120px; left: 0; right: 0;
+      z-index: 99;
+      background: var(--ink);
+      border-top: 1px solid rgba(193,59,43,0.2);
+      display: flex;
+      flex-direction: column;
+      padding: 12px 20px 20px;
+      gap: 2px;
+      transform: translateY(-110%);
+      transition: transform 0.35s cubic-bezier(0.22,1,0.36,1);
+      pointer-events: none;
+    }
+    .mobile-drawer.open {
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+    .mobile-drawer .nav-link { padding: 12px 16px; }
+
+    @media (max-width: 768px) {
+      .nav-logo-zone { width: auto; min-width: 160px; }
+      .nav-links-zone .nav-link { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    /* ─── PAGE HEADER ─────────────────────────────────────── */
+    .page-header {
+      background: var(--ink);
+      position: relative;
+      overflow: hidden;
+      padding: 72px 0 64px;
+    }
+    .page-header::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 55% 90% at 15% 60%, rgba(193,59,43,0.11) 0%, transparent 65%),
+        radial-gradient(ellipse 35% 50% at 85% 20%, rgba(140,35,24,0.09) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .page-header-eyebrow {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--terra-muted);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .page-header-eyebrow::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--terra-muted);
+    }
+    .page-header h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(40px, 6vw, 68px);
+      font-weight: 300;
+      letter-spacing: -0.03em;
+      color: var(--parchment);
+      line-height: 1.08;
+    }
+    .page-header h1 em {
+      font-style: italic;
+      color: var(--terra-muted);
+    }
+    .page-header-desc {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: rgba(250,244,237,0.55);
+      margin-top: 16px;
+      line-height: 1.65;
+      max-width: 520px;
+    }
+
+    /* ─── PRIVACY MAIN ───────────────────────────────────── */
+    .privacy-main {
+      background: var(--parchment);
+      padding: 80px 0 110px;
+    }
+
+    .privacy-article {
+      max-width: 720px;
+    }
+
+    .privacy-updated {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .privacy-updated::after {
+      content: '';
+      display: block;
+      flex: 1;
+      height: 1px;
+      background: var(--parch-3);
+      max-width: 200px;
+    }
+
+    .privacy-section {
+      margin-bottom: 48px;
+    }
+
+    .privacy-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--terra);
+      margin-bottom: 20px;
+    }
+
+    .privacy-section p {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--ink-mid);
+      margin-bottom: 14px;
+    }
+    .privacy-section p:last-child { margin-bottom: 0; }
+
+    .privacy-section ul {
+      list-style: none;
+      margin: 12px 0 14px;
+    }
+    .privacy-section ul li {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--ink-mid);
+      padding: 7px 0 7px 18px;
+      border-bottom: 1px solid var(--parch-3);
+      position: relative;
+    }
+    .privacy-section ul li:last-child { border-bottom: none; }
+    .privacy-section ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--terra-muted);
+      opacity: 0.6;
+    }
+
+    .privacy-section a {
+      color: var(--terra);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(193,59,43,0.3);
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .privacy-section a:hover {
+      color: var(--terra-deep);
+      border-bottom-color: var(--terra-deep);
+    }
+    .privacy-section a:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+
+    .privacy-contact-box {
+      background: var(--parch-2);
+      border-left: 3px solid var(--terra);
+      padding: 20px 24px;
+      margin-top: 8px;
+    }
+    .privacy-contact-box p {
+      margin-bottom: 6px;
+    }
+
+    /* ─── FOOTER ─────────────────────────────────────────── */
+    #site-footer {
+      background: var(--parchment);
+      padding: 72px 0 0;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr 1.1fr;
+      gap: 56px;
+      margin-bottom: 56px;
+    }
+    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; gap: 40px; } }
+
+    .footer-logo-frame {
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+    .footer-logo-frame img { height: 112px; width: auto; display: block; }
+
+    .footer-tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.65;
+      color: rgba(28,20,16,0.5);
+      max-width: 230px;
+    }
+
+    .footer-col-head {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(28,20,16,0.4);
+      margin-bottom: 20px;
+      display: block;
+    }
+    .footer-nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-nav-links a {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba(28,20,16,0.6);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .footer-nav-links a:hover { color: var(--terra); }
+    .footer-nav-links a:focus-visible { outline: 1px solid var(--terra); outline-offset: 2px; }
+
+    .contact-line {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: rgba(28,20,16,0.55);
+      margin-bottom: 8px;
+    }
+    .contact-line a {
+      color: rgba(28,20,16,0.55);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .contact-line a:hover { color: var(--terra-muted); }
+    .contact-line a:focus-visible { outline: 1px solid var(--terra); }
+
+    .social-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 6px;
+      background: var(--parch-2);
+      border: 1px solid var(--parch-3);
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+      text-decoration: none;
+    }
+    .social-btn:hover { background: var(--parch-3); border-color: rgba(28,20,16,0.2); }
+    .social-btn:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .social-btn img { width: 16px; height: 16px; display: block; opacity: 0.55; }
+    .social-btn svg { width: 16px; height: 16px; fill: rgba(28,20,16,0.55); }
+
+    .footer-bottom {
+      border-top: 1px solid var(--parch-3);
+      padding: 24px 0 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .footer-copy {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: rgba(28,20,16,0.35);
+    }
+
+    /* ─── LANG FLOAT ─────────────────────────────────────── */
+    .lang-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      background: var(--ink);
+      border: 1px solid rgba(250,244,237,0.12);
+      border-radius: 10px;
+      padding: 6px 8px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.55), 0 1px 4px rgba(0,0,0,0.3);
+    }
+    .lt-label {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(250,244,237,0.5);
+      margin-right: 3px;
+    }
+    .lt-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: none;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      padding: 4px 9px;
+      cursor: pointer;
+      color: rgba(250,244,237,0.85);
+      transition: color 0.2s ease, border-color 0.2s ease;
+      line-height: 1.15;
+    }
+    .lt-btn .lt-code {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+    .lt-btn .lt-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 8px;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+    .lt-btn.active { color: var(--terra-muted); border-color: rgba(212,96,79,0.35); }
+    .lt-btn:hover { color: var(--parchment); }
+    .lt-btn:focus-visible { outline: 2px solid var(--terra-muted); outline-offset: 2px; }
+    .lt-divider { width: 1px; height: 26px; background: rgba(250,244,237,0.15); margin: 0 2px; }
+  </style>
+</head>
+<body>
+
+<!-- ─── STICKY NAV ─────────────────────────────────────── -->
+<nav id="site-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-logo-zone">
+    <a href="index.html" aria-label="Casa de España en Indiana — home">
+      <img src="brand_assests/Logo.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
+    </a>
+  </div>
+  <div class="nav-links-zone">
+    <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+    <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+    <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+    <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+    <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+    <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+    <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+    <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+  <a href="index.html#mission"      class="nav-link" data-en="About" data-es="Sobre Nosotros">About</a>
+  <a href="index.html#programs"     class="nav-link" data-en="Programs" data-es="Programas">Programs</a>
+  <a href="index.html#events"       class="nav-link" data-en="Events" data-es="Eventos">Events</a>
+  <a href="index.html#board"        class="nav-link" data-en="Board" data-es="Junta">Board</a>
+  <a href="index.html#get-involved" class="nav-link" data-en="Get Involved" data-es="Participa">Get Involved</a>
+  <a href="resources.html"          class="nav-link" data-en="Resources" data-es="Recursos">Resources</a>
+  <a href="news.html"               class="nav-link" data-en="News" data-es="Noticias">News</a>
+  <a href="past-events.html"        class="nav-link" data-en="Past Events" data-es="Eventos Pasados">Past Events</a>
+</div>
+
+<!-- ─── PAGE HEADER ───────────────────────────────────── -->
+<header class="page-header">
+  <div class="section-container">
+    <p class="page-header-eyebrow" data-en="Legal · Transparency" data-es="Legal · Transparencia">Legal · Transparency</p>
+    <h1><em data-en="Privacy Policy" data-es="Política de Privacidad">Privacy Policy</em></h1>
+    <p class="page-header-desc" data-en="How Casa de España en Indiana collects, uses, and protects your personal information." data-es="Cómo Casa de España en Indiana recopila, usa y protege su información personal.">How Casa de España en Indiana collects, uses, and protects your personal information.</p>
+  </div>
+</header>
+
+<!-- ─── PRIVACY CONTENT ────────────────────────────────── -->
+<main class="privacy-main" id="main">
+  <div class="section-container">
+    <article class="privacy-article">
+
+      <p class="privacy-updated" data-en="Last updated: April 2026" data-es="Última actualización: abril de 2026">Last updated: April 2026</p>
+
+      <!-- 1. Who We Are -->
+      <div class="privacy-section">
+        <h2 data-en="1. Who We Are" data-es="1. Quiénes Somos">1. Who We Are</h2>
+        <p data-en="Casa de España en Indiana is a 501(c)(3) nonprofit organization based in Indianapolis, Indiana. This Privacy Policy explains how we handle personal information submitted through our website at casaespanaindiana.org." data-es="Casa de España en Indiana es una organización sin fines de lucro 501(c)(3) con sede en Indianapolis, Indiana. Esta Política de Privacidad explica cómo manejamos la información personal enviada a través de nuestro sitio web en casaespanaindiana.org.">Casa de España en Indiana is a 501(c)(3) nonprofit organization based in Indianapolis, Indiana. This Privacy Policy explains how we handle personal information submitted through our website at casaespanaindiana.org.</p>
+      </div>
+
+      <!-- 2. Information We Collect -->
+      <div class="privacy-section">
+        <h2 data-en="2. Information We Collect" data-es="2. Información que Recopilamos">2. Information We Collect</h2>
+        <p data-en="We collect information only when you voluntarily provide it — for example, when you complete the membership or newsletter signup form. This may include:" data-es="Recopilamos información solo cuando usted la proporciona voluntariamente — por ejemplo, al completar el formulario de membresía o suscripción al boletín. Esto puede incluir:">We collect information only when you voluntarily provide it — for example, when you complete the membership or newsletter signup form. This may include:</p>
+        <ul>
+          <li data-en="First and last name" data-es="Nombre y apellido">First and last name</li>
+          <li data-en="Email address" data-es="Dirección de correo electrónico">Email address</li>
+          <li data-en="City and state of residence (optional)" data-es="Ciudad y estado de residencia (opcional)">City and state of residence (optional)</li>
+          <li data-en="Membership type and areas of interest (selected from provided options)" data-es="Tipo de membresía e intereses (seleccionados de las opciones proporcionadas)">Membership type and areas of interest (selected from provided options)</li>
+          <li data-en="Optional message you choose to include" data-es="Mensaje opcional que usted decida incluir">Optional message you choose to include</li>
+        </ul>
+        <p data-en="We do not collect payment information directly. Donations are processed through PayPal, which operates under its own privacy policy." data-es="No recopilamos información de pago directamente. Las donaciones se procesan a través de PayPal, que opera bajo su propia política de privacidad.">We do not collect payment information directly. Donations are processed through PayPal, which operates under its own privacy policy.</p>
+      </div>
+
+      <!-- 3. How We Use Your Information -->
+      <div class="privacy-section">
+        <h2 data-en="3. How We Use Your Information" data-es="3. Cómo Usamos su Información">3. How We Use Your Information</h2>
+        <p data-en="Information you submit is used solely to:" data-es="La información que envía se utiliza únicamente para:">Information you submit is used solely to:</p>
+        <ul>
+          <li data-en="Send newsletters and organizational updates to subscribers who request them" data-es="Enviar boletines y actualizaciones a los suscriptores que los soliciten">Send newsletters and organizational updates to subscribers who request them</li>
+          <li data-en="Communicate with members regarding events, programs, and membership matters" data-es="Comunicarse con los miembros sobre eventos, programas y asuntos de membresía">Communicate with members regarding events, programs, and membership matters</li>
+          <li data-en="Respond to inquiries or messages you send us" data-es="Responder a consultas o mensajes que nos envíe">Respond to inquiries or messages you send us</li>
+        </ul>
+        <p data-en="We will not contact you for purposes unrelated to Casa de España en Indiana, and we will not send marketing communications from third parties." data-es="No nos comunicaremos con usted para propósitos no relacionados con Casa de España en Indiana, ni enviaremos comunicaciones de marketing de terceros.">We will not contact you for purposes unrelated to Casa de España en Indiana, and we will not send marketing communications from third parties.</p>
+      </div>
+
+      <!-- 4. We Do Not Sell Your Data -->
+      <div class="privacy-section">
+        <h2 data-en="4. We Do Not Sell Your Data" data-es="4. No Vendemos sus Datos">4. We Do Not Sell Your Data</h2>
+        <p data-en="Casa de España en Indiana does not sell, rent, trade, or otherwise share your personal information with any third party for commercial purposes. Period." data-es="Casa de España en Indiana no vende, arrienda, intercambia ni comparte de ninguna otra forma su información personal con terceros con fines comerciales.">Casa de España en Indiana does not sell, rent, trade, or otherwise share your personal information with any third party for commercial purposes. Period.</p>
+      </div>
+
+      <!-- 5. Third-Party Services -->
+      <div class="privacy-section">
+        <h2 data-en="5. Third-Party Services" data-es="5. Servicios de Terceros">5. Third-Party Services</h2>
+        <p data-en="Our website uses the following third-party services, each governed by their own privacy policies:" data-es="Nuestro sitio web utiliza los siguientes servicios de terceros, cada uno regido por sus propias políticas de privacidad:">Our website uses the following third-party services, each governed by their own privacy policies:</p>
+        <ul>
+          <li data-en="Google Forms / Apps Script — processes membership and newsletter signup form submissions" data-es="Google Forms / Apps Script — procesa los envíos del formulario de membresía y boletín"><strong>Google Forms / Apps Script</strong> — processes membership and newsletter signup form submissions</li>
+          <li data-en="PayPal — processes donations made through our website" data-es="PayPal — procesa las donaciones realizadas a través de nuestro sitio web"><strong>PayPal</strong> — processes donations made through our website</li>
+          <li data-en="Google Fonts — loads typefaces used on this site (no personal data is stored)" data-es="Google Fonts — carga las tipografías utilizadas en este sitio (no se almacenan datos personales)"><strong>Google Fonts</strong> — loads typefaces used on this site (no personal data is stored)</li>
+        </ul>
+        <p data-en="We encourage you to review the privacy policies of these services if you have concerns about how they handle your data." data-es="Le recomendamos que revise las políticas de privacidad de estos servicios si tiene dudas sobre cómo manejan sus datos.">We encourage you to review the privacy policies of these services if you have concerns about how they handle your data.</p>
+      </div>
+
+      <!-- 6. Data Retention -->
+      <div class="privacy-section">
+        <h2 data-en="6. Data Retention" data-es="6. Retención de Datos">6. Data Retention</h2>
+        <p data-en="We retain your contact information for as long as you remain a member or subscriber. You may request removal at any time by contacting us at the address below, and we will delete your information from our records within a reasonable time." data-es="Conservamos su información de contacto mientras sea miembro o suscriptor. Puede solicitar su eliminación en cualquier momento contactándonos en la dirección a continuación, y eliminaremos su información de nuestros registros en un plazo razonable.">We retain your contact information for as long as you remain a member or subscriber. You may request removal at any time by contacting us at the address below, and we will delete your information from our records within a reasonable time.</p>
+      </div>
+
+      <!-- 7. Your Rights -->
+      <div class="privacy-section">
+        <h2 data-en="7. Your Rights" data-es="7. Sus Derechos">7. Your Rights</h2>
+        <p data-en="You have the right to:" data-es="Usted tiene el derecho de:">You have the right to:</p>
+        <ul>
+          <li data-en="Request a copy of the personal information we hold about you" data-es="Solicitar una copia de la información personal que tenemos sobre usted">Request a copy of the personal information we hold about you</li>
+          <li data-en="Request correction of inaccurate information" data-es="Solicitar la corrección de información inexacta">Request correction of inaccurate information</li>
+          <li data-en="Request deletion of your personal information" data-es="Solicitar la eliminación de su información personal">Request deletion of your personal information</li>
+          <li data-en="Unsubscribe from our newsletter at any time" data-es="Darse de baja de nuestro boletín en cualquier momento">Unsubscribe from our newsletter at any time</li>
+        </ul>
+        <p data-en="To exercise any of these rights, please contact us using the information below." data-es="Para ejercer cualquiera de estos derechos, comuníquese con nosotros utilizando la información a continuación.">To exercise any of these rights, please contact us using the information below.</p>
+      </div>
+
+      <!-- 8. Contact -->
+      <div class="privacy-section">
+        <h2 data-en="8. Contact" data-es="8. Contacto">8. Contact</h2>
+        <p data-en="For questions about this Privacy Policy or to make a data request, contact us at:" data-es="Para preguntas sobre esta Política de Privacidad o para realizar una solicitud de datos, contáctenos en:">For questions about this Privacy Policy or to make a data request, contact us at:</p>
+        <div class="privacy-contact-box">
+          <p><strong>Casa de España en Indiana</strong></p>
+          <p>Indianapolis, Indiana</p>
+          <p><a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a></p>
+        </div>
+      </div>
+
+      <!-- 9. Changes -->
+      <div class="privacy-section">
+        <h2 data-en="9. Changes to This Policy" data-es="9. Cambios en Esta Política">9. Changes to This Policy</h2>
+        <p data-en="We may update this Privacy Policy from time to time. When we do, we will revise the 'Last updated' date at the top of this page. Continued use of this website after changes are posted constitutes your acceptance of the updated policy." data-es="Podemos actualizar esta Política de Privacidad de vez en cuando. Cuando lo hagamos, revisaremos la fecha de 'Última actualización' en la parte superior de esta página. El uso continuado de este sitio web después de publicar los cambios constituye su aceptación de la política actualizada.">We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. Continued use of this website after changes are posted constitutes your acceptance of the updated policy.</p>
+      </div>
+
+    </article>
+  </div>
+</main>
+
+<!-- ─── FOOTER ─────────────────────────────────────────── -->
+<footer id="site-footer" role="contentinfo">
+  <div class="section-container">
+    <div class="footer-grid">
+
+      <!-- Col 1: logo + tagline -->
+      <div>
+        <div class="footer-logo-frame">
+          <img src="brand_assests/Logo.png" alt="Casa de España en Indiana" style="display:block;height:112px;width:auto;">
+        </div>
+        <p class="footer-tagline" data-en="Preserving the soul of Spain in the heart of Indiana since 2004." data-es="Preservando el alma de España en el corazón de Indiana desde 2004.">
+          Preserving the soul of Spain in the heart of Indiana since 2004.
+        </p>
+      </div>
+
+      <!-- Col 2: site navigation -->
+      <div>
+        <span class="footer-col-head" data-en="Navigation" data-es="Navegación">Navigation</span>
+        <ul class="footer-nav-links">
+          <li><a href="index.html#mission" data-en="About Us" data-es="Sobre Nosotros">About Us</a></li>
+          <li><a href="index.html#programs" data-en="Programs" data-es="Programas">Programs</a></li>
+          <li><a href="index.html#events" data-en="Events" data-es="Eventos">Events</a></li>
+          <li><a href="index.html#board" data-en="Board of Directors" data-es="Junta Directiva">Board of Directors</a></li>
+          <li><a href="index.html#get-involved" data-en="Get Involved" data-es="Participa">Get Involved</a></li>
+          <li><a href="resources.html" data-en="Resources" data-es="Recursos">Resources</a></li>
+          <li><a href="news.html" data-en="News" data-es="Noticias">News</a></li>
+          <li><a href="past-events.html" data-en="Past Events" data-es="Eventos Pasados">Past Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: contact + social -->
+      <div>
+        <span class="footer-col-head" data-en="Contact" data-es="Contacto">Contact</span>
+        <p class="contact-line">Indianapolis, Indiana</p>
+        <p class="contact-line">
+          <a href="mailto:info@casaespanaindiana.org">info@casaespanaindiana.org</a>
+        </p>
+        <p class="contact-line">
+          <a href="https://casaespanaindiana.org" target="_blank" rel="noopener">casaespanaindiana.org</a>
+        </p>
+
+        <div class="social-row" aria-label="Social media">
+          <a href="https://www.facebook.com/CasadeEspanaIN/" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook">
+            <img src="brand_assests/facebook.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="https://www.instagram.com/casadeespanain" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+            <img src="brand_assests/instagram.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="https://x.com/casadeespanain" target="_blank" rel="noopener" class="social-btn" aria-label="Twitter / X">
+            <img src="brand_assests/x.svg" alt="" aria-hidden="true">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy" data-en="© 2026 Casa de España en Indiana. All rights reserved." data-es="© 2026 Casa de España en Indiana. Todos los derechos reservados.">© 2026 Casa de España en Indiana. All rights reserved.</span>
+      <span class="footer-copy">Organización sin fines de lucro 501(c)(3) · EIN disponible bajo solicitud</span>
+      <span class="footer-copy"><a href="privacy.html" data-en="Privacy Policy" data-es="Política de Privacidad" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ─── INLINE JS ──────────────────────────────────────── -->
+<script>
+  const LANG_KEY = 'lang2';
+  function getLang() { return localStorage.getItem(LANG_KEY) || 'es'; }
+  function setLang(lang) {
+    localStorage.setItem(LANG_KEY, lang);
+    document.querySelectorAll('[data-en]').forEach(el => {
+      const val = lang === 'es' ? (el.dataset.es || '') : (el.dataset.en || '');
+      if (el.dataset.html) { el.innerHTML = val; }
+      else { el.textContent = val; }
+    });
+    document.querySelectorAll('.lt-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+  (function initLang() {
+    setLang(getLang());
+  })();
+
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  const hamburger = document.getElementById('hamburger');
+  const drawer    = document.getElementById('mobile-drawer');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = drawer.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+    drawer.setAttribute('aria-hidden', String(!isOpen));
+  });
+
+  drawer.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      drawer.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      drawer.setAttribute('aria-hidden', 'true');
+    });
+  });
+</script>
+
+<div class="lang-float" id="lang-float">
+  <div class="lt-label">Lang</div>
+  <button onclick="setLang('en')" class="lt-btn" data-lang="en">
+    <span class="lt-code">EN</span>
+    <span class="lt-name">English</span>
+  </button>
+  <div class="lt-divider"></div>
+  <button onclick="setLang('es')" class="lt-btn" data-lang="es">
+    <span class="lt-code">ES</span>
+    <span class="lt-name">Español</span>
+  </button>
+</div>
+</body>
+</html>
