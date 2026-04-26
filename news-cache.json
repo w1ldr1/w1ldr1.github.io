@@ -99,6 +99,13 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260423/1163042_100032_video_1800.mp4"
     },
     {
+      "title": "El presidente andaluz centra su precampaña en actos festivos a tres semanas de las urnas",
+      "link": "https://elpais.com/espana/elecciones-andalucia/2026-04-26/el-presidente-andaluz-centra-su-precampana-en-actos-festivos-a-tres-semanas-de-las-urnas.html",
+      "desc": "Moreno destaca en la romería de Andújar el “fervor popular” de Andalucía en contraste con “las realidades nacionales de otras comunidades”",
+      "date": "Sun, 26 Apr 2026 15:55:22 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CVDMVZ4YARKQJHM4PH2IVG4EAE.jpg?auth=f49d6077d6017404d953adf06715d4e7056857b3cff5f1b62004302b3a56eb25"
+    },
+    {
       "title": "Kitchen y la lealtad política",
       "link": "https://elpais.com/espana/2026-04-23/kitchen-y-la-lealtad-politica.html",
       "desc": "Se impone el concepto de lealtad que aparece consolidado para los casos de incendio. La prueba de la traición de Bárcenas son sus millones en Suiza. Y la de la lealtad del exministro Fernández Díaz, su silencio",
@@ -113,5 +120,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/TTQEAIZW3BMVRJXHTLTEYIZREU.jpg?auth=f6f5373c3aa722c540b5ebacd1cd2253caf4694d6305f2590e1436612ad330e0"
     }
   ],
-  "fetchedAt": 1777229973786
+  "fetchedAt": 1777233090679
 }
