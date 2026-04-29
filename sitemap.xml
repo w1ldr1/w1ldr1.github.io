@@ -31,6 +31,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://casaespanaindiana.org/newcomers.html</loc>
+    <lastmod>2026-04-29</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://casaespanaindiana.org/privacy.html</loc>
     <lastmod>2026-04-23</lastmod>
     <priority>0.3</priority>
