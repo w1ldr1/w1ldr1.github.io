@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "Juicio por la trama de las mascarillas, en directo | Koldo niega haber hablado con Sánchez tras su llegada a Moncloa: “Yo no hablaba con el presidente”",
+      "title": "Juicio por la trama de las mascarillas, en directo | Koldo asegura que recibió miles de euros en “metálico” del PSOE en concepto de gastos, incluidos billetes de 500",
       "link": "https://elpais.com/espana/2026-04-30/primer-juicio-contra-abalos-koldo-y-aldama-por-la-trama-de-las-mascarillas-en-directo.html",
-      "desc": "El exasesor de Ábalos asegura que recibió 7.088 euros en “metálico” del PSOE en 2018 en concepto de gastos, incluidos billetes de 500 | Niega haber recibido regalos y 10.000 euros al mes de Aldama | Reconoce que trasladó la oferta de la empresa del comisionista",
-      "date": "Thu, 30 Apr 2026 15:45:53 GMT",
+      "desc": "El exasesor de Ábalos niega haber hablado con Sánchez tras su llegada a Moncloa: “Yo no hablaba con el presidente” | Niega haber recibido regalos y 10.000 euros al mes de Aldama",
+      "date": "Thu, 30 Apr 2026 16:59:06 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/D7H7YA7YC5G4NB6LOD7XODHOGA.jpg?auth=4e0370e9040666b9a241f604a3b1dae5cc4c04143b8a321bd9b4ca10313bd5b6"
     },
     {
@@ -68,7 +68,7 @@
       "link": "https://elpais.com/espana/2026-04-30/el-pp-sale-en-defensa-de-vito-quiles-tras-la-denuncia-de-agresion-de-begona-gomez-el-agredido-es-un-periodista.html",
       "desc": "El secretario general de los populares, Miguel Tellado, pide al PSOE que destituya a la militante socialista que acompañaba a la esposa del presidente y que forcejeó con Quiles",
       "date": "Thu, 30 Apr 2026 12:12:52 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/45MKCHNOSRLANGCMDLUI7ELEHA.jpg?auth=5951f9d2b2fabfa499c3e24b1122f6179d98107f49498ff7067d32eab58c4c38"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260430/1166056_153511_video_1800.mp4"
     },
     {
       "title": "Begoña Gómez denuncia a Vito Quiles por una agresión en un restaurante de Madrid",
@@ -134,5 +134,5 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260429/1165524_151433_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1777564718031
+  "fetchedAt": 1777569951865
 }
