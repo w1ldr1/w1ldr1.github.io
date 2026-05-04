@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "El primer debate electoral en Andalucía | Los cinco principales candidatos se ven las caras",
+      "title": "El primer debate electoral en Andalucía, en directo | La oposición carga contra la gestión en la sanidad de Moreno, y este se escuda en la herencia recibida",
       "link": "https://elpais.com/espana/elecciones-andalucia/2026-05-04/el-primer-debate-electoral-en-andalucia-los-cinco-principales-candidatos-se-ven-las-caras.html",
-      "desc": "Los presentantes de PP, PSOE, Vox, Por Andalucía y Adelante Andalucía confrontan posturas en RTVE",
-      "date": "Mon, 04 May 2026 18:42:53 GMT",
+      "desc": "El candidato a la reelección critica el legado en la Junta y Vox centra su discurso en la prioridad nacional",
+      "date": "Mon, 04 May 2026 20:54:59 GMT",
       "imgUrl": "https://www.youtube.com/watch?v=-DxlEoJ1rb4"
     },
     {
@@ -81,13 +81,13 @@
       "title": "Seis vigilantes armados custodiaban la droga del barco con el alijo gigante de cocaína",
       "link": "https://elpais.com/espana/2026-05-04/seis-vigilantes-armados-custodiaban-la-droga-del-barco-con-el-alijo-gigante-de-cocaina.html",
       "desc": "El cargamento estaba oculto tras una pared metálica sellada que daba paso a un pasillo estrecho lleno de fardos",
-      "date": "Mon, 04 May 2026 19:05:38 GMT",
+      "date": "Mon, 04 May 2026 19:40:12 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/WZ7YRHH7MZMMVFCOAMMFKHBVDY.jpg?auth=f0e811221893cc1d73e820dc5a83687b2e3caa95f671203b7b0987434ea56b1d"
     },
     {
-      "title": "Anticorrupción mantiene su petición de penas y no rebaja la de Aldama",
+      "title": "Fiscalía decide no rebajar la pena de cárcel para Aldama",
       "link": "https://elpais.com/espana/2026-05-04/anticorrupcion-mantiene-su-peticion-de-penas-y-no-rebaja-la-de-aldama.html",
-      "desc": "El PP sí cambia y pide apreciar la confesión “muy cualificada” del presunto conseguidor, de modo que no llegue a entrar en prisión",
+      "desc": "Si el presunto conseguidor logra que el tribunal valore como “muy cualificada” su confesión podrá evitar la prisión",
       "date": "Mon, 04 May 2026 18:05:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/7VLIUM3RGNO4LPMJ6LI3F5YXTM.jpg?auth=d6b93f72faab21467daec8d37c67d6fed26b5b2e8a2604b7cf7ce7b15d23a9e7"
     },
@@ -109,7 +109,7 @@
       "title": "Muere Carlos Garaikoetxea, el primer lehendakari tras la recuperación de las libertades",
       "link": "https://elpais.com/espana/2026-05-04/muere-carlos-garaikoetxea-el-primer-lehendakari-tras-la-recuperacion-de-las-libertades.html",
       "desc": "Tras su paso por la presidencia del Gobierno Vasco con el PNV, fundó y presidió Eusko Alkartasuna",
-      "date": "Mon, 04 May 2026 19:01:27 GMT",
+      "date": "Mon, 04 May 2026 21:00:58 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260504/1167219_180250_video_1800.mp4"
     },
     {
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/GGCV5WE7VNA4JK2RF5Y6WLDIFU.jpg?auth=39c37745f1c01e36d23593c0856f8b5794ba0361fea9e5235218c02db4ac0958"
     }
   ],
-  "fetchedAt": 1777923833256
+  "fetchedAt": 1777929056952
 }
