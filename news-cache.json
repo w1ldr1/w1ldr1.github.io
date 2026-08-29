@@ -8,18 +8,18 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/SNV53EAM6VN6BGMPR2YWIYUSOU.jpg?auth=1be884096c423ba2fe5d41b5f53b40614a70f51572b3b8edaf627e427d7bec7b"
     },
     {
+      "title": "Las protestas ciudadanas se frenan en Ceuta por temor a que las vinculen con ultras",
+      "link": "https://elpais.com/espana/2026-08-29/las-protestas-ciudadanas-se-frenan-en-ceuta-por-temor-a-que-las-vinculen-con-ultras.html",
+      "desc": "Pese a que las marchas se han desconvocado, unas 200 personas hacen una sentada en un intento por llegar a la frontera",
+      "date": "Sat, 29 Aug 2026 19:37:05 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UMBATMG4ERGNFBUAMUXBGQ7NAU.jpg?auth=23fcf71b663eb8e43346a975fb1449ae16caaedcf448ac4b038c05dad93d72b8"
+    },
+    {
       "title": "Feijóo pide el voto “del cabreo y la esperanza” para el PP “en el año del Gobierno del cambio”",
       "link": "https://elpais.com/espana/2026-08-29/feijoo-pide-el-voto-del-cabreo-y-la-esperanza-para-el-pp-en-el-ano-del-gobierno-del-cambio.html",
       "desc": "El líder popular confirma sobre Ceuta las concentraciones municipales, la citación de la directora del CNI y la personación en la Audiencia",
       "date": "Sat, 29 Aug 2026 12:05:45 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260829/1208915_120951_video_1800.mp4"
-    },
-    {
-      "title": "España pide a la UE el apoyo de Frontex para “agilizar” la clasificación de migrantes en Ceuta",
-      "link": "https://elpais.com/espana/2026-08-28/espana-pide-a-la-ue-el-apoyo-de-frontex-para-agilizar-la-clasificacion-de-migrantes-en-ceuta.html",
-      "desc": "El ministro del Interior traslada la petición en una carta a la directora general de Migración de la Comisión Europea",
-      "date": "Fri, 28 Aug 2026 17:47:09 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/LNWIRVSZNRCFBM3IZ4B7TH5QEU.jpg?auth=c76b131e4055115b938b7b19e73bee6043e57e5d16dbd36be0b396ae97562513"
     },
     {
       "title": "Ceuta y el consentimiento racista del PP",
@@ -55,6 +55,13 @@
       "desc": "Que los populares pretendan que el alto tribunal resuelva una parte sustancial de sus diferencias con el Gobierno supera todo planteamiento razonable por excesivo",
       "date": "Tue, 25 Aug 2026 03:45:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/HFXWCN65P5NNBLJLWUK2N24ZJI.jpg?auth=afc3676817888d9437ed7f7a53bd7a3944872b89c51727c762cfb31c63de86c6"
+    },
+    {
+      "title": "España pide a la UE el apoyo de Frontex para “agilizar” la clasificación de migrantes en Ceuta",
+      "link": "https://elpais.com/espana/2026-08-28/espana-pide-a-la-ue-el-apoyo-de-frontex-para-agilizar-la-clasificacion-de-migrantes-en-ceuta.html",
+      "desc": "El ministro del Interior traslada la petición en una carta a la directora general de Migración de la Comisión Europea",
+      "date": "Fri, 28 Aug 2026 17:47:09 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/LNWIRVSZNRCFBM3IZ4B7TH5QEU.jpg?auth=c76b131e4055115b938b7b19e73bee6043e57e5d16dbd36be0b396ae97562513"
     },
     {
       "title": "Albares califica de “indispensable” la cooperación de Marruecos y carga contra Italia por insolidaria",
@@ -125,14 +132,7 @@
       "desc": "La ministra de Infancia reitera que la reagrupación familiar es la prioridad, aunque admite que “en la mayoría de los casos no hay posibilidad de retorno”",
       "date": "Thu, 27 Aug 2026 13:54:13 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3IBFVT3CWFJ4ZBW2WX2DTZI7A4.jpg?auth=c5eaae5de7dcdfc42369e304b446d142e0c2f4bd1d734834553115aa27d803b4"
-    },
-    {
-      "title": "Detenidos 12 migrantes en Ceuta tras apedrear un vehículo militar y herir a cuatro de sus ocupantes",
-      "link": "https://elpais.com/espana/2026-08-27/doce-migrantes-detenidos-tras-apedrear-y-herir-a-cuatro-militares-en-la-pedania-ceuti-de-benzu.html",
-      "desc": "Decenas de personas atacan por sorpresa un transporte del Ejército en la zona de Benzú, utilizada por las mafias para trasladar a personas a la península",
-      "date": "Thu, 27 Aug 2026 09:34:47 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HQLJ5NBTZ5CJ5LR2BYSWYCENTM.jpg?auth=1364fc224a7123f1c6401b2983ea81e7edb0f64507cb3b296ef166f759b5d23b"
     }
   ],
-  "fetchedAt": 1788025639728
+  "fetchedAt": 1788035782436
 }
