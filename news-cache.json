@@ -64,6 +64,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UD2UMV2ZJRNJZKBRYJIXMKPHGU.jpg?auth=05af1da4d423937eab98008f468f08b7ed1aa9c41a9d293e8b36554d42a6cbc9"
     },
     {
+      "title": "Ceuta vuelve a salir a la calle al mes de la gran entrada: “Aquí hay que luchar”",
+      "link": "https://elpais.com/espana/2026-08-30/ceuta-vuelve-a-salir-a-la-calle-al-mes-de-la-gran-entrada-aqui-hay-que-luchar.html",
+      "desc": "Unos 300 ciudadanos recorren el centro de la ciudad de forma pacífica para reclamar el regreso de miles de migrantes y la vuelta a la normalidad",
+      "date": "Sun, 30 Aug 2026 20:08:19 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/QVKQIDDPTBOWXPJ7YXHZDBP25E.jpg?auth=615e6b299f1f5ef869d207f5dced311d3d34c81b4f1ca002e67dcb2faecedc95"
+    },
+    {
       "title": "Sánchez destina otros 165 millones a recuperar Ceuta y aplacar una crisis que altera el nuevo curso",
       "link": "https://elpais.com/espana/2026-08-30/sanchez-destina-otros-165-millones-a-recuperar-ceuta-y-aplacar-una-crisis-que-altera-el-nuevo-curso.html",
       "desc": "El Consejo de Ministros aprobará este martes un paquete de medidas urgentes que incluye el 4% del PIB en ayudas",
@@ -125,14 +132,7 @@
       "desc": "“No ha habido, hay, ni habrá nunca ningún” diálogo sobre la soberanía de Ceuta y Melilla, enfatiza el ministro",
       "date": "Fri, 28 Aug 2026 14:40:54 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260828/1208724_153649_video_1800.mp4"
-    },
-    {
-      "title": "Marlaska alerta sobre los altercados en Ceuta y acusa a PP y Vox de “incitar al odio”",
-      "link": "https://elpais.com/espana/2026-08-28/marlaska-evita-la-autocritica-y-acusa-a-pp-y-vox-de-incitar-al-odio-en-ceuta.html",
-      "desc": "El ministro se queda solo en la defensa de la “colaboración” de Marruecos, puesta en duda por Sumar y sus aliados parlamentarios",
-      "date": "Fri, 28 Aug 2026 13:20:55 GMT",
-      "imgUrl": "https://www.youtube.com/watch?v=P8uT-vhya2A"
     }
   ],
-  "fetchedAt": 1788122633409
+  "fetchedAt": 1788131809354
 }
