@@ -1,10 +1,17 @@
 {
   "items": [
     {
+      "title": "La Policía desaloja el campamento instalado junto al recinto de acogida del barrio ceutí de Loma Colmenar",
+      "link": "https://elpais.com/espana/2026-08-31/la-policia-desaloja-el-campamento-instalado-junto-al-recinto-de-acogida-del-barrio-ceuti-de-loma-colmenar.html",
+      "desc": "Los agentes intervienen con disparos al aire para frenar un enfrentamiento entre migrantes",
+      "date": "Mon, 31 Aug 2026 19:17:24 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260831/1209494_161840_video_1800.mp4"
+    },
+    {
       "title": "Sánchez exculpa a Marruecos por la crisis de Ceuta y avanza que el Rey la visitará por primera vez con este Gobierno",
       "link": "https://elpais.com/espana/2026-08-31/sanchez-destaca-la-cooperacion-instantanea-con-marruecos-y-asegura-que-el-rey-visitara-ceuta.html",
       "desc": "El presidente apunta a Rusia, Israel y a la “internacional ultraderechista” de propagar los bulos que provocaron la entrada masiva",
-      "date": "Mon, 31 Aug 2026 14:19:30 GMT",
+      "date": "Mon, 31 Aug 2026 16:56:55 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260831/1209334_084418_video_1800.mp4"
     },
     {
@@ -13,13 +20,6 @@
       "desc": "Los populares afirman que si Feijóo estuviera gobernando “estaría a punto de ir” con el Rey a Ceuta",
       "date": "Mon, 31 Aug 2026 12:58:08 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260831/1209431_133155_video_1800.mp4"
-    },
-    {
-      "title": "La Fiscalía registra 23 agresiones sexuales a migrantes en Ceuta desde la entrada masiva",
-      "link": "https://elpais.com/espana/2026-08-31/la-fiscalia-registra-20-agresiones-sexuales-a-mujeres-y-ninas-migrantes-en-ceuta-desde-la-entrada-masiva.html",
-      "desc": "El ministerio público investiga a ocho hombres: cuatro marroquíes, tres españoles y un belga",
-      "date": "Mon, 31 Aug 2026 15:10:22 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CTIPQMMU4FLIJFP7A7TGCBLHR4.jpg?auth=8ed496b5f5ab4f4417603a1c7b7e269c9068201fe55a7983ff7464739d050c3d"
     },
     {
       "title": "Ceuta y el consentimiento racista del PP",
@@ -55,6 +55,13 @@
       "desc": "Que los populares pretendan que el alto tribunal resuelva una parte sustancial de sus diferencias con el Gobierno supera todo planteamiento razonable por excesivo",
       "date": "Tue, 25 Aug 2026 03:45:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/HFXWCN65P5NNBLJLWUK2N24ZJI.jpg?auth=afc3676817888d9437ed7f7a53bd7a3944872b89c51727c762cfb31c63de86c6"
+    },
+    {
+      "title": "La Fiscalía registra 23 agresiones sexuales a migrantes en Ceuta desde la entrada masiva",
+      "link": "https://elpais.com/espana/2026-08-31/la-fiscalia-registra-20-agresiones-sexuales-a-mujeres-y-ninas-migrantes-en-ceuta-desde-la-entrada-masiva.html",
+      "desc": "El ministerio público investiga a ocho hombres: cuatro marroquíes, tres españoles y un belga",
+      "date": "Mon, 31 Aug 2026 15:10:22 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CTIPQMMU4FLIJFP7A7TGCBLHR4.jpg?auth=8ed496b5f5ab4f4417603a1c7b7e269c9068201fe55a7983ff7464739d050c3d"
     },
     {
       "title": "Sira Rego confronta el discurso ultra en el Congreso: “No voy a discutir si un niño merece tener derechos”",
@@ -125,14 +132,7 @@
       "desc": "El respaldo del juez y la Fiscalía a teniente coronel Balas en el ‘caso Koldo’ condiciona a la Guardia Civil a decidir su encaje en la unidad",
       "date": "Mon, 31 Aug 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/PEPFHYCZD5HTVPP7JR6TXJXOWU.jpg?auth=4bf102d7fe5145e2486e727496401f65191d05b51e25caf39987b57dd5482d68"
-    },
-    {
-      "title": "Mercedes Milá: “Ni en 200 años podrían pagarle a Letizia Ortiz lo que ha hecho por la Monarquía”",
-      "link": "https://elpais.com/espana/2026-08-31/mercedes-mila-ni-en-200-anos-podrian-pagarle-a-letizia-ortiz-lo-que-ha-hecho-por-la-monarquia.html",
-      "desc": "La periodista aclara que cuando llamó “cobarde” a Broncano por no mojarse sobre Zapatero era “una broma” y revela alegrías y decepciones en más de medio siglo de profesión",
-      "date": "Mon, 31 Aug 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/N2FZFM6QNZGU3O7DUMAGAGXPG4.jpg?auth=84c5e987ad9e48806c1a5cd0c65bc64e2f1399eaca9651ae9489025cf5f29d2b"
     }
   ],
-  "fetchedAt": 1788191807381
+  "fetchedAt": 1788211457990
 }
