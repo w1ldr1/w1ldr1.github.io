@@ -78,6 +78,13 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260904/1210934_121509_video_1800.mp4"
     },
     {
+      "title": "Robles firma el ascenso a coronel de Balas y su garantía de que seguirá en la UCO como pidió el juez del ‘caso Koldo’",
+      "link": "https://elpais.com/espana/2026-09-04/robles-firma-el-ascenso-a-coronel-de-balas-y-su-garantia-de-que-seguira-en-la-uco.html",
+      "desc": "Anticorrupción y el juez Moreno habían solicitado que el mando de la Guardia Civil continuara la investigación en marcha en la Audiencia Nacional",
+      "date": "Fri, 04 Sep 2026 08:01:04 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/DONQP5D6WBAFPHZYQN5M2ZGIC4.jpg?auth=fd86954ed5bb4234cb01acf4205d201f428079d3d183b45c12072d321b0a3fbf"
+    },
+    {
       "title": "El Gobierno balear pide explicaciones a Sánchez por el informe de “riesgo alto” de llegadas masivas de inmigrantes a Baleares",
       "link": "https://elpais.com/espana/2026-09-04/el-gobierno-balear-pide-explicaciones-a-sanchez-por-el-informe-de-riesgo-alto-de-llegadas-masivas-de-inmigrantes-a-baleares.html",
       "desc": "La presidenta Marga Prohens reprocha no haber recibido el aviso: “Creemos muy grave la ocultación de una información tan sensible”",
@@ -90,13 +97,6 @@
       "desc": "Los vecinos que llevan un mes ocupándose de migrantes se plantan ante la Delegación",
       "date": "Fri, 04 Sep 2026 03:45:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/RTB4SJDKSVFLTGBD2IC2RKJPRA.jpg?auth=ff5f74e0506408962f2926466bf40d1bf5c46c1832e41a5e99b25f2e43531bc8"
-    },
-    {
-      "title": "Robles firma el ascenso a coronel de Balas y su garantía de que seguirá en la UCO como pidió el juez del ‘caso Koldo’",
-      "link": "https://elpais.com/espana/2026-09-04/robles-firma-el-ascenso-a-coronel-de-balas-y-su-garantia-de-que-seguira-en-la-uco.html",
-      "desc": "Anticorrupción y el juez Moreno habían solicitado que el mando de la Guardia Civil continuara la investigación en marcha en la Audiencia Nacional",
-      "date": "Fri, 04 Sep 2026 08:01:04 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/DONQP5D6WBAFPHZYQN5M2ZGIC4.jpg?auth=fd86954ed5bb4234cb01acf4205d201f428079d3d183b45c12072d321b0a3fbf"
     },
     {
       "title": "Tellado carga contra Robles y la acusa de cinismo por su actitud en el Congreso",
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/Y42F4AGFKZDQZCRMHV2GQDRAZQ.jpg?auth=8f72a8f6cdbeeb44c62a16f1fb3eb5fed80d0dc0854521b213e316bdd586a241"
     }
   ],
-  "fetchedAt": 1788549807931
+  "fetchedAt": 1788558060508
 }
