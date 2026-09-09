@@ -57,7 +57,7 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/F3DFGXCCDRH53KCE7ZARRUCQ3U.JPG?auth=9cb8871a80574f7136b04a8c6763a7ebadd61994ed2f892e890f372842191f7c"
     },
     {
-      "title": "El Gobierno Vasco concede el tercer grado al exdirigente de ETA Henri Parot",
+      "title": "El Gobierno vasco concede el tercer grado al exlíder de ETA Henri Parot",
       "link": "https://elpais.com/espana/2026-09-09/el-gobierno-vasco-concede-el-tercer-grado-al-exdirigente-de-eta-henri-parot.html",
       "desc": "El condenado ingresó en prisión en 1990 y actualmente cumple su pena en la cárcel guipuzcoana de Zubieta",
       "date": "Wed, 09 Sep 2026 11:32:46 GMT",
@@ -87,7 +87,7 @@
     {
       "title": "Josep Lluís Trapero dimite como director general de la policía de Cataluña",
       "link": "https://elpais.com/espana/catalunya/2026-09-09/josep-lluis-trapero-dimite-como-director-general-de-la-policia-de-cataluna.html",
-      "desc": "El jefe policial ocupaba el cargo desde hacía dos años y lo abandona entre episodios de tensión por el relevo del comisario jefe de los Mossos",
+      "desc": "El responsable político deja el cargo después de diversos encontronazos con la consejera de Interior. Su sustituto, Ferran López, dirigió la policía catalana durante el 155",
       "date": "Wed, 09 Sep 2026 06:41:47 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/CEFSHSZPRBBFZGAGAV6I4KU7NE.jpg?auth=ccc5b8f35bee3d1d20b56326584063358fb8f5e002e8d47b259e6f545b3d8226"
     },
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FTKKPQHLVZICNMRMSUZOODAJNM.jpg?auth=fd5cebe101f64b510da9e1c1baa4b4d9e1d0846943b6dc6efbcc7f06a602aae5"
     }
   ],
-  "fetchedAt": 1788965080331
+  "fetchedAt": 1788978107749
 }
