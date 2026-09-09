@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/F3DFGXCCDRH53KCE7ZARRUCQ3U.JPG?auth=9cb8871a80574f7136b04a8c6763a7ebadd61994ed2f892e890f372842191f7c"
     },
     {
+      "title": "García-Page acusa a Sánchez de “vivir arrodillado a las minorías más sangrientas” de Junts y Bildu",
+      "link": "https://elpais.com/espana/2026-09-09/garcia-page-acusa-a-sanchez-de-vivir-arrodillado-a-las-minorias-mas-sangrientas-de-junts-y-bildu.html",
+      "desc": "El presidente del Gobierno había desdeñado previamente las críticas del barón del PSOE como “minoritarias” dentro del partido en una entrevista en TVE",
+      "date": "Wed, 09 Sep 2026 13:55:42 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/4BJJ5UE6BRCWJMQU7HLGI5FDX4.JPG?auth=2ec35af648bc7bc6eab4f73d1210bef5b0e60ce2ffcefa44597b5f8355fa0e3f"
+    },
+    {
       "title": "El Gobierno vasco concede el tercer grado al exlíder de ETA Henri Parot",
       "link": "https://elpais.com/espana/2026-09-09/el-gobierno-vasco-concede-el-tercer-grado-al-exdirigente-de-eta-henri-parot.html",
       "desc": "El condenado ingresó en prisión en 1990 y actualmente cumple su pena en la cárcel guipuzcoana de Zubieta",
@@ -125,14 +132,7 @@
       "desc": "El alto tribunal acepta parcialmente la petición que habían formulado Vox e Iustitia Europa y condiciona el sufragio a que se acredite ser descendiente de exiliados",
       "date": "Tue, 08 Sep 2026 13:36:56 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/YA7QKVGMKZKDVH6GLGTIPERKY4.jpg?auth=2915ab47e66dae949d189c2eaa7464587d334042fa5c877288a71b5d28a15c3b"
-    },
-    {
-      "title": "Marlaska tilda de “sensación de inseguridad subjetiva” las quejas de los ceutíes",
-      "link": "https://elpais.com/espana/2026-09-08/marlaska-tilda-de-sensacion-de-inseguridad-subjetiva-las-quejas-de-los-ceuties.html",
-      "desc": "El ministro del Interior, de visita en Ceuta, se ha referido a una de las principales quejas de los vecinos de la ciudad",
-      "date": "Tue, 08 Sep 2026 19:01:35 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FTKKPQHLVZICNMRMSUZOODAJNM.jpg?auth=fd5cebe101f64b510da9e1c1baa4b4d9e1d0846943b6dc6efbcc7f06a602aae5"
     }
   ],
-  "fetchedAt": 1788978107749
+  "fetchedAt": 1788987917307
 }
