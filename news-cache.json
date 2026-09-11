@@ -57,10 +57,17 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/JH3WAUUN7NBRTD3W2LXAEIR5VM.jpg?auth=10d02b2ac30fd52f7b5ec2542e5328694434d864404a9c58963015bef3f848cb"
     },
     {
-      "title": "Podemos lanza este sábado la candidatura de Irene Montero a las generales sin decidir aún las alianzas",
+      "title": "El Rey rinde homenaje a las víctimas del 11-S en la base de Rota",
+      "link": "https://elpais.com/espana/2026-09-11/el-rey-rinde-homenaje-a-las-victimas-del-11-s-en-la-base-de-rota.html",
+      "desc": "El embajador de Estados Unidos recuerda el apoyo de España en la OTAN “aportando fuerzas a las operaciones” tras los atentados hace 25 años",
+      "date": "Fri, 11 Sep 2026 13:16:48 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260911/1213291_121259_video_1800.mp4"
+    },
+    {
+      "title": "Podemos lanza este sábado la candidatura de Irene Montero a las generales sin concretar aún las alianzas",
       "link": "https://elpais.com/espana/2026-09-11/podemos-lanza-este-sabado-la-candidatura-de-irene-montero-a-las-generales-sin-decidir-aun-las-alianzas.html",
-      "desc": "La exministra de Igualdad plantea la regulación del precio de la vivienda, la reducción de la jornada laboral a 35 horas semanales y un salario mínimo de 1.800 euros",
-      "date": "Fri, 11 Sep 2026 12:00:00 GMT",
+      "desc": "La exministra de Igualdad buscará una lista “lo más amplia posible” y plantea la regulación del precio de la vivienda, la reducción de la jornada laboral a 35 horas semanales y un salario mínimo de 1.800 euros",
+      "date": "Fri, 11 Sep 2026 14:45:31 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/LUKFUFMHBVOHRMPAWBUZMVXHGM.jpg?auth=ebe212189c31eb7d851e753fb8b7796317e58132a2901677d306e73a8f858508"
     },
     {
@@ -125,14 +132,7 @@
       "desc": "Perelló responde en la apertura del año judicial a las críticas del Gobierno hacia los jueces y pide “lealtad institucional”",
       "date": "Thu, 10 Sep 2026 11:20:43 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260910/1212926_124845_video_1800.mp4"
-    },
-    {
-      "title": "El Supremo ve en la ‘ley de nietos’ un “peligro fundado, real y serio” de afectar a la “objetividad” de las elecciones",
-      "link": "https://elpais.com/espana/2026-09-10/el-supremo-ve-en-la-ley-de-nietos-un-peligro-fundado-real-y-serio-de-afectar-a-las-elecciones.html",
-      "desc": "La Sala de lo Contencioso-Administrativo ha notificado los autos por los que suspendió el derecho al voto de los nacionalizados por la Ley de Memoria Democrática",
-      "date": "Thu, 10 Sep 2026 12:48:36 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/OFPWGSS5CVFAXGYLYJWLRS4VXY.jpg?auth=d52cecb9be593dc5a08dc0ed3e8fc6d49e8c1031f7f65e8d49753cb0b1b36ea5"
     }
   ],
-  "fetchedAt": 1789132882249
+  "fetchedAt": 1789146313497
 }
