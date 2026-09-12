@@ -64,6 +64,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/2YPZM3WWRRANPHO3IFW7PA72VY.jpg?auth=6bb54387f93de2cf853f6597646ad216b395a7b21043760e2228a528a742b804"
     },
     {
+      "title": "Frustración y miedo a perder otros derechos entre los nuevos españoles en Sudamérica",
+      "link": "https://elpais.com/argentina/2026-09-12/frustracion-y-miedo-a-perder-otros-derechos-entre-los-nuevos-espanoles-en-sudamerica.html",
+      "desc": "Los hijos y nietos con la solicitud de ciudadanía en trámite temen que la decisión del Supremo sea un primer paso para cerrarles la puerta",
+      "date": "Sat, 12 Sep 2026 15:35:29 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YFGH4YJ5NRPXVKHNJOCP46ARCU.jpg?auth=566a990484e384dec2ee1c3f0d3d93d2bb4f3fb3c979493c8718ddfcaa429737"
+    },
+    {
       "title": "Incendiadas al menos 40 tiendas de migrantes en las Naves del Tarajal",
       "link": "https://elpais.com/espana/2026-09-11/al-menos-40-tiendas-de-migrantes-incendiadas-en-las-naves-del-tarajal.html",
       "desc": "La Policía cree que el fuego se originó por “un descuido”, pero los afectados lo niegan. Detenido un empleado público por otro incendio registrado en Ceuta en la madrugada",
@@ -125,14 +132,7 @@
       "desc": "En un encuentro de fiscales con el presidente popular en 2023, Narváez alertó de los pactos del PSE con formaciones que calificaba de “filoetarras”",
       "date": "Thu, 10 Sep 2026 19:07:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UW6ISVMSNVEBTOYCHHXWQ23UX4.jpg?auth=372ec54e4339f8ef5f6d9e48fac5cbdc23c0470a4de355008f3a3b287278c4cb"
-    },
-    {
-      "title": "Los argumentos del Supremo sobre la ‘ley de nietos’ alimentan la tesis del pucherazo electoral que airea la derecha",
-      "link": "https://elpais.com/espana/2026-09-11/los-argumentos-del-supremo-sobre-la-ley-de-nietos-alimentan-la-tesis-del-pucherazo-electoral-que-airea-la-derecha.html",
-      "desc": "El tribunal justifica la suspensión del derecho al voto de los nuevos nacionalizados en un incremento “excepcional” del censo que fundamenta “la incertidumbre sobre el resultado electoral”",
-      "date": "Fri, 11 Sep 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KPIN42CV3FO4VDSSRGHQ563FBA.jpg?auth=e96864dce73605770386077f1231861d71fc8fc313b3277cb8334d54dd56694f"
     }
   ],
-  "fetchedAt": 1789218057718
+  "fetchedAt": 1789230370322
 }
