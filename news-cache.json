@@ -1,9 +1,16 @@
 {
   "items": [
     {
+      "title": "Feijóo presiona a Bruselas para que se involucre en la crisis de Ceuta ante el “fracaso” del Gobierno",
+      "link": "https://elpais.com/espana/2026-09-17/feijoo-presiona-a-bruselas-para-que-se-involucre-en-la-crisis-de-ceuta-ante-el-fracaso-del-gobierno.html",
+      "desc": "El líder del PP rentabiliza su ofensiva europea tras la resolución de la Eurocámara y la reunión con el comisario de Inmigración, con el que coincide en el retorno de “todos” los migrantes",
+      "date": "Thu, 17 Sep 2026 16:40:04 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215446_184159_video_1800.mp4"
+    },
+    {
       "title": "La Audiencia Nacional permite el uso temporal del campamento de migrantes en el puerto de Ceuta",
       "link": "https://elpais.com/espana/2026-09-17/la-audiencia-nacional-permite-el-uso-temporal-del-campamento-de-migrantes-en-el-puerto-de-ceuta.html",
-      "desc": "El tribunal deniega las medidas cautelarísimas reclamadas por un sindicato policial que denunciaba riesgos para la infraestructura y los agentes",
+      "desc": "El tribunal deniega las medidas cautelarísimas reclamadas por un sindicato policial que denunciaba riesgos para la infraestructura, los agentes y los realojados",
       "date": "Thu, 17 Sep 2026 12:26:23 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FASARPHSCFOVHNWH2PBPRZTJ4U.jpg?auth=ef70dd483aeadfa535deb8e40dd2275c6c444b4c7d4d254f404a27e45aeeb0fc"
     },
@@ -13,13 +20,6 @@
       "desc": "El ministro de Transportes advierte que el Gobierno “está luchando contra un montón de agentes que quieren que esto se enquiste”",
       "date": "Thu, 17 Sep 2026 13:03:25 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FKV5MPHMLBI3PLUQHNY5KVKQ5Q.jpg?auth=639948b7b0f1f7ec82206d2c79b2a1a7113df6e65d5a03feeac4bf736a327575"
-    },
-    {
-      "title": "Las derechas europeas cargan contra España por la crisis de Ceuta y lanzan una advertencia a Marruecos",
-      "link": "https://elpais.com/espana/2026-09-17/las-derechas-europeas-cargan-contra-espana-por-la-crisis-de-ceuta-y-lanzan-una-advertencia-a-marruecos.html",
-      "desc": "La Eurocámara amenaza con suspender el acuerdo de asociación con Rabat, que les da fondos multimillonarios por proteger la frontera",
-      "date": "Thu, 17 Sep 2026 12:22:12 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/N6YQZKIE6RIATOZU2PBWNHJK2U.jpg?auth=35dc9344d8068d40b4248a5ce811301ed0549783f1bc91788c78adfaac980abb"
     },
     {
       "title": "Aquí no puede votar cualquiera",
@@ -57,6 +57,20 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/J3KOSAEOH5JEDNHPNYZCHKKHUE.jpg?auth=dfca2da8f7aa01559112c334d30c0bf62558494436bf44c4fdc1f797668d10d1"
     },
     {
+      "title": "La Eurocámara amaga con suspender el acuerdo de asociación con Marruecos, que supone cientos de millones de euros a cambio de proteger la frontera",
+      "link": "https://elpais.com/espana/2026-09-17/las-derechas-europeas-cargan-contra-espana-por-la-crisis-de-ceuta-y-lanzan-una-advertencia-a-marruecos.html",
+      "desc": "Las derechas europeas cargan contra España por la crisis de Ceuta y lanzan una advertencia a Marruecos",
+      "date": "Thu, 17 Sep 2026 12:22:12 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/N6YQZKIE6RIATOZU2PBWNHJK2U.jpg?auth=35dc9344d8068d40b4248a5ce811301ed0549783f1bc91788c78adfaac980abb"
+    },
+    {
+      "title": "Los audios de la declaración de la gerente del PSOE que señaló a Cerdán en el ‘caso Leire Díez’: “Tiene poder para cualquier acción”",
+      "link": "https://elpais.com/espana/2026-09-17/la-gerente-del-psoe-atribuyo-a-cerdan-los-encargos-a-los-imputados-del-caso-leire-diez-tiene-poder-para-cualquier-accion.html",
+      "desc": "Ana María Fuentes explicó el pasado 9 de septiembre que el partido contrató a abogados externos para afrontar sus “frentes jurídicos”",
+      "date": "Thu, 17 Sep 2026 14:07:44 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215313_132548_video_1800.mp4"
+    },
+    {
       "title": "Albares: “Ceuta y Melilla van a estar en el corazón de la Unión Europea”",
       "link": "https://elpais.com/espana/2026-09-17/albares-ceuta-y-melilla-van-a-estar-en-el-corazon-de-la-union-europea.html",
       "desc": "El ministro de Exteriores defiende el papel del derecho internacional frente a la “ley del más fuerte”",
@@ -64,11 +78,11 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215222_093136_video_1800.mp4"
     },
     {
-      "title": "Los acusados de la agresión en Oviedo, miembros de un grupo ultra, niegan que exista una “motivación política”",
+      "title": "Libertad con orden de alejamiento para los detenidos por la agresión en las fiestas de San Mateo en Oviedo",
       "link": "https://elpais.com/espana/2026-09-17/los-acusados-de-la-agresion-en-oviedo-miembros-de-un-grupo-ultra-niegan-que-exista-una-motivacion-politica.html",
-      "desc": "La Policía Nacional apunta a un móvil homófobo tras el ataque",
+      "desc": "El juez descarta imponer la obligación de comparecer en el juzgado porque todos los jóvenes disponen de domicilio y arraigo en la ciudad",
       "date": "Thu, 17 Sep 2026 12:24:31 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/Q3HURDVW3RH4VBMKLD7YSBCIEQ.jpg?auth=7137f9315b932e7575aa1486581fcf5cb9364fe241d0efea800b99aea05317a9"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215394_163011_video_1800.mp4"
     },
     {
       "title": "Marlaska pide a Bruselas “acelerar los procedimientos de retorno en crisis migratorias” como la de Ceuta",
@@ -82,7 +96,7 @@
       "link": "https://elpais.com/sociedad/2026-09-17/aemet-alerta-de-peligro-extraordinario-por-lluvias-torrenciales-en-campo-de-cartagena-y-mazarron.html",
       "desc": "Toda la región se mantiene en este nivel de alerta hasta las 20.00",
       "date": "Thu, 17 Sep 2026 11:03:02 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/7KKMD6TVKNJKVJ4VOXXITODC3Q.jpg?auth=163ef812f80afec20b66470bad0671348d024669d2b804c30f3d2df343b760b8"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215342_144659_video_1800.mp4"
     },
     {
       "title": "La jueza busca quién coordinó, financió y decidió el operativo de la entrada masiva a Ceuta en Marruecos",
@@ -118,21 +132,7 @@
       "desc": "Las fuertes lluvias provocan problemas en el metro de Barcelona y en carreteras",
       "date": "Wed, 16 Sep 2026 23:46:02 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260917/1215211_085333_video_1800.mp4"
-    },
-    {
-      "title": "Javier Cremades, sobre las garantías judiciales en el caso Zapatero: “La justicia investigó a un yerno del Rey. Ahora le toca a un expresidente del Gobierno”",
-      "link": "https://elpais.com/espana/2026-09-17/javier-cremades-sobre-las-garantias-judiciales-en-el-caso-zapatero-la-justicia-investigo-a-un-yerno-del-rey-ahora-le-toca-a-un-expresidente-del-gobierno.html",
-      "desc": "El presidente del bufete Cremades &amp; Calvo-Sotelo señala en su libro ‘Sobre el imperio de la ley’ los peligros que acechan al Estado de Derecho y a la independencia judicial",
-      "date": "Thu, 17 Sep 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/32YC55BUARCFRJGQ7BY2V4ODH4.jpg?auth=5815a6c0399f6d43fb3280493414e642eb7b5629b144491815629f6827aa0c40"
-    },
-    {
-      "title": "La Generalitat envía un Es-Alert por el riesgo de inundaciones y activa la preemergencia en los barrancos tras las fuertes lluvias en Valencia",
-      "link": "https://elpais.com/espana/comunidad-valenciana/2026-09-16/la-generalitat-envia-un-es-alert-por-el-riesgo-de-inundaciones-y-activa-la-preemergencia-hidrologica-tras-las-fuertes-lluvias-en-valencia.html",
-      "desc": "El violento aguacero provoca rescates, el cierre del Metro y del aeropuerto, inundaciones en calles y bajos y múltiples destrozos en la provincia",
-      "date": "Wed, 16 Sep 2026 20:44:14 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YIVJTVT2AJIQJA3FTK7XG2KTXY.jpg?auth=3f7d6ed27b78c31e6f62cb6fb1d354cc0814ae0e225a12962afe4a8a7e6fce05"
     }
   ],
-  "fetchedAt": 1789656289631
+  "fetchedAt": 1789671065338
 }
