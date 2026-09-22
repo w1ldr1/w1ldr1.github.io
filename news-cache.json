@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "title": "El ‘caso Begoña Gómez’ entra en la era pos-Peinado: ¿qué plazos se manejan para el juicio?, ¿testificará Pedro Sánchez?",
-      "link": "https://elpais.com/espana/2026-09-22/el-caso-begona-gomez-entra-en-la-era-pos-peinado-que-plazos-se-manejan-para-el-juicio-testificara-pedro-sanchez.html",
-      "desc": "La defensa contempla plantear de nuevo la nulidad en la fase de cuestiones previas a la celebración de la vista oral con jurado",
-      "date": "Tue, 22 Sep 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/J2LHZANLZVEDLNFYHFSGPMBMSM.jpg?auth=16ffdc75646f4f1e2a42bd7fb3c80894b7e9aa22c35d83bfd6c3d65d1bfb7017"
-    },
-    {
       "title": "Sánchez se enteró en el avión a Nueva York del juicio a Begoña Gómez: los grandes hitos del caso coinciden con viajes del presidente",
       "link": "https://elpais.com/espana/2026-09-22/sanchez-se-entero-en-el-avion-a-nueva-york-de-la-apertura-de-juicio-a-begona-gomez-los-grandes-hitos-del-caso-han-coincidido-con-viajes-del-presidente.html",
       "desc": "El juez Peinado ha marcado con sus decisiones judiciales varios viajes importantes, algunos con Gómez",
@@ -15,11 +8,18 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/NUYXQE2PVZCS3LTXSN74B5PGLA.jpg?auth=f1c020887c9148e978d07afdfafb94dda5f0fc28f5b5f27ea6099a0b8707fdcb"
     },
     {
-      "title": "Las ONG, en el foco de la ira en Ceuta: “Nos acusan de provocar un efecto llamada”",
-      "link": "https://elpais.com/espana/2026-09-22/las-ong-en-el-foco-de-la-ira-en-ceuta-estan-provocando-un-efecto-llamada-pero-para-mas-violencia.html",
-      "desc": "La agresión contra dos activistas y una diputada al confundirles con trabajadores humanitarios expone el clima de hostilidad contra las organizaciones humanitarias en la ciudad",
+      "title": "El ‘caso Begoña Gómez’ entra en la era pos-Peinado: ¿qué plazos se manejan para el juicio?, ¿testificará Pedro Sánchez?",
+      "link": "https://elpais.com/espana/2026-09-22/el-caso-begona-gomez-entra-en-la-era-pos-peinado-que-plazos-se-manejan-para-el-juicio-testificara-pedro-sanchez.html",
+      "desc": "La defensa contempla plantear de nuevo la nulidad en la fase de cuestiones previas a la celebración de la vista oral con jurado",
       "date": "Tue, 22 Sep 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3VASCPH6OZCGRJJIPGIGRJSKWE.jpg?auth=800486cdb69cbc91dcbc1a78404b617675ea41abbd0932c78375e3987388bfbf"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/J2LHZANLZVEDLNFYHFSGPMBMSM.jpg?auth=16ffdc75646f4f1e2a42bd7fb3c80894b7e9aa22c35d83bfd6c3d65d1bfb7017"
+    },
+    {
+      "title": "Sánchez no asistirá a la habitual recepción que ofrece Trump por la Asamblea de la ONU",
+      "link": "https://elpais.com/espana/2026-09-22/sanchez-no-asistira-a-la-recepcion-que-ofrece-trump-por-la-asamblea-de-la-onu.html",
+      "desc": "Fuentes del Ejecutivo alegan “motivos de agenda” para no acudir al encuentro, pese a que oficialmente no tiene ninguna actividad programada a la hora de la cita",
+      "date": "Tue, 22 Sep 2026 12:22:22 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2TL64B774ZGRZLVK3AH6ASUEZY.JPG?auth=fadd11ee9d8aa0fda7f71d6d631e6f0600d1a427615569c29ac26eb5c07e0aa2"
     },
     {
       "title": "Aquí no puede votar cualquiera",
@@ -57,6 +57,48 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/J3KOSAEOH5JEDNHPNYZCHKKHUE.jpg?auth=dfca2da8f7aa01559112c334d30c0bf62558494436bf44c4fdc1f797668d10d1"
     },
     {
+      "title": "El Congreso retira definitivamente la acreditación de prensa a Vito Quiles",
+      "link": "https://elpais.com/espana/2026-09-22/el-congreso-retira-definitivamente-la-acreditacion-de-prensa-a-vito-quiles.html",
+      "desc": "La suspensión definitiva para acceder a la Cámara baja se produce al concurrir una “reiteración de infracciones”",
+      "date": "Tue, 22 Sep 2026 09:32:19 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/DEQFA5WOCVINDJH37GHNDXHYHQ.jpg?auth=fb41be410a41d43922f12766ddb7ffd4b98dbe7f061b477978fce3dacae56fe4"
+    },
+    {
+      "title": "La amenaza de un nuevo salto masivo este miércoles eleva a seis las alertas en Ceuta y Melilla desde la entrada de julio",
+      "link": "https://elpais.com/espana/2026-09-22/la-amenaza-de-un-nuevo-salto-masivo-este-miercoles-eleva-a-seis-las-alertas-en-ceuta-y-melilla-desde-la-entrada-de-julio.html",
+      "desc": "Interior envía cerca de 150 policías y guardias civiles más para reforzar el dispositivo de seguridad, que se suman al despliegue fronterizo de Marruecos",
+      "date": "Tue, 22 Sep 2026 11:01:32 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/PRBVE7JS5FFF5KYKEZL3HXP2YA.jpeg?auth=901df3593c98d3ceb947498db092b7c6a16310521f54c6c8963c528411bb6b62"
+    },
+    {
+      "title": "Albares asegura que Marruecos le ha garantizado que impedirá un salto a Ceuta el 23",
+      "link": "https://elpais.com/espana/2026-09-22/albares-asegura-que-marruecos-le-ha-garantizado-que-impedira-un-salto-a-ceuta-el-23.html",
+      "desc": "El Gobierno trabaja con Rabat y la prensa marroquí para disuadir a los inmigrantes de que no se jueguen la vida por un bulo",
+      "date": "Tue, 22 Sep 2026 01:19:49 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260922/1216848_082412_video_1800.mp4"
+    },
+    {
+      "title": "Las ONG, en el foco de la ira en Ceuta: “Nos acusan de provocar un efecto llamada”",
+      "link": "https://elpais.com/espana/2026-09-22/las-ong-en-el-foco-de-la-ira-en-ceuta-estan-provocando-un-efecto-llamada-pero-para-mas-violencia.html",
+      "desc": "La agresión contra dos activistas y una diputada al confundirles con trabajadores humanitarios expone el clima de hostilidad contra las organizaciones humanitarias en la ciudad",
+      "date": "Tue, 22 Sep 2026 03:30:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260921/1216415_070256_video_1800.mp4"
+    },
+    {
+      "title": "El Poder Judicial archiva de forma definitiva las quejas de Bolaños contra el juez Peinado",
+      "link": "https://elpais.com/espana/2026-09-22/el-poder-judicial-archiva-de-forma-definitiva-las-quejas-de-bolanos-contra-el-juez-peinado.html",
+      "desc": "El CGPJ rechaza el recurso del ministro contra la decisión de no sancionar al instructor del ‘caso Begoña’. El Consejo ordena abrir expediente al juez de violencia de género que dijo que las mujeres tienen “ventajas” para denunciar",
+      "date": "Tue, 22 Sep 2026 12:18:45 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/4CX6JLEPINBIHOAA6YG4KOSWVQ.jpg?auth=24130066beb9a35503e2106cf9ef41b3be6f241f8cd8b07926516c8e5b78451e"
+    },
+    {
+      "title": "La Audiencia de Tarragona deja en manos del Supremo decidir si el ‘caso Montoro’ se queda en Cataluña o se traslada a Madrid",
+      "link": "https://elpais.com/espana/2026-09-22/la-audiencia-de-tarragona-deja-en-manos-del-supremo-decidir-si-el-caso-montoro-se-queda-en-cataluna-o-se-traslada-a-madrid.html",
+      "desc": "Varios de los acusados, incluido el exministro de Hacienda, habían pedido que los juzgados de Madrid asumieran la investigación",
+      "date": "Tue, 22 Sep 2026 10:48:41 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NYB7H6DAKVDBPLS6Y2NL66KXVQ.jpg?auth=5dfbc4a3f45fd64a4747d5ae4a7b8bde74bf33b00085c3914de37a0aa41b5275"
+    },
+    {
       "title": "Adolfo Suárez Illana: “La falta de entendimiento de PSOE y PP es peligrosa para todos”",
       "link": "https://elpais.com/espana/2026-09-22/adolfo-suarez-illana-la-falta-de-entendimiento-de-psoe-y-pp-es-peligrosa-para-todos.html",
       "desc": "El exdirigente del PP e hijo del presidente Suárez presenta el libro `La Concordia es posible´ en el que pide sensatez a los dos grandes partidos",
@@ -78,48 +120,6 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/4AE2JUGEEJC3VBBXP3U56KQ7KI.jpg?auth=20cfa2733bf2e8059c10cc4c5272bfa52b8fc7f4c5483f257096066c33487803"
     },
     {
-      "title": "El juez cita como imputadas a las hijas de Zapatero el 30 de noviembre",
-      "link": "https://elpais.com/espana/2026-09-21/el-juez-cita-como-investigadas-a-las-hijas-de-zapatero-el-30-de-noviembre.html",
-      "desc": "El instructor da tres días a Zapatero para entregar documentación sobre las joyas halladas en su despacho",
-      "date": "Mon, 21 Sep 2026 10:58:31 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3BDZ57ETZ5HBFCFF4FDGMPFWKU.jpg?auth=91dd806ec4b353dfdcda7d2b92ab64d345a5e87d12f293166d1c262c311328c2"
-    },
-    {
-      "title": "Los agredidos en la manifestación de Ceuta: “Nunca he sentido tanto terror”",
-      "link": "https://elpais.com/espana/2026-09-21/los-agredidos-en-la-manifestacion-de-ceuta-nunca-he-sentido-tanto-terror.html",
-      "desc": "La abogada de derechos humanos Sofía Cánovas, el activista Rafa Borrego y la diputada ceutí Julia Ferreras viajaban en el vehículo que destrozaron los manifestantes",
-      "date": "Mon, 21 Sep 2026 09:21:52 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260921/1216415_070256_video_1800.mp4"
-    },
-    {
-      "title": "Pérez Llorca se reúne en Génova con Tellado en plena tensión interna por su designación como candidato",
-      "link": "https://elpais.com/espana/2026-09-21/perez-llorca-se-reune-en-genova-con-tellado-en-plena-tension-interna-por-su-designacion-como-candidato.html",
-      "desc": "Fuentes de la dirección remarcan que “no hay novedades” sobre quién será candidato a la Generalitat. Organización ha indagado internamente sobre las sospechas de irregularidades en el entorno del ‘president’ de la Generalitat",
-      "date": "Mon, 21 Sep 2026 17:36:46 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UWNF3RFJTVO5PG2RT2VE7T7RNM.jpg?auth=63d9f17fb901bc4e8566faa82a383caeb7e1872b3cb3f4df4b8221aba298a7f1"
-    },
-    {
-      "title": "La ministra de Infancia: “La mayoría de los menores de Ceuta quieren quedarse en España y se van a quedar”",
-      "link": "https://elpais.com/espana/2026-09-21/la-ministra-de-infancia-la-mayoria-de-los-menores-de-ceuta-quieren-quedarse-y-se-van-a-quedar.html",
-      "desc": "El Ejecutivo de la ciudad autónoma exige el retorno de “todos” los niños y adolescentes a la Península",
-      "date": "Mon, 21 Sep 2026 10:59:03 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260921/1216535_115421_video_1800.mp4"
-    },
-    {
-      "title": "Mazón sostiene que no estuvo al frente de la emergencia cuando llegó por la noche al Cecopi",
-      "link": "https://elpais.com/espana/2026-09-21/mazon-regresa-al-congreso-para-responder-de-nuevo-sobre-su-papel-en-la-gestion-de-la-dana.html",
-      "desc": "El expresidente valenciano ha comparecido ante la Cámara baja para responder de nuevo sobre su papel en la gestión de la crisis",
-      "date": "Mon, 21 Sep 2026 16:46:41 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260921/1216724_193434_video_1800.mp4"
-    },
-    {
-      "title": "El Gobierno reprocha el “exceso” del Supremo con la ‘ley de nietos’: “No existe ningún riesgo derivado del crecimiento del censo”",
-      "link": "https://elpais.com/espana/2026-09-21/el-gobierno-reprocha-el-exceso-del-supremo-con-la-ley-de-nietos-no-existe-ningun-riesgo-derivado-del-crecimiento-del-censo.html",
-      "desc": "La Abogacía recurre la suspensión del derecho al voto de los nacionalizados por la Ley de Memoria",
-      "date": "Mon, 21 Sep 2026 16:41:30 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6OVJCVIIHFBMTFAXBRFRKCSXW4.jpg?auth=2d64e277508d77fd2dd98fd56166287cab32bdd6d23a33188f2d5c5da8cd994d"
-    },
-    {
       "title": "De la denuncia de Manos Limpias a un juicio con jurado: cronología de la polémica instrucción del juez Peinado en el ‘caso de Begoña Gómez’",
       "link": "https://elpais.com/espana/2026-09-21/de-la-denuncia-de-manos-limpias-a-un-juicio-con-jurado-cronologia-de-la-polemica-instruccion-del-juez-peinado-en-el-caso-de-begona-gomez.html",
       "desc": "El juez ha comunicado este lunes su decisión de enviar al banquillo a la esposa del presidente del Gobierno",
@@ -127,12 +127,12 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/COY644PY5JHCREX3SRG3FC5UHY.jpg?auth=8c239a9e6fdff0b848e621060ccd124876f55734931fd8761274cadc37d32399"
     },
     {
-      "title": "Consulte el auto del juez Peinado con el que abre juicio oral a Begoña Gómez",
-      "link": "https://elpais.com/espana/2026-09-21/consulte-el-auto-del-juez-peinado-con-el-que-abre-juicio-oral-a-begona-gomez.html",
-      "desc": "El magistrado envía al banquillo a la esposa del presidente del Gobierno por delitos de tráfico de influencias y malversación",
-      "date": "Mon, 21 Sep 2026 11:07:17 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/PNUDAJ6XH5DHXKQGJTBWLVKBHU.jpg?auth=72e93259c297f9f4cbdc44486f0f079c2d9daaa470cee24777568e741cc62c5b"
+      "title": "El juez cita como imputadas a las hijas de Zapatero el 30 de noviembre",
+      "link": "https://elpais.com/espana/2026-09-21/el-juez-cita-como-investigadas-a-las-hijas-de-zapatero-el-30-de-noviembre.html",
+      "desc": "El instructor da tres días a Zapatero para entregar documentación sobre las joyas halladas en su despacho",
+      "date": "Mon, 21 Sep 2026 10:58:31 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3BDZ57ETZ5HBFCFF4FDGMPFWKU.jpg?auth=91dd806ec4b353dfdcda7d2b92ab64d345a5e87d12f293166d1c262c311328c2"
     }
   ],
-  "fetchedAt": 1790059066285
+  "fetchedAt": 1790079969815
 }
