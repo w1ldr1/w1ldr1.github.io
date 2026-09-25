@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/S6GVG5FQPBFE3IGJTEWM6EYQYA.jpg?auth=eedb9ed72c12d8d1dca40135d3e57e4e3477b6eb4d12fd2d565250cd5484e74c"
     },
     {
+      "title": "El ponente reescribe en 48 horas la primera propuesta de sentencia para amnistiar la malversación de los líderes del ‘procés’",
+      "link": "https://elpais.com/espana/2026-09-25/el-ponente-reescribe-en-48-horas-la-primera-propuesta-de-sentencia-para-amnistiar-la-malversacion-de-los-lideres-del-proces.html",
+      "desc": "El magistrado del Constitucional José María Macías cumple con su compromiso para que en el próximo pleno se pueda amparar a los dos primeros dirigentes independentistas que seguían pendientes de la amnistía",
+      "date": "Fri, 25 Sep 2026 16:35:03 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/7IBGTIMUJBCPRP7Z7UECAJBYGI.jpg?auth=7d5adcd05cbcca1096bae0fd3caf1beed9767378c5eb8462b1d153df62801a0d"
+    },
+    {
       "title": "Bolaños acusa a PP y Vox de representar a “los especuladores” y les pide “responsabilidad” para aprobar medidas en Vivienda",
       "link": "https://elpais.com/espana/2026-09-25/bolanos-acusa-a-pp-y-vox-de-representar-a-los-especuladores-y-les-pide-responsabilidad-para-aprobar-medidas-en-vivienda.html",
       "desc": "El ministro asegura que el Gobierno trabaja en un paquete de medidas para evitar desahucios como el de Maricarmen y afrontar la crisis inmobiliaria",
@@ -99,10 +106,10 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/X7GBRZDSGFBCPD2UNRPEJHAX24.jpg?auth=a70cbe8046019815912832206df08e5561ba37c251a296833dc9eb81088e2224"
     },
     {
-      "title": "Fallece un hombre migrante en la playa del Trampolín de Ceuta",
+      "title": "Muere un migrante marroquí tras desplomarse en un asentamiento de la playa del Trampolín en Ceuta",
       "link": "https://elpais.com/espana/2026-09-25/fallece-un-hombre-migrante-en-la-playa-del-trampolin-de-ceuta.html",
-      "desc": "Se desconocen las causas de la muerte, pero los primeros indicios apuntan a causas naturales",
-      "date": "Fri, 25 Sep 2026 15:39:41 GMT",
+      "desc": "La ONG Mission Lifeline, que fue la primera en atender al hombre, denuncia que la ambulancia tardó casi una hora en llegar",
+      "date": "Fri, 25 Sep 2026 18:26:25 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/K67WXOR6DBFHXMGNF3B7C2HM3U.JPG?auth=b47406ac05bdfff02c9e229b9362037969576934f8e1c05f2732e327e1332d4a"
     },
     {
@@ -125,14 +132,7 @@
       "desc": "El arrestado pretendía regresar a Argelia para hacer otro viaje con migrantes, pero la embarcación quedó encallada por un fallo de motor",
       "date": "Fri, 25 Sep 2026 11:47:50 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/VBUQC3SGXREP3LXRI3NJPKF5MY.jpeg?auth=b042772bfb5c5377974ab5793eeb6f0b817f03bd6df0ef58726522d56258f3bc"
-    },
-    {
-      "title": "El manifiesto de la protesta contra la “invasión de Ceuta” apoyada por el PP y Vox defiende juzgar a Sánchez por “traición”",
-      "link": "https://elpais.com/espana/2026-09-24/el-manifiesto-de-la-protesta-contra-la-invasion-de-ceuta-apoyada-por-el-pp-y-vox-defiende-juzgar-a-sanchez-por-traicion.html",
-      "desc": "Los organizadores demandan también la “militarización” de la ciudad y medidas para evitar un “pucherazo” en unas elecciones de convocatoria “inmediata”",
-      "date": "Thu, 24 Sep 2026 18:08:04 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6U6LN7MEXNC5DPFTMSFLABLGGE.jpg?auth=ad2c3a3da29655bb724c4810e7314c058a703a669f7808898f4afd4136f2c8f9"
     }
   ],
-  "fetchedAt": 1790354917469
+  "fetchedAt": 1790367505715
 }
