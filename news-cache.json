@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Amnistía Internacional denuncia “tortura y malos tratos” a los inmigrantes en Ceuta",
+      "link": "https://elpais.com/espana/2026-09-30/amnistia-internacional-denuncia-tortura-y-malos-tratos-a-los-inmigrantes-en-ceuta.html",
+      "desc": "La organización ha recogido 22 testimonios que acusan a militares de “palizas, acoso, humillaciones y robo”",
+      "date": "Tue, 29 Sep 2026 22:01:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ILLK2KAMXBC5ZG4SVDSMKIR4OU.jpg?auth=9fc9d3db4e631099f1688da334d6d74f077dc75df6913246ea2462bfbc4f3a85"
+    },
+    {
       "title": "El Gobierno aprueba la protección frente a los desahucios hasta 2030 y la prórroga de los contratos de alquiler hasta 2028",
       "link": "https://elpais.com/espana/2026-09-29/el-gobierno-aprueba-la-proteccion-frente-a-los-desahucios-hasta-2030-y-la-prorroga-de-los-contratos-de-alquiler-hasta-2028.html",
       "desc": "El Ejecutivo lleva a un segundo decreto ley la renovación automática de los alquileres, petición de la izquierdas que por ahora no tiene mayoría. Los textos se votarán el viernes",
@@ -13,13 +20,6 @@
       "desc": "La portavoz de los populares en el Congreso, Ester Muñoz, tilda de “vodevil” la negociación de los socios del Gobierno",
       "date": "Tue, 29 Sep 2026 14:23:40 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260929/1219888_150421_video_1800.mp4"
-    },
-    {
-      "title": "Las medidas del acuerdo sobre vivienda: ampliación hasta 2030 de la protección frente a los desahucios y prórroga de dos años de los alquileres",
-      "link": "https://elpais.com/economia/vivienda/2026-09-29/las-medidas-de-vivienda-del-acuerdo-ampliacion-hasta-2030-de-la-proteccion-frente-a-los-desahucios-y-prorroga-dos-anos-de-los-alquileres.html",
-      "desc": "Los socios pactan dos decretos, uno con una batería de medidas que incluyen préstamos al 0% para la adquisición de la primera vivienda y otro con la extensión indefinida de los contratos. Urgen al Congreso a que se voten este viernes",
-      "date": "Tue, 29 Sep 2026 12:49:03 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260929/1219830_132002_video_1800.mp4"
     },
     {
       "title": "Terror inmobiliario",
@@ -55,6 +55,13 @@
       "desc": "Algo le pasa a la presidenta madrileña si no se da cuenta de que sido una de las grandes promotoras de la mala educación en la política actual",
       "date": "Sun, 27 Sep 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/VLTB7S3JUREBRC2ACJTUZUGYTA.jpg?auth=771563b0d5f929e8e03fa90ff5d61a790f440d2c32599df5223b4fd9bb5bf60c"
+    },
+    {
+      "title": "Las medidas del acuerdo sobre vivienda: ampliación hasta 2030 de la protección frente a los desahucios y prórroga de dos años de los alquileres",
+      "link": "https://elpais.com/economia/vivienda/2026-09-29/las-medidas-de-vivienda-del-acuerdo-ampliacion-hasta-2030-de-la-proteccion-frente-a-los-desahucios-y-prorroga-dos-anos-de-los-alquileres.html",
+      "desc": "Los socios pactan dos decretos, uno con una batería de medidas que incluyen préstamos al 0% para la adquisición de la primera vivienda y otro con la extensión indefinida de los contratos. Urgen al Congreso a que se voten este viernes",
+      "date": "Tue, 29 Sep 2026 12:49:03 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260929/1219830_132002_video_1800.mp4"
     },
     {
       "title": "El PP bloquea de nuevo el tratado de amistad Francia-España que avaló el Constitucional",
@@ -125,14 +132,7 @@
       "desc": "El grupo de Díaz aprovecha la movilización en la calle para arrastrar a los socialistas a la izquierda",
       "date": "Tue, 29 Sep 2026 16:13:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/L3OCDLBVPNHTHGBPMHCASV5BMQ.jpg?auth=0cd4077ab4e890b39acee6b0440b8580fd5904912e67f2bb66f04b39d2ab0e58"
-    },
-    {
-      "title": "Los Reyes reciben con honores a Macron en uno de sus últimos viajes de Estado antes de las elecciones en Francia",
-      "link": "https://elpais.com/espana/2026-09-29/los-reyes-reciben-con-honores-a-macron-en-uno-de-sus-ultimos-viajes-de-estado-antes-de-las-elecciones-en-francia.html",
-      "desc": "El presidente galo se reunirá a puerta cerrada con Felipe VI en el Palacio de la Zarzuela y este miércoles mantendrá un encuentro con Pedro Sánchez",
-      "date": "Tue, 29 Sep 2026 12:18:49 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260929/1219871_142453_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1790712643774
+  "fetchedAt": 1790726040469
 }
