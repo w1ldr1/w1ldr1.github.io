@@ -57,6 +57,20 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/VLTB7S3JUREBRC2ACJTUZUGYTA.jpg?auth=771563b0d5f929e8e03fa90ff5d61a790f440d2c32599df5223b4fd9bb5bf60c"
     },
     {
+      "title": "Italia vuelve a prolongar otros 15 días los controles fronterizos a viajeros de España",
+      "link": "https://elpais.com/espana/2026-09-30/italia-vuelve-a-prolongar-otros-15-dias-los-controles-fronterizos-a-viajeros-de-espana.html",
+      "desc": "La nueva prórroga, la tercera, continúa la dictada el pasado 15 de septiembre",
+      "date": "Wed, 30 Sep 2026 18:19:11 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UDMXPNPMBVOAXE7QUYVG424IOM.jpg?auth=2028e3033cf0c714f82ee0aa10d586bcb6ea51cc2633f9e47e2c94a475f4c9e5"
+    },
+    {
+      "title": "El nuevo delegado del Gobierno de Ceuta se presenta como “un inmigrante de ida y vuelta” y promete “dar la cara”",
+      "link": "https://elpais.com/espana/2026-09-30/el-nuevo-delegado-del-gobierno-de-ceuta-se-presenta-como-un-inmigrante-de-ida-y-vuelta-y-promete-dar-la-cara.html",
+      "desc": "David de la Encina comparece por primera vez tras su nombramiento. El Gobierno espera que la playa de El Trampolín esté desalojada para el 15 de octubre y seguir impulsando más “retornos voluntarios”",
+      "date": "Wed, 30 Sep 2026 16:18:30 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/RAL5XFQA6VPBJJBEQUA2B6IW7Y.jpg?auth=3ccc56bc4d2e927ba9e9f37164394993461fc3131648e38f806edbd65271deb3"
+    },
+    {
       "title": "Junts se muestra “decepcionado y preocupado” por los decretos de vivienda, pero evita adelantar su voto",
       "link": "https://elpais.com/espana/2026-09-30/junts-se-muestra-decepcionado-y-preocupado-por-los-decretos-de-vivienda-pero-evita-adelantar-su-voto.html",
       "desc": "Miriam Nogueras lamenta la falta de “rigor y solvencia” de las medidas aprobadas por el Consejo de Ministros",
@@ -82,7 +96,7 @@
       "link": "https://elpais.com/espana/2026-09-30/sanchez-y-macron-comparecen-ante-los-medios-tras-su-reunion-en-la-moncloa.html",
       "desc": "El presidente del Gobierno se disculpa con el presidente francés y critica la “estrategia de buena vecindad” de PP y Vox",
       "date": "Wed, 30 Sep 2026 11:23:00 GMT",
-      "imgUrl": "https://www.youtube.com/watch?v=p6Hk32JQg50"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260930/1220341_145448_video_1800.mp4"
     },
     {
       "title": "PP y Vox aprueban en el Senado la reforma para permitir las devoluciones en caliente en las fronteras de Ceuta y Melilla",
@@ -118,21 +132,7 @@
       "desc": "La magistrada Beatriz Biedma, que la próxima semana declara en la Audiencia Nacional como víctima, aporta a la causa material sobre una campaña en su contra",
       "date": "Wed, 30 Sep 2026 12:40:29 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3IIZQAAU5BFPLEW3UIJVKTSF7E.jpg?auth=5cf1b516deb9352451e50afa0d12a3c14d84f4626fb20fd96a867f80174d3ad1"
-    },
-    {
-      "title": "La Audiencia Nacional mantiene en prisión al narcopolicía que emparedó millones de euros en su casa",
-      "link": "https://elpais.com/espana/2026-09-30/la-audiencia-nacional-mantiene-en-prision-al-narcopolicia-que-emparedo-millones-de-euros-en-su-casa.html",
-      "desc": "El juez De Jorge aprecia un riesgo de que el inspector jefe Óscar Sánchez se fugue si sale en libertad",
-      "date": "Wed, 30 Sep 2026 14:40:11 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IF33C36WJZAIVATVRSYPLNESXQ.png?auth=9f68ceaceed2af30731e97bd9e2e85b14bb913ca65ad9bf105f3c4255eb530f1"
-    },
-    {
-      "title": "El Rey aprovecha la visita de Macron para insistir en impulsar las interconexiones energéticas con Francia",
-      "link": "https://elpais.com/espana/2026-09-30/el-rey-aprovecha-la-visita-de-macron-para-insistir-en-impulsar-las-interconexiones-energeticas-con-francia.html",
-      "desc": "El presidente francés asiste junto a Felipe VI al Foro de Comercio e Inversión España-Francia en su último día del viaje de Estado",
-      "date": "Wed, 30 Sep 2026 10:32:23 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/C7MR4S57EJMRRJNHWE5FB736GM.jpg?auth=14b40e74976ad884375d6d847ed8757e24240a60ee685285f9526c14bd42896d"
     }
   ],
-  "fetchedAt": 1790786813878
+  "fetchedAt": 1790803083072
 }
