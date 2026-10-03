@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/VLTB7S3JUREBRC2ACJTUZUGYTA.jpg?auth=771563b0d5f929e8e03fa90ff5d61a790f440d2c32599df5223b4fd9bb5bf60c"
     },
     {
+      "title": "Feijóo a Sánchez: “No amague más, que los ciudadanos tomen la palabra cuanto antes”",
+      "link": "https://elpais.com/espana/2026-10-03/feijoo-a-sanchez-no-amague-mas-que-los-ciudadanos-tomen-la-palabra-cuanto-antes.html",
+      "desc": "El líder del PP promete buscar la fórmula para forzar elecciones si fracasa un presupuesto prorrogado y un plan de choque de vivienda",
+      "date": "Sat, 03 Oct 2026 12:05:49 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261003/1221448_124340_video_1800.mp4"
+    },
+    {
       "title": "Dos migrantes marroquíes aseguran que los forzaron a salir de Ceuta: “Nos dijeron que ya se había tomado la decisión de devolvernos”",
       "link": "https://elpais.com/espana/2026-10-03/dos-migrantes-marroquies-aseguran-que-los-forzaron-a-salir-de-ceuta-nos-dijeron-que-ya-se-habia-tomado-la-decision-de-devolvernos.html",
       "desc": "Interior mantiene que quienes cruzaron a Marruecos tras el desalojo de playa Benítez lo hicieron “por voluntad propia”",
@@ -83,6 +90,13 @@
       "desc": "El presidente habla con ministros en el área de Gobierno del Congreso y escucha opiniones diversas sobre la oportunidad de precipitar el adelanto. Fuentes de La Moncloa inciden en que están abiertos todos los escenarios. Si el jefe del Ejecutivo disuelve las Cortes, la primera fecha disponible sería el domingo 29 de noviembre",
       "date": "Fri, 02 Oct 2026 12:01:17 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261002/1221140_131637_video_1800.mp4"
+    },
+    {
+      "title": "¿Qué dicen las encuestas si hay elecciones? La ventaja PP-Vox y las opciones de Sánchez",
+      "link": "https://elpais.com/actualidad/newsletter-kiko-llaneras/2026-10-03/que-dicen-las-encuestas-si-hay-elecciones-la-ventaja-pp-vox-y-las-opciones-de-sanchez.html",
+      "desc": "PP y Vox rozan los 200 escaños y suman mayoría en nueve de cada diez simulaciones del modelo de EL PAÍS. Para evitar un gobierno de derechas, la izquierda tendría que remontar bastante más que en 2023",
+      "date": "Sat, 03 Oct 2026 03:30:01 GMT",
+      "imgUrl": null
     },
     {
       "title": "Junts rechaza los decretos de vivienda y pone al Gobierno contra las cuerdas",
@@ -118,21 +132,7 @@
       "desc": "Mascarell declaró en el juzgado “no recordar” si fue avisado del desbordamiento del barranco del Poyo, pese a que una alcaldesa popular desmontó su versión ante la magistrada",
       "date": "Fri, 02 Oct 2026 14:00:43 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/SMO55YEVEFIFLE2NE7MSC2Z6SM.jpg?auth=cd4b60ade3bcbb80c05be121b2395d3162f8ac999ae45343b453dfae2e6eb5ed"
-    },
-    {
-      "title": "Un decreto cosido a medida para implicar a toda la mayoría",
-      "link": "https://elpais.com/espana/2026-10-02/un-decreto-cosido-a-medida-para-implicar-a-toda-la-mayoria.html",
-      "desc": "El Gobierno incorporó medidas de Junts y PNV para los propietarios y Sumar, las prórrogas. El texto tiene mucha impronta de los de Puigdemont",
-      "date": "Fri, 02 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6LWW22BRWREGZITF6RRJJCP63M.jpg?auth=01f87c38c58c0104d89377f73d2c7cf3a2cbe20c5a3f3c5aa261f0929177e6dc"
-    },
-    {
-      "title": "Junts rechaza los dos decretos pese al clamor en las calles",
-      "link": "https://elpais.com/espana/catalunya/2026-10-01/junts-acuerda-tumbar-los-dos-decretos-de-vivienda-del-gobierno.html",
-      "desc": "La Moncloa carga contra los de Puigdemont: “Llegó la hora de que PP, Vox y Junts se retraten, están con la ciudadanía o con los especuladores”",
-      "date": "Thu, 01 Oct 2026 20:19:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3ESLGMWPHZDULAYT5ALFJCLCYI.jpg?auth=f4eae2619de2cb68f1c9ab7d5e21c08a06dde8b5f0f55e7ca187b3f94e88dcce"
     }
   ],
-  "fetchedAt": 1791028499415
+  "fetchedAt": 1791042865782
 }
