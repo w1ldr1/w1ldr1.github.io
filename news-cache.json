@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Todo listo en el PSOE y el Gobierno para un adelanto electoral tras la derrota de los decretos en el Congreso",
+      "link": "https://elpais.com/espana/2026-10-04/todo-listo-en-el-psoe-y-el-gobierno-para-un-adelanto-electoral-tras-la-derrota-de-los-decretos-en-el-congreso.html",
+      "desc": "La Moncloa prepara fórmulas para aprobar los decretos de vivienda otra vez y convalidarlos en la Diputación Permanente del Congreso",
+      "date": "Sun, 04 Oct 2026 19:22:32 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FETLTGFE2JERZBLWCADFVAFFS4.JPG?auth=0386d049f28cf082d112ae10e07f24a079e576c8354c848e98bd5a7d1e590581"
+    },
+    {
       "title": "La mayoría del PSOE y del Gobierno anima a Sánchez a convocar elecciones ya: “Ahora hay una oportunidad”",
       "link": "https://elpais.com/espana/2026-10-04/la-mayoria-del-psoe-y-el-gobierno-anima-a-sanchez-a-convocar-elecciones-ya-ahora-hay-una-oportunidad.html",
       "desc": "El adelanto es la opción más probable, pero algunos creen que antes aún habría que intentar sacar otros decretos",
@@ -13,13 +20,6 @@
       "desc": "IU, Comuns, Más Madrid y Movimiento Sumar deciden oficializar la candidatura haya o no adelanto electoral tras una reunión este domingo con sus ministros",
       "date": "Sun, 04 Oct 2026 14:26:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/RGMFSLEUORMZFH2RXDAW5ODV7A.jpg?auth=3f53df3d64a078e72ebd2aec43f06413a78d5a576e7ad1d9ee6a9140c5bce26c"
-    },
-    {
-      "title": "A Sol no llega el fin del mundo",
-      "link": "https://elpais.com/espana/2026-10-04/a-sol-no-llega-el-fin-del-mundo.html",
-      "desc": "Esta ciudad laberíntica construida en unas pocas horas, que tiene calles y plazas, asambleas espontáneas, puntos de salud y de cuidados, ha logrado que una crisis que hasta ahora era estadística, de urgencia sólo de boquilla en los púlpitos políticos, sea un conflicto apoyado por millones de personas",
-      "date": "Sun, 04 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261003/1221476_153801_video_1800.mp4"
     },
     {
       "title": "Maricarmen y la alquimia",
@@ -55,6 +55,13 @@
       "desc": "El grotesco drama de la vivienda en Madrid se ha vuelto aún más trágico con la llegada de los fondos buitre y de los capitales internacionales",
       "date": "Tue, 29 Sep 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/MCO5UD7AIRDNZFRRN46HYMYX4I.jpg?auth=6eaaf17c6ae4bb044dc84ad0a304eeba8613b9794c33159cffe2f76032e496ec"
+    },
+    {
+      "title": "A Sol no llega el fin del mundo",
+      "link": "https://elpais.com/espana/2026-10-04/a-sol-no-llega-el-fin-del-mundo.html",
+      "desc": "Esta ciudad laberíntica construida en unas pocas horas, que tiene calles y plazas, asambleas espontáneas, puntos de salud y de cuidados, ha logrado que una crisis que hasta ahora era estadística, de urgencia sólo de boquilla en los púlpitos políticos, sea un conflicto apoyado por millones de personas",
+      "date": "Sun, 04 Oct 2026 03:30:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261003/1221476_153801_video_1800.mp4"
     },
     {
       "title": "El posible adelanto electoral fuerza a la izquierda alternativa a acelerar",
@@ -125,14 +132,7 @@
       "desc": "La izquierda, sin líder ni alianza electoral definidos, intenta ganar tiempo",
       "date": "Sat, 03 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261002/1221221_162025_video_1800.mp4"
-    },
-    {
-      "title": "Feijóo a Sánchez: “No amague más, que los ciudadanos tomen la palabra cuanto antes”",
-      "link": "https://elpais.com/espana/2026-10-03/feijoo-a-sanchez-no-amague-mas-que-los-ciudadanos-tomen-la-palabra-cuanto-antes.html",
-      "desc": "El líder del PP promete buscar la fórmula para forzar elecciones si fracasa un presupuesto prorrogado y un plan de choque de vivienda",
-      "date": "Sat, 03 Oct 2026 12:05:49 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261003/1221448_124340_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1791136918156
+  "fetchedAt": 1791150489215
 }
