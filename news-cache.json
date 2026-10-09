@@ -57,7 +57,14 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/MCO5UD7AIRDNZFRRN46HYMYX4I.jpg?auth=6eaaf17c6ae4bb044dc84ad0a304eeba8613b9794c33159cffe2f76032e496ec"
     },
     {
-      "title": "El censo electoral crece en más de 1,26 millones de personas para las elecciones del 29-N, de los que 440.000 residen fuera de España",
+      "title": "Mohamed VI avisa de que no aceptará “presión, amenaza ni chantaje” desde España en vísperas del viaje de Felipe VI",
+      "link": "https://elpais.com/espana/2026-10-09/mohamed-vi-advierte-de-que-la-cooperacion-con-espana-no-debe-verse-sometida-a-presion-amenaza-ni-chantaje.html",
+      "desc": "El rey marroquí advierte de que la cooperación entre ambos países afronta graves desafíos y critica las normas españolas que “impiden la repatriación de menores” y de adultos marroquíes",
+      "date": "Fri, 09 Oct 2026 19:14:21 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XWTSEHMMFBFHLMTQUWNZ2FJEZ4.jpg?auth=9a79c938d2fb7e2ecffbed42c591cf19f348d19a153f64b78623e8f83e8c49c7"
+    },
+    {
+      "title": "El censo electoral crece en más de 1,26 millones de personas para las elecciones del 29-N, de las que 440.000 residen fuera de España",
       "link": "https://elpais.com/espana/elecciones-generales/2026-10-09/el-censo-electoral-crece-en-mas-de-126-millones-de-personas-para-las-elecciones-del-29-n-de-los-que-440000-residen-fuera-de-espana.html",
       "desc": "En total, hay 38,73 millones de ciudadanos que podrán votar en los comicios, según el Instituto Nacional de Estadística",
       "date": "Fri, 09 Oct 2026 14:15:25 GMT",
@@ -73,14 +80,14 @@
     {
       "title": "La Fiscalía insiste en la absolución del hermano de Sánchez y de Gallardo por falta de pruebas",
       "link": "https://elpais.com/espana/2026-10-09/la-fiscalia-insiste-en-la-absolucion-del-hermano-de-pedro-sanchez-y-gallardo-por-falta-de-pruebas.html",
-      "desc": "El ministerio público recrimina al tribunal haber condenado a David Sánchez y al exlíder del PSOE extremeño con una “acumulación de sospechas, impresiones subjetivas, rumores y valoraciones retrospectivas”",
+      "desc": "El ministerio público reprocha al tribunal haber condenado a David Sánchez y al exlíder del PSOE extremeño con una “acumulación de sospechas y rumores”",
       "date": "Fri, 09 Oct 2026 12:14:21 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U55Y6QMYKNCSPB6IFONDSBZNKU.jpg?auth=e78054055901735a28ed7d216750cf40356d78071163bbcf2c2b528f42f190e8"
     },
     {
       "title": "Los Reyes visitarán el cementerio musulmán de Ceuta donde yacen decenas de ahogados en el intento de entrada del pasado julio",
       "link": "https://elpais.com/espana/2026-10-09/los-reyes-pernoctaran-en-ceuta-durante-su-visita-a-la-ciudad-autonoma-el-13-de-octubre.html",
-      "desc": "Felipe VI y doña Letizia acudirán al campo santo de Sidi Embarek y pernoctarán en la ciudad autónoma el 13 de octubre. Será el primer jefe de Estado de la democracia en pasar la noche en la ciudad",
+      "desc": "Felipe VI y doña Letizia acudirán al camposanto de Sidi Embarek y pernoctarán en la ciudad autónoma el 13 de octubre. Será el primer jefe de Estado de la democracia en pasar la noche en la ciudad",
       "date": "Fri, 09 Oct 2026 11:22:05 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/WZQSNDN74VFZFFVPFC2IKOTO3Y.jpg?auth=6dc8bd41e474ab795735f92ef125ab4461a75df01eaf481a1ad1048f748c989e"
     },
@@ -125,14 +132,7 @@
       "desc": "Cientos de personas que cruzaron en la entrada masiva continúan cobijadas en barriadas periféricas y montes de la ciudad autónoma",
       "date": "Fri, 09 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261008/1223423_200150_video_1800.mp4"
-    },
-    {
-      "title": "Adriana Lastra encabezará lista del PSOE al Congreso por Asturias el 29-N",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-08/adriana-lastra-encabezara-lista-del-psoe-al-congreso-por-asturias-el-29-n.html",
-      "desc": "La ex vicesecretaria general de los socialistas regresa a la primera línea de la política nacional tras ejercer los dos últimos años como delegada del Gobierno en el Principado",
-      "date": "Thu, 08 Oct 2026 19:23:57 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/4Q3WDKGPX5AILJ2T4T7HFP33OA.jpg?auth=51695a3524ad7a645461d4f92ffb5ecf2a499265cf6a1fac5d0b06bcfa070386"
     }
   ],
-  "fetchedAt": 1791556294605
+  "fetchedAt": 1791576055135
 }
