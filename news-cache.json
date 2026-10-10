@@ -61,7 +61,7 @@
       "link": "https://elpais.com/espana/2026-10-10/miriam-gonzalez-hay-elementos-en-espana-que-ponen-en-cuestion-el-sistema-democratico.html",
       "desc": "La candidata a la presidencia del Gobierno por Democracia 21 presenta este sábado su nuevo partido, que aboga por facilitar consensos",
       "date": "Sat, 10 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://www.youtube.com/watch?v=U6t9LAju9nk"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261010/1224072_152423_video_1800.mp4"
     },
     {
       "title": "El rey emérito renuncia a recuperar los 65 millones que donó a Corinna Larsen",
@@ -69,6 +69,20 @@
       "desc": "Juan Carlos I no ha presentado la demanda que anunció contra su expareja y el abogado que ocultó su fortuna",
       "date": "Sat, 10 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/IOCIFF3WXRCXNEDXHIXY3UITTY.jpg?auth=00722cde074b44afa0b1400cc40da812aad8a92c6d9bc7d14cc21edfe18a427e"
+    },
+    {
+      "title": "Sánchez se centra en vivienda y ataca al PP por dudar del voto por correo: “Estos son los de cuantos menos voten, mejor”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-10/sanchez-se-centra-en-vivienda-y-ataca-al-pp-por-dudar-del-voto-por-correo-estos-son-los-de-cuantos-menos-voten-mejor.html",
+      "desc": "El presidente del Gobierno, convencido de que la “causa social” de Maricarmen procurará una mayoría progresista",
+      "date": "Sat, 10 Oct 2026 12:20:41 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261010/1224059_144210_video_1800.mp4"
+    },
+    {
+      "title": "Feijóo asume que el 29-N será su última oportunidad: “¡No tenemos derecho a fallar. No vamos a fallar!”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-10/feijoo-asume-que-el-29n-sera-su-ultima-oportunidad-no-tenemos-derecho-a-fallar-no-vamos-a-fallar.html",
+      "desc": "El líder popular inicia la precampaña de las elecciones generales con un mitin en Madrid de 2.000 personas y junto a los principales presidentes y dirigentes autonómicos de su partido",
+      "date": "Sat, 10 Oct 2026 11:15:16 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261010/1224039_132616_video_1800.mp4"
     },
     {
       "title": "La caída del esquivo Andrey Victorovich, el artesano de las ‘armas Frankenstein’",
@@ -118,21 +132,7 @@
       "desc": "José Manuel Holgado dice en el juicio que no recuerda si antes de adoptar la decisión leyó dos informes que señalaban las irregularidades que han sentado en el banquillo a un general",
       "date": "Fri, 09 Oct 2026 13:36:48 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/URGJ3C5W5FD2LFF55ANTBDSV2A.jpg?auth=205feeb58f0645d330de69315906a4bd845583ebd7907bf8bea96be441c0d4ec"
-    },
-    {
-      "title": "La Fiscalía insiste en la absolución del hermano de Sánchez y de Gallardo por falta de pruebas",
-      "link": "https://elpais.com/espana/2026-10-09/la-fiscalia-insiste-en-la-absolucion-del-hermano-de-pedro-sanchez-y-gallardo-por-falta-de-pruebas.html",
-      "desc": "El ministerio público reprocha al tribunal haber condenado a David Sánchez y al exlíder del PSOE extremeño con una “acumulación de sospechas y rumores”",
-      "date": "Fri, 09 Oct 2026 12:14:21 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/U55Y6QMYKNCSPB6IFONDSBZNKU.jpg?auth=e78054055901735a28ed7d216750cf40356d78071163bbcf2c2b528f42f190e8"
-    },
-    {
-      "title": "Los Reyes visitarán el cementerio musulmán de Ceuta donde yacen decenas de ahogados en el intento de entrada del pasado julio",
-      "link": "https://elpais.com/espana/2026-10-09/los-reyes-pernoctaran-en-ceuta-durante-su-visita-a-la-ciudad-autonoma-el-13-de-octubre.html",
-      "desc": "Felipe VI y doña Letizia acudirán al camposanto de Sidi Embarek y pernoctarán en la ciudad autónoma el 13 de octubre. Será el primer jefe de Estado de la democracia en pasar la noche en la ciudad",
-      "date": "Fri, 09 Oct 2026 11:22:05 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/WZQSNDN74VFZFFVPFC2IKOTO3Y.jpg?auth=6dc8bd41e474ab795735f92ef125ab4461a75df01eaf481a1ad1048f748c989e"
     }
   ],
-  "fetchedAt": 1791636829011
+  "fetchedAt": 1791654033020
 }
