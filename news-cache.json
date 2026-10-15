@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Cuerpo apunta a una subida de las pensiones después de las elecciones",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
+      "desc": "El vicepresidente primero aleja la idea de cerrar un incremento antes de acudir a las urnas e incide en que se puede acordar con el Ejecutivo en funciones tras los comicios del 29-N. Sánchez dice que las subirán “antes de acabar el año”",
+      "date": "Thu, 15 Oct 2026 10:10:57 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261015/1225774_115708_video_1800.mp4"
+    },
+    {
       "title": "El PSOE y el PP encienden la batalla por el futuro de las pensiones",
       "link": "https://elpais.com/economia/2026-10-15/el-psoe-y-el-pp-encienden-la-batalla-por-el-futuro-de-las-pensiones.html",
       "desc": "Mientras Feijóo intenta corregir los mensajes confusos de su portavoz, Sánchez busca fórmulas para una gran subida justo antes de las elecciones",
@@ -13,13 +20,6 @@
       "desc": "Los expertos consultados creen que la izquierda está sobrerrepresentada porque muchos votantes de derechas rechazan participar en las entrevistas. El organismo público lo niega",
       "date": "Thu, 15 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/OEQOOHBQZNFBBJRLV7JGZCKFO4.jpg?auth=14067dcccec9e678fed24defc650a9c30fd7e8bc0a9d77358a5265000d4c0c1e"
-    },
-    {
-      "title": "Las tumbas sin nombre de los migrantes continúan llenando el cementerio musulmán de Ceuta",
-      "link": "https://elpais.com/espana/2026-10-15/las-tumbas-sin-nombre-de-migrantes-siguen-llenando-el-cementerio-musulman-de-ceuta.html",
-      "desc": "A los 90 sepultados que murieron por la entrada masiva se suman los cadáveres de otros extranjeros fallecidos después en la ciudad autónoma. Entre ellos, el menor que pereció en un centro de acogida, un apuñalado y varios ahogados",
-      "date": "Thu, 15 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261014/1225492_191635_video_1800.mp4"
     },
     {
       "title": "¿Se puede impedir votar a un español?",
@@ -57,18 +57,67 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/A7IWA2YDZVEOVBV6GQJQN5HN5Y.jpg?auth=01dcf2e0894e0450f08174a56f1a874794076e905e00a06f33af1e47c2c48fee"
     },
     {
-      "title": "Olvidar el Pacto de Toledo y volver a usar las pensiones como arma arrojadiza",
-      "link": "https://elpais.com/economia/2026-10-15/olvidar-el-pacto-de-toledo-y-volver-a-usar-las-pensiones-como-arma-arrojadiza.html",
-      "desc": "Una campaña electoral es un terreno minado para tratar un asunto tan complejo y trascendente como un cambio en el modelo de pensiones",
-      "date": "Thu, 15 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CYAUAEWG35BYFBGM75OVAAZCI4.jpg?auth=a2e00771f4572038255e7030a07e8e958726146529aaeef0b5548d178f882947"
+      "title": "EH Bildu renovará a fondo su grupo en el Congreso",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-15/eh-bildu-renovara-a-fondo-su-grupo-en-el-congreso.html",
+      "desc": "Abandonan Mertxe Aizpurua y Jon Iñarritu, mientras se prevé la entrada de Gorka Elejabarrieta, ‘número dos’ de Otegi",
+      "date": "Thu, 15 Oct 2026 11:46:45 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KNY5EMTAJVEWPA2FPLGSOU4MJI.jpg?auth=1f18c0c604bfd5027264e7a8aad542422cfb3c61fa50431770545f4410c72a1c"
     },
     {
-      "title": "Tribunal de Cuentas: de reclamar millones al carpetazo",
-      "link": "https://elpais.com/espana/2026-10-15/tribunal-de-cuentas-de-reclamar-millones-al-carpetazo.html",
-      "desc": "En todo caso, la sentencia ahora dictada en modo alguno excluye que los líderes independentistas se enriquecieran con el procés",
+      "title": "La jueza Biedma denuncia seguimientos en coche de un colaborador de la trama del ‘caso Leire Díez’",
+      "link": "https://elpais.com/espana/2026-10-15/la-jueza-biedma-denuncia-seguimientos-en-coche-de-un-colaborador-de-la-trama-del-caso-leire-diez.html",
+      "desc": "La magistrada narra a la Policía que un vehículo ocupado por Sáenz de Tejada se puso en paralelo a su coche cuando volvía de declarar en la Audiencia Nacional",
+      "date": "Thu, 15 Oct 2026 12:25:08 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KRKKZNUH2FI4TH4XGKYAV5APJQ.jpg?auth=8b361b4fb3e343b479f336d61ca2f4fa5db535340fac6f71078f072e7f9c23a4"
+    },
+    {
+      "title": "Un juzgado investiga las filtraciones sobre las agendas y conversaciones personales de Zapatero en el ‘caso Plus Ultra’",
+      "link": "https://elpais.com/espana/2026-10-15/un-juzgado-investiga-las-filtraciones-sobre-las-agendas-y-conversaciones-personales-de-zapatero-en-el-caso-plus-ultra.html",
+      "desc": "La jueza ha pedido a la Policía que indague si hubo revelación de secretos y el expresidente ya ha pedido personarse en la causa",
+      "date": "Thu, 15 Oct 2026 10:31:41 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/42GF4NCLU5C5BPLCUZZNFF5QBI.jpg?auth=c21b0f898db881861ed4e9cfcbf94c60442a8f0ee8db6cdc2af363c4d130d7b3"
+    },
+    {
+      "title": "La jueza suspende la entrada en prisión del maquinista del Alvia accidentado en Santiago",
+      "link": "https://elpais.com/espana/2026-10-15/la-jueza-suspende-la-entrada-en-prision-del-maquinista-del-alvia.html",
+      "desc": "La medida es un paso más en la tramitación del indulto a Garzón Amo, único condenado por la tragedia de 2013",
+      "date": "Thu, 15 Oct 2026 11:22:19 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/Y7N3LOR2EZF3BNQHZIGVIVM4AY.jpg?auth=31cf2234682d8fe8a640d3a1b8cc9466dfdfa980dbefc76def465e28147c4a97"
+    },
+    {
+      "title": "Un juzgado admite a trámite una denuncia por el incidente con el bote de gas pimienta de una diputada del PP en el Congreso",
+      "link": "https://elpais.com/espana/2026-10-15/un-juzgado-admite-a-tramite-una-denuncia-por-el-incidente-con-el-bote-de-gas-pimienta-del-pp-en-el-congreso.html",
+      "desc": "Los denunciantes apuntan a un presunto delito de lesiones a raíz de la activación del espray en uno de los baños de la Cámara baja",
+      "date": "Thu, 15 Oct 2026 11:31:21 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6MIYXWWUAZADTPM6SGTKQ3GHTI.jpg?auth=a2e145a63f7c79b5d645eee9b764acb419f27990585fe289da1d135892b453dd"
+    },
+    {
+      "title": "6.000 euros por salir de Ceuta en ferry con un documento alquilado",
+      "link": "https://elpais.com/espana/2026-10-15/6000-euros-por-salir-de-ceuta-en-ferry-con-un-documento-alquilado.html",
+      "desc": "La Policía arresta a 40 migrantes que se embarcaron hacia la Península usurpando otras identidades y a otras cinco personas por facilitarles la documentación",
+      "date": "Thu, 15 Oct 2026 11:48:21 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XCN24ARWO5ENBJTVFCLCL32BHU.jpg?auth=8913c14570cbdb06ef8d856f4af232abe6988685ccfc9ebc801e08811b3ad05a"
+    },
+    {
+      "title": "Podemos y los partidos del Frente Amplio ultiman acuerdos territoriales para el 29-N fuera de Madrid y Barcelona",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-15/podemos-y-los-partidos-del-frente-amplio-avanzan-en-los-acuerdos-territoriales-para-el-29-n.html",
+      "desc": "Maíllo rechaza “trocear” los pactos después de que la formación de Belarra haya ofrecido a IU pactos en Galicia, Asturias, Cantabria, Euskadi, Navarra, Castilla y León, Castilla-La Mancha, Murcia, Extremadura y Andalucía",
+      "date": "Thu, 15 Oct 2026 06:53:13 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/46FAD3MZMNAVRFBNLHJEOGAOAA.jpg?auth=ef934a71c826304be56983285cdc229e2df1c3b3eeba2a4c7b11a566d427e620"
+    },
+    {
+      "title": "Ábalos mueve ficha después de que el Supremo confirmara su condena: “Próximo paso, Tribunal Constitucional”",
+      "link": "https://elpais.com/espana/2026-10-15/abalos-mueve-ficha-despues-de-que-el-supremo-confirmara-su-condena-proximo-paso-tribunal-constitucional.html",
+      "desc": "Como estaba previsto, el exministro ha anunciado que presentará un recurso de amparo al considerar que se han vulnerado sus derechos fundamentales",
+      "date": "Thu, 15 Oct 2026 09:36:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2F5CJQM4EFM3JKYB7FPQPMWA7M.jpg?auth=5d10a70070b285569b4a70496f7fbb999c54b69a19a34a721afaeb1729af6a12"
+    },
+    {
+      "title": "Las tumbas sin nombre de los migrantes continúan llenando el cementerio musulmán de Ceuta",
+      "link": "https://elpais.com/espana/2026-10-15/las-tumbas-sin-nombre-de-migrantes-siguen-llenando-el-cementerio-musulman-de-ceuta.html",
+      "desc": "A los 90 sepultados que murieron por la entrada masiva se suman los cadáveres de otros extranjeros fallecidos después en la ciudad autónoma. Entre ellos, el menor que pereció en un centro de acogida, un apuñalado y varios ahogados",
       "date": "Thu, 15 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FLWYVVUBHJCR3E35ZZDKRPYIOE.JPG?auth=0d26ce6657aa0e0b2aaba94cbd10cdc94911c9c42890d0c9e771cd188c4e579d"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261014/1225492_191635_video_1800.mp4"
     },
     {
       "title": "El obispo responsable de la comisión episcopal de migraciones: “Hay mucho miedo, mucha ideología, mucha ‘fake news”",
@@ -78,61 +127,12 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/ELIYWNE7NVAIXFR25LMJQ6DR44.JPG?auth=2d6a2de761f4d16cde39d3dccc5a8f3330ea1fb06315b618c2c21327c385648d"
     },
     {
-      "title": "Colau ofrece renunciar a su candidatura y cambiar el nombre de Frente Amplio para lograr la unidad con Podemos",
-      "link": "https://elpais.com/espana/catalunya/2026-10-14/colau-ofrece-renunciar-a-su-candidatura-y-cambiar-el-nombre-de-frente-amplio-para-lograr-la-unidad-con-podemos.html",
-      "desc": "Los partidos desoyen a la exalcaldesa y siguen con sus planes: lanzan la marca, con la web y los perfiles en redes sociales",
-      "date": "Wed, 14 Oct 2026 15:19:17 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZW76MCIGWVGRPO2NEMH6EIESTU.JPG?auth=a4b017f0f7e35396ddd1c2e7a885d58b28b7750cb08f6a49cbd3d7b7c378cde0"
-    },
-    {
-      "title": "El PSOE aumenta la distancia sobre el PP hasta los 11,8 puntos tras la convocatoria electoral, según el CIS",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html",
-      "desc": "El barómetro da a los socialistas el 34% en intención de voto, mientras que deja al PP en el 22,2% y a Vox en el 17,1%",
-      "date": "Wed, 14 Oct 2026 11:27:59 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/G5WJZQQLIVKGXJCHGSLKAYV2RE.jpg?auth=c0afacc477fb373fe42ced6707c9994bc819bb4b45243f12cea803fcd9737af4"
-    },
-    {
-      "title": "El 57,1% de los españoles afirma que ante un desahucio debe primar la protección a los vulnerables y no un contrato",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-14/el-571-de-los-espanoles-afirma-que-ante-un-desahucio-debe-primar-la-proteccion-a-los-vulnerables-y-no-un-contrato.html",
-      "desc": "Ocho de cada 10 ciudadanos piden garantizar la vivienda como un derecho constitucional, según el CIS",
-      "date": "Wed, 14 Oct 2026 12:24:34 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/F3FXQIK5BNGJBID5XRSBMGN3JY.jpg?auth=5df20f2236abe4ab8a344f2d82f418d1c4e403e9a856478b59365aa4100f62c9"
-    },
-    {
-      "title": "El BOE publica la decisión del Supremo de suspender el derecho a voto de los nacionalizados por la ‘ley de nietos’",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-15/el-boe-publica-la-decision-del-supremo-de-suspender-el-derecho-a-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
-      "desc": "A partir de este jueves, los afectados tienen un plazo de cinco días para presentar alegaciones",
-      "date": "Thu, 15 Oct 2026 06:19:02 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6OVJCVIIHFBMTFAXBRFRKCSXW4.jpg?auth=2d64e277508d77fd2dd98fd56166287cab32bdd6d23a33188f2d5c5da8cd994d"
-    },
-    {
-      "title": "Podemos y los partidos del Frente Amplio ultiman los acuerdos territoriales para el 29-N fuera de Madrid y Barcelona",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-15/podemos-y-los-partidos-del-frente-amplio-avanzan-en-los-acuerdos-territoriales-para-el-29-n.html",
-      "desc": "Belarra defiende la unidad “para que no se pierda ni un solo voto de izquierdas”",
-      "date": "Thu, 15 Oct 2026 06:53:13 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/46FAD3MZMNAVRFBNLHJEOGAOAA.jpg?auth=ef934a71c826304be56983285cdc229e2df1c3b3eeba2a4c7b11a566d427e620"
-    },
-    {
-      "title": "Sánchez carga contra Feijóo por las pensiones: “Si PP y Vox llegan al Gobierno firman la carta de defunción del Estado del bienestar”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-14/sanchez-carga-contra-el-pp-por-las-pensiones-si-pp-y-vox-llegan-al-gobierno-firman-la-carta-de-defuncion-del-estado-del-bienestar.html",
-      "desc": "El líder del PSOE ha aprovechado en un mitin en Zaragoza la confusión del PP con las pensiones, con mensajes contradictorios entre sus líderes sobre una posible reforma y un colapso del sistema",
-      "date": "Wed, 14 Oct 2026 17:06:03 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EZQSNZZTBZCAVHM355W3AO7VOU.jpg?auth=726ea625fa10cd232f46500501cf8b677593d71b28bc3c3a5a7b5fe0243fdc43"
-    },
-    {
-      "title": "Margarita Robles será la ‘número dos’ de Pedro Sánchez en las listas del PSOE",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-14/margarita-robles-sera-la-numero-dos-de-pedro-sanchez-en-las-listas-del-psoe.html",
-      "desc": "El presidente elige a la ministra de Defensa como su segunda al igual que ya hizo en las elecciones de 2016. Once ministros irán en las listas socialistas",
-      "date": "Wed, 14 Oct 2026 15:12:03 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IGB72OI2FBCY3M2EXDJJEHD2F4.jpg?auth=2e55b86c605474531c0e01484b856a7acb9ab54ad90b301562fd781e86cc3b83"
-    },
-    {
-      "title": "El Tribunal de Cuentas aplica la amnistía a Puigdemont, Mas y otros 31 encausados por los gastos del ‘procés’",
-      "link": "https://elpais.com/espana/2026-10-14/el-tribunal-de-cuentas-aplica-la-amnistia-a-puigdemont-mas-y-otros-33-encausados-por-los-gastos-del-proces.html",
-      "desc": "El fallo absuelve la responsabilidad contable del proceso independentista que reclamaba la asociación Societat Civil Catalana",
-      "date": "Wed, 14 Oct 2026 09:41:10 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/TMCNBQXTNBOMZMKFOE3D3VNYYU.jpg?auth=c770763d4dc6c063cd1866fa68d282381fb851b71e5cb799367d5a2d97fd5143"
+      "title": "Una mujer de 82 años y un hombre de 91 años mueren tras desplomarse un ascensor en una residencia de mayores de Vélez-Málaga",
+      "link": "https://elpais.com/espana/2026-10-15/muere-una-mujer-de-82-anos-tras-desplomarse-un-ascensor-en-una-residencia-de-mayores-de-velez-malaga.html",
+      "desc": "Otras cuatro personas han resultado heridas en el accidente y permanecen ingresadas en la UCI del Hospital de la Axarquía mientras la Policía Nacional investiga lo ocurrido",
+      "date": "Thu, 15 Oct 2026 07:45:41 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FIXGB6Q3PBJAFEKHVF65UY5F4U.jpg?auth=e5b26e9fab0e0a2d5b94cf9cd0397ed7c58b992a4317140e58e7c409deb0302d"
     }
   ],
-  "fetchedAt": 1792047994366
+  "fetchedAt": 1792068383565
 }
