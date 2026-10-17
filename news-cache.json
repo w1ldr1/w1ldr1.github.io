@@ -15,10 +15,10 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/EKE5WTPQKJDQ7DFEZ2ZDRJG7LE.JPG?auth=ad3e8ef4b733599f64e2fd0e799c922faaca7830e4caf248e5d75f57917f2efb"
     },
     {
-      "title": "Estos son los acuerdos territoriales que ya están cerrados en la izquierda alternativa para las elecciones del 29-N",
+      "title": "Estos son los acuerdos territoriales cerrados en las izquierdas para las elecciones del 29-N",
       "link": "https://elpais.com/espana/elecciones-generales/2026-10-16/estos-son-los-acuerdos-territoriales-que-ya-estan-cerrados-en-la-izquierda-alternativa-para-las-elecciones-del-29-n.html",
-      "desc": "De momento, Podemos se ha integrado en Canarias y Comunidad Valenciana en coaliciones con Izquierda Unida y otras fuerzas de ámbito autonómico",
-      "date": "Fri, 16 Oct 2026 16:40:28 GMT",
+      "desc": "Podemos solo se ha integrado en Canarias y Comunidad Valenciana en coaliciones con Izquierda Unida y otras fuerzas de ámbito autonómico",
+      "date": "Fri, 16 Oct 2026 23:17:57 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/CMXIRYXEBZM4RJ5LKSA6V5IIXU.jpg?auth=0db54813f8f5fe3d569fb59560ebf2b9166f4de2a81bf4af0cc97bf284f1f0b8"
     },
     {
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/Z2AG7H2WO7NQPB4SK6VISZP3PI.jpg?auth=73e94a5f13426bdcfd0bd9168bc9a99bf0bfa8d91da756bca016304011954f28"
     }
   ],
-  "fetchedAt": 1792192675036
+  "fetchedAt": 1792200343501
 }
