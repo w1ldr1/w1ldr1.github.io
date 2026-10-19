@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "title": "La Generalitat mantiene el confinamiento en ocho municipios de Valencia y Alicante por las lluvias torrenciales e inundaciones",
+      "title": "La Generalitat levanta el confinamiento en los municipios de Valencia y Alicante afectados por las lluvias torrenciales y las inundaciones",
       "link": "https://elpais.com/espana/comunidad-valenciana/2026-10-19/maxima-alerta-en-gandia-y-denia-por-las-lluvias-torrenciales-y-las-inundaciones-que-activa-a-la-ume.html",
-      "desc": "Una mujer de 79 años y un hombre de 64 han fallecido en Oliva. Hay personas atrapadas con difícil acceso para rescatarlas",
+      "desc": "Una mujer de 79 años y un hombre de 64 han fallecido en Oliva. Ha habido personas atrapadas con difícil acceso para rescatarlas",
       "date": "Mon, 19 Oct 2026 15:58:57 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261019/1227093_112515_video_1800.mp4"
     },
@@ -57,6 +57,34 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/A7IWA2YDZVEOVBV6GQJQN5HN5Y.jpg?auth=01dcf2e0894e0450f08174a56f1a874794076e905e00a06f33af1e47c2c48fee"
     },
     {
+      "title": "Sánchez apela al voto útil de la izquierda al PSOE como garante del Estado del Bienestar frente al modelo “que deja a la intemperie” de PP y Vox",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-19/sanchez-apela-al-voto-util-de-la-izquierda-al-psoe-como-garante-del-estado-del-bienestar-frente-al-modelo-que-deja-a-la-intemperie-de-pp-y-vox.html",
+      "desc": "El presidente y Puente advierten de que Feijóo y Abascal “planean gobernar como el de la motosierra”, en alusión a los recortes de Milei, que regresa esta semana a Madrid",
+      "date": "Mon, 19 Oct 2026 19:02:31 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/4DH7E4CTUFCRLNS53LVVR3CMXE.jpg?auth=82e81055fcf6ddca719130a18102b186fc8f06b2163a5b9392e76f79660c9211"
+    },
+    {
+      "title": "Podemos borra su logo y lo fía todo a la marca Irene Montero para el 29N",
+      "link": "https://elpais.com/espana/2026-10-19/podemos-borra-su-logo-y-lo-fia-todo-a-la-marca-irene-montero-para-el-29n.html",
+      "desc": "El partido estrena web con los tres conceptos en los que girará su campaña: “Paz, casa y trabajo”",
+      "date": "Mon, 19 Oct 2026 14:08:35 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XLZ2S5S3UVF6JDWMDGHHGEQEEM.png?auth=ad86105d855d157eb620d8505b31e041a287644d325a2d2e65108ac37b07d84c"
+    },
+    {
+      "title": "El juez inadmite la querella que presentó Vito Quiles contra Begoña Gómez por denuncia falsa",
+      "link": "https://elpais.com/espana/2026-10-19/el-juez-inadmite-la-querella-que-presento-vito-quiles-contra-begona-gomez-por-denuncia-falsa.html",
+      "desc": "El instructor corrige su decisión al estimar el recurso que presentó la defensa de la esposa del presidente del Gobierno",
+      "date": "Mon, 19 Oct 2026 13:35:08 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/PFXMDCFMEBBPBFWQWEOREINTI4.jpg?auth=b209c59c27e43bc3a0f95985132a0e6960fa6a552d603aed39c4a0c9d5ed622e"
+    },
+    {
+      "title": "Tres detenidos en Almería por la muerte de un disparo en la cabeza de un policía belga",
+      "link": "https://elpais.com/espana/2026-10-19/tres-detenidos-en-almeria-por-la-muerte-de-un-disparo-en-la-cabeza-a-un-policia-belga.html",
+      "desc": "Los implicados, con antecedentes por tráfico de drogas, serán puestos a disposición judicial en la Audiencia Nacional",
+      "date": "Mon, 19 Oct 2026 12:48:12 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/LJALFTST2VD6ZN5ZMCY65KNYEI.jpg?auth=611aea4fecef8fb64038b97e2ba87c3c77b8b1c1e7a17455cf7b0dc725b12f30"
+    },
+    {
       "title": "Abascal reitera su oferta de acuerdo al PP para “proteger al Senado” del pacto de izquierdas",
       "link": "https://elpais.com/espana/elecciones-generales/2026-10-19/abascal-reitera-su-oferta-de-acuerdo-al-pp-para-proteger-al-senado-del-pacto-de-izquierdas.html",
       "desc": "Vox presenta a su líder en Ceuta de número tres por Madrid para capitalizar la crisis de la ciudad autónoma",
@@ -101,38 +129,10 @@
     {
       "title": "Los jóvenes acusados falsamente de matar a una mujer en Burgos por cuentas de extrema derecha: “Nos han destrozado la vida”",
       "link": "https://elpais.com/espana/2026-10-19/los-jovenes-acusados-falsamente-de-matar-a-una-mujer-en-burgos-por-cuentas-de-extrema-derecha-nos-han-destrozado-la-vida.html",
-      "desc": "Dos españoles, de 20 y 29 años, que no se conocen de nada, están envueltos en un falso caso de asesinato tras la difusión de sus fotografías el pasado sábado",
+      "desc": "Dos españoles, de 20 y 29 años, que no se conocen de nada, se ven envueltos por un bulo en un caso de asesinato tras la difusión de sus fotografías el pasado sábado",
       "date": "Mon, 19 Oct 2026 11:38:32 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/2XGDUBNWGJDUHHW4BZLCLP673A.jpg?auth=014705615f7d07b015f29d5267d26469140578c928a5a0127fe3e7d767e4e80b"
-    },
-    {
-      "title": "Dimite el alcalde de Algeciras tras ser imputado por acoso sexual",
-      "link": "https://elpais.com/espana/2026-10-19/dimite-el-alcalde-de-algeciras-tras-ser-imputado-por-acoso-sexual.html",
-      "desc": "José Ignacio Landaluce elige el 25 de octubre para hacer efectiva su renuncia, tres días antes de la moción de censura propuesta por el PSOE y Vox",
-      "date": "Mon, 19 Oct 2026 15:56:04 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/5QAXY2QXWJADJOG7TCKZWKGODM.jpg?auth=23e1e78ef4d81ad7633dfd877cc69e8e08f4d3ac55b6bb22af09ba048e5c9a72"
-    },
-    {
-      "title": "El exconsejero catalán Toni Comín adelanta su regreso de Bélgica e irá antes a Madrid para poder ser eurodiputado",
-      "link": "https://elpais.com/espana/catalunya/2026-10-19/el-exconsejero-catalan-toni-comin-adelanta-su-regreso-de-belgica-e-ira-antes-a-madrid-para-poder-ser-eurodiputado.html",
-      "desc": "Entre otros trámites el político independentista tiene que acatar la Constitución",
-      "date": "Mon, 19 Oct 2026 09:21:24 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XT2BNAIJ5BL5RLQ24Y64FPPB7Q.jpg?auth=6f061a92ca7f6737f8221fc3da56d8ebb6dd10b7cfa327e25b692521eb85cbf3"
-    },
-    {
-      "title": "Las izquierdas buscan impedir la reforma de la Constitución",
-      "link": "https://elpais.com/espana/2026-10-19/las-izquierdas-buscan-impedir-la-reforma-de-la-constitucion.html",
-      "desc": "Vox persigue los tres quintos para activar el cambio de la Ley Fundamental",
-      "date": "Mon, 19 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/BPWBA5E6RFEM7ILSU6OHNM4LHU.jpg?auth=faa9581ec17ffff49a9a0a3b743a6f1df53232d450a8e20c3861baa80a857e41"
-    },
-    {
-      "title": "Vox rentabiliza su pacto con Moreno y Adelante crece a costa del PSOE en Andalucía, según el ‘CIS andaluz’",
-      "link": "https://elpais.com/espana/andalucia/2026-10-19/vox-rentabiliza-su-pacto-con-moreno-y-adelante-crece-a-costa-del-psoe-en-andalucia.html",
-      "desc": "El barómetro de Centra da una bajada de casi cuatro puntos a los socialistas y el PP se mantiene",
-      "date": "Mon, 19 Oct 2026 08:33:38 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/CLYDV4AAABDQJDLKDTSCBCV3DE.jpg?auth=507eb0a9d501a8cd5ea51b7b6df33692b2299e07f0792fb7326862f0acb30514"
     }
   ],
-  "fetchedAt": 1792429511439
+  "fetchedAt": 1792446006094
 }
