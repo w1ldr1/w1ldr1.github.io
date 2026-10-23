@@ -57,6 +57,27 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
+      "title": "El “narcoarquitecto” del segundo narcotúnel de Ceuta pide anular la causa",
+      "link": "https://elpais.com/espana/2026-10-23/el-narcoarquitecto-del-segundo-narcotunel-de-ceuta-pide-anular-la-causa.html",
+      "desc": "La defensa de Mustapha Brouzi acusa a los investigadores de ocultar información al instructor para que autorizara medidas de vigilancia",
+      "date": "Fri, 23 Oct 2026 18:51:56 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SO2SCFBXRZCB7MG7TJZEKSZ7IQ.jpg?auth=5f62c73f2f5ea1e6551e3ba6f21e099813525d6884aa79de6def5364eed9c61c"
+    },
+    {
+      "title": "El Rey pide mesura ante la “altísima responsabilidad” de las próximas elecciones",
+      "link": "https://elpais.com/espana/2026-10-23/el-rey-pide-mesura-ante-la-altisima-responsabilidad-de-las-proximas-elecciones.html",
+      "desc": "Felipe VI ensalza los valores de la Constitución, que acoge “a todos los españoles sin distinción alguna”",
+      "date": "Fri, 23 Oct 2026 17:46:26 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261023/1229191_181419_video_1800.mp4"
+    },
+    {
+      "title": "Leonor anima a los jóvenes a mantener el “entusiasmo” en tiempos de “desencanto social profundo”",
+      "link": "https://elpais.com/espana/2026-10-23/leonor-anima-a-los-jovenes-a-mantener-el-entusiasmo-en-tiempos-de-desencanto-social-profundo.html",
+      "desc": "La Princesa de Asturias lanza un mensaje de esperanza ante las “complejidades” que afrontan los ciudadanos de su generación",
+      "date": "Fri, 23 Oct 2026 17:35:51 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261023/1229187_180505_video_1800.mp4"
+    },
+    {
       "title": "Vox exige al PP tener grupo propio en el Senado y protagonismo en Cataluña",
       "link": "https://elpais.com/espana/2026-10-23/vox-exige-al-pp-tener-grupo-propio-en-el-senado-y-protagonismo-en-cataluna.html",
       "desc": "Los ultras no descartan que los populares tampoco se presenten a la Cámara alta en alguna provincia, como Girona",
@@ -111,28 +132,7 @@
       "desc": "El tribunal mantenía en suspenso la medida para los 12 procesados, pese al aval de julio del TJUE",
       "date": "Fri, 23 Oct 2026 14:49:41 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/J7XRJIK2LRFDJK24SFVMW6MTPM.JPG?auth=2be1ba4e0c3cf1625a442aad418668e104506f1922217fcef1a6cd77d5686c76"
-    },
-    {
-      "title": "Leire Díez se querella contra el PP por el vídeo generado con IA para atacar al PSOE",
-      "link": "https://elpais.com/espana/2026-10-23/leire-diez-se-querella-contra-el-pp-por-el-video-generado-con-ia-para-atacar-al-psoe.html",
-      "desc": "La exmilitante, que reclama la retirada de las imágenes, atribuye a los populares delitos de calumnias, contra la integridad moral y suplantación de identidad",
-      "date": "Fri, 23 Oct 2026 10:19:13 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/A6HBIRE2OVGN3CWOLGBINQZIFM.jpg?auth=b359a5bd9a8ea253c7c9d82f8217aade8721b73316c4615afd5fb9215248bb51"
-    },
-    {
-      "title": "Cae una trama en Cantabria que prostituía a mujeres extranjeras en pisos okupados con presencia de ratas y heces",
-      "link": "https://elpais.com/espana/2026-10-23/cae-una-trama-en-cantabria-que-prostituia-a-mujeres-extranjeras-en-pisos-okupados-con-presencia-de-ratas-y-heces.html",
-      "desc": "La Guardia Civil detiene a 27 personas por explotación sexual. Las mujeres eran atraídas desde sus países de origen con promesas de trabajo",
-      "date": "Fri, 23 Oct 2026 12:07:43 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261023/1228961_125546_video_1800.mp4"
-    },
-    {
-      "title": "Sánchez con Broncano: sesión de control del buen rollito",
-      "link": "https://elpais.com/espana/2026-10-22/sanchez-con-broncano-sesion-de-control-del-buen-rollito.html",
-      "desc": "“¿Qué nivel de dureza de entrevista quieres?”, dijo el presentador. Y empezaron a rajar de Milei",
-      "date": "Fri, 23 Oct 2026 11:03:54 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261023/1228905_111023_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1792777529441
+  "fetchedAt": 1792789683172
 }
