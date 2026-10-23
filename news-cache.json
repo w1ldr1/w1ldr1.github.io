@@ -1,25 +1,25 @@
 {
   "items": [
     {
-      "title": "Álvarez de Toledo y Sémper serán los números dos y tres de Feijóo en la lista por Madrid",
-      "link": "https://elpais.com/espana/2026-10-22/alvarez-de-toledo-y-semper-seran-los-numeros-dos-y-tres-de-feijoo-en-la-lista-por-madrid.html",
-      "desc": "La diputada madrileña y el parlamentario vasco, que han tenido discrepancias en el pasado, representan las dos almas del PP",
-      "date": "Thu, 22 Oct 2026 10:45:24 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261022/1228646_170516_video_1800.mp4"
+      "title": "Feijóo se refuerza en el Congreso: portavoces de la línea dura, veteranos y experiencia de gestión con miras al Gobierno",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-23/feijoo-se-refuerza-en-el-congreso-portavoces-de-la-linea-dura-veteranos-y-experiencia-de-gestion-con-miras-al-gobierno.html",
+      "desc": "El líder del PP incorpora a consejeros autonómicos y alcaldes a las listas y obliga a remodelaciones de Gobierno en varias comunidades",
+      "date": "Fri, 23 Oct 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SEHXRWFMVRC5HIMOD4PGRPWC2I.jpg?auth=638e955aa1684d8ce60d32a8eee3aeb6662efc9d6cb2518d0c952ad4d693f1e7"
     },
     {
-      "title": "El PP da un paso más en su campaña y suplanta la identidad de Begoña Gómez, Zapatero y Ábalos: “¿Irse de putas? Sí, soy zurdo”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-pp-da-un-paso-mas-en-su-campana-y-suplanta-la-identidad-de-begona-gomez-zapatero-y-abalos-irse-de-putas-si-soy-zurdo.html",
-      "desc": "La nueva estrategia digital de los populares sube otro escalón en redes sociales.  El PSOE estudia emprender acciones legales",
-      "date": "Thu, 22 Oct 2026 10:43:28 GMT",
+      "title": "El rufianismo existe",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-23/el-rufianismo-existe.html",
+      "desc": "El candidato de ERC hace en su último libro un esbozo de programa electoral y se cobra algunas facturas pendientes",
+      "date": "Fri, 23 Oct 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XBB3TCYYLFFNDFV52BJHPU277E.jpg?auth=edf45f10bdc84c0f770f73a82b022b0300a92e5d0135652112ce569b2df84201"
+    },
+    {
+      "title": "El vídeo del PP contra el PSOE agita el debate sobre los límites de la IA en la batalla política",
+      "link": "https://elpais.com/espana/2026-10-23/el-video-del-pp-contra-el-psoe-agita-el-debate-sobre-los-limites-de-la-ia-en-la-batalla-politica.html",
+      "desc": "Más de media docena de juristas coinciden en los amplios márgenes que otorga la libertad de expresión y el derecho a la sátira y la parodia",
+      "date": "Fri, 23 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FTMLQ6AANVANDJUETPFQ4VYTMQ.jpg?auth=aa5fdda1f4399262482f338707ecf3afd521a2673b9da965ccf1526dadaff690"
-    },
-    {
-      "title": "Tres afectados por la ‘ley de nietos’, ante el Supremo: “El derecho al sufragio no se puede suspender”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-22/tres-afectados-por-la-ley-de-nietos-ante-el-supremo-el-derecho-al-sufragio-no-se-puede-suspender.html",
-      "desc": "En el escrito alegan que la medida cautelar lesiona su “derecho de participación política” y supone “una carga diabólica para la Administración y los ciudadanos”",
-      "date": "Thu, 22 Oct 2026 10:38:04 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IWRKJ5JC7FEG7MCW3MSA6SLXIU.jpg?auth=ee11032030cdf1b7c8809c289a0dd66ee728488563a65aa843df2d16da7d5fba"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -55,6 +55,34 @@
       "desc": "Si el apoyo a Pujol en 1980 era un voto esperanzado en la promesa de prosperidad, ahora es un voto de resistencia para preservar aquel estatus, un seguro de protección ante un futuro que ya no promete progreso",
       "date": "Sun, 04 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
+    },
+    {
+      "title": "El estupor de los dos historiadores usados por el PP y Vox para proteger una cruz franquista: “¿Cómo voy a decir yo algo así?”",
+      "link": "https://elpais.com/espana/2026-10-23/el-estupor-de-los-dos-historiadores-usados-por-el-pp-y-vox-para-proteger-una-cruz-franquista-como-voy-a-decir-yo-algo-asi.html",
+      "desc": "Los reputados investigadores Miguel Ángel del Arco y César Rina denuncian el “falseamiento” de sus trabajos en una resolución de la Junta de Extremadura para declarar Bien de Interés Cultural la Cruz de los Caídos de Cáceres",
+      "date": "Fri, 23 Oct 2026 03:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SLNADRFROJDKFLCWFTXU3R46SA.jpg?auth=1c412ba1bab3ab5b833175dd97a385bf652567fb988b6c94a7e07957ed2518eb"
+    },
+    {
+      "title": "Álvarez de Toledo y Sémper serán los números dos y tres de Feijóo en la lista por Madrid",
+      "link": "https://elpais.com/espana/2026-10-22/alvarez-de-toledo-y-semper-seran-los-numeros-dos-y-tres-de-feijoo-en-la-lista-por-madrid.html",
+      "desc": "La diputada madrileña y el parlamentario vasco, que han tenido discrepancias en el pasado, representan las dos almas del PP",
+      "date": "Thu, 22 Oct 2026 10:45:24 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261022/1228646_170516_video_1800.mp4"
+    },
+    {
+      "title": "El PP da un paso más en su campaña y suplanta la identidad de Begoña Gómez, Zapatero y Ábalos: “¿Irse de putas? Sí, soy zurdo”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-pp-da-un-paso-mas-en-su-campana-y-suplanta-la-identidad-de-begona-gomez-zapatero-y-abalos-irse-de-putas-si-soy-zurdo.html",
+      "desc": "La nueva estrategia digital de los populares sube otro escalón en redes sociales.  El PSOE estudia emprender acciones legales",
+      "date": "Thu, 22 Oct 2026 10:43:28 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FTMLQ6AANVANDJUETPFQ4VYTMQ.jpg?auth=aa5fdda1f4399262482f338707ecf3afd521a2673b9da965ccf1526dadaff690"
+    },
+    {
+      "title": "Tres afectados por la ‘ley de nietos’, ante el Supremo: “El derecho al sufragio no se puede suspender”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-22/tres-afectados-por-la-ley-de-nietos-ante-el-supremo-el-derecho-al-sufragio-no-se-puede-suspender.html",
+      "desc": "En el escrito alegan que la medida cautelar lesiona su “derecho de participación política” y supone “una carga diabólica para la Administración y los ciudadanos”",
+      "date": "Thu, 22 Oct 2026 10:38:04 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IWRKJ5JC7FEG7MCW3MSA6SLXIU.jpg?auth=ee11032030cdf1b7c8809c289a0dd66ee728488563a65aa843df2d16da7d5fba"
     },
     {
       "title": "El PP desata la polémica en la Asamblea de Extremadura por insultar a las “feministas de izquierdas”: “Están calladas como puertas”",
@@ -104,35 +132,7 @@
       "desc": "Podemos anuncia sus cabezas de lista al 29-N: recupera a la exdiputada Lucía Muñoz en Baleares y apuesta por la activista de los derechos trans Mar Cambrollé para Sevilla y la coordinadora valenciana, María Teresa Pérez, por Alicante",
       "date": "Thu, 22 Oct 2026 11:11:23 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/W233XQBPCJI55C45OGRBLSMYLQ.jpg?auth=354bcaa9e15021df1ca3d0f152bfa24b8ae5275675dfd3a0a120b8267d066354"
-    },
-    {
-      "title": "Aguirre reivindica la idea de las “canchas” de golf del Canal, pero se desvincula de las irregularidades en el juicio a su sucesor",
-      "link": "https://elpais.com/espana/2026-10-22/esperanza-aguirre-declara-este-jueves-como-testigo-en-el-juicio-contra-ignacio-gonzalez-por-el-caso-lezo.html",
-      "desc": "La expresidenta madrileña asegura que copió el proyecto de un viaje a Tokio y afirma que nunca supo nada del desarrollo de las obras: “Yo ya dimití”, añade la política",
-      "date": "Thu, 22 Oct 2026 11:22:53 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261022/1228446_094648_video_1800.mp4"
-    },
-    {
-      "title": "España e Italia acuerdan levantar los controles fronterizos a vuelos y las conexiones marítimas",
-      "link": "https://elpais.com/espana/2026-10-22/espanol-e-italia-acuerdan-levantar-los-controles-fronterizos-a-vuelos-y-las-conexiones-maritimas.html",
-      "desc": "Los controles del espacio Schengen se retomaron en agosto, como consecuencia de la crisis migratoria en Ceuta",
-      "date": "Thu, 22 Oct 2026 08:19:08 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/R4NYOINUJVO6FKDXRL4FIA765I.jpg?auth=a70787d8f265604839cfb5052b0e4a38df7bb69dfa89215d42348d6287c2b594"
-    },
-    {
-      "title": "Los presupuestos extremeños condenan a la asfixia al Consejo de la Juventud y a la cooperación internacional de la región",
-      "link": "https://elpais.com/espana/2026-10-22/los-presupuestos-extremenos-condenan-a-la-asfixia-al-consejo-de-la-juventud-y-a-la-cooperacion-internacional-al-desarrollo.html",
-      "desc": "La reducción para el organismo juvenil va a ser de 370.747 euros, lo que equivale al 48,6% de las cuentas de la entidad e impedirá desarrollar proyectos",
-      "date": "Thu, 22 Oct 2026 11:55:17 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NKNKPNWXGZCBTJBI4F6RQOX6VA.jpg?auth=b3deea6caa1508b28ab4147c09d0f2fef5b7e1929b8baa6903247d2166537f61"
-    },
-    {
-      "title": "Muere un soldado tras ser atropellado por un vehículo militar en la base de Cerro Muriano",
-      "link": "https://elpais.com/espana/2026-10-22/muere-un-soldado-tras-ser-atropellado-por-un-vehiculo-militar-en-la-base-de-cerro-muriano.html",
-      "desc": "La Guardia Civil se ha hecho cargo de la investigación del suceso",
-      "date": "Thu, 22 Oct 2026 11:33:22 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/26AEVIBEM3DJFE7QB63W6VZIQI.jpg?auth=0eb3dfe33ef2369f080fd89d0af6d94c42c0163092742efbe8744bd38da0513b"
     }
   ],
-  "fetchedAt": 1792719944498
+  "fetchedAt": 1792739302576
 }
