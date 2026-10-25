@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
+      "title": "El delegado del Gobierno en Madrid dimite tras quedarse fuera de las listas del PSOE para el 29-N",
+      "link": "https://elpais.com/espana/madrid/2026-10-25/el-delegado-del-gobierno-en-madrid-dimite-tras-quedarse-fuera-de-las-listas-del-psoe-del-29-n.html",
+      "desc": "La renuncia de Francisco Martín, que apoyó de forma tácita a Enma López en las primarias de Madrid, se produce a cinco semanas de las elecciones",
+      "date": "Sun, 25 Oct 2026 16:30:42 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/H4JYBAX65NP3HFRMFWKRZI6NZM.jpg?auth=a30877724d6f3f18035c1bcb5857ac1ec7caf8e17c91728777900ef5511919b2"
+    },
+    {
       "title": "El 29-N desata la “hiperactividad” en el avispero de grupos en torno al PP y Vox",
       "link": "https://elpais.com/espana/elecciones-generales/2026-10-25/el-29-n-desata-la-hiperactividad-en-el-avispero-de-grupos-en-torno-al-pp-y-vox.html",
       "desc": "Las expectativas de los partidos de Abascal y Feijóo de alcanzar el poder estimulan la actividad de las organizaciones de las distintas familias derechistas, que buscan protagonismo e influencia",
@@ -125,14 +132,7 @@
       "desc": "El líder del PP eliminará el Ministerio de Igualdad como ministerio único, cuestiona que las menores de 16 años puedan abortar sin el conocimiento de sus padres y quiere reformar la ley de eutanasia",
       "date": "Fri, 23 Oct 2026 14:05:28 GMT",
       "imgUrl": "https://www.youtube.com/watch?v=ieVFgMe7z5U"
-    },
-    {
-      "title": "Pensiones, aborto y los pactos con Vox, los 10 titulares de la entrevista a Feijóo en la SER",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-23/pensiones-aborto-y-los-pactos-con-vox-los-10-titulares-de-la-entrevista-a-feijoo-en-la-ser.html",
-      "desc": "El líder popular afirma sobre el candidato del partido ultra en Tarragona: “No debe ser fácil probar que sea neonazi”",
-      "date": "Fri, 23 Oct 2026 08:36:06 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261023/1228879_101315_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1792938581980
+  "fetchedAt": 1792950461858
 }
