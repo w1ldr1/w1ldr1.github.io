@@ -15,11 +15,11 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230394_075309_video_1800.mp4"
     },
     {
-      "title": "El Frente Amplio no tiene quien le siga en redes sociales, pero activa un plan: “La alianza”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/el-frente-amplio-no-tiene-quien-le-siga-en-redes-sociales-pero-activa-un-plan-la-alianza.html",
-      "desc": "La izquierda alternativa parte con desventaja en la batalla digital. Sus cuentas se han creado a 47 días de las elecciones generales, mientras que el resto de partidos cuenta con años de ventaja y millones de seguidores",
-      "date": "Tue, 27 Oct 2026 09:55:16 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UZYQWVVQD5FSXKZN3BHSKZQAWY.jpg?auth=b84106eee0da9978bd9b4d7d26429ba7ebe57f247333e84d9c726451e7c878f4"
+      "title": "La Policía identifica a 24 agentes “dinamizadores” en Ceuta a través de vídeos y fotografías analizadas",
+      "link": "https://elpais.com/espana/2026-10-27/la-policia-identifica-a-24-agentes-dinamizadores-en-ceuta-a-traves-de-videos-y-fotografias-analizadas.html",
+      "desc": "Vídeos entregados a la magistrada Tardón muestran gendarmes marroquíes pasivos o señalando a los migrantes el camino a Ceuta el 30 de julio",
+      "date": "Tue, 27 Oct 2026 19:16:18 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230715_192011_video_1800.mp4"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -55,6 +55,41 @@
       "desc": "Si el apoyo a Pujol en 1980 era un voto esperanzado en la promesa de prosperidad, ahora es un voto de resistencia para preservar aquel estatus, un seguro de protección ante un futuro que ya no promete progreso",
       "date": "Sun, 04 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
+    },
+    {
+      "title": "El Frente Amplio no tiene quien le siga en redes sociales, pero activa un plan: “La alianza”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/el-frente-amplio-no-tiene-quien-le-siga-en-redes-sociales-pero-activa-un-plan-la-alianza.html",
+      "desc": "La izquierda alternativa parte con desventaja en la batalla digital. Sus cuentas se han creado a 47 días de las elecciones generales, mientras que el resto de partidos cuenta con años de ventaja y millones de seguidores",
+      "date": "Tue, 27 Oct 2026 09:55:16 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UZYQWVVQD5FSXKZN3BHSKZQAWY.jpg?auth=b84106eee0da9978bd9b4d7d26429ba7ebe57f247333e84d9c726451e7c878f4"
+    },
+    {
+      "title": "Bilbao busca respuestas a las dudas sobre quién está detrás de los disturbios",
+      "link": "https://elpais.com/espana/2026-10-27/bilbao-busca-respuestas-tras-los-disturbios-con-17-detenidos-y-dudas-sobre-quien-esta-detras.html",
+      "desc": "La Ertzaintza, que ha detenido a 17 personas, trata de identificar a más participantes mientras los grupos convocantes se desmarcan de la violencia",
+      "date": "Tue, 27 Oct 2026 19:00:28 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230406_083122_video_1800.mp4"
+    },
+    {
+      "title": "Policías y guardias civiles se encierran en Interior al romperse la negociación sobre su jubilación",
+      "link": "https://elpais.com/espana/2026-10-27/policias-y-guardias-civiles-se-encierran-en-interior-al-romperse-la-negociacion-sobre-su-jubilacion.html",
+      "desc": "Representantes de los principales sindicatos y asociaciones inician una “protesta inédita” después de que la número dos del ministerio cerrara el diálogo ante la proximidad del 29-N",
+      "date": "Tue, 27 Oct 2026 18:54:20 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230737_202643_video_1800.mp4"
+    },
+    {
+      "title": "Feijóo redobla sus acusaciones al Gobierno por los disturbios: “Cuanto más pierden, más tensión crean”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/feijoo-redobla-sus-acusaciones-al-gobierno-por-los-disturbios-cuanto-mas-pierden-mas-tension-crean.html",
+      "desc": "Álvarez de Toledo acusa a Sánchez de tener “su ‘kale borroka” y Ayuso afirma que “los totalitarios no admiten a quien les va a ganar en las urnas”",
+      "date": "Tue, 27 Oct 2026 16:13:59 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230703_190300_video_1800.mp4"
+    },
+    {
+      "title": "El juez Pedraz blinda la continuidad del coronel Balas al frente del ‘caso Leire’ hasta su conclusión",
+      "link": "https://elpais.com/espana/2026-10-27/el-juez-pedraz-blinda-la-continuidad-del-coronel-balas-al-frente-del-caso-leire-hasta-su-conclusion.html",
+      "desc": "El magistrado de la Audiencia Nacional argumenta su decisión en la “extraordinaria complejidad” y “especial trascendencia institucional” de la investigación",
+      "date": "Tue, 27 Oct 2026 16:51:26 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/PEPFHYCZD5HTVPP7JR6TXJXOWU.jpg?auth=4bf102d7fe5145e2486e727496401f65191d05b51e25caf39987b57dd5482d68"
     },
     {
       "title": "La red que convocó los disturbios de Barcelona tiene ramificaciones en 11 comunidades autónomas",
@@ -97,42 +132,7 @@
       "desc": "El magistrado da este paso después de que el expresidente afirmase que las alhajas fueron un “obsequio” del fallecido rey Abdalá Bin Abdulaziz Al-Saud",
       "date": "Tue, 27 Oct 2026 13:14:00 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/QZUESOP5XNEBPFRFGVT2FIGMDM.jpg?auth=f69bfe013c6823ab67c639d916ff2baf0a30eda46381da0255bdfcc481a67dd6"
-    },
-    {
-      "title": "El Supremo rechaza exigir al Gobierno de forma urgente un plan de expulsiones y devoluciones en Ceuta",
-      "link": "https://elpais.com/espana/2026-10-27/el-supremo-rechaza-exigir-al-gobierno-de-forma-urgente-un-plan-de-expulsiones-y-devoluciones-en-ceuta.html",
-      "desc": "El tribunal da 10 días al Ejecutivo para presentar alegaciones a la denuncia de “inacción” de Vivas",
-      "date": "Tue, 27 Oct 2026 11:18:29 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/V5MNEIRJIJEIRMVCGKGLSHHB3Q.jpg?auth=927bcfc508bbab626bbd89c24926e45374db64dc8cb5e5b4d76be8e1e389a70f"
-    },
-    {
-      "title": "El PP cede puestos de salida a Vox en el Senado para intentar blindar la mayoría",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/el-pp-cede-puestos-de-salida-a-vox-en-el-senado-para-intentar-blindar-la-mayoria.html",
-      "desc": "Feijóo entrega a Abascal seis posibles escaños en provincias donde las encuestas no le dan ninguno y retira la papeleta popular en tres provincias en comunidades históricas",
-      "date": "Tue, 27 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261026/1230059_135757_video_1800.mp4"
-    },
-    {
-      "title": "Feijóo hace de los disturbios de Barcelona uno de los ejes de su campaña contra Sánchez",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/feijoo-hace-de-los-disturbios-de-barcelona-uno-de-los-ejes-de-su-campana-contra-sanchez.html",
-      "desc": "El líder del PP viaja el miércoles a la capital catalana para reunirse con comerciantes afectados",
-      "date": "Tue, 27 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KDNBEHQKGBOO5HKGWLXRUGKP44.jpg?auth=f52d65e3708387b8cb65b2d2c6717c2c3e4a3fcb88427f9a2be4a65db4bb2fb9"
-    },
-    {
-      "title": "Un sombrero ‘cowboy’ para Aznar, un ladrillo de una cárcel para Zapatero y un boli bala para Rajoy: los sorprendentes regalos a los presidentes",
-      "link": "https://elpais.com/espana/2026-10-27/un-sombrero-cowboy-para-aznar-un-ladrillo-de-una-carcel-para-zapatero-y-un-boli-bala-para-rajoy-los-sorprendentes-regalos-a-los-presidentes.html",
-      "desc": "Consulte el listado oficial completo de obsequios a los tres ex jefes del Gobierno tras pedir el juez Calama a Patrimonio Nacional los que recibió el mandatario socialista",
-      "date": "Tue, 27 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/KQU3A7BGUJOQVBLKLORFKNA6RM.jpg?auth=5d943bf5535e21e4fc08de4ff401d1af63eb253e94e67d140b452d0d262b45ae"
-    },
-    {
-      "title": "Abdellah Mustafa: de cocinero a candidato al Senado por Ceuta",
-      "link": "https://elpais.com/espana/2026-10-27/abdellah-mustafa-de-cocinero-a-candidato-al-senado-por-ceuta.html",
-      "desc": "El ceutí, de 26 años, gestionó el campamento solidario de mujeres de Sidi Embarek y ahora se suma en las listas de la coalición de izquierdas para la Cámara Alta",
-      "date": "Tue, 27 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/PKPVM35DRVAIRCVX7QPV6TNAJA.jpg?auth=5d5b47a8549f90f165247c97bf61437f6a2df235527979278e9f343a1b213610"
     }
   ],
-  "fetchedAt": 1793116657644
+  "fetchedAt": 1793133250411
 }
