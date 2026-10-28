@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Las líneas de alta velocidad española vuelven a teñirse de sangre",
+      "link": "https://elpais.com/espana/2026-10-28/las-lineas-de-alta-velocidad-espanola-vuelven-a-tenirse-de-sangre.html",
+      "desc": "Al menos 68 personas han perdido la vida en una nueva colisión de trenes en la línea Madrid-Sevilla. Expertos consultados plantean: “¿Si se permite que el error de un solo hombre provoque decenas de víctimas, es un fallo del hombre o del sistema?\"",
+      "date": "Wed, 28 Oct 2026 21:43:18 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231252_204011_video_1800.mp4"
+    },
+    {
       "title": "Al menos 68 muertos tras el choque entre un AVE de Renfe y un tren Iryo a la altura de Urda, en Toledo",
       "link": "https://elpais.com/espana/2026-10-28/adif-suspende-la-circulacion-de-la-linea-de-alta-velocidad-entre-madrid-y-andalucia-por-un-alcance-entre-dos-trenes.html",
       "desc": "El ministro de Transportes apunta a una decisión “inexplicable” y a “todas luces errónea” desde el centro de control, que autorizó al convoy que iba detrás a renaudar la marcha con normalidad a pesar de tener uno detenido más adelante",
@@ -13,13 +20,6 @@
       "desc": "El reportero, víctima del accidente, relata los primeros momentos de caos tras el choque ferroviario en Toledo",
       "date": "Wed, 28 Oct 2026 11:45:35 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230967_113043_video_1800.mp4"
-    },
-    {
-      "title": "La búsqueda de los familiares entre los restos del tren: “Imagina haberte despedido de noche y ahora pensar que quizás no lo vuelvas a ver”",
-      "link": "https://elpais.com/espana/2026-10-28/la-busqueda-de-los-familiares-entre-los-restos-del-tren-imagina-haberte-despedido-de-noche-y-ahora-pensar-que-quizas-no-lo-vuelvas-a-ver.html",
-      "desc": "A 200 metros del accidente ferroviario de Urda, decenas de personas preguntan a los agentes y buscan noticias de sus seres queridos entre llamadas, ambulancias y hospitales",
-      "date": "Wed, 28 Oct 2026 13:48:15 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231108_153820_video_1800.mp4"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -57,6 +57,27 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
+      "title": "La búsqueda de los familiares entre los restos del tren: “Imagina haberte despedido de noche y ahora pensar que quizás no lo vuelvas a ver”",
+      "link": "https://elpais.com/espana/2026-10-28/la-busqueda-de-los-familiares-entre-los-restos-del-tren-imagina-haberte-despedido-de-noche-y-ahora-pensar-que-quizas-no-lo-vuelvas-a-ver.html",
+      "desc": "A 200 metros del accidente ferroviario de Urda, decenas de personas preguntan a los agentes y buscan noticias de sus seres queridos entre llamadas, ambulancias y hospitales",
+      "date": "Wed, 28 Oct 2026 13:48:15 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231108_153820_video_1800.mp4"
+    },
+    {
+      "title": "Una nueva tasación cuestiona la versión de Zapatero sobre las joyas",
+      "link": "https://elpais.com/espana/2026-10-28/una-nueva-tasacion-cuestiona-la-version-de-zapatero-sobre-las-joyas.html",
+      "desc": "El informe apunta que las piezas de mayor valor se fabricaron después de 2007, el año que el expresidente afirma que las recibió como regalo",
+      "date": "Wed, 28 Oct 2026 21:27:21 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/J2LRLBNVJVG5RDJW2PRI53IKRI.jpg?auth=98b4010fa5b32549d9c987a411f4cbeb3ece2e195b98a6da7144451830016cc5"
+    },
+    {
+      "title": "El angustioso recuento de los fallecidos en la tragedia: un guardia civil, un policía...",
+      "link": "https://elpais.com/espana/2026-10-28/el-angustioso-recuento-de-los-fallecidos-en-la-tragedia-un-guardia-civil-un-policia.html",
+      "desc": "La identificación de los cuerpos se centra en el Instituto Anatómico Forense de Toledo mientras los familiares facilitan datos en las comandancias para localizar allegados",
+      "date": "Wed, 28 Oct 2026 19:29:52 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231252_204011_video_1800.mp4"
+    },
+    {
       "title": "Urgencias frenéticas en el hospital de Toledo para salvar a las víctimas del accidente de tren: “¡Se muere, se muere!”",
       "link": "https://elpais.com/espana/2026-10-28/urgencias-freneticas-en-el-hospital-de-toledo-para-salvar-a-las-victimas-del-accidente-de-tren-se-muere-se-muere.html",
       "desc": "Los heridos más graves llegan a los hospitales de Toledo y Alcázar de San Juan, que se convierten en centros de campaña para la emergencia",
@@ -82,7 +103,7 @@
       "link": "https://elpais.com/espana/2026-10-28/por-que-han-chocado-dos-trenes-en-toledo.html",
       "desc": "Tras el fallo del sistema informático, según Puente, un operador ordenó seguir “con normalidad” al AVE pese a que el Iryo le había avisado de que estaba detenido y veía en su pantalla que iban camino de un choque",
       "date": "Wed, 28 Oct 2026 15:33:19 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230882_091607_video_1800.mp4"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231252_204011_video_1800.mp4"
     },
     {
       "title": "La tragedia sacude la campaña",
@@ -111,28 +132,7 @@
       "desc": "El líder de Vox se niega a suspender sus campaña porque se quiere convertir a los políticos “en plañideras en funerales” y usar el luto para “acallar las protestas”",
       "date": "Wed, 28 Oct 2026 11:09:48 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231045_133710_video_1800.mp4"
-    },
-    {
-      "title": "¿Cómo ha sido el choque? Mapas y datos del accidente de tren en Toledo",
-      "link": "https://elpais.com/espana/2026-10-28/donde-ha-sido-el-choque-mapas-y-primeras-informaciones-del-accidente-de-tren-en-toledo.html",
-      "desc": "El tren de Renfe embistió a un Iryo que se encontraba parado en la vía a unos 130 kilómetros de Madrid",
-      "date": "Wed, 28 Oct 2026 10:30:20 GMT",
-      "imgUrl": null
-    },
-    {
-      "title": "Abascal teme que Feijóo descuide al votante de centroderecha por disputarle su electorado",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-28/abascal-teme-que-feijoo-descuide-al-votante-de-centro-por-disputarle-el-electorado-de-vox.html",
-      "desc": "En Vox preocupa que, con la elección de candidatos como Albiol o Álvarez de Toledo, el PP pelee por el voto del ya convencido en vez de intentar atraer al indeciso",
-      "date": "Wed, 28 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/WZHLPSM4KJHDNP4VYWM7343KSY.jpg?auth=6c396fd34542cb5336c03b40da90e146bdf2ee36a023aca5f883383cd44e9a88"
-    },
-    {
-      "title": "José María Ridao: “El temor de una incidencia de la ley de nietos en el resultado electoral es difícil de sostener con las cifras”",
-      "link": "https://elpais.com/espana/2026-10-28/jose-maria-ridao-el-temor-de-una-incidencia-de-la-ley-de-nietos-en-el-resultado-electoral-es-dificil-de-sostener-con-las-cifras.html",
-      "desc": "El escritor y diplomático, actual cónsul en Buenos Aires, defiende que el supuesto de hecho que provocó el debate jurídico sobre el voto de los nacionalizados “quizá debería ser revisado”",
-      "date": "Wed, 28 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UAWSQZ66BRACNB2M3KNSOLW3AE.jpg?auth=77476248ed04b3dc325040ea3f863d9039e77ebe00e63c646d8d8b337d4e04e9"
     }
   ],
-  "fetchedAt": 1793213952156
+  "fetchedAt": 1793228760702
 }
