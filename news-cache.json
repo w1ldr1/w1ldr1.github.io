@@ -1,10 +1,10 @@
 {
   "items": [
     {
-      "title": "Al menos 64 muertos tras el choque entre un AVE de Renfe y un tren Iryo a la altura de Urda, en Toledo",
+      "title": "Al menos 68 muertos tras el choque entre un AVE de Renfe y un tren Iryo a la altura de Urda, en Toledo",
       "link": "https://elpais.com/espana/2026-10-28/adif-suspende-la-circulacion-de-la-linea-de-alta-velocidad-entre-madrid-y-andalucia-por-un-alcance-entre-dos-trenes.html",
-      "desc": "Fuentes del Gobierno aseguran que el accidente, que se ha producido pasadas las 9.00, ha sido “muy grave” y que “puede ser peor que Adamuz”",
-      "date": "Wed, 28 Oct 2026 12:53:51 GMT",
+      "desc": "El ministro de Transportes apunta a una decisión “inexplicable” y a “todas luces errónea” desde el centro de control, que autorizó al convoy que iba detrás a renaudar la marcha con normalidad a pesar de tener uno detenido más adelante",
+      "date": "Wed, 28 Oct 2026 14:43:17 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230917_103359_video_1800.mp4"
     },
     {
@@ -15,11 +15,11 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230967_113043_video_1800.mp4"
     },
     {
-      "title": "“He salido disparada donde las maletas. Todo está destrozado”: hablan los supervivientes del accidente de Toledo",
-      "link": "https://elpais.com/espana/2026-10-28/he-salido-disparada-donde-las-maletas-todo-esta-destrozado-hablan-los-supervivientes-del-accidente-de-toledo.html",
-      "desc": "Varios pasajeros del AVE con destino Sevilla narran a EL PAÍS cómo ha sido la colisión con el tren Iryo",
-      "date": "Wed, 28 Oct 2026 11:38:42 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230955_111832_video_1800.mp4"
+      "title": "La búsqueda de los familiares entre los restos del tren: “Imagina haberte despedido de noche y ahora pensar que quizás no lo vuelvas a ver”",
+      "link": "https://elpais.com/espana/2026-10-28/la-busqueda-de-los-familiares-entre-los-restos-del-tren-imagina-haberte-despedido-de-noche-y-ahora-pensar-que-quizas-no-lo-vuelvas-a-ver.html",
+      "desc": "A 200 metros del accidente ferroviario de Urda, decenas de personas preguntan a los agentes y buscan noticias de sus seres queridos entre llamadas, ambulancias y hospitales",
+      "date": "Wed, 28 Oct 2026 13:48:15 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231108_153820_video_1800.mp4"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -57,17 +57,52 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
-      "title": "¿Por qué chocaron los trenes? La investigación apunta a una avería informática y un error humano de un controlador de Adif",
+      "title": "Urgencias frenéticas en el hospital de Toledo para salvar a las víctimas del accidente de tren: “¡Se muere, se muere!”",
+      "link": "https://elpais.com/espana/2026-10-28/urgencias-freneticas-en-el-hospital-de-toledo-para-salvar-a-las-victimas-del-accidente-de-tren-se-muere-se-muere.html",
+      "desc": "Los heridos más graves llegan a los hospitales de Toledo y Alcázar de San Juan, que se convierten en centros de campaña para la emergencia",
+      "date": "Wed, 28 Oct 2026 18:00:48 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/AL5YEBC4DVAVZOH5NP3WTWA22E.jpg?auth=de4d2301e84561b5c594380e218f65b85a723980772744c66d48106801d2fed3"
+    },
+    {
+      "title": "El sindicato policial de mandos denuncia “presiones políticas” en los informes de Ceuta y el ‘caso Zapatero’",
+      "link": "https://elpais.com/espana/2026-10-28/el-sindicato-policial-de-mandos-denuncia-presiones-politicas-en-los-informes-de-ceuta-y-el-caso-zapatero.html",
+      "desc": "Daniel López, presidente del SPP, defiende la labor de la UCRIF y de la UDEF como ejemplos de neutralidad e independencia",
+      "date": "Wed, 28 Oct 2026 17:11:51 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YLUG5CKDQVCCNAJJXSFOHPULEU.jpeg?auth=5be70bc249a3fdebfa3ff91df0ddc847f14ef6a9629031453b99db679c3c0e31"
+    },
+    {
+      "title": "Pedro Sánchez promete llegar “hasta el final” para esclarecer el accidente de tren: “No es asumible para España sufrir dos el mismo año”",
+      "link": "https://elpais.com/espana/2026-10-28/pedro-sanchez-promete-llegar-hasta-el-final-para-esclarecer-el-accidente-de-tren-no-es-asumible-para-espana-sufrir-dos-el-mismo-ano.html",
+      "desc": "El jefe del Ejecutivo asegura que todo el país “está de luto” y destaca la coordinación entre las Administraciones",
+      "date": "Wed, 28 Oct 2026 15:06:55 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231085_145832_video_1800.mp4"
+    },
+    {
+      "title": "Los 17 minutos en los que nadie en el centro de control vio que el AVE se dirigía a un choque brutal con el Iryo",
       "link": "https://elpais.com/espana/2026-10-28/por-que-han-chocado-dos-trenes-en-toledo.html",
-      "desc": "Las primeras hipótesis apuntan que un operador se equivocó al ordenar al AVE que siguiera su marcha “con normalidad” y no a un máximo de 40 por hora pese a que tenía un Iryo detenido delante",
-      "date": "Wed, 28 Oct 2026 12:43:40 GMT",
+      "desc": "Tras el fallo del sistema informático, según Puente, un operador ordenó seguir “con normalidad” al AVE pese a que el Iryo le había avisado de que estaba detenido y veía en su pantalla que iban camino de un choque",
+      "date": "Wed, 28 Oct 2026 15:33:19 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230882_091607_video_1800.mp4"
+    },
+    {
+      "title": "La tragedia sacude la campaña",
+      "link": "https://elpais.com/espana/2026-10-28/la-tragedia-pone-en-pausa-la-campana-mientras-los-lideres-europeos-mandan-su-apoyo-a-espana.html",
+      "desc": "Los principales partidos cancelan sus actos salvo Vox. El PP, tras unas horas de prudencia, apunta contra el Gobierno: “Ya está bien”. Von der Leyen, Macron, Meloni y Luis Montenegro se solidarizan con España",
+      "date": "Wed, 28 Oct 2026 14:00:12 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231085_145832_video_1800.mp4"
+    },
+    {
+      "title": "“He salido disparada donde las maletas. Todo está destrozado”: hablan los supervivientes del accidente de Toledo",
+      "link": "https://elpais.com/espana/2026-10-28/he-salido-disparada-donde-las-maletas-todo-esta-destrozado-hablan-los-supervivientes-del-accidente-de-toledo.html",
+      "desc": "Varios pasajeros del AVE con destino Sevilla narran a EL PAÍS cómo ha sido la colisión con el tren Iryo",
+      "date": "Wed, 28 Oct 2026 11:38:42 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230955_111832_video_1800.mp4"
     },
     {
       "title": "Cronología | Los peores accidentes ferroviarios de la historia de España",
       "link": "https://elpais.com/espana/2026-10-28/cronologia-los-peores-accidentes-ferroviarios-de-la-historia-de-espana.html",
-      "desc": "El choque entre un tren de Iryo y uno de Renfe este miércoles deja, al menos, una cifra de 64 fallecidos, una de las mayores catástrofes de su tipo en el país",
-      "date": "Wed, 28 Oct 2026 10:41:25 GMT",
+      "desc": "El choque entre un tren de Iryo y uno de Renfe este miércoles deja, al menos, una cifra de 68 fallecidos, una de las mayores catástrofes de su tipo en el país",
+      "date": "Wed, 28 Oct 2026 15:07:54 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231029_130255_video_1800.mp4"
     },
     {
@@ -75,10 +110,10 @@
       "link": "https://elpais.com/espana/2026-10-28/abascal-unico-lider-que-mantiene-sus-mitines-electorales-pese-a-la-tragedia.html",
       "desc": "El líder de Vox se niega a suspender sus campaña porque se quiere convertir a los políticos “en plañideras en funerales” y usar el luto para “acallar las protestas”",
       "date": "Wed, 28 Oct 2026 11:09:48 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/A5XO7V5T75JDLEXXDPTMWPPHN4.jpg?auth=233982d187e60af07694c957684fb1d4839c4569febbc6f4554727681e1ce16e"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231045_133710_video_1800.mp4"
     },
     {
-      "title": "¿Cómo y dónde ha sido el choque? Mapas y datos del accidente de tren en Toledo",
+      "title": "¿Cómo ha sido el choque? Mapas y datos del accidente de tren en Toledo",
       "link": "https://elpais.com/espana/2026-10-28/donde-ha-sido-el-choque-mapas-y-primeras-informaciones-del-accidente-de-tren-en-toledo.html",
       "desc": "El tren de Renfe embistió a un Iryo que se encontraba parado en la vía a unos 130 kilómetros de Madrid",
       "date": "Wed, 28 Oct 2026 10:30:20 GMT",
@@ -97,42 +132,7 @@
       "desc": "El escritor y diplomático, actual cónsul en Buenos Aires, defiende que el supuesto de hecho que provocó el debate jurídico sobre el voto de los nacionalizados “quizá debería ser revisado”",
       "date": "Wed, 28 Oct 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UAWSQZ66BRACNB2M3KNSOLW3AE.jpg?auth=77476248ed04b3dc325040ea3f863d9039e77ebe00e63c646d8d8b337d4e04e9"
-    },
-    {
-      "title": "Temor a la tribu, maltrato homosexual, obligaciones militares: la justicia rechaza 45 solicitudes de protección urgente",
-      "link": "https://elpais.com/espana/2026-10-28/temor-a-la-tribu-maltrato-homosexual-obligaciones-militares-la-justicia-rechaza-45-solicitudes-de-proteccion-urgente.html",
-      "desc": "La Audiencia Nacional ha comenzado ya la denegación de peticiones de migrantes, la mayoría de ellas de Marruecos, como último recurso antes de los retornos al país de origen",
-      "date": "Wed, 28 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IDGHRLGQB5LGBH4COPS4SMSVXI.jpg?auth=c3da78f6d61afb48ed2e64d89f1d794d0118fcfe391b33c308d2bcda08ca51b4"
-    },
-    {
-      "title": "Ramón Espinar, exdirigente de Podemos: “La vivienda no es una agenda de la izquierda, es un problema de país”",
-      "link": "https://elpais.com/espana/2026-10-28/ramon-espinar-exdirigente-de-podemos-la-vivienda-no-es-una-agenda-de-la-izquierda-es-un-problema-de-pais.html",
-      "desc": "El expolítico progresista apuesta por cerrar “cuanto antes” el Senado",
-      "date": "Wed, 28 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://www.youtube.com/watch?v=ly1b51JelYU"
-    },
-    {
-      "title": "La eterna asignatura pendiente de reformar la ‘ley mordaza’",
-      "link": "https://elpais.com/espana/2026-10-28/la-eterna-asignatura-pendiente-de-reformar-la-ley-mordaza.html",
-      "desc": "Los artículos sobre desobediencia y faltas de respeto a los policías hicieron fracasar el tercer intento de modificar una norma que lleva más de 11 años en vigor",
-      "date": "Wed, 28 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2G5HI4WZC5FQBE6QCZTNWNENWM.jpg?auth=e14d53f31a30984e88ce43da77acb5eed46d3f7c6a4bc0cd04f23b3e596ee86b"
-    },
-    {
-      "title": "Feijóo, tras pactar con Vox no presentarse en algunas provincias al Senado: “Nadie puede renunciar a lo que no tiene”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-27/feijoo-sobre-su-pacto-con-vox-al-senado-el-pp-ya-no-es-una-referencia-por-renunciar-a-lo-que-no-tiene.html",
-      "desc": "El líder del PP defiende integrar perfiles como “independientes” bajo la premisa de que, en caso contrario, votantes de Abascal no se decantarían por sus listas",
-      "date": "Tue, 27 Oct 2026 10:08:22 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230532_120639_video_1800.mp4"
-    },
-    {
-      "title": "Vox impone al PP candidatos “independientes” al Senado muy vinculados a los ultras: de la exjefa de prensa de Ortega-Smith a un ‘exconseller’ de Mazón",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-26/vox-impone-al-pp-candidatos-independientes-al-senado-muy-vinculados-al-partido-de-la-exjefa-de-prensa-de-ortega-smith-a-un-exconseller-de-mazon.html",
-      "desc": "Los ultras han renunciado a presentar listas en 14 circunscripciones en favor del Partido Popular a cambio de introducir sus aspirantes",
-      "date": "Mon, 26 Oct 2026 22:28:26 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261027/1230394_075309_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1793193736424
+  "fetchedAt": 1793213952156
 }
