@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "La maquinista del Iryo de Urda intentó desbloquear su tren dos veces sin éxito y buscó asistencia de su empresa antes de la colisión",
+      "link": "https://elpais.com/espana/2026-10-29/la-maquinista-del-iryo-de-urda-intento-desbloquear-su-tren-en-dos-ocasiones-sin-exito-y-busco-el-consejo-de-su-empresa-antes-de-la-colision.html",
+      "desc": "La conductora contactó con el centro de Adif en Atocha, donde se vivían momentos de confusión, y con el de su propia compañía",
+      "date": "Thu, 29 Oct 2026 12:44:19 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231229_194936_video_1800.mp4"
+    },
+    {
       "title": "Los audios del accidente|El controlador de Atocha, al maquinista del AVE: “Desconecte y vuelva a conectar. Reanude con marcha normal”",
       "link": "https://elpais.com/espana/2026-10-28/el-controlador-de-atocha-al-maquinista-del-ave-desconecte-y-vuelva-a-conectar-y-reanude-con-marcha-normal.html",
       "desc": "Los audios muestran el error del responsable de Atocha. La maquinista del Iryo avisó a cinco minutos de la tragedia de que estaba detenida y no podía arrancar el tren. Y nadie frenó al AVE",
@@ -11,15 +18,8 @@
       "title": "Un error humano a las 8.36: la cadena de fallos y decisiones con las que el Gobierno explica la nueva tragedia en la línea Madrid-Sevilla",
       "link": "https://elpais.com/espana/2026-10-29/un-error-humano-a-las-836-la-cadena-de-fallos-y-decisiones-con-las-que-el-gobierno-explica-la-nueva-tragedia-en-la-linea-madrid-sevilla.html",
       "desc": "EL PAÍS accede a los audios de las comunicaciones entre los maquinistas de los trenes siniestrados y el centro de coordinación de Atocha, que les ordenó “marcha normal”",
-      "date": "Thu, 29 Oct 2026 04:30:01 GMT",
+      "date": "Thu, 29 Oct 2026 09:47:32 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231252_204011_video_1800.mp4"
-    },
-    {
-      "title": "Yo viajaba en ese tren",
-      "link": "https://elpais.com/espana/2026-10-29/yo-viajaba-en-ese-tren.html",
-      "desc": "Antonio Jiménez Barca, periodista de EL PAÍS, se encontraba en la cafetería del AVE en el momento en que impactó en el Iryo. Relata los primeros momentos de caos",
-      "date": "Thu, 29 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230967_113043_video_1800.mp4"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -57,46 +57,67 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
-      "title": "La tragedia da un vuelco al guion de la campaña",
-      "link": "https://elpais.com/espana/2026-10-29/la-tragedia-da-un-vuelco-al-guion-de-la-campana.html",
-      "desc": "El Gobierno está en ‘shock’ por un accidente que se le sitúa en el peor escenario político posible en plena contienda electoral; Sánchez mantiene de momento la confianza en Puente. Feijóo adopta un tono institucional con un PP muy a la contra, mientras Frente Amplio pide responsabilidades políticas y Vox señala a Sánchez",
+      "title": "Yo viajaba en ese tren",
+      "link": "https://elpais.com/espana/2026-10-29/yo-viajaba-en-ese-tren.html",
+      "desc": "Antonio Jiménez Barca, periodista de EL PAÍS, se encontraba en la cafetería del AVE en el momento en que impactó en el Iryo. Relata los primeros momentos de caos",
       "date": "Thu, 29 Oct 2026 04:30:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230967_113043_video_1800.mp4"
+    },
+    {
+      "title": "El Rey pide que se determine “cómo y por qué” ha sucedido la catástrofe de Urda y medidas para que “no vuelva a suceder”",
+      "link": "https://elpais.com/espana/2026-10-29/el-rey-pide-que-se-determine-como-y-por-que-ha-sucedido-la-catastrofe-de-urda-y-medidas-para-que-no-vuelva-a-suceder.html",
+      "desc": "Felipe VI y Letizia Ortiz visitan el Hospital de Toledo, donde se atiende a la mayoría de heridos por la colisión de trenes que ha causado al menos 69 muertos",
+      "date": "Thu, 29 Oct 2026 16:31:30 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NTSPLNYLKNEGLG577ZHOHMWQFQ.JPG?auth=24c6f7093973641df6cf4f7c07e7a967455060c453545db39cd59aef1953da09"
+    },
+    {
+      "title": "Sánchez asegura que se “reforzará la seguridad” ferroviaria para evitar nuevos accidentes",
+      "link": "https://elpais.com/espana/2026-10-29/sanchez-asegura-que-se-reforzara-la-seguridad-ferroviaria-para-evitar-nuevos-accidentes.html",
+      "desc": "Puente anuncia que comparecerá a petición propia en la Diputación Permanente del Congreso tras la solicitud de varios socios",
+      "date": "Thu, 29 Oct 2026 15:42:23 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261029/1231436_104834_video_1800.mp4"
+    },
+    {
+      "title": "Feijóo apunta a las “responsabilidades políticas” de Puente por el segundo accidente mortal de la alta velocidad en nueve meses",
+      "link": "https://elpais.com/espana/2026-10-29/feijoo-apunta-a-las-responsabilidades-politicas-de-puente-por-el-segundo-accidente-mortal-de-la-alta-velocidad-en-nueve-meses.html",
+      "desc": "El líder de la oposición no pide de forma explícita la dimisión del ministro, pero deja entrever que él lo habría cesado: “Yo sé lo que haría si fuera el presidente del Gobierno”",
+      "date": "Thu, 29 Oct 2026 14:14:40 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261029/1231593_161649_video_1800.mp4"
+    },
+    {
+      "title": "El Gobierno de Moreno carga contra el Ejecutivo central tras el segundo accidente mortal en la alta velocidad andaluza",
+      "link": "https://elpais.com/espana/2026-10-29/el-gobierno-de-moreno-carga-contra-el-ejecutivo-central-tras-el-segundo-accidente-mortal-en-la-alta-velocidad-andaluza.html",
+      "desc": "El consejero andaluz de Presidencia considera “mezquino” que se culpe a un trabajador del siniestro y alerta de sistema de seguridad entre Sevilla y Madrid sea el “único antiguo”",
+      "date": "Thu, 29 Oct 2026 12:31:16 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HPDFGOY3SFJMNDWDZ25W7UAQKA.jpg?auth=93738f9443b26591e4ac02f9345d9c0b815dd2320e9eea752bca4ed2db312582"
+    },
+    {
+      "title": "La editora de ‘OkDiario’ pagó 242.000 euros para costear “honorarios” y “gastos” de la defensa de Koldo García",
+      "link": "https://elpais.com/espana/2026-10-29/la-editora-de-okdiario-pago-242000-euros-para-costear-honorarios-y-gastos-de-la-defensa-de-koldo-garcia.html",
+      "desc": "La letrada Leticia de la Hoz ha aportado facturas a la Audiencia Nacional para acreditar que “el Partido Socialista Obrero Español no hizo abono alguno”",
+      "date": "Thu, 29 Oct 2026 13:09:22 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/SH3XCAOYQ5EURBHNZN2VG5XKKA.jpg?auth=e2ddd3a14f689bbd4de5e406918670ad84ada0e4e684800ca3222a748e837871"
+    },
+    {
+      "title": "La tragedia reescribe el guion de la campaña",
+      "link": "https://elpais.com/espana/2026-10-29/la-tragedia-da-un-vuelco-al-guion-de-la-campana.html",
+      "desc": "El Gobierno está en ‘shock’ por un accidente que se le sitúa en el peor escenario político posible en plena contienda electoral; Sánchez mantiene de momento la confianza en Puente. Feijóo adopta un tono institucional con un PP muy a la contra, mientras Frente Amplio pide responsabilidades políticas y Vox señala a Sánch",
+      "date": "Thu, 29 Oct 2026 09:47:58 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231150_171919_video_1800.mp4"
     },
     {
       "title": "Noche al límite en la morgue de Toledo para albergar los cuerpos de los fallecidos: “Están buscando forenses”",
       "link": "https://elpais.com/espana/2026-10-29/noche-al-limite-en-la-morgue-de-toledo-para-albergar-los-cuerpos-de-los-fallecidos-es-dantesco.html",
       "desc": "En el Instituto de Medicina Legal de Toledo, cuya capacidad se ha ampliado con carpas y contenedores frigoríficos, se practican las autopsias de las víctimas mortales",
-      "date": "Thu, 29 Oct 2026 07:39:36 GMT",
+      "date": "Thu, 29 Oct 2026 09:47:46 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261029/1231350_065550_video_1800.mp4"
-    },
-    {
-      "title": "Seis jóvenes en busca de un amigo desaparecido en el accidente de tren: sin noticias de David",
-      "link": "https://elpais.com/espana/2026-10-29/seis-jovenes-en-busca-de-un-amigo-sin-noticias-de-david.html",
-      "desc": "Decenas de familiares de desaparecidos en el accidente de tren de Toledo buscan noticias de sus seres queridos en un interminable periplo por hospitales y tanatorios",
-      "date": "Thu, 29 Oct 2026 08:21:14 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/44MSR674YBD6JMJNDMPB6SQRCE.jpg?auth=94e72073a6ae4ab52a4cb21e4742ca7d8fbc4e5998d324ac3c4754d048ed7297"
-    },
-    {
-      "title": "Las líneas de alta velocidad española vuelven a teñirse de sangre",
-      "link": "https://elpais.com/espana/2026-10-28/las-lineas-de-alta-velocidad-espanola-vuelven-a-tenirse-de-sangre.html",
-      "desc": "Al menos 68 personas han perdido la vida en una nueva colisión de trenes en la línea Madrid-Sevilla",
-      "date": "Wed, 28 Oct 2026 21:43:18 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231252_204011_video_1800.mp4"
-    },
-    {
-      "title": "Maquinistas y ferroviarios se quejan de ser señalados: “Un error humano se produce cuando no tienes lo necesario para trabajar”",
-      "link": "https://elpais.com/economia/2026-10-29/maquinistas-y-ferroviarios-se-quejan-de-ser-senalados-un-error-humano-se-produce-cuando-no-tienes-lo-necesario-para-trabajar.html",
-      "desc": "El sector del ferrocarril denuncia falta de inversión y personal mientras pide no señalar culpables antes de conocer las causas del accidente de Toledo",
-      "date": "Thu, 29 Oct 2026 04:45:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1231080_144853_video_1800.mp4"
     },
     {
       "title": "“Podríamos y deberíamos hacer más”: los expertos piden invertir en el mantenimiento de la alta velocidad",
       "link": "https://elpais.com/economia/2026-10-29/podriamos-y-deberiamos-hacer-mas-los-expertos-piden-invertir-en-el-mantenimiento-de-la-alta-velocidad.html",
       "desc": "España destina a conservar la red ferroviaria menos que otros países europeos, según datos de la Comisión Europea y de los ingenieros de caminos",
       "date": "Thu, 29 Oct 2026 04:35:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/QMCGNU6VY5J3PG62LTKTZRD5BI.jpg?auth=ff9e925d4edc7ac2393be0b9f2f40b64b6208ceb859e42c5ca0e674c4649f835"
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/AWC4634AL5GSXAUKEQJHMXH5ZU.JPG?auth=fbfa0edec0ab0487d20d0159c2e50bc1150bfda708ea17316fb822ada591991e"
     },
     {
       "title": "¿Qué fue de Carlos Mazón? El expresidente se limita a votar mientras las víctimas de la dana no olvidan y piden su acta de diputado",
@@ -106,33 +127,12 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZY35XBD3SRHNRASXZLINNM2WSM.JPG?auth=16e9949cce9ad42ee63e4fc7ec164b58b22aed2b8e32f9422c37cd2203116d6e"
     },
     {
-      "title": "Anatomía de la reconstrucción tras la dana: reparaciones de urgencia a la espera de las obras antirriada y de edificar menos y mejor",
-      "link": "https://elpais.com/espana/comunidad-valenciana/2026-10-29/anatomia-de-la-reconstruccion-tras-la-dana-reparaciones-de-urgencia-a-la-espera-de-las-obras-antirriada-y-de-edificar-menos-y-mejor.html",
-      "desc": "La Confederación Hidrográfica del Júcar tiene pendiente una decena de proyectos para proteger el territorio que deben estar ejecutándose o acabados en 2030",
-      "date": "Thu, 29 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/WOHK2PILIFCTZIZB3DH3TO3YDY.JPG?auth=571f51c51eec0308000277ac62147b63eb26dde4c5336c79f69a6db61b6ec121"
-    },
-    {
-      "title": "Peregrinaje por pueblos y llamadas a los hospitales para encontrar a los desaparecidos: “Saben que está vivo, pero no dónde”",
-      "link": "https://elpais.com/espana/2026-10-29/peregrinaje-por-pueblos-y-llamadas-a-los-hospitales-para-encontrar-a-los-desaparecidos-saben-que-esta-vivo-pero-no-donde.html",
-      "desc": "En el pabellón habilitado para atender a los afectados, la incertidumbre se mezcla con el miedo mientras las familias intentan reconstruir el paradero de quienes viajaban en los trenes accidentados",
-      "date": "Thu, 29 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FCCFIGEZANF3DPYRZIK76JDDTI.jpg?auth=9ba732ced0365fb8d7efe9e13e8796775944530a4bbd693a14c26cd89c7cda57"
-    },
-    {
-      "title": "El corredor Madrid-Sevilla de alta velocidad ha doblado su volumen de tráfico desde su liberalización en 2023",
-      "link": "https://elpais.com/economia/2026-10-29/el-corredor-madrid-sevilla-de-alta-velocidad-ha-doblado-su-volumen-de-trafico-desde-su-liberalizacion-en-2023.html",
-      "desc": "En tres años esta línea, la primera de estas características en construirse en España, ha ganado más de tres millones de viajeros, y en 2025 fue la que más creció",
-      "date": "Thu, 29 Oct 2026 04:15:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/OYORSTZ62VJZNFA2HC5RDBREUY.jpg?auth=59145c93be733b5ffd22aac98b3d5938ec344b583c1d3bb94bec0e1c7eeb6493"
-    },
-    {
-      "title": "Los datos que desnudan el discurso del PP de Mazón sobre la dana: el 90% de las muertes fue antes del envío de los dos ES-Alert",
-      "link": "https://elpais.com/espana/2026-10-29/los-datos-que-desnudan-el-discurso-del-pp-de-mazon-sobre-la-dana-el-90-de-las-muertes-fue-antes-del-envio-de-los-dos-es-alert.html",
-      "desc": "Tras el envío del primer mensaje masivo, 182 personas habían fallecido, según una base de datos de EL PAÍS con información del sumario, las llamadas del 112 y el testimonios de familiares. Cuando el ‘president’ salió de su comida había 60 ahogados",
-      "date": "Thu, 29 Oct 2026 04:30:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UY5A6NJWJRFQ7HDODSSEPUIQGU.jpg?auth=d787549c1aeca006ccfa3db7205ee8544eefac8452c2c2dc3b8b4af4dc14b1b3"
+      "title": "Seis jóvenes en busca de un amigo desaparecido en el accidente de tren: sin noticias de David",
+      "link": "https://elpais.com",
+      "desc": "Decenas de familiares de desaparecidos en el accidente de tren de Toledo buscan noticias de sus seres queridos en un interminable periplo por hospitales y tanatorios",
+      "date": "Thu, 29 Oct 2026 08:21:14 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/P4F5FFLZHNCJTKMQGZKRW3WVME.jpg?auth=fcb25e2046cd768c8cc8e4050c78baba3671ebd1143331609a326f0d99f3b0bf"
     }
   ],
-  "fetchedAt": 1793266425274
+  "fetchedAt": 1793292160634
 }
