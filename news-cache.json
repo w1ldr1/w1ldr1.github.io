@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Miles de personas recorren en silencio las calles blindadas de Valencia por el segundo año de la dana",
+      "link": "https://elpais.com/espana/comunidad-valenciana/2026-10-31/miles-de-personas-recorren-en-silencio-las-calles-blindadas-de-valencia-por-el-segundo-ano-de-la-dana.html",
+      "desc": "Los familiares dejan en la marcha un gran espacio vacío que debían ocupar las 234 personas fallecidas en 2024",
+      "date": "Sat, 31 Oct 2026 20:19:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NMBPCEZQBFCE5DSHLJBAPPI5PE.JPG?auth=d8d3671ff16b3b7da77085fc56e3e1b1c0b272599f855f25b450844f7f396b2b"
+    },
+    {
       "title": "Una caída cada dos días: la penuria del sistema de seguridad que dejó de funcionar antes del accidente de Urda",
       "link": "https://elpais.com/espana/2026-10-31/radiografia-del-sistema-de-seguridad-que-dejo-de-funcionar-antes-del-accidente-de-urda-casi-una-caida-cada-dos-dias.html",
       "desc": "El LZB, que evita que dos trenes coincidan en el mismo punto, ha dejado de estar en servicio en al menos 170 ocasiones en lo que va de año",
@@ -13,13 +20,6 @@
       "desc": "Detrás del tortuoso peregrinaje de las familias hay un procedimiento que, desde 2009, está regulado en España por un protocolo nacional de actuación médico-forense y de policía científica en sucesos con víctimas múltiples",
       "date": "Sat, 31 Oct 2026 04:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261030/1232112_162901_video_1800.mp4"
-    },
-    {
-      "title": "Urda, el pueblo de casi 2.500 habitantes que se movilizó en cinco minutos tras el accidente de tren: “No hizo falta ni llamar”",
-      "link": "https://elpais.com/espana/2026-10-31/urda-el-pueblo-de-casi-2500-habitantes-que-se-movilizo-en-cinco-minutos-tras-el-accidente-de-tren-no-hizo-falta-ni-llamar.html",
-      "desc": "La localidad toledana, como muchas otras vecinas, se volcó en atender a los supervivientes y enfrenta su propio duelo tres días después del choque entre el Iryo y el AVE",
-      "date": "Sat, 31 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NMMPNVNJARAAJPQ6DYQWD2WQQQ.jpg?auth=49dbd30081cf63a351ed1a13eeaf3e346834735e36e4a1c285ad82482ed5511c"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -55,6 +55,13 @@
       "desc": "Si el apoyo a Pujol en 1980 era un voto esperanzado en la promesa de prosperidad, ahora es un voto de resistencia para preservar aquel estatus, un seguro de protección ante un futuro que ya no promete progreso",
       "date": "Sun, 04 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
+    },
+    {
+      "title": "Urda, el pueblo de casi 2.500 habitantes que se movilizó en cinco minutos tras el accidente de tren: “No hizo falta ni llamar”",
+      "link": "https://elpais.com/espana/2026-10-31/urda-el-pueblo-de-casi-2500-habitantes-que-se-movilizo-en-cinco-minutos-tras-el-accidente-de-tren-no-hizo-falta-ni-llamar.html",
+      "desc": "La localidad toledana, como muchas otras vecinas, se volcó en atender a los supervivientes y enfrenta su propio duelo tres días después del choque entre el Iryo y el AVE",
+      "date": "Sat, 31 Oct 2026 04:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NMMPNVNJARAAJPQ6DYQWD2WQQQ.jpg?auth=49dbd30081cf63a351ed1a13eeaf3e346834735e36e4a1c285ad82482ed5511c"
     },
     {
       "title": "El arzobispo de Toledo sobre los desaparecidos del accidente de tren: “La esperanza no quita nada del dolor”",
@@ -125,14 +132,7 @@
       "desc": "Las fuerzas de seguridad han arrestado al autoproclamado promotor del movimiento y otros seguidores en Valencia, Bilbao, Barcelona, Tenerife y Málaga",
       "date": "Fri, 30 Oct 2026 14:04:48 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261030/1231973_125604_video_1800.mp4"
-    },
-    {
-      "title": "Feijóo: “Han muerto 69 personas porque el Gobierno no renovó un sistema de seguridad obsoleto”",
-      "link": "https://elpais.com/espana/2026-10-30/feijoo-apunta-al-mantenimiento-deficiente-de-la-alta-velocidad-si-no-dimiten-ellos-los-dimitiremos-en-las-urnas.html",
-      "desc": "El líder del PP ve “cobarde e inmoral” que se culpe al operario del control de Atocha que dio las órdenes equivocadas y emplaza a las elecciones del 29-N para las responsabilidades políticas: “Si no dimiten ellos, los dimitiremos en las urnas”",
-      "date": "Fri, 30 Oct 2026 12:17:28 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261030/1231978_130244_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1793476317129
+  "fetchedAt": 1793488158926
 }
