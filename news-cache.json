@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "title": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
-      "link": "https://elpais.com/espana/2026-11-01/inasumible-no-es-lo-mismo-que-inexplicable-las-debilidades-del-sistema-que-evidencian-los-accidentes-de-urda-y-adamuz.html",
-      "desc": "Los datos ya conocidos sobre el último siniestro mortal  aluden a un déficit en la cultura de seguridad, que empieza a cambiar: Renfe adopta las primeras modificaciones y Puente anuncia nuevas medidas",
-      "date": "Sun, 01 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230917_103359_video_1800.mp4"
-    },
-    {
       "title": "Las vidas truncadas en el tren: “Gracias por quererme, por entenderme, por ser el mejor padre del mundo”",
       "link": "https://elpais.com/espana/2026-11-01/las-vidas-truncadas-en-el-tren-gracias-por-quererme-por-entenderme-por-ser-el-mejor-padre-del-mundo.html",
       "desc": "El goteo de identificación de fallecidos y desaparecidos en el accidente de Urda desvela las historias detrás de las 69 víctimas y el dolor de sus familias",
@@ -20,6 +13,13 @@
       "desc": "El secretario general del SEMAF reclama que las operadoras y Adif antepongan la seguridad a cualquier otro interés. El colectivo urge a la Agencia de Seguridad Ferroviaria que baje al mínimo la velocidad de circulación cuando se caen los sistemas de señalización en las vías, como sucedió en Urda",
       "date": "Sun, 01 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/DYGQ7OBYBVMHHAZJGSQYOAXFJU.jpg?auth=30ec3f76cd4741e8fd783fab6876bcac7c28b105fa0b0d0d47c182d3b09db1ad"
+    },
+    {
+      "title": "El tercer tren de Urda: la espera bajo un puente a dos kilómetros de la tragedia",
+      "link": "https://elpais.com/espana/2026-11-01/el-tercer-tren-de-urda-la-espera-bajo-un-puente-a-dos-kilometros-de-la-tragedia.html",
+      "desc": "Los viajeros del AVE Sevilla-Madrid reconstruyen la parada, la salida por los caminos hasta el pueblo y la ayuda a los pasajeros de los trenes siniestrados en el accidente que dejó 69 muertos",
+      "date": "Sun, 01 Nov 2026 04:30:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261029/1231419_100255_video_1800.mp4"
     },
     {
       "title": "¿Por qué no te callas, Milei?",
@@ -55,13 +55,6 @@
       "desc": "Si el apoyo a Pujol en 1980 era un voto esperanzado en la promesa de prosperidad, ahora es un voto de resistencia para preservar aquel estatus, un seguro de protección ante un futuro que ya no promete progreso",
       "date": "Sun, 04 Oct 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
-    },
-    {
-      "title": "El tercer tren de Urda: la espera bajo un puente a dos kilómetros de la tragedia",
-      "link": "https://elpais.com/espana/2026-11-01/el-tercer-tren-de-urda-la-espera-bajo-un-puente-a-dos-kilometros-de-la-tragedia.html",
-      "desc": "Los viajeros del AVE Sevilla-Madrid reconstruyen la parada, la salida por los caminos hasta el pueblo y la ayuda a los pasajeros de los trenes siniestrados en el accidente que dejó 69 muertos",
-      "date": "Sun, 01 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261029/1231419_100255_video_1800.mp4"
     },
     {
       "title": "El diario de Carmen mientras su padre lucha por recuperarse en la UCI: “Papá, tú no te puedes ir”",
@@ -120,19 +113,26 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261030/1231973_125604_video_1800.mp4"
     },
     {
-      "title": "Miles de personas recorren en silencio las calles blindadas de Valencia por el segundo año de la dana",
-      "link": "https://elpais.com/espana/comunidad-valenciana/2026-10-31/miles-de-personas-recorren-en-silencio-las-calles-blindadas-de-valencia-por-el-segundo-ano-de-la-dana.html",
-      "desc": "Los familiares dejan en la marcha un gran espacio vacío que debían ocupar las 234 personas fallecidas en 2024",
-      "date": "Sat, 31 Oct 2026 20:19:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NMBPCEZQBFCE5DSHLJBAPPI5PE.JPG?auth=d8d3671ff16b3b7da77085fc56e3e1b1c0b272599f855f25b450844f7f396b2b"
+      "title": "No fue solo un fallo humano: las debilidades del sistema que evidencian los accidentes de Urda y Adamuz",
+      "link": "https://elpais.com/espana/2026-11-01/inasumible-no-es-lo-mismo-que-inexplicable-las-debilidades-del-sistema-que-evidencian-los-accidentes-de-urda-y-adamuz.html",
+      "desc": "Los datos ya conocidos sobre el último siniestro mortal  aluden a un déficit en la cultura de seguridad, que empieza a cambiar: Renfe adopta las primeras modificaciones y Puente anuncia nuevas medidas",
+      "date": "Sun, 01 Nov 2026 04:30:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261028/1230917_103359_video_1800.mp4"
     },
     {
-      "title": "Una caída cada dos días: la penuria del sistema de seguridad que dejó de funcionar antes del accidente de Urda",
-      "link": "https://elpais.com/espana/2026-10-31/radiografia-del-sistema-de-seguridad-que-dejo-de-funcionar-antes-del-accidente-de-urda-casi-una-caida-cada-dos-dias.html",
-      "desc": "El LZB, que evita que dos trenes coincidan en el mismo punto, ha dejado de estar en servicio en al menos 170 ocasiones en lo que va de año",
-      "date": "Sat, 31 Oct 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261030/1232128_165246_video_1800.mp4"
+      "title": "La jueza pide acelerar las labores de búsqueda, más operarios y que se trabaje de noche",
+      "link": "https://elpais.com/espana/2026-11-01/la-jueza-pide-acelerar-las-labores-de-busqueda-mas-operarios-y-que-se-trabaje-de-noche.html",
+      "desc": "El requerimiento judicial se realizó este sábado a la empresa de grúas contratada por ADIF y RENFE para que disponga de los trabajadores que sean necesarios",
+      "date": "Sun, 01 Nov 2026 14:14:36 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HHSULUIVKBEX5K5HC7IPOSUXEY.jpg?auth=645cb473b9338992c1a625b43cf7fdfecf6a81a1332f02bcf310962b9c952444"
+    },
+    {
+      "title": "La vida truncada de Fran, el teleoperador cordobés: “Era pura dulzura”",
+      "link": "https://elpais.com/espana/2026-11-01/la-vida-truncada-de-fran-el-teleoperador-cordobes-era-pura-dulzura.html",
+      "desc": "Francisco José Barbero, de 32 años, viajaba en el AVE siniestrado para pasar el puente junto a sus padres en su Córdoba natal",
+      "date": "Sun, 01 Nov 2026 13:16:20 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YFVJ7SQYKNFXZEDCPIX7MYSB5I.jpeg?auth=1b97cd320fda362b50db24b9c8c36bcfc8e2c015e4fb4be3859b8b62cdeff1e3"
     }
   ],
-  "fetchedAt": 1793551042881
+  "fetchedAt": 1793566720989
 }
