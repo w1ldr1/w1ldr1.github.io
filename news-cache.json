@@ -78,6 +78,13 @@
       "imgUrl": "https://www.youtube.com/watch?v=KmLmIIIQ_fc"
     },
     {
+      "title": "Insultos, carreras, sillas al aire y mucha policía: el ‘show’ de Vito Quiles desata la tensión en el centro de Sevilla",
+      "link": "https://elpais.com/espana/2026-11-02/insultos-carreras-sillas-al-aire-y-mucha-policia-el-show-de-vito-quiles-desata-la-tension-en-el-centro-de-sevilla.html",
+      "desc": "Protegido por un fuerte despliegue policial, que evitó choques entre sus seguidores y manifestantes antifascistas, el agitador ultraderechista se presenta ante su audiencia juvenil como un hombre perseguido por sus ideas y cita como sus “referentes” a Amancio Ortega y Dani Carvajal",
+      "date": "Mon, 02 Nov 2026 20:16:59 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ASSDQKR4XBBDJHFDBZ2LGITJGU.jpg?auth=96d6dca69faf6c9969b97b6af2d2cd6719fdefb6c42881ca7eb1b3d0a3064d6e"
+    },
+    {
       "title": "Detenido un hombre por matar a puñaladas a una mujer en plena calle en Murcia",
       "link": "https://elpais.com/espana/2026-11-02/detenido-un-hombre-por-matar-a-punaladas-a-una-mujer-en-plena-calle-en-murcia.html",
       "desc": "La investigación descarta por el momento que se trate de un caso de violencia machista",
@@ -125,14 +132,7 @@
       "desc": "Lute del Olmo y su hija rompieron el contacto durante un año, pero se reencontraron poco antes del accidente de tren de Urda en el que murió él. “Hubiese sido devastador que se hubiese ido sin hacer las paces”, dice ella",
       "date": "Mon, 02 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3LWT7W6ONZFFHGI72RTDB2IKTQ.jpg?auth=14a3bfc309615d229fc97403093f5972119b05d0e0dbf22b28a3d181cc552a2a"
-    },
-    {
-      "title": "Ceuta, tres meses después: entre el fin de la esperanza y las redadas policiales",
-      "link": "https://elpais.com/espana/2026-11-02/ceuta-tres-meses-despues-entre-el-fin-de-la-esperanza-y-las-redadas-policiales.html",
-      "desc": "La rutina de la ciudad autónoma bascula entre las expulsiones constantes, las redadas policiales y una falta de alternativas para los migrantes que aún permanecen en Ceuta",
-      "date": "Mon, 02 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261008/1223423_200150_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1793640047472
+  "fetchedAt": 1793663951323
 }
