@@ -57,6 +57,20 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/U4E3LUV57VD5NFZONZDMV6P3G4.jpg?auth=3a0b8bd72eaef9bd9bbf05c3f8263ed750290cda43442dbeaf28081d6d3a0cfa"
     },
     {
+      "title": "Bruselas apuesta por reforzar la seguridad ferroviaria con el despliegue del sistema ERTMS “en toda Europa”",
+      "link": "https://elpais.com/economia/2026-11-03/bruselas-apuesta-por-reforzar-la-seguridad-ferroviaria-con-el-despliegue-del-sistema-ertms-en-toda-europa.html",
+      "desc": "“La seguridad no es negociable”, señala el comisario de Transportes, Apóstolos Tzitzikostas",
+      "date": "Tue, 03 Nov 2026 17:37:58 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FJTOJZFRYVGQPFCDOXPITJFEPU.jpg?auth=95f36510d554f861ec687b6b305617ab8505ff479451db610039cf383aba5f58"
+    },
+    {
+      "title": "El uso de la línea del accidente de Urda se disparó un 28% en cinco años y los operadores reclamaban cambiar el LZB: “Es muy importante”",
+      "link": "https://elpais.com/espana/2026-11-03/el-uso-de-la-linea-del-accidente-de-urda-se-disparo-un-28-en-cinco-anos-y-los-operadores-reclamaban-sustituir-el-lzb-es-muy-importante.html",
+      "desc": "La liberalización del sector disparó un 53% la oferta para el corredor Madrid-Sur y los directivos de Iryo y Ouigo vieron la opción de ganar agilidad sin el sistema de seguridad de 1992, que cayó el día del siniestro, y con el salto a ERTMS",
+      "date": "Tue, 03 Nov 2026 14:49:26 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2B7MON7QE5JO7EWYVTSXJ5TS2E.jpg?auth=2c1e7ac076a0603cf8599891ac85d3eba4c80db3d834035d7a5d7f5929b73f3f"
+    },
+    {
       "title": "Las ausencias de Lula y Sheinbaum dejan solo a Sánchez frente a Milei en la Cumbre Iberoamericana de Madrid",
       "link": "https://elpais.com/espana/2026-11-03/las-ausencias-de-lula-y-sheinbaum-dejan-solo-a-sanchez-frente-a-milei-en-la-cumbre-iberoamericana-de-madrid.html",
       "desc": "El Gobierno descarta un encuentro bilateral del presidente español con el argentino en los márgenes de la cita",
@@ -118,21 +132,7 @@
       "desc": "Los agentes tomaron las declaraciones entre el jueves y el viernes de la semana pasada",
       "date": "Tue, 03 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/KV5VOP7ROVNLDFAC5OWAO43LAI.jpg?auth=d44736bd0439acc1016efc4fc8e9e04a7777738cdb9749f04bae092494102a33"
-    },
-    {
-      "title": "Seguridad ferroviaria: cuando el error humano es un síntoma del sistema",
-      "link": "https://elpais.com/espana/2026-11-03/seguridad-ferroviaria-cuando-el-error-humano-es-un-sintoma-del-sistema.html",
-      "desc": "La alta velocidad española mantuvo un historial destacado desde 1992 hasta 2025, pero Adamuz y Urda han truncado esa trayectoria y obligan a preguntarse si revelan deficiencias sistémicas",
-      "date": "Tue, 03 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/UZ7654ULWRNV7KZNF2PJPXP5VQ.jpg?auth=3dd2f07620200b8ebf0db4847490a3d1c445be8f7184ec1891732fd28ebb7787"
-    },
-    {
-      "title": "Del miedo a la ultraderecha al regreso a los derechos básicos: Frente Amplio y Podemos afinan sus estrategias para el 29-N tras el accidente",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-03/del-miedo-a-la-ultraderecha-al-regreso-a-los-derechos-basicos-frente-amplio-y-podemos-afinan-sus-estrategias-para-el-29-n-tras-el-accidente.html",
-      "desc": "Pablo Fernández estará a cargo de la campaña de Irene Montero, que confirma una gira con Rufián que recalará en Alicante",
-      "date": "Tue, 03 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HY7ERSA6XJOXJEMNVADO5GI7EQ.jpg?auth=edc699a85b57094b9504bc4b57b71b54afb9fa200c36cd96bdf912f405bb6517"
     }
   ],
-  "fetchedAt": 1793717606126
+  "fetchedAt": 1793738899868
 }
