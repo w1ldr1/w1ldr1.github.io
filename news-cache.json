@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Amnistía Internacional denuncia nuevas presuntas agresiones de militares a migrantes en Ceuta",
+      "link": "https://elpais.com/espana/2026-11-04/amnistia-internacional-denuncia-nuevas-presuntas-agresiones-de-militares-a-migrantes-en-ceuta.html",
+      "desc": "La organización documenta casos que se habrían producido pese a la investigación anunciada por Defensa",
+      "date": "Wed, 04 Nov 2026 23:01:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HWRTGYLXP5FB3JEELZRCY6PJ2M.jpg?auth=ff1af6bfe2e8ebcbfd6a5dde85ed9421de85e5d2fcddb1ffdcea469746cbfa72"
+    },
+    {
       "title": "Sánchez encarga a Cuerpo la gestión de Transportes para dar “confianza, seguridad y certidumbre”",
       "link": "https://elpais.com/espana/elecciones-generales/2026-11-04/sanchez-encarga-a-cuerpo-la-gestion-de-transportes-para-dar-confianza-seguridad-y-certidumbre.html",
       "desc": "El vicepresidente es el miembro del Gobierno más valorado, según el CIS, y ofrece un perfil técnico para intentar recuperar la confianza en el AVE tras el accidente de Urda y la dimisión de Puente",
@@ -13,13 +20,6 @@
       "desc": "El vicepresidente asume el mando en Transportes con la urgencia de aplicar las reformas de seguridad en la alta velocidad y decidir sobre la cúpula de Adif, pero también con contratos de obra pública en desequilibrio por la crisis de Ormuz",
       "date": "Wed, 04 Nov 2026 10:51:17 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261104/1233698_125922_video_1800.mp4"
-    },
-    {
-      "title": "Todas las dimisiones del equipo de Sánchez desde su llegada al Gobierno: las últimas tres en apenas 20 días",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-04/todas-las-dimisiones-del-equipo-de-sanchez-desde-su-llegada-al-gobierno-las-ultimas-tres-en-apenas-20-dias.html",
-      "desc": "El PSOE entona el “No todos somos iguales” como lema oficioso de la precampaña electoral",
-      "date": "Wed, 04 Nov 2026 09:25:36 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261103/1233434_215910_video_1800.mp4"
     },
     {
       "title": "El debate sobre el modelo ferroviario que nunca tendremos",
@@ -55,6 +55,13 @@
       "desc": "El desahucio de una vecina de 87 años ha provocado una respuesta social a una profunda crisis. Habrá que ver si la política responde a la altura",
       "date": "Tue, 29 Sep 2026 03:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/H6ETR6DFKBCKBKEK5AGQBQW3O4.jpg?auth=eadf10c8843292a528c4ae2aa499604784373c2e12979946cf8cbd2bda60c766"
+    },
+    {
+      "title": "Todas las dimisiones del equipo de Sánchez desde su llegada al Gobierno: las últimas tres en apenas 20 días",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-04/todas-las-dimisiones-del-equipo-de-sanchez-desde-su-llegada-al-gobierno-las-ultimas-tres-en-apenas-20-dias.html",
+      "desc": "El PSOE entona el “No todos somos iguales” como lema oficioso de la precampaña electoral",
+      "date": "Wed, 04 Nov 2026 09:25:36 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261103/1233434_215910_video_1800.mp4"
     },
     {
       "title": "El presidente de Adif presenta su dimisión a Cuerpo tras explicar el suceso de Urda",
@@ -125,14 +132,7 @@
       "desc": "El líder del PP se compromete a presentar el Presupuesto en la primavera de 2027 con efectos retroactivos si llega al Gobierno",
       "date": "Wed, 04 Nov 2026 12:06:54 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/OLY7H5NXJNJPZATB4QOHYUSBVM.jpg?auth=b58e986d0c111eb3fc0ef8830d1a5e07a15824ab31ec500c11f411e02ffba2be"
-    },
-    {
-      "title": "Abascal se desmarca de Feijóo y considera  “irresponsable” pedir a los ciudadanos que suban al AVE",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-04/abascal-se-desmarca-de-feijoo-y-califica-de-irresponsable-pedir-que-se-suba-en-el-ave.html",
-      "desc": "El líder de Vox compara al presidente del PP con Fraga cuando se bañó en Palomares tras el accidente nuclear de 1966",
-      "date": "Wed, 04 Nov 2026 10:18:54 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/5VOQX44MCRDCPAXF3H2IGIWHSI.jpg?auth=24826dc69b18fc1ff909bfd666c81d7a8526d5d4cda9712781fc307760c9ee4f"
     }
   ],
-  "fetchedAt": 1793829792094
+  "fetchedAt": 1793846433038
 }
