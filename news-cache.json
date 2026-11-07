@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "title": "¿Se mueven las encuestas? Desde la convocatoria y tras el accidente de tren",
+      "title": "¿Se mueven las encuestas desde la convocatoria y tras el accidente de tren?",
       "link": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
       "desc": "Un mes después, el PP ha perdido algo de terreno en todas las encuestadoras, y el accidente de Urda apenas ha movido el promedio. PP y Vox suman mayoría en nueve de cada diez simulaciones del modelo de EL PAÍS",
       "date": "Sat, 07 Nov 2026 04:30:01 GMT",
@@ -59,7 +59,7 @@
     {
       "title": "Un profesor buscado por la Audiencia Nacional recluta soldados y espías españoles para Rusia",
       "link": "https://elpais.com/espana/2026-11-07/un-profesor-buscado-por-la-audiencia-nacional-recluta-soldados-y-espias-espanoles-para-rusia.html",
-      "desc": "Un estudio advierte de la creación en Vietnam de una red de canales de Internet para influir en la campaña electoral del 29-N",
+      "desc": "Un estudio advierte de la creación en Vietnam de una granja de cuentas de Internet para influir en la campaña electoral del 29-N",
       "date": "Sat, 07 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/A7QSBLLARZEGJIX3627V4T7IWU.png?auth=7e809002ee6b48fa42baab15121a3be4d38cad6e532ab84c1ce26867685e6ec7"
     },
@@ -134,5 +134,5 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/INF4WZCK5BG4BN4F6CCRFTMXNM.jpg?auth=1f2b42f841d308f572c9d15f44d2deb951d3954fb2e83456e487671cb0880e6f"
     }
   ],
-  "fetchedAt": 1794032704903
+  "fetchedAt": 1794057949795
 }
