@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "La Abogacía cifra en 113.326 los nacionalizados por la ‘ley de nietos’ afectados por la suspensión de voto del Supremo",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/la-abogacia-cifra-en-113326-los-nacionalizados-por-la-ley-de-nietos-afectados-por-la-suspension-de-voto-del-supremo.html",
+      "desc": "Los servicios jurídicos del Estado reducen el número tras excluir a menores, inscritos en el censo de España y registros duplicados",
+      "date": "Tue, 17 Nov 2026 13:12:17 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/6ZUG34YIDVNL5O6MR7WSWVZMQI.jpg?auth=f696b705119df625543856a9a591bff7e41feb7082ca219f02de120c48ccdfd0"
+    },
+    {
       "title": "La batalla por el voto útil reabre las brechas del bloque de izquierdas",
       "link": "https://elpais.com/espana/2026-11-17/la-batalla-por-el-voto-util-reabre-las-brechas-del-bloque-de-izquierdas.html",
       "desc": "El Frente Amplio, debilitado en las encuestas, se revuelve contra el PSOE por copiar propuestas y ocupar su espacio mientras en la derecha también se recrudece la batalla entre PP y Vox",
@@ -8,18 +15,11 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261116/1238453_184922_video_1800.mp4"
     },
     {
-      "title": "Vox se frena y cede terreno al PP",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/vox-se-frena-y-cede-terreno-al-pp.html",
-      "desc": "El quinto ‘tracking’ de 40dB. indica que el PSOE prosigue su lenta escalada sin que apenas se muevan los bloques",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": null
-    },
-    {
-      "title": "Abascal evita revelar en campaña cuál es su plan para las pensiones",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/abascal-evita-revelar-en-campana-cual-es-su-plan-para-las-pensiones.html",
-      "desc": "Figaredo reconoció en 2025 que el cambio al nuevo modelo que propugna su partido sería “traumático”",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/OQPT6HIYVVOP7DF3Y7KMWA5GDU.jpg?auth=4df90dfde210746868e8e883e0ee66fbf36c277d809bf2f7c2c2d11e419af1f0"
+      "title": "“Yo sí te voy a votar”: Adrián, el cocinero valenciano que compuso la canción viral de Sánchez en TikTok y no recibió respuesta del PSOE",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/yo-te-voy-a-votar-adrian-el-cocinero-valenciano-que-compuso-la-cancion-viral-de-sanchez-en-tiktok-y-no-recibio-respuesta-del-psoe.html",
+      "desc": "Óscar Puente, la exdelegada del Gobierno en Valencia Pilar Bernabé y usuarios anónimos se suman a esta composición creada en respuesta a una frase de la portavoz del PP Ester Muñoz",
+      "date": "Tue, 17 Nov 2026 11:57:02 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/YVJU6OS4B5CY5LNIRM6YD6EG4M.jpeg?auth=444c4d347e35fb711db94bbb995a53e06a225748084439853a8c0c1626233564"
     },
     {
       "title": "Hacer campaña con tanques o con drones",
@@ -57,11 +57,67 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3WYIQGSO4JMZTCWDE4LASLEUSU.jpg?auth=c77adb3d1596a05c24c28281edeb6a6c269ebef7c729117f081081723228a317"
     },
     {
+      "title": "La Policía revela 97 “conexiones” entre miembros de seguridad de Marruecos y las redes detrás del asalto a Ceuta",
+      "link": "https://elpais.com/espana/2026-11-17/la-jueza-aplaza-la-declaracion-del-exdelegado-del-gobierno-en-ceuta-al-30-de-noviembre.html",
+      "desc": "La jueza aplaza al 1 de diciembre la declaración del exdelegado del Gobierno en Ceuta y cita como testigo al cónsul de España en Tetuán y al que fuera jefe de gabinete del entonces delegado del Gobierno de nuevo",
+      "date": "Tue, 17 Nov 2026 16:25:08 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/2VIAYTY36RHDNNDPPFJO4I6LOQ.jpg?auth=22723c45de48daddb5cbd22699264047682a9f9d6e1e2c43e6d84786a0ba08a4"
+    },
+    {
+      "title": "Vox se frena y cede terreno al PP",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/vox-se-frena-y-cede-terreno-al-pp.html",
+      "desc": "El quinto ‘tracking’ de 40dB. indica que el PSOE prosigue su lenta escalada sin que apenas se muevan los bloques",
+      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
+      "imgUrl": null
+    },
+    {
+      "title": "Abascal advierte de que él no pide el voto al Senado para el PP en Canarias",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/abascal-advierte-de-que-el-no-pide-el-voto-al-senado-para-el-pp-en-canarias.html",
+      "desc": "El popular Tellado pidió apoyar al partido ultra en las provincias donde su formación no se presenta a la Cámara Alta",
+      "date": "Tue, 17 Nov 2026 14:09:42 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/EBMC3OIFINK33LG5X4VEKFBNNU.jpg?auth=2023b7543af5cec6795d8a23cd3f7d43caf126235ba3f6ba00fa4743232514f0"
+    },
+    {
+      "title": "Feijóo comparece junto a Echeverría, en Eibar, en medio de un gran dispositivo policial y algunos gritos de “fascista”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/feijoo-junto-a-echeverria-en-eibar-no-nos-van-a-callar-no-vamos-a-dar-un-paso-atras-en-euskadi-ni-en-ningun-lugar-de-espana.html",
+      "desc": "El líder del PP: “No nos van a callar, no vamos a dar un paso atrás en Euskadi ni en ningún lugar de España”",
+      "date": "Tue, 17 Nov 2026 12:34:54 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238713_135104_video_1800.mp4"
+    },
+    {
+      "title": "Zapatero pide acceso a sus joyas para que  sus peritos elaboren una nueva tasación",
+      "link": "https://elpais.com/espana/2026-11-17/zapatero-pide-acceso-a-sus-joyas-para-que-sus-peritos-elaboren-una-nueva-tasacion.html",
+      "desc": "El expresidente del Gobierno informa al juez del ‘caso Plus Ultra’ de que ya ha asignado a sus propios expertos para analizar las alhajas incautadas",
+      "date": "Tue, 17 Nov 2026 11:29:31 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/QZUESOP5XNEBPFRFGVT2FIGMDM.jpg?auth=f69bfe013c6823ab67c639d916ff2baf0a30eda46381da0255bdfcc481a67dd6"
+    },
+    {
+      "title": "La Audiencia de Madrid ordena reabrir la causa contra el director de la Policía por acoso al portavoz de Interior de Vox",
+      "link": "https://elpais.com/espana/2026-11-17/la-audiencia-de-madrid-ordena-reabrir-la-causa-contra-el-director-de-la-policia-por-acoso-al-portavoz-de-interior-de-vox.html",
+      "desc": "Los magistrados han estimado un recurso del propio Samuel Vázquez, que también es miembro del Cuerpo Nacional de Policía y presentó la querella inicial",
+      "date": "Tue, 17 Nov 2026 12:26:02 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/JEVD36ZKRBMVHK2MCVCYDMNDA4.jpg?auth=a959f8df236b16b530bd49673d18851f121f93faf2180c12725f84dbfa46f430"
+    },
+    {
       "title": "Un extrabajador de la cantera del balasto de Adamuz da pistas a la jueza sobre material “defectuoso” en el punto del siniestro",
       "link": "https://elpais.com/espana/2026-11-17/un-extrabajador-de-la-cantera-del-balasto-de-adamuz-da-pistas-a-la-jueza-sobre-material-defectuoso-en-el-punto-del-siniestro.html",
-      "desc": "La instrucción esperará al informe de los peritos judiciales para decidir si tiene en cuenta el testimonio que habla de la tendencia de las piedras a fragmentarse bajo la carga de los trenes",
+      "desc": "La instrucción esperará al informe de los peritos judiciales y se lleva a una pieza separada el testimonio que habla de la tendencia de las piedras a fragmentarse bajo la carga de los trenes",
       "date": "Tue, 17 Nov 2026 08:36:30 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/BYM76COTQVBUFCDCWNA4P65RE4.jpg?auth=664d28dd109f19dba620325b957d726b54c3c9502dea9ec8ce96455706380e79"
+    },
+    {
+      "title": "Abascal evita revelar en campaña cuál es su plan para las pensiones",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/abascal-evita-revelar-en-campana-cual-es-su-plan-para-las-pensiones.html",
+      "desc": "Figaredo reconoció en 2025 que el cambio al nuevo modelo que propugna su partido sería “traumático”",
+      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/OQPT6HIYVVOP7DF3Y7KMWA5GDU.jpg?auth=4df90dfde210746868e8e883e0ee66fbf36c277d809bf2f7c2c2d11e419af1f0"
+    },
+    {
+      "title": "El Gobierno aprueba otra partida de cinco millones para paliar el impacto sanitario de la migración en El Hierro",
+      "link": "https://elpais.com/espana/2026-11-17/el-gobierno-aprueba-otra-partida-de-cinco-millones-para-paliar-el-impacto-sanitario-de-la-migracion-en-el-hierro.html",
+      "desc": "El presidente canario reitera sus críticas por la “absoluta falta de previsión” del Ejecutivo central",
+      "date": "Tue, 17 Nov 2026 11:47:07 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/IGNWQ6O46JFCRAVW4RLEYDADHQ.jpeg?auth=183f8521eb27bf5b6be49b54dcfd45aba525f28b8cd37a8a9ee4b9f6e5eb1ec2"
     },
     {
       "title": "El CNI detalla diez diferencias entre el asalto de Ceuta de 2021 y el de julio pasado para excluir la autoría de Marruecos",
@@ -71,68 +127,12 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FYJNZMMW7ZGQ3J4TLJ546ZPZAI.jpg?auth=63908e8f01aa60f589a2cbd076a786af753f6a18816aaadb4596f2a623d655f3"
     },
     {
-      "title": "Núcleo Nacional atacaba a mujeres: “¡Te pego una hostia y te mato!”",
-      "link": "https://elpais.com/espana/2026-11-17/nucleo-nacional-atacaba-a-mujeres-te-pego-una-hostia-y-te-mato.html",
-      "desc": "Varias víctimas denunciaron a este grupo neonazi, que acorralaba a sus enemigos, planeaba coaccionar a testigos judiciales y mantenía contactos con otros  ultras españoles",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238585_073512_video_1800.mp4"
-    },
-    {
-      "title": "El futuro del aborto: entre garantizar el derecho en la Constitución y recortarlo a las menores",
-      "link": "https://elpais.com/sociedad/2026-11-17/el-futuro-del-aborto-entre-garantizar-el-derecho-en-la-constitucion-y-recortarlo-a-las-menores.html",
-      "desc": "Vox, que siempre ha abogado por vetar la interrupción voluntaria del embarazo de la sanidad pública, está eludiendo el debate; el PP no la nombra en su programa y la izquierda quiere blindarla",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XRFZ4HXEZG42BXGCISGZWJTV3Y.jpg?auth=ec1b6223653baf0a7aa557212c92e9da66edc9fd04c82407c013e1a090c57892"
-    },
-    {
-      "title": "Margarita del Val: “El mayor virus de la clase política es querer perpetuarse en el poder”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/margarita-del-val-el-mayor-virus-de-la-clase-politica-es-querer-perpetuarse-en-el-poder.html",
-      "desc": "La inmunóloga del CSIC recuerda la “ilusión” de las elecciones de 1977 frente a la “superficialidad” de las actuales. Opina que la pandemia sirvió para que científicos y políticos conectasen: “Estamos condenados a entendernos”",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/XSMNDE6TKNAODMWPFAMJFYRFSQ.JPG?auth=b78fceba3a45194b31730dbd70e220d9cbecf84de0f56e9be7b3edf7af88d972"
-    },
-    {
-      "title": "Primera cita electoral en la Comunidad Valenciana tras la riada que acabó con la vida de 234 personas: ¿habrá un efecto dana?",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/primera-cita-electoral-en-la-comunidad-valenciana-tras-la-dana-las-encuestas-dan-una-amplia-mayoria-a-la-derecha.html",
-      "desc": "La estimación de EL PAÍS prevé 20 escaños de PP y Vox frente a 13 del bloque de izquierdas. Abascal cerrará la campaña en la plaza de Toros de Valencia, con capacidad para 12.000 personas",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/HN6SKCUMOZB7HN6PPZVE2DTVVY.JPG?auth=ad6d30d14b6e94807c827311ba43c088962a9223b813d912f352e7a98cc50d30"
-    },
-    {
-      "title": "Las decisiones judiciales y los tiempos electorales",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/las-decisiones-judiciales-y-los-tiempos-electorales.html",
-      "desc": "¿Hay que pararlo todo? ¿Se deben practicar solo las diligencias imprescindibles?",
-      "date": "Tue, 17 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/MDTVIZFD55J4DCNL2JYV6XQNPE.jpg?auth=88c61a133a9f83833aa4f744fd4ffcda8ac5a310127500c844155ad86f9252d0"
-    },
-    {
-      "title": "Frente Amplio apuesta por una jornada laboral de 32 horas y jubilación a los 65 años",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-16/frente-amplio-apuesta-por-una-jornada-laboral-de-32-horas-y-jubilacion-a-los-65-anos.html",
-      "desc": "El programa da una vuelta de tuerca a las medidas tradicionales de izquierdas con un tope máximo de diez millones de euros a las herencias",
-      "date": "Mon, 16 Nov 2026 11:31:52 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261116/1238304_123553_video_1800.mp4"
-    },
-    {
-      "title": "El PSOE remonta pero no altera la mayoría de la derecha",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-16/el-psoe-remonta-pero-no-altera-la-mayoria-de-la-derecha.html",
-      "desc": "El cuarto ‘tracking’ de 40dB. sitúa a los socialistas en su mejor resultado de toda la legislatura",
-      "date": "Mon, 16 Nov 2026 04:30:01 GMT",
-      "imgUrl": null
-    },
-    {
-      "title": "Lula da en Madrid un respaldo político a Sánchez: “Es muy importante que tú ganes las elecciones en España”",
-      "link": "https://elpais.com/espana/2026-11-16/lula-visita-a-sanchez-durante-la-campana-electoral.html",
-      "desc": "Los dos presidentes defienden las instituciones democráticas frente a la amenaza ultraderechista y graban un vídeo de apoyo",
-      "date": "Mon, 16 Nov 2026 19:01:28 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261116/1238453_184922_video_1800.mp4"
-    },
-    {
-      "title": "Abascal califica en Canarias de “invasión planificada” la llegada de cayucos",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-16/abascal-califica-en-canarias-de-invasion-planificada-la-llega-de-cayucos.html",
-      "desc": "El líder de Vox insinúa que Sanchez se dopa y propone hacer “controles ‘antidoping’ por sorpresa en campaña”",
-      "date": "Mon, 16 Nov 2026 20:50:53 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/DYTCJP6FQ5PYFKCFAVDJYI55NU.jpg?auth=dd54cf84d9c0cfe7504486ea06d4787866b4e8b7e42aa12f952a5a8b448db82c"
+      "title": "Feijóo quiere “mano de obra” de inmigrantes para el medio rural, pero con compromiso de “integración”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-16/feijoo-quiere-mano-de-obra-de-inmigrantes-para-el-medio-rural-pero-con-compromiso-de-integracion.html",
+      "desc": "El líder del PP anuncia una guía de medidas sobre la actividad agrícola con postulados cercanos a Vox y a Aliança Catalana: “No vamos a ignorar los riesgos del fundamentalismo islámico”. Génova aprovecha una visita a Lleida para su presentación",
+      "date": "Mon, 16 Nov 2026 13:48:31 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238595_080159_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1794911392095
+  "fetchedAt": 1794943115476
 }
