@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3WYIQGSO4JMZTCWDE4LASLEUSU.jpg?auth=c77adb3d1596a05c24c28281edeb6a6c269ebef7c729117f081081723228a317"
     },
     {
+      "title": "Pedro Sánchez se aferra de nuevo a la bandera: “Estamos muy orgullosos de España”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/pedro-sanchez-se-aferra-de-nuevo-a-la-bandera-estamos-muy-orgullosos-de-espana.html",
+      "desc": "El presidente reivindica la enseña “frente a quienes piensan que es de ellos” en un acto en el que García-Page fue el gran ausente",
+      "date": "Tue, 17 Nov 2026 20:38:45 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238914_205715_video_1800.mp4"
+    },
+    {
       "title": "La Policía revela 97 “conexiones” entre miembros de seguridad de Marruecos y las redes detrás del asalto a Ceuta",
       "link": "https://elpais.com/espana/2026-11-17/la-jueza-aplaza-la-declaracion-del-exdelegado-del-gobierno-en-ceuta-al-30-de-noviembre.html",
       "desc": "La jueza aplaza al 1 de diciembre la declaración del exdelegado del Gobierno en Ceuta y cita como testigo al cónsul de España en Tetuán y al que fuera jefe de gabinete del entonces delegado del Gobierno de nuevo",
@@ -81,7 +88,7 @@
       "title": "Feijóo comparece junto a Echeverría, en Eibar, en medio de un gran dispositivo policial y algunos gritos de “fascista”",
       "link": "https://elpais.com/espana/elecciones-generales/2026-11-17/feijoo-junto-a-echeverria-en-eibar-no-nos-van-a-callar-no-vamos-a-dar-un-paso-atras-en-euskadi-ni-en-ningun-lugar-de-espana.html",
       "desc": "El líder del PP: “No nos van a callar, no vamos a dar un paso atrás en Euskadi ni en ningún lugar de España”",
-      "date": "Tue, 17 Nov 2026 12:34:54 GMT",
+      "date": "Tue, 17 Nov 2026 20:29:43 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238713_135104_video_1800.mp4"
     },
     {
@@ -125,14 +132,7 @@
       "desc": "La Abogacía del Estado deniega la defensa al exdelegado del Gobierno en Ceuta que se plantea pedir aplazar su declaración como investigado",
       "date": "Tue, 17 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/FYJNZMMW7ZGQ3J4TLJ546ZPZAI.jpg?auth=63908e8f01aa60f589a2cbd076a786af753f6a18816aaadb4596f2a623d655f3"
-    },
-    {
-      "title": "Feijóo quiere “mano de obra” de inmigrantes para el medio rural, pero con compromiso de “integración”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-16/feijoo-quiere-mano-de-obra-de-inmigrantes-para-el-medio-rural-pero-con-compromiso-de-integracion.html",
-      "desc": "El líder del PP anuncia una guía de medidas sobre la actividad agrícola con postulados cercanos a Vox y a Aliança Catalana: “No vamos a ignorar los riesgos del fundamentalismo islámico”. Génova aprovecha una visita a Lleida para su presentación",
-      "date": "Mon, 16 Nov 2026 13:48:31 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261117/1238595_080159_video_1800.mp4"
     }
   ],
-  "fetchedAt": 1794943115476
+  "fetchedAt": 1794966451703
 }
