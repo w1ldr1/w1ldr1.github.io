@@ -22,6 +22,27 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/56LEX246TFLFLLS6CUXEJNNE6I.jpg?auth=1cfd03372f6b4cbd957a6a43565180949c2ec6cbc092005190ff5233ecf878e9"
     },
     {
+      "title": "Dos hombres y un elefante en la habitación",
+      "link": "https://elpais.com/opinion/2026-11-19/dos-hombres-y-un-elefante-en-la-habitacion.html",
+      "desc": "Feijóo sacó a Puigdemont en el bloque de vivienda, junto a Jéssica. Sánchez no contestó, pero mencionaba una y otra vez a Abascal",
+      "date": "Thu, 19 Nov 2026 23:32:55 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FM7CNYCQ7BC3VAWVY6CG7SGM54.jpg?auth=4b7a79d6206136d1cd0a1ca2fe980dda99b228d75d09c289f2da71f4a4dceef3"
+    },
+    {
+      "title": "Feijóo sorprende ante un Sánchez incómodo",
+      "link": "https://elpais.com/opinion/2026-11-19/feijoo-sorprende-ante-un-sanchez-incomodo.html",
+      "desc": "El candidato socialista quizás ha subestimado al líder del PP, que ha mostrado mucha más solvencia pugilística, agilidad verbal y rotundidad argumental",
+      "date": "Thu, 19 Nov 2026 23:23:48 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/MZYDQADYOZDL7HIYADYQMAT6UM.jpg?auth=6e692a3c3aa0f2867f589d38a285d884e97c04a048af8706b5e38cb77e2e9a8a"
+    },
+    {
+      "title": "Jéssica Feijóo vs. Maricarmen Sánchez",
+      "link": "https://elpais.com/opinion/2026-11-19/jessica-feijoo-vs-maricarmen-sanchez.html",
+      "desc": "De lo que se trataba no era tanto de derrocar al otro como de que presidente y aspirante se lucieran ante la propia hinchada",
+      "date": "Thu, 19 Nov 2026 23:23:01 GMT",
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261119/1239861_211939_video_1800.mp4"
+    },
+    {
       "title": "Hacer campaña con tanques o con drones",
       "link": "https://elpais.com/opinion/2026-11-15/hacer-campana-con-tanques-o-con-drones.html",
       "desc": "Lo más interesante de este nuevo escenario es el efecto bucle y la hibridación que se establece entre medios tradicionales, redes sociales y las plataformas de los ‘influencers’",
@@ -34,27 +55,6 @@
       "desc": "La dimisión de Puente —tardía y con saturación de efectismo— puede satisfacer las políticas de la venganza, pero no soluciona nada",
       "date": "Wed, 04 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UTCOP3DFHNH37K3U5R3NRGZE4I.JPG?auth=f4d0f12ef95e70d27feb3d3377b8191ddfce4ccb70f6c11632b86b011bc83feb"
-    },
-    {
-      "title": "¿Por qué no te callas, Milei?",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-22/por-que-no-te-callas-milei.html",
-      "desc": "La derecha española, tan patriótica, evita responder a los insultos lanzados por el presidente argentino contra Pedro Sánchez y la prensa; lejos de condenarlos, alimenta la bronca en internet",
-      "date": "Thu, 22 Oct 2026 14:23:59 GMT",
-      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261021/1228198_175858_video_1800.mp4"
-    },
-    {
-      "title": "¿Se puede impedir votar a un español?",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-10-13/se-puede-impedir-votar-a-un-espanol.html",
-      "desc": "El próximo 29 de noviembre van a celebrarse unas elecciones en las que un tribunal, con semejante precariedad de fundamento, puede haber privado del derecho al voto a 160.000 personas",
-      "date": "Tue, 13 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/K3UYLOYEENGVFES7INB5WYNXNU.jpg?auth=48008f2c5dab1a974fe9bdf85b10917e7d4539cdc8541a0cca6d379cefc47855"
-    },
-    {
-      "title": "Maricarmen y la alquimia",
-      "link": "https://elpais.com/opinion/2026-10-04/maricarmen-y-la-alquimia.html",
-      "desc": "El descontento individual que conduce a la apatía y la melancolía se ha convertido en redescubrimiento de la fuerza de la acción colectiva",
-      "date": "Sun, 04 Oct 2026 03:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/3WYIQGSO4JMZTCWDE4LASLEUSU.jpg?auth=c77adb3d1596a05c24c28281edeb6a6c269ebef7c729117f081081723228a317"
     },
     {
       "title": "“Volarle la cabeza a Sánchez”: la conversación que convenció al PSOE de personarse en la causa contra Núcleo Nacional",
@@ -134,5 +134,5 @@
       "imgUrl": null
     }
   ],
-  "fetchedAt": 1795111266038
+  "fetchedAt": 1795135703446
 }
