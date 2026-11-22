@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UTCOP3DFHNH37K3U5R3NRGZE4I.JPG?auth=f4d0f12ef95e70d27feb3d3377b8191ddfce4ccb70f6c11632b86b011bc83feb"
     },
     {
+      "title": "Abascal, en Alicante: “La remigración me suena a música celestial”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-21/abascal-en-alicante-la-remigracion-me-suena-a-musica-celestial.html",
+      "desc": "El líder de Vox regresa a Sant Vicent del Raspeig donde se casó con Lidia Bedman",
+      "date": "Sat, 21 Nov 2026 21:00:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/VBHOMVW55JMMXMZXQY2ON4CLPI.jpg?auth=3cc5916c597522be294ce66447dfff954093ca4003a79a3707a9b4e56f8d156d"
+    },
+    {
       "title": "Un detenido tras la muerte de una mujer de 37 años en Villarrobledo (Albacete)",
       "link": "https://elpais.com/espana/2026-11-21/un-detenido-tras-la-muerte-de-una-mujer-de-37-anos-en-villarrobledo-albacete.html",
       "desc": "El cuerpo de la joven fue encontrado la madrugada del viernes en una finca rural. La Guardia Civil baraja “varias hipótesis”",
@@ -125,14 +132,7 @@
       "desc": "Los partidos pelean por las 29 circunscripciones con entre tres y cinco escaños, que aportan casi un tercio de los diputados del Congreso",
       "date": "Sat, 21 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/SI2SDOYCQREARH6V2ZFW377POU.jpg?auth=9c05b12c3b2630f0467fdc9f48f9b246b77c7ee94998ce7ca8dd5fbdfa0e48c4"
-    },
-    {
-      "title": "Miles de millones para el ferrocarril: garantizar la seguridad en la alta velocidad decanta votos",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-21/miles-de-millones-para-el-ferrocarril-garantizar-la-seguridad-en-la-alta-velocidad-decanta-votos.html",
-      "desc": "El PP sitúa al tren en el centro de un plan de infraestructuras con participación privada, mientras el PSOE se enfoca en reforzar el mantenimiento de las vías",
-      "date": "Sat, 21 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/ZEQNRU6MONFRXJTW5HBJNFWE4I.jpg?auth=aad0a7ab091497a8cc9bee2d85c9f24c9f0fec5ec516838ffc373f87c81fad8a"
     }
   ],
-  "fetchedAt": 1795291103211
+  "fetchedAt": 1795306466028
 }
