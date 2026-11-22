@@ -57,6 +57,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UTCOP3DFHNH37K3U5R3NRGZE4I.JPG?auth=f4d0f12ef95e70d27feb3d3377b8191ddfce4ccb70f6c11632b86b011bc83feb"
     },
     {
+      "title": "Feijóo: “Sabemos lo que pasó en 2023, ganar y no gobernar. ¡Tenedlo claro! ¡No hemos ganado nada!”",
+      "link": "https://elpais.com/espana/2026-11-22/feijoo-sabemos-lo-que-paso-en-2023-ganar-y-no-gobernar-tenedlo-claro-no-hemos-ganado-nada.html",
+      "desc": "El candidato del PP insiste en los mensajes contra el exceso de confianza tras la euforia por el resultado del cara a cara con Sánchez",
+      "date": "Sun, 22 Nov 2026 13:56:24 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/A64U5SQJQBBPVES7L7VIA4PJN4.JPG?auth=60de9b28581ddb2f87512f8332330c2496cf97cae15d41ffd6b280db4b513274"
+    },
+    {
       "title": "Gabriel Rufián: “Más que fascismo hay hijoputismo; la maldad está de moda”",
       "link": "https://elpais.com/espana/elecciones-generales/2026-11-22/gabriel-rufian-mas-que-fascismo-hay-hijoputismo-la-maldad-esta-de-moda.html",
       "desc": "El candidato de Esquerra Republicana al 29-N señala a las cúpulas de los partidos por la iniciativa fallida de frente de izquierdas y asume parte de la responsabilidad",
@@ -103,7 +110,7 @@
       "link": "https://elpais.com/espana/2026-11-22/anatomia-de-nucleo-nacional-los-nazis-que-planeaban-un-alzamiento-armado.html",
       "desc": "Tras surgir de las protestas contra el PSOE en 2023, el grupúsculo tejió un entramado para difundir el antisemitismo: “No podemos usar las mismas tácticas que en 1930”",
       "date": "Sun, 22 Nov 2026 04:30:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/NX3AVYKOGZCXLKGTTLBDKFVNKQ.jpg?auth=53495dfe471ad7de493e6ad1bb5e819bfd1f813cddd12d89f155bdc64bc11da7"
+      "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20260513/1170904_084111_video_1800.mp4"
     },
     {
       "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
@@ -125,14 +132,7 @@
       "desc": "El Frente Amplio se reivindica: “El PSOE solo no llega”. El líder del PP promete “desplegar las Fuerzas Armadas” frente a la inmigración y Abascal compite: “No puede entrar nadie más”",
       "date": "Sat, 21 Nov 2026 04:45:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc"
-    },
-    {
-      "title": "Abascal, en Alicante: “La remigración me suena a música celestial”",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-21/abascal-en-alicante-la-remigracion-me-suena-a-musica-celestial.html",
-      "desc": "El líder de Vox regresa a Sant Vicent del Raspeig donde se casó con Lidia Bedman",
-      "date": "Sat, 21 Nov 2026 21:00:00 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/VBHOMVW55JMMXMZXQY2ON4CLPI.jpg?auth=3cc5916c597522be294ce66447dfff954093ca4003a79a3707a9b4e56f8d156d"
     }
   ],
-  "fetchedAt": 1795331813191
+  "fetchedAt": 1795361590764
 }
