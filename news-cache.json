@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "title": "La campaña eleva el drama en la recta final: “¡A por ellos!”. “¡No pasarán!”",
-      "link": "https://elpais.com/espana/2026-11-22/la-campana-eleva-el-drama-en-la-recta-final-a-por-ellos-no-pasaran.html",
-      "desc": "La batalla por el primer puesto se recrudece. Sánchez promete impuestos a la banca y Feijóo leyes antiocupación: intentan acumular voto útil",
+      "title": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”",
+      "link": "https://elpais.com/espana/2026-11-22/doce-horas-en-campana-con-pedro-sanchez-la-ultima-vez-que-la-ultraderecha-goberno-no-habia-democracia.html",
+      "desc": "El candidato socialista, que se presenta como baluarte frente al retroceso en derechos, protagoniza mítines multitudinarios y festivos para movilizar el voto progresista",
       "date": "Sun, 22 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261121/1240672_191114_video_1800.mp4"
     },
@@ -15,9 +15,9 @@
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261121/1240593_135510_video_1800.mp4"
     },
     {
-      "title": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”",
-      "link": "https://elpais.com/espana/2026-11-22/doce-horas-en-campana-con-pedro-sanchez-la-ultima-vez-que-la-ultraderecha-goberno-no-habia-democracia.html",
-      "desc": "El candidato socialista, que se presenta como baluarte frente al retroceso en derechos, protagoniza mítines multitudinarios y festivos para movilizar el voto progresista",
+      "title": "La campaña eleva el drama en la recta final: “¡A por ellos!”. “¡No pasarán!”",
+      "link": "https://elpais.com/espana/2026-11-22/la-campana-eleva-el-drama-en-la-recta-final-a-por-ellos-no-pasaran.html",
+      "desc": "La batalla por el primer puesto se recrudece. Sánchez promete impuestos a la banca y Feijóo leyes antiocupación: intentan acumular voto útil",
       "date": "Sun, 22 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261121/1240672_191114_video_1800.mp4"
     },
@@ -55,6 +55,13 @@
       "desc": "La dimisión de Puente —tardía y con saturación de efectismo— puede satisfacer las políticas de la venganza, pero no soluciona nada",
       "date": "Wed, 04 Nov 2026 04:30:01 GMT",
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/UTCOP3DFHNH37K3U5R3NRGZE4I.JPG?auth=f4d0f12ef95e70d27feb3d3377b8191ddfce4ccb70f6c11632b86b011bc83feb"
+    },
+    {
+      "title": "Miriam González apela a los votantes desencantados de la política y acusa al PP y al PSOE de “40 años de corrupción pendular”",
+      "link": "https://elpais.com/espana/elecciones-generales/2026-11-22/miriam-gonzalez-apela-a-los-votantes-desencantados-de-la-politica-y-acusa-al-pp-y-al-psoe-de-40-anos-de-corrupcion-pendular.html",
+      "desc": "La candidata a la presidencia del Gobierno por el nuevo partido Democracia 21 asegura que su formación, que se presenta solo en Madrid y Barcelona, es “el oxígeno” que necesita España",
+      "date": "Sun, 22 Nov 2026 15:57:19 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/5BFIEW73SJHF7HIIW6LWDRSSVM.jpeg?auth=80c4a7c0962383d9d5954140054dd91a56cc5d85addad4f3e451bcb93c5924ad"
     },
     {
       "title": "Feijóo: “Sabemos lo que pasó en 2023, ganar y no gobernar. ¡Tenedlo claro! ¡No hemos ganado nada!”",
@@ -125,14 +132,7 @@
       "desc": "El histórico expresidente de las Cortes y exministro socialista pide al expresidente que “no haga el tonto”",
       "date": "Sat, 21 Nov 2026 17:03:32 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261121/1240637_172210_video_1800.mp4"
-    },
-    {
-      "title": "Sánchez vuelve al ataque para dejar atrás el debate mientras Feijóo intenta explotarlo al máximo",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-21/sanchez-vuelve-al-ataque-para-dejar-atras-el-debate-mientras-feijoo-intenta-explotarlo-al-maximo.html",
-      "desc": "El Frente Amplio se reivindica: “El PSOE solo no llega”. El líder del PP promete “desplegar las Fuerzas Armadas” frente a la inmigración y Abascal compite: “No puede entrar nadie más”",
-      "date": "Sat, 21 Nov 2026 04:45:01 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/K6DXCOSONRL5NNL4AJRXQBEY3Y.jpg?auth=57fe073b0be715f6279abcdc9a040353e61d0ae9c4161bac7284a6cd7b7140bc"
     }
   ],
-  "fetchedAt": 1795383374069
+  "fetchedAt": 1795400482374
 }
