@@ -64,6 +64,13 @@
       "imgUrl": "https://imagenes.elpais.com/resizer/v2/3NNNTBXCLBG6PPJELYCRNF3NZA.jpg?auth=313dbd0df980f7abab82a21b0592fbdf0904459799ca2927c48b65bcc4498bc8"
     },
     {
+      "title": "¿Qué tiempo hará el día de las elecciones generales del 29-N? El paraguas, solo en Galicia y Cantábrico",
+      "link": "https://elpais.com/el-tiempo/2026-11-28/que-tiempo-hara-el-dia-de-las-elecciones-generales-del-29-n-el-paraguas-solo-en-galicia-y-cantabrico.html",
+      "desc": "En el resto del país predominarán los cielos poco nubosos, habrá bancos de niebla en el interior y el frío normal de esta época del año",
+      "date": "Sat, 28 Nov 2026 07:00:00 GMT",
+      "imgUrl": "https://imagenes.elpais.com/resizer/v2/FMCVCSKBC5PTPKMJBZ6J46Q2PE.jpg?auth=3bc00b17e59e3aa96bd53aeb08e3b608aaa68de52b3448608f75b4f582f85250"
+    },
+    {
       "title": "Núcleo Nacional planeaba ocultar su ideología nazi para presentarse a las elecciones",
       "link": "https://elpais.com/espana/2026-11-28/nucleo-nacional-planeaba-ocultar-su-ideologia-nazi-para-presentarse-a-las-elecciones.html",
       "desc": "Una empresa de seguridad con contratos con las administraciones ofreció al grupúsculo ultra sus servicios de forma gratuita, según un ‘pinchazo’ telefónico",
@@ -125,14 +132,7 @@
       "desc": "El presidente explota el “calladita” de Feijóo a Colau para movilizar el voto femenino en un cierre en la Caja Mágica de Madrid con Almodóvar y Los Planetas",
       "date": "Fri, 27 Nov 2026 20:05:55 GMT",
       "imgUrl": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261127/1243434_201947_video_1800.mp4"
-    },
-    {
-      "title": "De las denuncias falsas a la homofobia importada: los datos desmontan los mensajes de Vox",
-      "link": "https://elpais.com/espana/elecciones-generales/2026-11-27/de-las-denuncias-falsas-a-la-homofobia-importada-los-datos-desmontan-los-mensajes-de-vox.html",
-      "desc": "Las cifras oficiales cuestionan los principales mensajes de campaña del partido de Abascal relacionados con el feminismo o las personas LGTBIQ+",
-      "date": "Fri, 27 Nov 2026 18:03:45 GMT",
-      "imgUrl": "https://imagenes.elpais.com/resizer/v2/TGQUGZZFMRC63GRVZOBH4I5D3M.jpg?auth=3f2d0b78474214ff35c713a3a7ffcde367fedaf485494c27a565e44274b5a553"
     }
   ],
-  "fetchedAt": 1795848731352
+  "fetchedAt": 1795881617347
 }
